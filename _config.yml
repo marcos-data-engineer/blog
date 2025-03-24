@@ -30,7 +30,9 @@ github_username:  marcos-data-engineer
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-seo-tag  # For better sharing previews
+- jekyll-email-protect  # Optional for email obfuscation
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/"
