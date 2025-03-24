@@ -4,15 +4,25 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Entry-level Data Engineer with a solid foundation in technology, transitioning to the data field.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- 💼 **10+ years** of experience in IT.  
+- 🛠️ **3+ years** specializing in **data engineering** and **artificial intelligence**  
+- 🔍 **3+ years** of experience in **SQL**  
+- 🎯 **Proficient in:**  
+  - Python • Spark • Kafka • Airbyte  
+  - AWS
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Let's Connect
 
+<a href="https://github.com/marcos-data-engineer/" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" height="24" alt="GitHub"> 
+  <strong>GitHub</strong>
+</a>  
 
-[jekyll-organization]: https://github.com/jekyll
+<a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" height="24" alt="LinkedIn"> 
+  <strong>LinkedIn</strong>
+</a>  
+
+✉️ <strong>Email</strong>: <a href="mailto:contact@dataengineer.net.br" target="_blank" rel="noopener noreferrer">contact@dataengineer.net.br</a>
