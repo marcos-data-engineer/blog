@@ -1,10 +1,7 @@
-Sure! Here's an updated version of your `README.md` with a dedicated section highlighting **Jekyll** as the framework used to build the blog:
-
 ```markdown
 # 🧠 Data Engineer Blog
 
-Welcome to the **Data Engineer Blog** — a space where technology meets insightful discussions. Dive into articles that explore the evolving
-landscape of data engineering, cloud computing, and artificial intelligence.
+Welcome to the **Data Engineer Blog** — a space where technology meets insightful discussions. Dive into articles that explore the evolving landscape of data engineering, cloud computing, and artificial intelligence.
 
 🌐 [Visit the Blog](https://marcos-data-engineer.github.io/blog/)
 
@@ -12,15 +9,13 @@ landscape of data engineering, cloud computing, and artificial intelligence.
 
 ## 📚 About This Blog
 
-Authored by [Marcos](https://dataengineer.net.br/), a seasoned data engineer with over a decade in IT and a passion for data-driven solutions.
-This blog serves as a platform to share knowledge, experiences, and the latest trends in technology.
+Authored by [Marcos](https://dataengineer.net.br/), a seasoned data engineer with over a decade in IT and a passion for data-driven solutions. This blog serves as a platform to share knowledge, experiences, and the latest trends in technology.
 
 ---
 
 ## 🛠️ Built With Jekyll
 
-This blog is powered by **[Jekyll](https://jekyllrb.com/)** — a simple, blog-aware, static site generator for personal, project, or organization sites.
-Jekyll takes Markdown files and HTML templates and turns them into a complete, ready-to-publish static website.
+This blog is powered by **[Jekyll](https://jekyllrb.com/)** — a simple, blog-aware, static site generator for personal, project, or organization sites. Jekyll takes Markdown files and HTML templates and turns them into a complete, ready-to-publish static website.
 
 Key features of Jekyll:
 
@@ -81,5 +76,3 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Let me know if you’d like me to add a custom banner image or badge for Jekyll/GitHub Pages at the top as well!
