@@ -33,6 +33,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag  # For better sharing previews
 - jekyll-email-protect  # Optional for email obfuscation
+- jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
