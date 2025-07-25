@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+  </head>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+      <div class="wrapper">
+        <h2 class="footer-heading">AI Blog</h2>
+        <div class="footer-col-wrapper">
+          <div class="footer-col footer-col-1">
+            <ul class="contact-list">
+              <li class="p-name">AI Blog</li>
+              <li>
+                <img src="{{ "/assets/images/email-icon.svg" | relative_url }}" alt="Email" style="width:20px; vertical-align:middle; margin-right:5px;">
+                <a class="u-email" href="mailto:contact@dataengineer.net.br">contact@dataengineer.net.br</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-col-2">
+            <ul class="social-media-list">
+              <li>
+                <img src="{{ "/assets/images/github-icon.svg" | relative_url }}" alt="GitHub" style="width:20px; vertical-align:middle; margin-right:5px;">
+                <a href="https://github.com/marcos-data-engineer">marcos-data-engineer</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-col-3">
+            <p>This blog is about Artificial Intelligence and Technology.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top">↑ Top</button>
+<script>
+  const topBtn = document.getElementById("back-to-top");
+  window.onscroll = () => {
+    topBtn.style.display = window.scrollY > 200 ? "block" : "none";
+  };
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+</script>
+
+  </body>
+</html>

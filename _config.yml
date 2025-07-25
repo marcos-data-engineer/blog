@@ -7,6 +7,20 @@ url: "https://marcos-data-engineer.github.io"
 twitter_username: your_twitter_handle
 github_username: marcos-data-engineer
 markdown: kramdown
-theme: minima
+theme: null
+
+sass:
+  style: compressed
+
+# Adicione abaixo:
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      css: "/assets/css/custom.css"
