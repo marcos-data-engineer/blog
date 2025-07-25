@@ -16,6 +16,11 @@ a:hover {
   text-decoration: underline;
 }
 
+h2.section-title {
+  color: #0d6efd; /* Azul mais vibrante (Bootstrap primary) */
+}
+
+
 /* Cabeçalho */
 .site-header {
   background-color: #1a1a1a;
@@ -77,6 +82,11 @@ a:hover {
   font-size: 1.3rem;
 }
 
+.post-description {
+  color: #6c757d; /* cinza claro do Bootstrap */
+}
+
+
 /* Imagens nos posts */
 article img {
   max-width: 100%;
@@ -97,15 +107,15 @@ article img {
     color: #e0e0e0;
   }
 
-  .site-header,
-  .site-footer {
+.site-header {
     background-color: #1e1e1e;
     border-color: #00bcd4;
   }
 
-  .site-title {
-    color: #ffffff !important;
-  }
+.site-footer .site-title {
+  color: #ffffff;
+  font-weight: bold;
+}
 
   a {
     color: #4fc3f7;
