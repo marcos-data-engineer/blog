@@ -1,0 +1,69 @@
+/* style.css – Estilos adicionais e ajustes finos */
+
+h1, h2, h3, h4, h5 {
+  color: #111;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page-content {
+  padding: 2rem 0;
+}
+
+nav .page-link {
+  margin-left: 1rem;
+  color: #ddd;
+}
+
+nav .page-link:hover {
+  color: #00bcd4;
+}
+
+img.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Footer icons inline */
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 768px) {
+  .footer-col-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-list h3 {
+    font-size: 1.1rem;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+  }
+
+  nav .page-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
