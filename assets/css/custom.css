@@ -20,7 +20,6 @@ h2.section-title {
   color: #0d6efd; /* Azul mais vibrante (Bootstrap primary) */
 }
 
-
 /* Cabeçalho */
 .site-header {
   background-color: #1a1a1a;
@@ -29,8 +28,8 @@ h2.section-title {
 }
 
 .site-title {
-  color: #fff !important;
-  font-size: 1.8rem;
+  color: #ffffff !important;
+  font-weight: bold;
 }
 
 /* Rodapé */
