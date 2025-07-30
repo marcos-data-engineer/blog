@@ -34,14 +34,16 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Pode ajustar para a sua versão de Ruby, ex: '3.2', '3.3'
-          bundler-cache: true # Installs dependencies with Bundler
+          ruby-version: '3.1' # Certifique-se de que esta versão é compatível com seu ambiente local e gems
+          bundler-cache: true # Instala as gems do Gemfile.lock (e usa cache)
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      # REMOVIDA: - name: Setup Pages
+      # REMOVIDA:   uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "/blog" # Adicione --baseurl "/blog" aqui
+        run: |
+          # Define o ambiente Jekyll para produção (evita algumas dependências de desenvolvimento)
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "/blog"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
