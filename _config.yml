@@ -75,7 +75,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: auto_toggle
 # [light | dark]
 
 # The CDN endpoint for media resources.
