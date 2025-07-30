@@ -1,0 +1,38 @@
+{
+  "name": "marcos-ai-blog",
+  "version": "1.0.0",
+  "description": "Marcos' AI Blog powered by Jekyll and Chirpy theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",
+    "prewatch": "npx rollup -c --bundleConfigAsCjs",
+    "watch": "npx rollup -c --bundleConfigAsCjs -w",
+    "dev": "concurrently \"npm run watch\" \"bundle exec jekyll s -l\"",
+    "fixlint": "npx eslint _javascript --fix",
+    "test": "npx stylelint _sass/**/*.scss",
+    "clean": "rm -rf assets/js/dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcos-data-engineer/blog.git"
+  },
+  "author": "Marcos",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "concurrently": "^8.0.0",
+    "eslint": "^8.42.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.0",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "rollup": "^3.25.0",
+    "rollup-plugin-license": "^3.0.0",
+    "stylelint": "^15.7.0",
+    "stylelint-config-standard-scss": "^10.0.0"
+  }
+}
