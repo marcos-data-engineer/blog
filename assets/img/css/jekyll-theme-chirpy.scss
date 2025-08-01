@@ -1,0 +1,30 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* ========================
+   Sobrescrever o modo claro
+   ======================== */
+
+[data-theme="light"] {
+
+  // Backgrounds
+  --body-bg: #f9f9f9;
+  --main-bg: var(--body-bg);
+  --sidebar-bg: #f9f9f9;
+
+  // Textos
+  --text-color: #333333;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+  --heading-color: #222222;
+  --post-list-text-color: var(--text-color);
+}
