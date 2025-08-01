@@ -38,7 +38,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           # Define o ambiente Jekyll para produção e constrói o site
-          bundle exec jekyll build --config _config.yml
+          bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
