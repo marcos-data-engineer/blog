@@ -14,20 +14,19 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Marcos' AI Blog
+title: Artificial Inteligence Blog
 
-tagline: Exploring Artificial Intelligence and Technology
+tagline: Exploring the latest trends in Artificial Intelligence
 
 description: >-
-  A blog dedicated to exploring the latest trends in Artificial Intelligence,
-  Machine Learning, Data Engineering, and emerging technologies.
+  A blog dedicated to exploring the latest trends in Artificial Intelligence.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://marcos-data-engineer.github.io"
 
 # The base path of your site, e.g., '/blog'
-baseurl: "/blog"
+baseurl: ""
 
 github:
   username: marcos-data-engineer
