@@ -54,7 +54,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: G-XXXXXXXXXX # fill in your Google Analytics ID
+    id: G-NDD4H22KH1 # fill in your Google Analytics ID
   # Cloudflare Web Analytics
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
