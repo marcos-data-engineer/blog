@@ -28,6 +28,7 @@ url: "https://blog.dataengineer.net.br"
 # The base path of your site, e.g., '/blog'
 baseurl: ""
 
+
 github:
   username: marcos-data-engineer
 
