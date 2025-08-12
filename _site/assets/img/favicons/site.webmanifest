@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Marcos' AI Blog",
-  "short_name": "Marcos' AI Blog",
-  "description": "A blog dedicated to exploring the latest trends in Artificial Intelligence, Machine Learning, Data Engineering, and emerging technologies.",
+  "name": "Artificial Inteligence Blog",
+  "short_name": "Artificial Inteligence Blog",
+  "description": "A blog dedicated to exploring the latest trends in Artificial Intelligence.",
   "icons": [
     {
       "src": "/blog/assets/img/favicons/android-chrome-192x192.png",
