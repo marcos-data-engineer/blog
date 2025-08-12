@@ -28,7 +28,6 @@ url: "https://blog.dataengineer.net.br"
 # The base path of your site, e.g., '/blog'
 baseurl: ""
 
-
 github:
   username: marcos-data-engineer
 
@@ -136,9 +135,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-
-# The base URL of your site
-baseurl: "/blog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
