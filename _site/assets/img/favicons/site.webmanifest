@@ -1,21 +1,21 @@
 
 
 {
-  "name": "Artificial Inteligence Blog",
-  "short_name": "Artificial Inteligence Blog",
-  "description": "A blog dedicated to exploring the latest trends in Artificial Intelligence.",
+  "name": "AI Insights",
+  "short_name": "AI Insights",
+  "description": "A deep exploration of how artificial intelligence is transforming our world, from technology to society.",
   "icons": [
     {
-      "src": "/blog/assets/img/favicons/android-chrome-192x192.png",
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/blog/assets/img/favicons/android-chrome-512x512.png",
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "start_url": "/blog/index.html",
+  "start_url": "/index.html",
   "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
   "display": "fullscreen"

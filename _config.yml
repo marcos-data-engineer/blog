@@ -14,12 +14,12 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Artificial Inteligence Blog
+title: AI Insights
 
-tagline: Exploring the latest trends in Artificial Intelligence
+tagline: The future of AI, today.
 
 description: >-
-  A blog dedicated to exploring the latest trends in Artificial Intelligence.
+  A deep exploration of how artificial intelligence is transforming our world, from technology to society.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Marcos
+  name: AI Insights
   email: contact@dataengineer.net.br
   links:
     # The first element serves as the copyright owner's link
@@ -85,7 +85,7 @@ theme_mode: auto_toggle
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/avatar.jpg"
+avatar: "/assets/img/logo.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

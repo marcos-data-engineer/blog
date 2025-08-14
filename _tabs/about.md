@@ -1,22 +1,12 @@
 ---
-# the default layout is 'page'
+layout: page
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 
-# Sobre Mim
+Hey there! Welcome to **AI Insights**.
 
-Sou Marcos, um engenheiro de dados com mais de uma década de experiência em TI, apaixonado por soluções orientadas a dados.
+This blog was created to be a deep exploration of how artificial intelligence is transforming our world. We look beyond the code to understand the real impact of AI, from technology to society.
 
-## Experiência
-
-- **Engenharia de Dados**: Construção de pipelines de dados robustos e escaláveis
-- **Inteligência Artificial**: Implementação de soluções de ML e IA
-- **Cloud Computing**: Experiência com AWS, Azure e GCP
-- **Big Data**: Trabalho com tecnologias como Spark, Hadoop e Kafka
-
-## Contato
-
-- 🌐 [Portfolio](https://dataengineer.net.br/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/marcos-data-engineer/)
-- 📧 [Email](mailto:contact@dataengineer.net.br)
+Our goal is to inspire and inform you about the possibilities and challenges of this technology, fostering a discussion about its role in our future.
