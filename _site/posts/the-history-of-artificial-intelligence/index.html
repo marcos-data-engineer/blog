@@ -630,6 +630,37 @@
   </div>
 
   <div class="post-tail-wrapper text-muted">
+    
+    <div class="mt-5 pt-5 pb-3">
+      <h3>Support Our Work</h3>
+      <p>
+        Our 'AI Insights' blog is built with dedication and passion to bring you the best content on artificial intelligence. If you've found value in our articles, please consider a small contribution. Your support helps us keep the project active and continue producing high-quality content, completely independently.
+      </p>
+      <style>
+#donate-button-container {
+    max-width: 200px; /* Ajuste a largura do contêiner */
+    margin: 0 auto;   /* Centraliza o elemento */
+}
+</style>
+
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'WCQ8R98BLH4BN',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+
+    </div>
+
     <!-- categories -->
     
       <div class="post-meta mb-3">
@@ -1056,6 +1087,25 @@
     
       
       <!-- The comments switcher -->
+
+  
+  <style>
+.utterances-container {
+    max-width: 800px; /* Altere para a largura que preferir */
+    margin: 0 auto;   /* Centraliza o formulário */
+}
+</style>
+
+<div class="utterances-container">
+<script src="https://utteranc.es/client.js"
+        repo="marcos-data-engineer/blog"
+        issue-term="pathname"
+        label="IA Insights Comments"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
 
 
     
