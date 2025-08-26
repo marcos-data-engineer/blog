@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>AI Insights</title>
   <subtitle>A deep exploration of how artificial intelligence is transforming our world, from technology to society.</subtitle>
-  <updated>2025-08-19T11:52:30-03:00</updated>
+  <updated>2025-08-26T12:04:27-03:00</updated>
   <author>
     <name>AI Insights</name>
     <uri>http://localhost:4000/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>The History of Artificial Intelligence</title>
     <link href="http://localhost:4000/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="The History of Artificial Intelligence" />
-    <published>2024-07-24T09:00:00-03:00</published>
+    <published>2024-07-20T10:00:00-03:00</published>
   
-    <updated>2024-07-24T09:00:00-03:00</updated>
+    <updated>2024-07-20T10:00:00-03:00</updated>
   
     <id>http://localhost:4000/posts/the-history-of-artificial-intelligence/</id>
     <content type="text/html" src="http://localhost:4000/posts/the-history-of-artificial-intelligence/" />
@@ -34,13 +34,13 @@
 
   
     
-    <category term="AI" />
+    <category term="Artificial Intelligence" />
     
     <category term="History" />
     
   
 
-  <summary>Artificial Intelligence (AI) has evolved from philosophical concepts in ancient Greece to practical, real-world applications.    This post explores the key moments and breakthroughs in the history of AI, from the 1950s to the present day.</summary>
+  <summary>Explore the fascinating journey of Artificial Intelligence, from ancient myths to modern-day breakthroughs. Dive into the origins and evolution of AI.</summary>
 
   </entry>
 

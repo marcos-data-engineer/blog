@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "The History of Artificial Intelligence"
-date:   2024-07-24 12:00:00 +0000
-categories: [AI, History]
-tags: [artificial-intelligence, history]
+title: The History of Artificial Intelligence
+date: 2024-07-20 10:00:00 -0300
+description: Explore the fascinating journey of Artificial Intelligence, from ancient myths to modern-day breakthroughs. Dive into the origins and evolution of AI.
+categories: [Artificial Intelligence, History]
+tags: [AI History, Machine Learning, Early AI, Future Tech]
+published: true # Mantenha como 'true' para que o artigo apareça, mas com o aviso
 ---
 
-Artificial Intelligence (AI) has evolved from philosophical concepts in ancient Greece to practical, real-world applications.
+### Under Construction: The History of Artificial Intelligence
 
-<!-- more -->
+We're diligently working on this exciting article about the history of AI! Come back soon for a deep dive into its origins and evolution.
 
-This post explores the key moments and breakthroughs in the history of AI, from the 1950s to the present day.
+Thank you for your patience and interest in "AI Insights"!
+
+---
