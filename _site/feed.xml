@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>AI Insights</title>
   <subtitle>A deep exploration of how artificial intelligence is transforming our world, from technology to society.</subtitle>
-  <updated>2025-08-29T10:56:02-03:00</updated>
+  <updated>2025-10-07T11:07:02-03:00</updated>
   <author>
     <name>AI Insights</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>The History of Artificial Intelligence</title>
-    <link href="http://localhost:4000/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="The History of Artificial Intelligence" />
-    <published>2024-07-20T10:00:00-03:00</published>
+    <title>A História da Inteligência Artificial</title>
+    <link href="http://localhost:4000/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="A História da Inteligência Artificial" />
+    <published>2025-09-02T11:00:00-03:00</published>
   
-    <updated>2024-07-20T10:00:00-03:00</updated>
+    <updated>2025-09-02T11:00:00-03:00</updated>
   
     <id>http://localhost:4000/posts/the-history-of-artificial-intelligence/</id>
     <content type="text/html" src="http://localhost:4000/posts/the-history-of-artificial-intelligence/" />
@@ -34,13 +34,13 @@
 
   
     
-    <category term="Artificial Intelligence" />
+    <category term="Inteligência Artificial" />
     
-    <category term="History" />
+    <category term="História" />
     
   
 
-  <summary>Explore the fascinating journey of Artificial Intelligence, from ancient myths to modern-day breakthroughs. Dive into the origins and evolution of AI.</summary>
+  <summary>Mergulhe na fascinante jornada da Inteligência Artificial, desde os mitos e sonhos antigos até as inovações que moldam o nosso futuro.</summary>
 
   </entry>
 
