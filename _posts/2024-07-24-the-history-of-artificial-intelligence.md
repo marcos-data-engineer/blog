@@ -95,71 +95,145 @@ published: false
 
   <div class="ai-timeline-v-container ai-timeline-v-left">
     <div class="ai-timeline-v-content">
-      <h3>1642: Mechanical Calculation</h3>
-      <p>Blaise Pascal invents the Pascaline, one of the first mechanical calculators, demonstrating machines performing arithmetic tasks.</p>
+      <h3>1642: Cálculo Mecânico</h3>
+      <p>Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas, demonstrando máquinas realizando tarefas aritméticas.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-right">
     <div class="ai-timeline-v-content">
-      <h3>1921: The Term "Robot"</h3>
-      <p>The term "Robot" is coined by Karel Čapek in his play, *R.U.R.* (Rossum's Universal Robots), introducing the idea of artificial life to the public imagination.</p>
+      <h3>1921: O termo "Robô"</h3>
+      <p>O termo "robô" é cunhado por Karel Čapek em sua peça <em>R.U.R.</em> (Rossum's Universal Robots), introduzindo a ideia de vida artificial à imaginação pública.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-left">
     <div class="ai-timeline-v-content">
-      <h3>1943: Formal Neuron Models</h3>
-      <p>McCulloch and Pitts publish a model for artificial neurons, considered the foundation for Neural Networks and the first step toward computational intelligence.</p>
+      <h3>1943: Modelos Formais de Neurônio</h3>
+      <p>McCulloch e Pitts publicam um modelo para neurônios artificiais, considerado a base para redes neurais e o primeiro passo rumo à inteligência computacional.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-right">
     <div class="ai-timeline-v-content">
-      <h3>1950: The Turing Test</h3>
-      <p>Alan Turing proposes the 'Turing Test' in his paper, establishing the philosophical benchmark for machine intelligence.</p>
+      <h3>1950: O Teste de Turing</h3>
+      <p>Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-left">
     <div class="ai-timeline-v-content">
-      <h3>1956: Dartmouth Conference</h3>
-      <p>John McCarthy coins the term 'Artificial Intelligence,' marking the official birth of the field of study.</p>
+      <h3>1956: Conferência de Dartmouth</h3>
+      <p>John McCarthy cunha o termo "Inteligência Artificial", marcando o nascimento formal do campo de estudo.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-right">
     <div class="ai-timeline-v-content">
-      <h3>1970s: The First AI Winter</h3>
-      <p>A period of disillusionment due to a lack of progress and limited funding.</p>
+      <h3>Anos 1970: O Primeiro Inverno da IA</h3>
+      <p>Período de desilusão causado pela falta de progressos significativos e pela redução de financiamento.</p>
     </div>
   </div>
   
   <div class="ai-timeline-v-container ai-timeline-v-left">
     <div class="ai-timeline-v-content">
-      <h3>1997: Deep Blue Victory</h3>
-      <p>IBM's supercomputer Deep Blue defeats world chess champion Garry Kasparov.</p>
+      <h3>1997: Vitória do Deep Blue</h3>
+      <p>O supercomputador Deep Blue, da IBM, derrota o campeão mundial de xadrez Garry Kasparov.</p>
     </div>
   </div>
 
   <div class="ai-timeline-v-container ai-timeline-v-right">
     <div class="ai-timeline-v-content">
-      <h3>2012: Deep Learning Boom</h3>
-      <p>The AlexNet model revolutionizes Computer Vision, igniting the modern Deep Learning era.</p>
+      <h3>2012: Explosão do Deep Learning</h3>
+      <p>O modelo AlexNet revoluciona a Visão Computacional, dando início à era moderna do Deep Learning.</p>
     </div>
   </div>
   
   <div class="ai-timeline-v-container ai-timeline-v-left">
     <div class="ai-timeline-v-content">
-      <h3>2016: AlphaGo Mastery</h3>
-      <p>Google DeepMind's AlphaGo defeats the world Go champion, a landmark for Deep Reinforcement Learning.</p>
+      <h3>2016: Maestria do AlphaGo</h3>
+      <p>O AlphaGo, do Google DeepMind, derrota o campeão mundial de Go — um marco para o Aprendizado por Reforço Profundo.</p>
     </div>
   </div>
   
   <div class="ai-timeline-v-container ai-timeline-v-right">
     <div class="ai-timeline-v-content">
-      <h3>2022: ChatGPT and LLMs</h3>
-      <p>ChatGPT's release brings Generative AI to the public, driving global discussion on the human impact of AI.</p>
+      <h3>2022: ChatGPT e LLMs</h3>
+      <p>O lançamento do ChatGPT leva a IA generativa ao público, impulsionando discussões globais sobre o impacto da IA na sociedade.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="ai-timeline-vertical">
+
+  <div class="ai-timeline-v-container ai-timeline-v-left">
+    <div class="ai-timeline-v-content">
+      <h3>1642: Cálculo Mecânico</h3>
+      <p>Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas, demonstrando máquinas realizando tarefas aritméticas.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-right">
+    <div class="ai-timeline-v-content">
+      <h3>1921: O termo "Robô"</h3>
+      <p>O termo "robô" é cunhado por Karel Čapek em sua peça <em>R.U.R.</em> (Rossum's Universal Robots), introduzindo a ideia de vida artificial à imaginação pública.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-left">
+    <div class="ai-timeline-v-content">
+      <h3>1943: Modelos Formais de Neurônio</h3>
+      <p>McCulloch e Pitts publicam um modelo para neurônios artificiais, considerado a base para redes neurais e o primeiro passo rumo à inteligência computacional.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-right">
+    <div class="ai-timeline-v-content">
+      <h3>1950: O Teste de Turing</h3>
+      <p>Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-left">
+    <div class="ai-timeline-v-content">
+      <h3>1956: Conferência de Dartmouth</h3>
+      <p>John McCarthy cunha o termo "Inteligência Artificial", marcando o nascimento formal do campo de estudo.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-right">
+    <div class="ai-timeline-v-content">
+      <h3>Anos 1970: O Primeiro Inverno da IA</h3>
+      <p>Período de desilusão causado pela falta de progressos significativos e pela redução de financiamento.</p>
+    </div>
+  </div>
+  
+  <div class="ai-timeline-v-container ai-timeline-v-left">
+    <div class="ai-timeline-v-content">
+      <h3>1997: Vitória do Deep Blue</h3>
+      <p>O supercomputador Deep Blue, da IBM, derrota o campeão mundial de xadrez Garry Kasparov.</p>
+    </div>
+  </div>
+
+  <div class="ai-timeline-v-container ai-timeline-v-right">
+    <div class="ai-timeline-v-content">
+      <h3>2012: Explosão do Deep Learning</h3>
+      <p>O modelo AlexNet revoluciona a Visão Computacional, dando início à era moderna do Deep Learning.</p>
+    </div>
+  </div>
+  
+  <div class="ai-timeline-v-container ai-timeline-v-left">
+    <div class="ai-timeline-v-content">
+      <h3>2016: Maestria do AlphaGo</h3>
+      <p>O AlphaGo, do Google DeepMind, derrota o campeão mundial de Go — um marco para o Aprendizado por Reforço Profundo.</p>
+    </div>
+  </div>
+  
+  <div class="ai-timeline-v-container ai-timeline-v-right">
+    <div class="ai-timeline-v-content">
+      <h3>2022: ChatGPT e LLMs</h3>
+      <p>O lançamento do ChatGPT leva a IA generativa ao público, impulsionando discussões globais sobre o impacto da IA na sociedade.</p>
     </div>
   </div>
 

@@ -1,3 +1,4 @@
+# ...existing code...
 source "https://rubygems.org"
 
 # Jekyll
@@ -24,8 +25,26 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+# gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# If you want to enable wdm for development on Windows, uncomment:
+# group :development do
+  # gem 'wdm', '>= 0.1.1', platforms: [:mswin, :mingw, :x64_mingw]
+#end
+
+# ...existing code...
+# Performance-booster for watching directories on Windows
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# ...existing code...
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+# ...existing code...
+
+# ...existing code...
+# Add stdlib gems that are no longer auto-loaded in newer Ruby
+gem "csv"
+gem "logger"
+gem "base64"
+# ...existing code...

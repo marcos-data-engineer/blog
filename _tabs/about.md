@@ -5,28 +5,32 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### About Beyond AI Code
+### Sobre o Beyond AI Code
 
-Hey there! Welcome to **Beyond AI Code**.
+Olá! Bem-vindo ao **Beyond AI Code**.
 
-This blog was created to offer an in-depth exploration of how **Artificial Intelligence** is reshaping the world, focusing on **current events, societal impact, and future trends**. We look past the code to understand the real implications for humanity. Our goal is to inspire and inform you about the possibilities and challenges of this technology, fostering a discussion about its role in our future.
-
----
-
-### About the Author
-
-The mind behind Beyond AI Code is **Marcos Vasconcellos de Andrade**, a technology enthusiast and researcher.
-
-With **20+ years of experience** in technology, specializing as an **AI Developer, Data Engineer, Data Architect, and Web Developer**, the mission here is to translate the complexity of AI into accessible and relevant content, driven by a passion for unraveling the future of technology, especially Artificial Intelligence.
-
-Welcome to the discussion.
+Este blog foi criado para oferecer uma exploração aprofundada de como a **Inteligência Artificial** está remodelando o mundo, com foco em **acontecimentos atuais, impacto social e tendências futuras**. Vamos além do código para entender as implicações reais para a humanidade. Nosso objetivo é inspirar e informar sobre as possibilidades e desafios dessa tecnologia, fomentando uma discussão sobre seu papel no nosso futuro.
 
 ---
 
-### Connect
+### Sobre o autor
 
-You can follow more discussions about AI and technology on these channels:
+A mente por trás do Beyond AI Code é **Marcos Vasconcellos de Andrade**, entusiasta e pesquisador em tecnologia.
 
+Com **mais de 20 anos de experiência** em tecnologia, atuando como **Desenvolvedor de IA, Engenheiro de Dados, Arquiteto de Dados e Desenvolvedor Web**, a missão aqui é traduzir a complexidade da IA em conteúdo acessível e relevante, guiada pela paixão de desvendar o futuro da tecnologia, especialmente a Inteligência Artificial.
+
+Bem-vindo à discussão.
+
+---
+
+### Conecte-se
+
+Você pode acompanhar mais discussões sobre IA e tecnologia nestes canais:
+
+- <i class="fab fa-linkedin fa-fw"></i> **LinkedIn:** <a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank">Marcos Data Engineer</a>
+- <i class="fab fa-github fa-fw"></i> **GitHub:** <a href="https://github.com/marcosvandrade" target="_blank">marcosvandrade</a>
+- <i class="fas fa-globe fa-fw"></i> **Portfólio/Blog:** <a href="https://dataengineer.net.br" target="_blank">dataengineer.net.br</a>
+- <i class="fab fa-youtube fa-fw"></i> **YouTube:** <a href="https://www.youtube.com/@ai-insights-marcos" target="_blank">Beyond AI Code</a>
 - <i class="fab fa-linkedin fa-fw"></i> **LinkedIn:** <a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank">Marcos Data Engineer</a>
 - <i class="fab fa-github fa-fw"></i> **GitHub:** <a href="https://github.com/marcosvandrade" target="_blank">marcosvandrade</a>
 - <i class="fas fa-globe fa-fw"></i> **Portfolio/Blog:** <a href="https://dataengineer.net.br" target="_blank">dataengineer.net.br</a>
