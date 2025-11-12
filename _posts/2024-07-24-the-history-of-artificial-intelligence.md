@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "A História da Inteligência Artificial"
-date: 2025-11-07 12:00:00 +0000
-categories: [Inteligência Artificial, História]
-tags: [artificial-intelligence, história, tecnologia, IA, aprendizado-de-máquina]
-description: "Uma jornada pela evolução da Inteligência Artificial — dos conceitos de Alan Turing à era da IA generativa."
-lang: pt-BR
+title: "La historia de la inteligencia artificial"
+date: 2025-11-12 12:00:00 +0000
+categories: [Inteligencia Artificial, Historia]
+tags: [inteligencia artificial, historia, tecnología, IA, aprendizaje automático]
+description: "Un viaje a través de la evolución de la Inteligencia Artificial: desde los conceptos de Alan Turing hasta la era de la IA generativa."
+lang: es
 image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
 published: false
 ---
@@ -101,103 +101,101 @@ a:hover {
 }
 </style>
 
-> “A verdadeira questão não é se as máquinas pensam, mas se os homens pensam.”  
+> “La verdadera pregunta no es si las máquinas piensan, sino si los humanos piensan.”  
 > — *B. F. Skinner*
 
-A **Inteligência Artificial (IA)** é uma das mais fascinantes criações da humanidade — uma área que mistura ciência, filosofia e imaginação.  
-Sua história começa muito antes dos computadores modernos, nas ideias de pensadores e escritores que ousaram imaginar máquinas capazes de pensar.
+La **inteligencia artificial (IA)** es una de las creaciones más fascinantes de la humanidad: un campo que combina ciencia, filosofía e imaginación.
+
+Su historia se remonta a mucho antes de las computadoras modernas, a las ideas de pensadores y escritores que se atrevieron a imaginar máquinas capaces de pensar.
 
 ---
 
-## 🧭 Linha do Tempo da Inteligência Artificial
+## 🧭 Cronología de la Inteligencia Artificial
 
 <div class="timeline">
 
-<div class="timeline-item"><strong>1950 – O Teste de Turing</strong><br>
-Alan Turing propõe a pergunta fundamental: *“As máquinas podem pensar?”*  
-Seu artigo *Computing Machinery and Intelligence* lança as bases da IA moderna.</div>
+<div class="timeline-item"><strong>1921 – El término "Robot"</strong><br>
+El término "robot" fue acuñado por Karel Čapek en su obra <em>R.U.R.</em> (Robots Universales de Rossum), introduciendo la idea de la vida artificial en la imaginación del público.</div>
 
-<div class="timeline-item"><strong>1950 – Isaac Asimov e as Três Leis da Robótica</strong><br>
-A ficção científica inspira a ética da IA com “I, Robot”.</div>
+<div class="timeline-item"><strong>1943 – Modelos formales de neuronas</strong><br>
+McCulloch y Pitts publicaron un modelo de neuronas artificiales, considerado la base de las redes neuronales y el primer paso hacia la inteligencia computacional.</div>
 
-<div class="timeline-item"><strong>1956 – Conferência de Dartmouth</strong><br>
-O termo “Artificial Intelligence” é usado oficialmente pela primeira vez.</div>
+<div class="timeline-item"><strong>1950 – La prueba de Turing</strong><br>
+Alan Turing plantea la pregunta fundamental: <b>“¿Pueden pensar las máquinas?”</b>.
 
-<div class="timeline-item"><strong>1642 – Calculadora Mecânica</strong><br>
-Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas, demonstrando máquinas realizando tarefas aritméticas.</div>
+Su artículo <b>Maquinaria Computacional e Inteligencia</b> sienta las bases de la IA moderna.</div>
 
-<div class="timeline-item"><strong>1921 – O termo "Robô"</strong><br>
-O termo "robô" é cunhado por Karel Čapek em sua peça <em>R.U.R.</em> (Rossum's Universal Robots), introduzindo a ideia de vida artificial à imaginação pública.</div>
+<div class="timeline-item"><strong>1950 – Isaac Asimov y las tres leyes de la robótica</strong><br>
+La ciencia ficción inspira la ética de la IA con "Yo, Robot".</div>
 
-<div class="timeline-item"><strong>1943 – Modelos Formais de Neurônio</strong><br>
-McCulloch e Pitts publicam um modelo para neurônios artificiais, considerado a base para redes neurais e o primeiro passo rumo à inteligência computacional.</div>
+<div class="timeline-item"><strong>1956 – Conferencia de Dartmouth</strong><br>
+El término "Inteligencia Artificial" se utiliza oficialmente por primera vez.</div>
 
-<div class="timeline-item"><strong>1950 – O Teste de Turing</strong><br>
-Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina.</div>
+<div class="timeline-item"><strong>1642 – Calculadora mecánica</strong><br>
+Blaise Pascal inventó la Pascalina, una de las primeras calculadoras mecánicas, demostrando máquinas que realizaban tareas aritméticas.</div>
 
-<div class="timeline-item"><strong>1956 – Conferência de Dartmouth</strong><br>
-John McCarthy cunha o termo "Inteligência Artificial", marcando o nascimento formal do campo de estudo.</div>
+<div class="timeline-item"><strong>1970s – Primeros robots industriales y el "invierno de la IA"</strong><br>
+A la euforia inicial le siguen recortes en las inversiones.</div>
 
-<div class="timeline-item"><strong>1970s – Primeiros robôs industriais e o “AI Winter”</strong><br>
-A euforia inicial é seguida por cortes de investimento.</div>
+<div class="timeline-item"><strong>1980s – Sistemas expertos</strong><br>
+Inteligencia artificial aplicada al diagnóstico médico y la ingeniería.</div>
 
-<div class="timeline-item"><strong>1980s – Sistemas Especialistas</strong><br>
-IA aplicada a diagnóstico médico e engenharia.</div>
+<div class="timeline-item"><strong>1997 – Deep Blue vence a Garry Kasparov</strong><br>
+El ordenador de IBM derrota al campeón mundial de ajedrez.</div>
 
-<div class="timeline-item"><strong>1997 – Deep Blue vence Garry Kasparov</strong><br>
-O computador da IBM derrota o campeão mundial de xadrez.</div>
+<div class="timeline-item"><strong>2011 – ¡IBM Watson gana Jeopardy!</strong><br>
+La IA cognitiva demuestra su fortaleza en el lenguaje natural.</div>
 
-<div class="timeline-item"><strong>2011 – IBM Watson vence o Jeopardy!</strong><br>
-A IA cognitiva mostra sua força em linguagem natural.</div>
+<div class="timeline-item"><strong>2012 – Revolución del Deep Learning</strong><br>
+Las redes neuronales profundas están transformando el campo.</div>
 
-<div class="timeline-item"><strong>2012 – Revolução do Deep Learning</strong><br>
-Redes neurais profundas transformam o campo.</div>
+<div class="timeline-item"><strong>2016 – Dominio de AlphaGo</strong><br>
+AlphaGo de Google DeepMind derrota al campeón mundial de Go: un hito para el aprendizaje por refuerzo profundo.</div>
 
-<div class="timeline-item"><strong>2016 – Maestria do AlphaGo</strong><br>
-O AlphaGo, do Google DeepMind, derrota o campeão mundial de Go — um marco para o Aprendizado por Reforço Profundo.</div>
-
-<div class="timeline-item"><strong>2022 – IA Generativa e GPT</strong><br>
-Modelos como ChatGPT e DALL·E redefinem criatividade e cognição artificial.</div>
+<div class="timeline-item"><strong>2022 – IA generativa y GPT</strong><br>
+Modelos como ChatGPT y DALL·E están redefiniendo la creatividad y la inteligencia artificial.</div>
 
 </div>
 
 ---
-### A História da Inteligência Artificial: Uma Jornada do Mito à Realidade
+### Historia de la Inteligencia Artificial: Un viaje del mito a la realidad
 
-A Inteligência Artificial (IA) parece ser a tecnologia definidora do nosso tempo, mas a sua história é mais longa e fascinante do que a maioria das pessoas imagina. Não se trata de uma invenção recente, mas de um campo de estudo que evoluiu através de décadas de altos e baixos, superando desafios para se tornar uma força transformadora em nosso mundo.
+La inteligencia artificial (IA) parece ser la tecnología definitoria de nuestra época, pero su historia es más larga y fascinante de lo que la mayoría imagina. No es una invención reciente, sino un campo de estudio que ha evolucionado a lo largo de décadas, con altibajos, superando desafíos hasta convertirse en una fuerza transformadora en nuestro mundo.
 
-Esta é a história de como a humanidade tentou replicar um de seus maiores bens: a mente humana.
+Esta es la historia de cómo la humanidad ha intentado replicar uno de sus mayores activos: la mente humana.
 
-#### As Raízes: A IA antes dos Computadores
+#### Las raíces: La IA antes de las computadoras
 
-Muito antes dos primeiros computadores, a ideia de criar seres artificiais capazes de pensar já habitava a mente humana.
+Mucho antes de los primeros ordenadores, la idea de crear seres artificiales capaces de pensar ya existía en la mente humana.
 
-* **Mitologia e Filosofia:** A Grécia Antiga contava histórias de autômatos como Talos, um gigante de bronze que protegia Creta. Filósofos como Aristóteles criaram as bases da lógica formal, que seriam fundamentais para a IA.
+* **Mitología y filosofía:** La antigua Grecia narraba historias de autómatas como Talos, un gigante de bronce que protegía Creta. Filósofos como Aristóteles sentaron las bases de la lógica formal, que sería fundamental para la IA.
 
 <figure>
 <div style="text-align: center;"><a data-flickr-embed="true" href="https://www.flickr.com/photos/4lkna/52066315805" title="Talos (1963)"><img src="https://live.staticflickr.com/65535/52066315805_34fd274688.jpg" width="371" height="500" alt="Talos (1963)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></div>
 <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Estátua de Talos, o autômato de bronze da mitologia grega.
+    Estatua de Talos, el autómata de bronce de la mitología griega.
   </figcaption>
 </figure>
 
-* **O Sonho da Máquina de Pensamento:** No século XVII, pensadores como Gottfried Wilhelm Leibniz imaginavam uma "linguagem universal" que permitiria a qualquer pessoa calcular a solução para qualquer problema.
+* **El sueño de la máquina pensante:** En el siglo XVII, pensadores como Gottfried Wilhelm Leibniz imaginaron un "lenguaje universal" que permitiría a cualquiera calcular la solución a cualquier problema.
 
 <figure>
 <div style="text-align: center;"><a title="Eremeev, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Rechenmaschine_von_Leibniz_(Nachbau)_07.jpg"><img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg/512px-Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg?20160312212746"></a></div>
 <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Máquina de Calcular, de Gottfried Wilhelm Von Leibniz.
+    La máquina de calcular, de Gottfried Wilhelm von Leibniz.
 </figcaption>
 </figure>
 ---
 
 ## 🧩 As Origens Filosóficas da IA
 
-A busca por criar máquinas inteligentes é antiga.  
-Desde a mitologia grega, com **Talos**, até o “autômato de Vaucanson” no século XVIII, os humanos tentam reproduzir a vida artificialmente.
+La búsqueda por crear máquinas inteligentes es antigua.
 
-Mas foi o matemático **Alan Turing**, em 1950, quem transformou esse sonho em ciência.  
-No artigo *Computing Machinery and Intelligence*, Turing propôs o famoso **Teste de Turing**, um experimento para determinar se uma máquina poderia demonstrar comportamento inteligente indistinguível do humano.
+Desde la mitología griega, con **Talos**, hasta el autómata de Vaucanson en el siglo XVIII, los humanos han intentado reproducir la vida artificialmente.
+
+Pero fue el matemático Alan Turing quien, en 1950, transformó este sueño en ciencia.
+
+En el artículo **Maquinaria Computacional e Inteligencia**, Turing propuso la famosa prueba de Turing, un experimento para determinar si una máquina podía demostrar un comportamiento inteligente indistinguible del comportamiento humano.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">
@@ -205,164 +203,174 @@ No artigo *Computing Machinery and Intelligence*, Turing propôs o famoso **Test
          alt="Alan Turing jovem" 
          width="300">
   </a>
-  <figcaption>Alan Turing, considerado o pai da computação moderna. Domínio público via Wikimedia Commons.</figcaption>
+  <figcaption>Alan Turing, considerado el padre de la informática moderna. Dominio público vía Wikimedia Commons.</figcaption>
 </figure>
 
 ---
 
-## 🤖 Isaac Asimov e as Três Leis da Robótica (1950)
+## 🤖 Isaac Asimov y las tres leyes de la robótica (1950)
 
-Enquanto Turing escrevia sobre o pensamento das máquinas, o escritor e bioquímico **Isaac Asimov** criava histórias que moldariam a imaginação coletiva sobre robôs e inteligência artificial.
+Mientras Turing escribía sobre el pensamiento de las máquinas, el escritor y bioquímico Isaac Asimov creaba historias que moldearían la imaginación colectiva sobre los robots y la inteligencia artificial.
 
-Em sua coletânea **“I, Robot”**, Asimov apresentou as **Três Leis da Robótica**, princípios éticos que inspiraram gerações de cientistas e engenheiros:
+En su antología **“I, Robot”**, Asimov presentó las **Tres Leyes de la Robótica**, principios éticos que han inspirado a generaciones de científicos e ingenieros:
 
-1. Um robô não pode ferir um ser humano, ou, por inação, permitir que um ser humano sofra algum mal.  
-2. Um robô deve obedecer às ordens dos humanos, exceto quando isso contraria a Primeira Lei.  
-3. Um robô deve proteger sua própria existência, desde que isso não viole as Leis anteriores.
+1. Un robot no puede dañar a un ser humano ni, por inacción, permitir que un ser humano sufra daño.
 
-Essas leis anteciparam discussões éticas reais sobre **autonomia das máquinas** e **responsabilidade moral**, debates que continuam até hoje com sistemas autônomos e IA generativa.
+2. Un robot debe obedecer las órdenes que le den los seres humanos, excepto cuando dichas órdenes entren en conflicto con la Primera Ley.
+
+3. Un robot debe proteger su propia existencia siempre que dicha protección no viole la Primera ni la Segunda Ley.
+
+Estas leyes anticiparon los debates éticos sobre la **autonomía de las máquinas** y la **responsabilidad moral**, debates que continúan hasta el día de hoy con los sistemas autónomos y la IA generativa.
 
 <figure>
   <a title="Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2], Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg"><img width="256" alt="Isaac Asimov" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/256px-Isaac.Asimov01.jpg?20160101235125"></a>
   <figcaption>
-    Isaac Asimov (por volta de 1959). Autor de “I, Robot”. Domínio público via Wikimedia Commons.
+    Isaac Asimov (hacia 1959). Autor de "Yo, Robot". Dominio público a través de Wikimedia Commons.
   </figcaption>
 </figure>
 
 ---
 
-## 🧠 A Era Dourada da Pesquisa em IA (1950s – 1970s)
+## 🧠 La era dorada de la investigación en IA (1950s – 1970s)
 
-O verdadeiro "nascimento" da IA como um campo de pesquisa formal ocorreu na metade do século XX, impulsionado pelo surgimento dos computadores.
+El verdadero nacimiento de la IA como campo de investigación formal se produjo a mediados del siglo XX, impulsado por la aparición de las computadoras.
 
-* **O Teste de Turing:** Em 1950, o cientista Alan Turing publicou "Computing Machinery and Intelligence", onde propôs um teste para determinar se uma máquina poderia exibir um comportamento inteligente indistinguível de um humano. O "Teste de Turing" se tornou um conceito central no campo.
+* **La prueba de Turing:** En 1950, el científico Alan Turing publicó «Maquinaria computacional e inteligencia», donde propuso una prueba para determinar si una máquina podía exhibir un comportamiento inteligente indistinguible del humano. La «prueba de Turing» se convirtió en un concepto fundamental en este campo.
 
 <figure style="text-align: center;">
   <a title="Holly Bellman, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Turing-test.gif"><img width="256" alt="Turing-test" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Turing-test.gif?20131117100618"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Ilustração do Teste de Turing.
+    Ilustración del test de Turing.
   </figcaption>
 </figure>
 
-* **A Conferência de Dartmouth (1956):** Este evento é amplamente considerado o marco zero da IA. Organizado por John McCarthy, Marvin Minsky e outros, a conferência reuniu os principais pensadores da época. McCarthy cunhou o termo "Inteligência Artificial" durante o evento.
+* **La Conferencia de Dartmouth (1956):** Este evento se considera ampliamente el punto de partida de la IA. Organizada por John McCarthy, Marvin Minsky y otros, la conferencia reunió a los pensadores más destacados de la época. McCarthy acuñó el término «Inteligencia Artificial» durante el evento.
 
 <figure style="text-align: center;">
   <a title="null0 from Singapore, Singapore, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:John_McCarthy_(computer_scientist)_Stanford_2006_(272020300).jpg"><img width="512" alt="John McCarthy (computer scientist) Stanford 2006 (272020300)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/John_McCarthy_%28computer_scientist%29_Stanford_2006_%28272020300%29.jpg/512px-John_McCarthy_%28computer_scientist%29_Stanford_2006_%28272020300%29.jpg?20180127021759"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Retrato do Professor John McCarthy (1927-2011) na Universidade de Stanford em 2006. Conhecido como um dos "pais da IA", ele foi o principal organizador da Conferência de Dartmouth em 1956, onde o campo da Inteligência Artificial foi formalmente estabelecido.
+    Retrato del profesor John McCarthy (1927-2011) en la Universidad de Stanford en 2006. Conocido como uno de los "padres de la IA", fue el principal organizador de la Conferencia de Dartmouth en 1956, donde se estableció formalmente el campo de la Inteligencia Artificial.
   </figcaption>
 </figure>
 
-> "<i>A Conferência de Dartmouth de 1956 é amplamente considerada o evento fundamental da inteligência artificial como campo de estudo.</i>"
+> "<i>La Conferencia de Dartmouth de 1956 es ampliamente considerada como el evento clave en el desarrollo de la inteligencia artificial como campo de estudio.</i>"
 <cite style="display: block; text-align: right; font-size: 0.9em; color: #666;">
   — <a href="https://spectrum.ieee.org/dartmouth-ai-workshop" target="_blank">IEEE Spectrum</a>
 </cite>
 
-> "<i>A Conferência de Dartmouth não apenas cunhou o termo 'inteligência artificial'; ela unificou todo um campo de estudo. É como um mítico Big Bang da IA — tudo o que sabemos sobre aprendizado de máquina, redes neurais e aprendizado profundo agora traça suas origens de volta para aquele verão em New Hampshire.</i>"
+> "<i>La Conferencia de Dartmouth no solo acuñó el término «inteligencia artificial», sino que unificó todo un campo de estudio. Es como un mítico Big Bang de la IA: todo lo que sabemos sobre aprendizaje automático, redes neuronales y aprendizaje profundo tiene su origen en aquel verano en Nuevo Hampshire.</i>"
 <cite style="display: block; text-align: right; font-size: 0.9em; color: #666; margin-top: 5px;">
   — <a href="https://theconversation.com/ai-was-born-at-a-us-summer-camp-68-years-ago-heres-why-that-event-still-matters-today-237205" target="_blank">The Conversation</a>
 </cite>
 
 
-Nasciam os primeiros **sistemas de raciocínio lógico** e **programas de aprendizado simbólico**.  
-A IA passou a ser reconhecida como uma nova disciplina científica.
+Nacieron los primeros **sistemas de razonamiento lógico y programas de aprendizaje simbólico**.
 
-A primeira era da Inteligência Artificial, que se estendeu aproximadamente de **1956 a 1974**, foi marcada pela **abordagem simbólica**. Essa metodologia focava em fazer os computadores processarem informações de forma lógica e simbólica, representando o conhecimento humano como regras e estruturas.
+La IA se consolidó como una nueva disciplina científica.
 
-Nesse período, surgiram programas inovadores que demonstraram o potencial da IA. O **Logic Theorist**, criado por Allen Newell e Herbert Simon em **1956**, foi a primeira grande conquista da IA, provando teoremas matemáticos de forma automatizada.
+La primera era de la Inteligencia Artificial, que abarcó aproximadamente de **1956 a 1974**, se caracterizó por el **enfoque simbólico**. Esta metodología se centraba en lograr que las computadoras procesaran información de forma lógica y simbólica, representando el conocimiento humano mediante reglas y estructuras.
 
-Anos depois, em **1966**, Joseph Weizenbaum desenvolveu o **ELIZA**, um dos primeiros chatbots. Embora não compreendesse a conversa, o ELIZA simulava o diálogo de um psicoterapeuta, utilizando um sistema de regras e reconhecimento de palavras-chave para criar a ilusão de um entendimento humano.
+Durante este periodo, surgieron programas innovadores que demostraron el potencial de la IA. El **Logic Theorist**, creado por Allen Newell y Herbert Simon en **1956**, fue el primer gran logro de la IA, al demostrar teoremas matemáticos de forma automatizada.
+
+Años más tarde, en **1966**, Joseph Weizenbaum desarrolló **ELIZA**, uno de los primeros chatbots. Si bien no comprendía la conversación, ELIZA simulaba el diálogo de un psicoterapeuta, utilizando un sistema de reglas y reconocimiento de palabras clave para crear la ilusión de comprensión humana.
 
 <figure style="text-align: center;">
   <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="A conversation with the ELIZA chatbot." src="https://upload.wikimedia.org/wikipedia/commons/4/4e/ELIZA_conversation.jpg?20180705093747"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Um exemplo de diálogo com o ELIZA, um dos primeiros programas a simular uma conversa terapêutica e que impressionou o público na década de 1960.
+    Un ejemplo de diálogo es ELIZA, uno de los primeros programas en simular una conversación terapéutica, que impresionó al público en la década de 1960.
   </figcaption>
 </figure>
 
 ---
 
-## 🧩 Os “AI Winters” e os Sistemas Especialistas (1970–1990)
+## 🧩 Los “Inviernos de la IA” y los sistemas expertos (1970–1990)
 
-As promessas não cumpridas levaram a períodos conhecidos como **AI Winters**, quando o entusiasmo e o financiamento diminuíram.  
+Las promesas incumplidas dieron lugar a periodos conocidos como **Inviernos de la IA**, durante los cuales el entusiasmo y la financiación disminuyeron.
 
-Mesmo assim, surgiram os **sistemas especialistas**, como o **MYCIN**, da Universidade de Stanford — um precursor do raciocínio baseado em regras.
+Aun así, surgieron **sistemas expertos**, como **MYCIN** de la Universidad de Stanford, precursor del razonamiento basado en reglas.
 
-A euforia inicial gerou expectativas irrealistas de que as máquinas logo atingiriam a inteligência humana. No entanto, a falta de progresso significativo em áreas como o **processamento de linguagem natural (PLN)** e a incapacidade de lidar com o conhecimento de **"senso comum"** levaram à desilusão.
+La euforia inicial generó expectativas poco realistas de que las máquinas pronto alcanzarían la inteligencia humana. Sin embargo, la falta de avances significativos en áreas como el **procesamiento del lenguaje natural (PLN)** y la incapacidad para manejar el conocimiento del **sentido común** condujeron a la desilusión.
 
-O marco principal do corte de financiamento ocorreu em **1973**, após o lançamento do **Relatório Lighthill** no Reino Unido, que criticou duramente a falta de resultados práticos da pesquisa em IA. O financiamento governamental dos EUA, que sustentava grande parte da pesquisa, foi drasticamente reduzido, levando o campo a um período de estagnação conhecido como o **Primeiro Inverno da IA**. Muitos pesquisadores deixaram a área, e o termo "Inteligência Artificial" se tornou sinônimo de promessas não cumpridas em círculos de financiamento.
+El mayor recorte de financiación se produjo en **1973**, tras la publicación del **Informe Lighthill** en el Reino Unido, que criticó duramente la falta de resultados prácticos en la investigación sobre IA. La financiación del gobierno estadounidense, que apoyaba gran parte de la investigación, se redujo drásticamente, lo que sumió al campo en un periodo de estancamiento conocido como el **Primer Invierno de la IA**. Muchos investigadores abandonaron el campo, y el término "Inteligencia Artificial" se convirtió en sinónimo de promesas incumplidas en los círculos de financiación.
 
 ### A Reascensão dos Sistemas Especialistas (Anos 1980)
 
-Apesar da crise, a pesquisa continuou em aplicações mais práticas. A **reascensão silenciosa** foi impulsionada pela comercialização dos **Sistemas Especialistas**.
+A pesar de la crisis, la investigación continuó centrándose en aplicaciones más prácticas. El **resurgimiento silencioso** fue impulsado por la comercialización de los **Sistemas Expertos**.
 
-Estes sistemas, que prosperaram no início dos **anos 80**, representavam o conhecimento de um especialista humano (como um médico ou engenheiro) por meio de milhares de regras lógicas. Eles eram caros, mas provaram seu valor em domínios específicos.
+Estos sistemas, que prosperaron a principios de la **década de 1980**, representaban el conocimiento de un experto humano (como un médico o un ingeniero) mediante miles de reglas lógicas. Eran costosos, pero demostraron su valía en ámbitos específicos.
 
-* **Evento Chave:** O sistema **MYCIN** (desenvolvido a partir de 1972, mas popularizado nos anos 80) auxiliava no diagnóstico de infecções sanguíneas, demonstrando o valor comercial imediato da IA. Empresas americanas e japonesas investiram bilhões em Sistemas Especialistas para aumentar a produtividade.
+* **Acontecimiento clave:** El sistema **MYCIN** (desarrollado a partir de 1972, pero popularizado en la década de 1980) contribuyó al diagnóstico de infecciones sanguíneas, demostrando el valor comercial inmediato de la IA. Empresas estadounidenses y japonesas invirtieron miles de millones en Sistemas Expertos para aumentar la productividad.
 
  <iframe class="scribd_iframe_embed" title="Mycin" src="https://www.scribd.com/embeds/410324333/content?start_page=1&view_mode=scroll&access_key=key-vNlLQ8a5k1fsqysbhzgK" tabindex="0" data-auto-height="true" data-aspect-ratio="1.7790927021696252" scrolling="no" width="100%" height="600" frameborder="0" ></iframe> <p style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-size: 14px; line-height: normal; display: block;"> <a title="View Mycin on Scribd" href="https://www.scribd.com/document/410324333/Mycin#from_embed" style="color: #098642; text-decoration: underline;"> Mycin </a> by <a title="View Anirudh Gupta's profile on Scribd" href="https://www.scribd.com/user/77459401/Anirudh-Gupta#from_embed" style="color: #098642; text-decoration: underline;" > Anirudh Gupta </a> </p>
 
-### A Transição para o Aprendizado de Máquina (Final dos Anos 1980 e Início dos 1990)
+### La transición al aprendizaje automático (finales de la década de 1980 y principios de la de 1990)
 
-O segundo momento de "reascensão" veio com o foco renovado no **Aprendizado de Máquina (Machine Learning)**. Cientistas abandonaram a crença de que toda a inteligência poderia ser programada com regras e voltaram-se para a ideia de que as máquinas deveriam **aprender a partir dos dados**.
+El segundo resurgimiento se produjo con un renovado enfoque en el **aprendizaje automático**. Los científicos abandonaron la creencia de que toda inteligencia podía programarse mediante reglas y se centraron en la idea de que las máquinas debían **aprender de los datos**.
 
-* **Evento Chave:** O ressurgimento do **Conexionismo (redes neurais)** no final dos anos 80 e a criação de algoritmos importantes, como o **Backpropagation**, lançaram as bases para a atual era do **Deep Learning**. Este trabalho discreto e matemático preparou o campo para a explosão de dados e poder computacional que viria na virada do século.
+* **Acontecimiento clave:** El resurgimiento del **conexionismo (redes neuronales)** a finales de la década de 1980 y la creación de importantes algoritmos, como la **retropropagación**, sentaron las bases para la era actual del **aprendizaje profundo**. Este trabajo matemático y preciso preparó el terreno para la explosión de datos y potencia informática que llegaría a principios del siglo XXI.
 
 <figure style="text-align: center;">
   <a title="Chrislb, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="ArtificialNeuronModel english" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ArtificialNeuronModel_english.png/512px-ArtificialNeuronModel_english.png?20210920140233"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Diagram of an artificial neuron.
+    Diagrama de una neurona artificial.
   </figcaption>
 </figure>
 
 ---
 
-## ♟️ 1997: Deep Blue derrota Garry Kasparov
+## ♟️ 1997: Deep Blue derrota a Garry Kasparov
 
-Em 1997, o computador **Deep Blue**, da IBM, derrotou o campeão mundial de xadrez **Garry Kasparov**.  
-Foi a primeira vez que uma máquina superava um humano em um domínio cognitivo complexo.
+En 1997, la computadora Deep Blue de IBM derrotó al campeón mundial de ajedrez, Garry Kasparov.
+
+Fue la primera vez que una máquina superó a un ser humano en un dominio cognitivo complejo.
 
 <figure>
   <a title="James the photographer, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg?20100215052624"></a>
-  <figcaption>Supercomputador Deep Blue da IBM (1997). © IBM – Domínio público.</figcaption>
+  <figcaption>Supercomputadora Deep Blue de IBM (1997). © IBM – Dominio público.</figcaption>
 </figure>
 
 ---
 
-## 💬 2011: IBM Watson — O Início da IA Cognitiva
+## 💬 2011: IBM Watson — El comienzo de la IA cognitiva
 
-Em **2011**, o sistema **IBM Watson** venceu o programa **_Jeopardy!_**, superando os campeões humanos e demonstrando a capacidade da **IA cognitiva**.  
-Watson combinava **Natural Language Processing (NLP)** e **machine learning** para entender perguntas em linguagem natural e formular respostas contextualizadas.
+En **2011**, el sistema **IBM Watson** ganó el programa **_Jeopardy!_**, superando a los campeones humanos y demostrando las capacidades de la **IA cognitiva**.
 
-Essa tecnologia abriu caminho para aplicações em:
-- **Saúde** (diagnósticos clínicos e pesquisa médica);
-- **Finanças** (análise de risco e automação);
-- **Atendimento corporativo** (chatbots cognitivos).
+Watson combinó el **Procesamiento del Lenguaje Natural (PLN)** y el **aprendizaje automático** para comprender preguntas en lenguaje natural y formular respuestas contextualizadas.
+
+Esta tecnología abrió el camino a aplicaciones en:
+
+- **Salud** (diagnóstico clínico e investigación médica);
+
+- **Finanzas** (análisis de riesgos y automatización);
+
+- **Atención al cliente corporativa** (chatbots cognitivos).
 
 <figure>
   <a title="Clockready, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/IBM_Watson.PNG/512px-IBM_Watson.PNG?20110724205849"></a>
-  <figcaption>Logotipo do IBM Watson (2017). © IBM Corporation — uso permitido com crédito.</figcaption>
+  <figcaption>Logotipo de IBM Watson (2017). © IBM Corporation — Se permite su uso con atribución.</figcaption>
 </figure>
 
 ---
 
-## 🌐 A Era do Deep Learning e da IA Generativa (2012–Presente)
+## 🌐 La Era del Aprendizaje Profundo y la IA Generativa (2012-Presente)
 
-Após o chamado "Inverno da IA" e o relativo sucesso dos sistemas baseados em regras (como o Deep Blue em 1997), a Inteligência Artificial entrou em um período de **renascimento explosivo**. Esse ressurgimento não foi impulsionado por uma única ideia, mas sim pela convergência de três fatores essenciais, que finalmente permitiram que a teoria das Redes Neurais se tornasse prática.
+Tras el llamado "Invierno de la IA" y el relativo éxito de los sistemas basados ​​en reglas (como Deep Blue en 1997), la Inteligencia Artificial entró en un periodo de **renacimiento explosivo**. Este resurgimiento no se debió a una sola idea, sino a la convergencia de tres factores esenciales que, finalmente, permitieron que la teoría de las Redes Neuronales se volviera práctica.
 
-Em **2012**, a revolução do **Deep Learning** redefiniu a IA moderna.  
+En **2012**, la revolución del **Aprendizaje Profundo** redefinió la IA moderna.
 
-Pesquisadores como **Geoffrey Hinton**, **Yoshua Bengio** e **Yann LeCun** provaram que redes neurais profundas superavam abordagens tradicionais.
+Investigadores como **Geoffrey Hinton**, **Yoshua Bengio** y **Yann LeCun** demostraron que las redes neuronales profundas superaban a los enfoques tradicionales.
 
-A partir de 2018, modelos de linguagem como **GPT**, **BERT** e **LLaMA** inauguraram a era da **IA generativa**, capaz de produzir texto, imagens e até código.
+A partir de 2018, modelos de lenguaje como **GPT**, **BERT** y **LLaMA** dieron paso a la era de la **IA generativa**, capaz de producir texto, imágenes e incluso código.
 
-### Os Três Pilares do Deep Learning
+### Los tres pilares del aprendizaje profundo
 
-O sucesso do Aprendizado Profundo foi uma tempestade perfeita, sustentada pelos seguintes avanços:
+El éxito del aprendizaje profundo fue una confluencia de factores clave, sustentada por los siguientes avances:
 
-#### 1. Big Data (O Combustível)
-* **Detalhe:** O crescimento exponencial da Internet, das mídias sociais e do comércio eletrônico gerou repositórios de dados vastos e rotulados. Modelos de Deep Learning, por natureza, requerem milhões de exemplos para aprender padrões complexos, algo que era impossível nas décadas de 80 e 90.
-* **Marco:** A criação da base de dados **ImageNet** (iniciada em 2009) forneceu mais de 14 milhões de imagens rotuladas, tornando-se o campo de testes definitivo para os algoritmos de Visão Computacional.
+1. Big Data (El combustible)
+
+**Detalle:** El crecimiento exponencial de internet, las redes sociales y el comercio electrónico ha generado enormes repositorios de datos etiquetados. Los modelos de aprendizaje profundo, por su naturaleza, requieren millones de ejemplos para aprender patrones complejos, algo imposible en las décadas de los 80 y 90.
+
+**Hito:** La creación de la base de datos **ImageNet** (iniciada en 2009) proporcionó más de 14 millones de imágenes etiquetadas, convirtiéndose en el banco de pruebas definitivo para los algoritmos de visión artificial.
 
 <style>
 /* Estilos para o gráfico simulado de Big Data */
@@ -449,9 +457,11 @@ O sucesso do Aprendizado Profundo foi uma tempestade perfeita, sustentada pelos 
 
 <p style="text-align: center; font-size: 0.9em; color: #777;">Volume de Dados Digitais Criados Globalmente</p>
 
-#### 2. Poder de Processamento (O Motor)
-* **Detalhe:** As Unidades de Processamento Gráfico (**GPUs**), originalmente criadas para renderizar gráficos de jogos de computador, provaram ser ideais para o treinamento de Redes Neurais. Isso ocorre porque as GPUs são excelentes em realizar o tipo de cálculo vetorial paralelo e repetitivo que é fundamental para o algoritmo de **Backpropagation** (retropropagação).
-* **Impacto:** O treinamento de modelos que antes levava meses em CPUs tradicionais, passou a levar apenas dias ou horas em clusters de GPUs, tornando a experimentação e a iteração rápidas viáveis.
+2. Potencia de procesamiento (El motor)
+
+**Detalle:** Las unidades de procesamiento gráfico (GPU), creadas originalmente para renderizar gráficos en videojuegos, han demostrado ser ideales para el entrenamiento de redes neuronales. Esto se debe a que las GPU destacan en la realización del tipo de cálculo vectorial paralelo y repetitivo que es fundamental para el algoritmo de **retropropagación**.
+
+**Impacto:** El entrenamiento de modelos que antes requería meses en las CPU tradicionales ahora solo requiere días u horas en clústeres de GPU, lo que permite una experimentación e iteración rápidas.
 
 <style>
 /* Styles for the CPU vs GPU comparison */
@@ -598,11 +608,15 @@ O sucesso do Aprendizado Profundo foi uma tempestade perfeita, sustentada pelos 
     </div>
 </div>
 
-#### 3. Algoritmos Melhorados (O Guia)
-* **Detalhe:** Pesquisadores resolveram problemas antigos nas Redes Neurais, como o **Problema do Gradiente Desvanecente** (*Vanishing Gradient Problem*), que impedia o treinamento de redes com muitas camadas. Soluções como as unidades de ativação **ReLU** (Rectified Linear Unit) e novas arquiteturas resolveram isso.
-* **Arquiteturas Chave:**
-    * **CNNs (Redes Neurais Convolucionais):** Essenciais para processamento de imagens (Visão Computacional).
-    * **RNNs/LSTMs (Redes Neurais Recorrentes/Memória de Curto e Longo Prazo):** Essenciais para processamento de sequências (Linguagem Natural e Séries Temporais).
+#### 3. Algoritmos mejorados (La guía)
+
+* **Detalle:** Los investigadores han resuelto problemas de larga data en las redes neuronales, como el **problema del gradiente evanescente**, que impedía el entrenamiento de redes con muchas capas. Soluciones como las unidades de activación **ReLU** (Unidad Lineal Rectificada) y nuevas arquitecturas han solucionado este problema.
+
+* **Arquitecturas clave:**
+
+* **Redes Neuronales Convolucionales (CNN):** Esenciales para el procesamiento de imágenes (Visión por Computadora).
+
+* **Redes Neuronales Recurrentes (RNN/LSTM/Memoria a Corto y Largo Plazo):** Esenciales para el procesamiento de secuencias (Lenguaje Natural y Series Temporales).
 
 <style>
 /* Styles for CNN vs RNN comparison */
