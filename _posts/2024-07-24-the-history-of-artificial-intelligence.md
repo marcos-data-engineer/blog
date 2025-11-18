@@ -5,7 +5,7 @@ date: 2025-09-2 11:00:00 -0300
 description: Mergulhe na fascinante jornada da Inteligência Artificial, desde os mitos e sonhos antigos até as inovações que moldam o nosso futuro.
 categories: [Inteligência Artificial, História]
 tags: [IA, Aprendizado de Máquina, Automação, Futuro]
-published: false
+published: true
 ---
 
 <style>

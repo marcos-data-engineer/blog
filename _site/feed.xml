@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Beyond AI Code</title>
   <subtitle>Uma exploração profunda de como a inteligência artificial está transformando nosso mundo, da tecnologia à sociedade.</subtitle>
-  <updated>2025-11-06T12:35:34-03:00</updated>
+  <updated>2025-11-18T10:10:49-03:00</updated>
   <author>
     <name>Beyond AI Code</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>A História da Inteligência Artificial</title>
+    <link href="http://localhost:4000/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="A História da Inteligência Artificial" />
+    <published>2025-09-02T11:00:00-03:00</published>
+  
+    <updated>2025-09-02T11:00:00-03:00</updated>
+  
+    <id>http://localhost:4000/posts/the-history-of-artificial-intelligence/</id>
+    <content type="text/html" src="http://localhost:4000/posts/the-history-of-artificial-intelligence/" />
+    <author>
+      <name>Beyond AI Code</name>
+    </author>
+
+  
+    
+    <category term="Inteligência Artificial" />
+    
+    <category term="História" />
+    
+  
+
+  <summary>Mergulhe na fascinante jornada da Inteligência Artificial, desde os mitos e sonhos antigos até as inovações que moldam o nosso futuro.</summary>
+
+  </entry>
 
 </feed>
 
