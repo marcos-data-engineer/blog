@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A História da Inteligência Artificial"
-date: 2025-11-07 12:00:00 +0000
+date: 2025-11-18 12:00:00 +0000
 categories: [Inteligência Artificial, História]
 tags: [artificial-intelligence, história, tecnologia, IA, aprendizado-de-máquina]
 description: "Uma jornada pela evolução da Inteligência Artificial — dos conceitos de Alan Turing à era da IA generativa."
@@ -9,6 +9,7 @@ lang: pt-BR
 image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
 published: false
 ---
+<a href="https://commons.wikimedia.org/wiki/File:Is_artificial_intelligence_our_future.jpg">Elekes Andor</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 <!-- Google Translate Widget -->
 <div id="google_translate_element" style="position: fixed; top: 10px; right: 10px; z-index: 9999; background: #ffffffcc; padding: 6px 10px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); font-size: 0.9rem;">
@@ -113,16 +114,6 @@ Sua história começa muito antes dos computadores modernos, nas ideias de pensa
 
 <div class="timeline">
 
-<div class="timeline-item"><strong>1950 – O Teste de Turing</strong><br>
-Alan Turing propõe a pergunta fundamental: *“As máquinas podem pensar?”*  
-Seu artigo *Computing Machinery and Intelligence* lança as bases da IA moderna.</div>
-
-<div class="timeline-item"><strong>1950 – Isaac Asimov e as Três Leis da Robótica</strong><br>
-A ficção científica inspira a ética da IA com “I, Robot”.</div>
-
-<div class="timeline-item"><strong>1956 – Conferência de Dartmouth</strong><br>
-O termo “Artificial Intelligence” é usado oficialmente pela primeira vez.</div>
-
 <div class="timeline-item"><strong>1642 – Calculadora Mecânica</strong><br>
 Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas, demonstrando máquinas realizando tarefas aritméticas.</div>
 
@@ -132,8 +123,9 @@ O termo "robô" é cunhado por Karel Čapek em sua peça <em>R.U.R.</em> (Rossum
 <div class="timeline-item"><strong>1943 – Modelos Formais de Neurônio</strong><br>
 McCulloch e Pitts publicam um modelo para neurônios artificiais, considerado a base para redes neurais e o primeiro passo rumo à inteligência computacional.</div>
 
-<div class="timeline-item"><strong>1950 – O Teste de Turing</strong><br>
-Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina.</div>
+<div class="timeline-item"><strong>1950 – O Teste de Turing / Isaac Asimov e as Três Leis da Robótica (1950)
+</strong><br>
+Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina. Enquanto Turing escrevia sobre o pensamento das máquinas, o escritor e bioquímico Isaac Asimov criava histórias que moldariam a imaginação coletiva sobre robôs e inteligência artificial.</div>
 
 <div class="timeline-item"><strong>1956 – Conferência de Dartmouth</strong><br>
 John McCarthy cunha o termo "Inteligência Artificial", marcando o nascimento formal do campo de estudo.</div>
@@ -194,6 +186,7 @@ Muito antes dos primeiros computadores, a ideia de criar seres artificiais capaz
 ## 🧩 As Origens Filosóficas da IA
 
 A busca por criar máquinas inteligentes é antiga.  
+
 Desde a mitologia grega, com **Talos**, até o “autômato de Vaucanson” no século XVIII, os humanos tentam reproduzir a vida artificialmente.
 
 Mas foi o matemático **Alan Turing**, em 1950, quem transformou esse sonho em ciência.  
@@ -265,6 +258,7 @@ O verdadeiro "nascimento" da IA como um campo de pesquisa formal ocorreu na meta
 
 
 Nasciam os primeiros **sistemas de raciocínio lógico** e **programas de aprendizado simbólico**.  
+
 A IA passou a ser reconhecida como uma nova disciplina científica.
 
 A primeira era da Inteligência Artificial, que se estendeu aproximadamente de **1956 a 1974**, foi marcada pela **abordagem simbólica**. Essa metodologia focava em fazer os computadores processarem informações de forma lógica e simbólica, representando o conhecimento humano como regras e estruturas.
