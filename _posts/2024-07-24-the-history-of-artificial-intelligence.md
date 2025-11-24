@@ -7,7 +7,7 @@ tags: [artificial-intelligence, história, tecnologia, IA, aprendizado-de-máqui
 description: "Uma jornada pela evolução da Inteligência Artificial — dos conceitos de Alan Turing à era da IA generativa."
 lang: pt-BR
 image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
-published:  false
+published:  true
 ---
 <a href="https://commons.wikimedia.org/wiki/File:Is_artificial_intelligence_our_future.jpg">Elekes Andor</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
