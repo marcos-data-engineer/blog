@@ -7,8 +7,9 @@ tags: [artificial-intelligence, história, tecnologia, IA, aprendizado-de-máqui
 description: "Uma jornada pela evolução da Inteligência Artificial — dos conceitos de Alan Turing à era da IA generativa."
 lang: pt-BR
 image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
-published:  true
+published: true
 ---
+
 <a href="https://commons.wikimedia.org/wiki/File:Is_artificial_intelligence_our_future.jpg">Elekes Andor</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 <!-- Google Translate Widget -->
@@ -105,8 +106,8 @@ a:hover {
 > “A verdadeira questão não é se as máquinas pensam, mas se os homens pensam.”  
 > — *B. F. Skinner*
 
-A **Inteligência Artificial (IA)** é uma das mais fascinantes criações da humanidade — uma área que mistura ciência, filosofia e imaginação.  
-Sua história começa muito antes dos computadores modernos, nas ideias de pensadores e escritores que ousaram imaginar máquinas capazes de pensar.
+A **história da inteligência artificial** é uma das mais fascinantes criações da humanidade — uma área que mistura ciência, filosofia e imaginação.  
+Sua jornada começa muito antes dos computadores modernos, nas ideias de pensadores e escritores que ousaram imaginar máquinas capazes de pensar.
 
 ---
 
@@ -115,47 +116,46 @@ Sua história começa muito antes dos computadores modernos, nas ideias de pensa
 <div class="timeline">
 
 <div class="timeline-item"><strong>1642 – Calculadora Mecânica</strong><br>
-Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas, demonstrando máquinas realizando tarefas aritméticas.</div>
+Blaise Pascal inventa a Pascaline, uma das primeiras calculadoras mecânicas.</div>
 
 <div class="timeline-item"><strong>1921 – O termo "Robô"</strong><br>
-O termo "robô" é cunhado por Karel Čapek em sua peça <em>R.U.R.</em> (Rossum's Universal Robots), introduzindo a ideia de vida artificial à imaginação pública.</div>
+Karel Čapek introduz a palavra “robô”, influenciando toda a literatura futurista.</div>
 
 <div class="timeline-item"><strong>1943 – Modelos Formais de Neurônio</strong><br>
-McCulloch e Pitts publicam um modelo para neurônios artificiais, considerado a base para redes neurais e o primeiro passo rumo à inteligência computacional.</div>
+McCulloch e Pitts publicam o primeiro modelo funcional de neurônio artificial.</div>
 
-<div class="timeline-item"><strong>1950 – O Teste de Turing / Isaac Asimov e as Três Leis da Robótica (1950)
-</strong><br>
-Alan Turing propõe o "Teste de Turing" em seu artigo, estabelecendo o referencial filosófico para a inteligência de máquina. Enquanto Turing escrevia sobre o pensamento das máquinas, o escritor e bioquímico Isaac Asimov criava histórias que moldariam a imaginação coletiva sobre robôs e inteligência artificial.</div>
+<div class="timeline-item"><strong>1950 – O Teste de Turing / Asimov</strong><br>
+Alan Turing propõe o Teste de Turing; Asimov publica as Três Leis da Robótica.</div>
 
 <div class="timeline-item"><strong>1956 – Conferência de Dartmouth</strong><br>
-John McCarthy cunha o termo "Inteligência Artificial", marcando o nascimento formal do campo de estudo.</div>
+John McCarthy oficializa o termo “Inteligência Artificial”.</div>
 
-<div class="timeline-item"><strong>1970s – Primeiros robôs industriais e o “AI Winter”</strong><br>
-A euforia inicial é seguida por cortes de investimento.</div>
+<div class="timeline-item"><strong>1970–1980 – AI Winter</strong><br>
+Primeiro período de queda no financiamento e interesse científico.</div>
 
 <div class="timeline-item"><strong>1980s – Sistemas Especialistas</strong><br>
-IA aplicada a diagnóstico médico e engenharia.</div>
+Aplicações lógicas avançam em medicina e engenharia.</div>
 
-<div class="timeline-item"><strong>1997 – Deep Blue vence Garry Kasparov</strong><br>
-O computador da IBM derrota o campeão mundial de xadrez.</div>
+<div class="timeline-item"><strong>1997 – Deep Blue</strong><br>
+IA da IBM vence Garry Kasparov no xadrez.</div>
 
-<div class="timeline-item"><strong>2011 – IBM Watson vence o Jeopardy!</strong><br>
-A IA cognitiva mostra sua força em linguagem natural.</div>
+<div class="timeline-item"><strong>2011 – IBM Watson</strong><br>
+Watson vence o Jeopardy! usando NLP e ML.</div>
 
-<div class="timeline-item"><strong>2012 – Revolução do Deep Learning</strong><br>
-Redes neurais profundas transformam o campo.</div>
+<div class="timeline-item"><strong>2012 – Deep Learning</strong><br>
+AlexNet revoluciona visão computacional.</div>
 
-<div class="timeline-item"><strong>2016 – Maestria do AlphaGo</strong><br>
-O AlphaGo, do Google DeepMind, derrota o campeão mundial de Go — um marco para o Aprendizado por Reforço Profundo.</div>
+<div class="timeline-item"><strong>2016 – AlphaGo</strong><br>
+AlphaGo derrota o campeão mundial de Go.</div>
 
-<div class="timeline-item"><strong>2022 – IA Generativa e GPT</strong><br>
-Modelos como ChatGPT e DALL·E redefinem criatividade e cognição artificial.</div>
+<div class="timeline-item"><strong>2022 – IA Generativa</strong><br>
+Modelos como ChatGPT popularizam IA.</div>
 
 </div>
 
 ---
-### 🌐 A História da Inteligência Artificial: Uma Jornada do Mito à Realidade
 
+### 🌐 A História da Inteligência Artificial: Uma Jornada do Mito à Realidade
 A Inteligência Artificial (IA) parece ser a tecnologia definidora do nosso tempo, mas a sua história é mais longa e fascinante do que a maioria das pessoas imagina. Não se trata de uma invenção recente, mas de um campo de estudo que evoluiu através de décadas de altos e baixos, superando desafios para se tornar uma força transformadora em nosso mundo.
 
 Esta é a história de como a humanidade tentou replicar um de seus maiores bens: a mente humana.
@@ -167,20 +167,28 @@ Muito antes dos primeiros computadores, a ideia de criar seres artificiais capaz
 * **Mitologia e Filosofia:** A Grécia Antiga contava histórias de autômatos como Talos, um gigante de bronze que protegia Creta. Filósofos como Aristóteles criaram as bases da lógica formal, que seriam fundamentais para a IA.
 
 <figure>
-<div style="text-align: center;"><a data-flickr-embed="true" href="https://www.flickr.com/photos/4lkna/52066315805" title="Talos (1963)"><img src="https://live.staticflickr.com/65535/52066315805_34fd274688.jpg" width="371" height="500" alt="Talos (1963)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></div>
-<figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Estátua de Talos, o autômato de bronze da mitologia grega.
-  </figcaption>
-</figure>
-
-* **O Sonho da Máquina de Pensamento:** No século XVII, pensadores como Gottfried Wilhelm Leibniz imaginavam uma "linguagem universal" que permitiria a qualquer pessoa calcular a solução para qualquer problema.
-
-<figure>
-<div style="text-align: center;"><a title="Eremeev, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Rechenmaschine_von_Leibniz_(Nachbau)_07.jpg"><img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg/512px-Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg?20160312212746"></a></div>
-<figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Máquina de Calcular, de Gottfried Wilhelm Von Leibniz.
+<div style="text-align: center;">
+<a href="https://www.flickr.com/photos/4lkna/52066315805" title="Talos (1963)">
+<img src="https://live.staticflickr.com/65535/52066315805_34fd274688.jpg" width="371" height="500" alt="Talos (1963)"/>
+</a>
+</div>
+<figcaption>
+    Estátua de Talos, o autômato de bronze da mitologia grega.  
+    Crédito: 4lkna — <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Flickr.
 </figcaption>
 </figure>
+
+* **O Sonho da Máquina de Pensamento:** No século XVII, pensadores como Gottfried Wilhelm Leibniz imaginavam uma "linguagem universal" que permitiria a qualquer pessoa calcular a solução para qualquer problema. A Máquina de Calcular de Leibniz foi um dos primeiros dispositivos mecânicos capazes de realizar automaticamente as quatro operações básicas — somar, subtrair, multiplicar e dividir — usando um engenhoso cilindro escalonado. Ela representou um passo importante rumo à ideia de que máquinas poderiam executar raciocínios antes exclusivos dos humanos.
+
+<figure>
+<a href="https://commons.wikimedia.org/wiki/File:Rechenmaschine_von_Leibniz_(Nachbau)_07.jpg">
+<img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg/512px-Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg">
+</a>
+<figcaption>
+Máquina de Calcular de Leibniz — CC BY-SA 4.0, via Wikimedia Commons.
+</figcaption>
+</figure>
+
 ---
 
 ## 🧩 As Origens Filosóficas da IA
@@ -189,21 +197,19 @@ A busca por criar máquinas inteligentes é antiga.
 
 Desde a mitologia grega, com **Talos**, até o “autômato de Vaucanson” no século XVIII, os humanos tentam reproduzir a vida artificialmente.
 
-Mas foi o matemático **Alan Turing**, em 1950, quem transformou esse sonho em ciência.  
-No artigo *Computing Machinery and Intelligence*, Turing propôs o famoso **Teste de Turing**, um experimento para determinar se uma máquina poderia demonstrar comportamento inteligente indistinguível do humano.
+Mas foi o matemático **Alan Turing**, em 1950, quem transformou esse sonho em ciência. 
 
+No artigo *Computing Machinery and Intelligence*, Turing propôs o famoso **Teste de Turing**, um experimento para determinar se uma máquina poderia demonstrar comportamento inteligente indistinguível do humano.
 <figure>
-  <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" 
-         alt="Alan Turing jovem" 
-         width="300">
-  </a>
-  <figcaption>Alan Turing, considerado o pai da computação moderna. Domínio público via Wikimedia Commons.</figcaption>
+<a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" width="300" alt="Alan Turing jovem">
+</a>
+<figcaption>Alan Turing — Domínio público via Wikimedia Commons.</figcaption>
 </figure>
 
 ---
 
-## 🤖 Isaac Asimov e as Três Leis da Robótica (1950)
+## 🤖 Asimov e as Três Leis da Robótica (1950)
 
 Enquanto Turing escrevia sobre o pensamento das máquinas, o escritor e bioquímico **Isaac Asimov** criava histórias que moldariam a imaginação coletiva sobre robôs e inteligência artificial.
 
@@ -221,10 +227,9 @@ Essas leis anteciparam discussões éticas reais sobre **autonomia das máquinas
     Isaac Asimov (por volta de 1959). Autor de “I, Robot”. Domínio público via Wikimedia Commons.
   </figcaption>
 </figure>
-
 ---
 
-## 🧠 A Era Dourada da Pesquisa em IA (1950s – 1970s)
+## 🧠 A Era Dourada da IA (1950s – 1970s)
 
 O verdadeiro "nascimento" da IA como um campo de pesquisa formal ocorreu na metade do século XX, impulsionado pelo surgimento dos computadores.
 
@@ -276,7 +281,20 @@ Anos depois, em **1966**, Joseph Weizenbaum desenvolveu o **ELIZA**, um dos prim
 
 ---
 
+
 ## 🧩 Os “AI Winters” e os Sistemas Especialistas (1970–1990)
+
+<figure style="text-align: center;">
+  <a title="John Ferguson, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:FEMA_-_1009_-_Photograph_by_John_Ferguson_taken_on_01-25-1998_in_New_York.jpg">
+    <img width="512" 
+         alt="FEMA - 1009 - Photograph by John Ferguson taken on 01-25-1998 in New York" 
+         src="https://upload.wikimedia.org/wikipedia/commons/4/45/FEMA_-_1009_-_Photograph_by_John_Ferguson_taken_on_01-25-1998_in_New_York.jpg">
+  </a>
+  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+    A Inteligência Artificial sofreu congelamento de investimentos e perda de interesse global.  
+    <br>Imagem meramente ilustrativa de John Ferguson — Domínio público, via Wikimedia Commons.
+  </figcaption>
+</figure>
 
 As promessas não cumpridas levaram a períodos conhecidos como **AI Winters**, quando o entusiasmo e o financiamento diminuíram.  
 
@@ -288,14 +306,27 @@ O marco principal do corte de financiamento ocorreu em **1973**, após o lançam
 
 ### 🧩 A Reascensão dos Sistemas Especialistas (Anos 1980)
 
+<figure style="text-align: center;">
+  <a title="Christophe Roche, CC BY-SA 4.0 — via Wikimedia Commons" 
+     href="https://commons.wikimedia.org/wiki/File:MP-LRO_Expert_System.jpg">
+    <img width="512" 
+         alt="Representação visual de um Sistema Especialista" 
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/MP-LRO_Expert_System.jpg/512px-MP-LRO_Expert_System.jpg">
+  </a>
+  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+    Representação visual de um Sistema Especialista — tecnologia que marcou o renascimento da IA nos anos 1980, 
+    antes do segundo AI Winter.  
+    <br>Christophe Roche — CC BY-SA 4.0, via Wikimedia Commons.
+  </figcaption>
+</figure>
+
 Apesar da crise, a pesquisa continuou em aplicações mais práticas. A **reascensão silenciosa** foi impulsionada pela comercialização dos **Sistemas Especialistas**.
 
 Estes sistemas, que prosperaram no início dos **anos 80**, representavam o conhecimento de um especialista humano (como um médico ou engenheiro) por meio de milhares de regras lógicas. Eles eram caros, mas provaram seu valor em domínios específicos.
 
 * **Evento Chave:** O sistema **MYCIN** (desenvolvido a partir de 1972, mas popularizado nos anos 80) auxiliava no diagnóstico de infecções sanguíneas, demonstrando o valor comercial imediato da IA. Empresas americanas e japonesas investiram bilhões em Sistemas Especialistas para aumentar a produtividade.
 
- <iframe class="scribd_iframe_embed" title="Mycin" src="https://www.scribd.com/embeds/410324333/content?start_page=1&view_mode=scroll&access_key=key-vNlLQ8a5k1fsqysbhzgK" tabindex="0" data-auto-height="true" data-aspect-ratio="1.7790927021696252" scrolling="no" width="100%" height="600" frameborder="0" ></iframe> <p style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-size: 14px; line-height: normal; display: block;"> <a title="View Mycin on Scribd" href="https://www.scribd.com/document/410324333/Mycin#from_embed" style="color: #098642; text-decoration: underline;"> Mycin </a> by <a title="View Anirudh Gupta's profile on Scribd" href="https://www.scribd.com/user/77459401/Anirudh-Gupta#from_embed" style="color: #098642; text-decoration: underline;" > Anirudh Gupta </a> </p>
-
+---
 ### 🧩 A Transição para o Aprendizado de Máquina (Final dos Anos 1980 e Início dos 1990)
 
 O segundo momento de "reascensão" veio com o foco renovado no **Aprendizado de Máquina (Machine Learning)**. Cientistas abandonaram a crença de que toda a inteligência poderia ser programada com regras e voltaram-se para a ideia de que as máquinas deveriam **aprender a partir dos dados**.
@@ -311,7 +342,7 @@ O segundo momento de "reascensão" veio com o foco renovado no **Aprendizado de 
 
 ---
 
-## ♟️ 1997: Deep Blue derrota Garry Kasparov
+## ♟️ 1997: Deep Blue derrota Kasparov
 
 Em 1997, o computador **Deep Blue**, da IBM, derrotou o campeão mundial de xadrez **Garry Kasparov**.  
 Foi a primeira vez que uma máquina superava um humano em um domínio cognitivo complexo.
@@ -320,6 +351,7 @@ Foi a primeira vez que uma máquina superava um humano em um domínio cognitivo 
   <a title="James the photographer, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg?20100215052624"></a>
   <figcaption>Supercomputador Deep Blue da IBM (1997). © IBM – Domínio público.</figcaption>
 </figure>
+
 
 ---
 
@@ -337,6 +369,7 @@ Essa tecnologia abriu caminho para aplicações em:
   <a title="Clockready, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/IBM_Watson.PNG/512px-IBM_Watson.PNG?20110724205849"></a>
   <figcaption>Logotipo do IBM Watson (2017). © IBM Corporation — uso permitido com crédito.</figcaption>
 </figure>
+
 
 ---
 
@@ -743,9 +776,24 @@ A combinação dos três pilares levou a resultados que redefiniram o que a IA e
 
 ---
 
-## 🧠 A Era da IA Generativa: O Conteúdo Redefinido
+## 🧠 A Era da IA Generativa
 
 **O Presente e o Futuro da Inteligência Artificial (Década de 2020 - Hoje)**
+
+<figure style="text-align: center;">
+  <a title="U.S. Air Force, Public domain, via Wikimedia Commons" 
+     href="https://commons.wikimedia.org/wiki/File:Department_of_the_Air_Force_launches_NIPRGPT_(240607-F-AF000-1002).jpg">
+    <img width="512" 
+         alt="Department of the Air Force launches NIPRGPT (240607-F-AF000-1002)" 
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Department_of_the_Air_Force_launches_NIPRGPT_%28240607-F-AF000-1002%29.jpg/512px-Department_of_the_Air_Force_launches_NIPRGPT_%28240607-F-AF000-1002%29.jpg">
+  </a>
+  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+    Demonstração do NIPR GPT, um modelo generativo utilizado pela Força Aérea dos EUA — 
+    exemplo claro de como a IA generativa passou a integrar operações reais e de alta responsabilidade.  
+    <br>U.S. Air Force — Domínio público, via Wikimedia Commons.
+  </figcaption>
+</figure>
+
 
 A jornada da IA, que abrange séculos de ambição, culminou em sua fase mais transformadora até agora: a **IA Generativa**. Ao contrário dos sistemas anteriores, projetados apenas para analisar, classificar ou prever, os Modelos Generativos são capazes de criar conteúdo original e de alta qualidade em todos os tipos de mídia.
 
@@ -908,6 +956,7 @@ Essa revolução é impulsionada principalmente por arquiteturas sofisticadas de
 }
 </style>
 
+
 ## 🧩 Conclusão: O Futuro Além do Código
 
 Da filosofia de Turing à ética de Asimov, e das vitórias do Watson à criatividade dos modelos generativos, a IA percorreu um caminho extraordinário.  
@@ -921,6 +970,9 @@ As fundações teóricas estabelecidas por <b>Turing</b> e os avanços computaci
 O próximo grande horizonte é a <b>Inteligência Artificial Geral (AGI)</b>, o objetivo final de construir máquinas com a capacidade humana de aprender, adaptar-se e aplicar conhecimento em qualquer tarefa, preparando o terreno para a próxima revolução. Meu próximo artigo será falando exclusivamente sobre ela.
     
 A história da IA é uma testemunha da ambição humana: o que hoje parece ficção científica muitas vezes se torna a tecnologia fundamental de amanhã.
+
+
+A **história da inteligência artificial** mostra que cada avanço científico nos trouxe mais perto de máquinas capazes de aprender, criar e colaborar conosco. No próximo artigo, explorarei a AGI em profundidade.
 
 ---
 

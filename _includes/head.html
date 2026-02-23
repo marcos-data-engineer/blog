@@ -133,4 +133,11 @@
   {% endif %}
 
   {% include metadata-hook.html %}
+
+  <!-- JSON-LD Schema Markup for SEO -->
+  {% include schema-article.html %}
+  {% include schema-author.html %}
+  {% if jekyll.environment == 'production' %}
+    {% include schema-organization.html %}
+  {% endif %}
 </head>

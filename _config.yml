@@ -45,8 +45,8 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: "" # fill in your verification string
-  bing: ""   # fill in your verification string
+  google: "" # Adicione seu código de verificação do Google Search Console
+  bing: ""   # Seu código de verificação Bing (opcional)
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -89,7 +89,7 @@ avatar: "/assets/img/avatar2.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "" # string, local or CORS resources
+social_preview_image: "/assets/img/avatar2.jpg" # Imagem padrão para compartilhamentos sociais
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -203,6 +203,12 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
+  - "assets/**/robots.txt"
+
+# Manter arquivo robots.txt customizado da raiz
+keep_files:
+  - robots.txt
+  - ads.txt
 
 jekyll-archives:
   enabled: [categories, tags]
