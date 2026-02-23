@@ -1,0 +1,5 @@
+# ads.txt - Arquivo de Transparência de Ads
+# Adicione este código após aprovação do Google AdSense
+# Obtenha ca-pub-XXXXXXXXXXXXXXXX em: https://AdSense.google.com
+
+# google.com, ca-pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

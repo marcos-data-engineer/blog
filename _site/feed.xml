@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Beyond AI Code</title>
   <subtitle>Uma exploração profunda de como a inteligência artificial está transformando nosso mundo, da tecnologia à sociedade.</subtitle>
-  <updated>2025-11-24T11:56:28-03:00</updated>
+  <updated>2026-02-23T09:36:53-03:00</updated>
   <author>
     <name>Beyond AI Code</name>
     <uri>http://localhost:4000/</uri>
@@ -13,7 +13,7 @@
   <link rel="alternate" type="text/html" hreflang="pt-BR"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2025 Beyond AI Code </rights>
+  <rights> © 2026 Beyond AI Code </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
