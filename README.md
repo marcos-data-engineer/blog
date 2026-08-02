@@ -1,42 +1,42 @@
-# Blog de Inteligência Artificial 🧠⚙️
+# Artificial Intelligence Blog 🧠⚙️
 
-Bem-vindo ao repositório oficial do blog sobre Inteligência Artificial, hospedado em [blog.dataengineer.ne.br](https://blog.dataengineer.ne.br). 
+Welcome to the official repository for the Artificial Intelligence blog, hosted at [blog.dataengineer.ne.br](https://blog.dataengineer.ne.br). 
 
-Este espaço é dedicado à exploração, documentação e compartilhamento de conhecimentos sobre IA, arquitetura de dados, Large Language Models (LLMs) e ferramentas de desenvolvimento de ponta.
+This space is dedicated to exploring, documenting, and sharing knowledge about AI, data architecture, Large Language Models (LLMs), and cutting-edge development tools.
 
-## 🛠️ Tecnologias e Arquitetura
+## 🛠️ Technologies and Architecture
 
-O blog foi construído com foco em performance, acessibilidade e facilidade de manutenção, utilizando as seguintes tecnologias:
+The blog was built with a focus on performance, accessibility, and maintainability, utilizing the following technologies:
 
-* **Gerador de Site Estático:** [Jekyll](https://jekyllrb.com/)[cite: 2]
-* **Tema:** [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - Um tema limpo, responsivo e focado em texto[cite: 2].
-* **Hospedagem & CI/CD:** GitHub Pages via GitHub Actions (`pages.yml`) para deploy automatizado[cite: 2].
+* **Static Site Generator:** [Jekyll](https://jekyllrb.com/)
+* **Theme:** [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A clean, responsive, and text-focused theme.
+* **Hosting & CI/CD:** GitHub Pages via GitHub Actions (`pages.yml`) for automated deployment.
 
-## ✨ Funcionalidades Integradas
+## ✨ Integrated Features
 
-O repositório já conta com diversas configurações e integrações avançadas:
+The repository already includes several advanced configurations and integrations:
 
-* **SEO e Monetização:** Otimização para motores de busca e revisão do Google AdSense implementadas (`SEO_ADSENSE_REVIEW.md`, `ads.txt`)[cite: 2].
-* **Sistema de Comentários:** Integração com o Utterances, permitindo que os leitores comentem usando issues do GitHub[cite: 2].
-* **Apoio ao Projeto:** Botão de doação via PayPal configurado (`paypal_donation.html`)[cite: 2].
-* **Metadados Estruturados:** Configurações de Schema.org para artigos, autor e organização, melhorando a indexação[cite: 2].
+* **SEO and Monetization:** Search engine optimization and Google AdSense review implemented (`SEO_ADSENSE_REVIEW.md`, `ads.txt`).
+* **Commenting System:** Integration with Utterances, allowing readers to comment using GitHub issues.
+* **Project Support:** PayPal donation button configured (`paypal_donation.html`).
+* **Structured Metadata:** Schema.org configurations for articles, author, and organization, improving search engine indexing.
 
-## 📁 Estrutura do Repositório
+## 📁 Repository Structure
 
-Aqui está um resumo de como o repositório está organizado[cite: 2]:
+Here is a summary of how the repository is organized:
 
-* `_posts/`: Contém os artigos do blog em formato Markdown (ex: `2024-07-24-the-history-of-artificial-intelligence.md`).
-* `_data/`: Arquivos de configuração de dados, como contatos e opções de compartilhamento social.
-* `_includes/`: Componentes modulares de HTML (cabeçalho, rodapé, comentários, esquemas de SEO).
-* `_layouts/`: Templates de páginas (como o template padrão de `post`).
-* `assets/`: Arquivos estáticos, incluindo imagens, ícones, CSS e scripts minificados.
-* `_config.yml`: Arquivo principal de configuração do Jekyll.
+* `_posts/`: Contains the blog articles in Markdown format (e.g., `2024-07-24-the-history-of-artificial-intelligence.md`).
+* `_data/`: Data configuration files, such as contacts and social sharing options.
+* `_includes/`: Modular HTML components (header, footer, comments, SEO schemas).
+* `_layouts/`: Page templates (such as the default `post` template).
+* `assets/`: Static files, including images, icons, CSS, and minified scripts.
+* `_config.yml`: Main Jekyll configuration file.
 
-## 🚀 Como Executar Localmente
+## 🚀 How to Run Locally
 
-Se você deseja rodar o blog localmente para testar alterações ou escrever novos artigos antes do deploy, siga os passos abaixo:
+If you want to run the blog locally to test changes or write new articles before deployment, follow the steps below:
 
-1. **Pré-requisitos:** Certifique-se de ter o [Ruby](https://www.ruby-lang.org/) e o [Bundler](https://bundler.io/) instalados no seu ambiente.
-2. **Instalação das dependências:**
+1. **Prerequisites:** Make sure you have [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/) installed in your environment.
+2. **Install dependencies:**
    ```bash
    bundle install
