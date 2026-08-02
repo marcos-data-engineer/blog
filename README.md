@@ -40,3 +40,13 @@ If you want to run the blog locally to test changes or write new articles before
 2. **Install dependencies:**
    ```bash
    bundle install
+Run the local server:
+
+Bash
+bundle exec jekyll serve
+Access: Open your browser and go to http://localhost:4000.
+
+✍️ About the Author
+Created and maintained by Marcos Vasconcellos de Andrade, straight from Águas Claras, Brasília. The blog reflects continuous learning and a passion for technology, with a practical focus on data architecture, artificial intelligence foundation models (LLMs), autonomous agents, and modern development tools like Claude Code.
+
+This project utilizes internal implementation guides and review checklists to keep quality and SEO up to date.
