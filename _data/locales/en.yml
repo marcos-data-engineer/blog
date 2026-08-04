@@ -1,0 +1,22 @@
+en:
+  tabs:
+    home: home
+    about: about
+    categories: categories
+    tags: tags
+    archives: archives
+  common:
+    switch_mode: switch mode
+    toggle_theme: toggle theme
+  panel:
+    toc: table of contents
+  post:
+    posted: posted
+    updated: updated
+    written_by: written by
+    pageview_measure: page views
+  copyright:
+    license:
+      template: ""
+      link: ""
+      name: ""
