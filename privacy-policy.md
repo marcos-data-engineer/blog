@@ -1,70 +1,70 @@
 ---
 layout: page
-title: "Política de Privacidade"
-description: "Política de privacidade do AI & Tech Blog - Como coletamos e utilizamos seus dados"
+title: "Privacy Policy"
+description: "Privacy Policy of the AI & Tech Blog - How we collect and use your data"
 permalink: /privacy-policy/
 sitemap: true
 ---
 
-# Política de Privacidade
+# Privacy Policy
 
-**Última atualização: {{ site.time | date: "%d de %B de %Y" }}**
+**Last updated: {{ site.time | date: "%d %B %Y" }}**
 
-## Informações que Coletamos
+## Information We Collect
 
 ### Google Analytics
-Este site utiliza o Google Analytics para analisar o uso do site. O Google Analytics coleta informações como:
-- Páginas visitadas
-- Tempo gasto no site
-- Localização geográfica aproximada
-- Dispositivo e navegador utilizados
+This site uses Google Analytics to analyze site usage. Google Analytics collects information such as:
+- Pages visited
+- Time spent on the site
+- Approximate geographic location
+- Device and browser used
 
 ### Google AdSense
-Este site pode exibir anúncios fornecidos pelo Google AdSense. O Google pode usar cookies para exibir anúncios baseados em suas visitas anteriores a este site e outros sites.
+This site may display ads provided by Google AdSense. Google may use cookies to show ads based on your previous visits to this site and other sites.
 
 ### Cookies
-Utilizamos cookies para:
-- Melhorar a experiência do usuário
-- Analisar o tráfego do site
-- Personalizar conteúdo e anúncios
+We use cookies to:
+- Improve the user experience
+- Analyze site traffic
+- Personalize content and ads
 
-## Como Utilizamos as Informações
+## How We Use Information
 
-As informações coletadas são utilizadas para:
-- Melhorar o conteúdo e a experiência do site
-- Analisar padrões de uso
-- Exibir anúncios relevantes
+The information collected is used to:
+- Improve content and site experience
+- Analyze usage patterns
+- Display relevant ads
 
-## Compartilhamento de Informações
+## Information Sharing
 
-Não vendemos, comercializamos ou transferimos suas informações pessoais para terceiros, exceto:
-- Quando exigido por lei
-- Para proteger nossos direitos
-- Com provedores de serviços confiáveis (Google Analytics, AdSense)
+We do not sell, trade, or transfer your personal information to third parties, except:
+- When required by law
+- To protect our rights
+- With trusted service providers (Google Analytics, AdSense)
 
-## Seus Direitos
+## Your Rights
 
-Você tem o direito de:
-- Desativar cookies em seu navegador
-- Optar por não receber anúncios personalizados
-- Solicitar remoção de dados pessoais
+You have the right to:
+- Disable cookies in your browser
+- Opt out of personalized ads
+- Request deletion of personal data
 
-## Controle de Anúncios
+## Ad Controls
 
-Para controlar os anúncios personalizados do Google:
-- Visite [Google Ads Settings](https://adssettings.google.com/)
-- Use o [NAI opt-out tool](http://www.networkadvertising.org/choices/)
+To manage Google personalized ads:
+- Visit [Google Ads Settings](https://adssettings.google.com/)
+- Use the [NAI opt-out tool](http://www.networkadvertising.org/choices/)
 
-## Contato
+## Contact
 
-Para questões sobre esta política de privacidade:
+For questions about this privacy policy:
 - Email: contact@dataengineer.net.br
 - LinkedIn: [Marcos Data Engineer](https://www.linkedin.com/in/marcos-data-engineer/)
 
-## Alterações
+## Changes
 
-Esta política pode ser atualizada periodicamente. Alterações significativas serão notificadas através do site.
+This policy may be updated periodically. Significant changes will be communicated via the website.
 
 ---
 
-*Esta política está em conformidade com LGPD (Lei Geral de Proteção de Dados) e GDPR.*
+*This policy complies with LGPD (Brazilian General Data Protection Law) and GDPR.*

@@ -46,7 +46,7 @@
     {% endunless %}
 
     {% if site.theme_mode == 'auto_toggle' %}
-      <div id="mode-toggle" class="mode-toggle" aria-label="{{ site.data.locales[i18n_lang].common.toggle_theme | default: 'Alternar tema' }}">
+      <div id="mode-toggle" class="mode-toggle" aria-label="{{ site.data.locales[i18n_lang].common.toggle_theme | default: 'Toggle theme' }}">
         <span class="light">{% include icon/sun.svg %}</span>
         <span class="dark">{% include icon/moon.svg %}</span>
       </div>

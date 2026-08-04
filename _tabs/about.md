@@ -5,42 +5,42 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### Sobre o Beyond AI Code
+### About Beyond AI Code
 
-Olá! Bem-vindo ao **Beyond AI Code**.
+Hello! Welcome to **Beyond AI Code**.
 
-Este blog foi criado para oferecer uma exploração aprofundada de como a **Inteligência Artificial** está remodelando o mundo, com foco em **acontecimentos atuais, impacto social e tendências futuras**. Vamos além do código para entender as implicações reais para a humanidade. Nosso objetivo é inspirar e informar sobre as possibilidades e desafios dessa tecnologia, fomentando uma discussão sobre seu papel no nosso futuro.
-
----
-
-### Sobre o autor
-
-A mente por trás do Beyond AI Code é **Marcos Vasconcellos de Andrade**, entusiasta e pesquisador em tecnologia.
-
-Com **mais de 20 anos de experiência** em tecnologia, atuando como **Desenvolvedor de IA, Engenheiro de Dados, Arquiteto de Dados, Desenvolvedor Web, dentre outras funções**, a missão aqui é traduzir a complexidade da IA em conteúdo acessível e relevante, guiada pela paixão de desvendar o futuro da tecnologia, especialmente a Inteligência Artificial.
-
-Meu interesse por tecnologia começou nos meados da década de 1990, quando tive meu primeiro contato com sistemas DOS e Linux. Ao longo dos anos, aprofundei meu conhecimento em várias distribuições, como CentOS, Debian e Ubuntu, atuando em administração de servidores Linux, redes e suporte a usuários até 2015.
-
-Em 2020, concluí a graduação em Tecnologia em Sistemas para Internet no Instituto Federal de Brasília (IFB), onde adquiri experiência com Java, Node.js, SQL e outras ferramentas de desenvolvimento.
-
-Após a graduação, meu interesse por dados e inteligência artificial me levou a uma pós-graduação em Engenharia e Arquitetura de Dados, com dupla certificação em Inteligência Artificial, concluída no final de 2024, na XP Educação. Durante essa especialização, explorei tecnologias como Apache Spark, Apache Airflow, Python, SQL, pipelines de dados, IA generativa e agentes de IA.
-
-Atualmente, continuo me especializando por meio de cursos e bootcamps nas áreas de dados e IA. 
-
-Como hobby, gosto de estudar idiomas e acredito estar nos seguintes níveis:
-
-- Inglês e Espanhol: B1 
-- Francês e Italiano: A1
-
-Estou sempre aberto a conectar-me, trocar ideias e colaborar — especialmente se você estiver trabalhando em algo interessante em IA ou dados.
+This blog was created to offer an in-depth exploration of how **Artificial Intelligence** is reshaping the world, with a focus on **current events, social impact, and future trends**. We go beyond code to understand the real implications for humanity. Our goal is to inspire and inform about the possibilities and challenges of this technology, fostering a discussion about its role in our future.
 
 ---
 
-### Conecte-se
+### About the author
 
-Você pode acompanhar mais discussões sobre IA e tecnologia nestes canais:
+The mind behind Beyond AI Code is **Marcos Vasconcellos de Andrade**, a technology enthusiast and researcher.
+
+With **more than 20 years of experience** in technology, working as an **AI Developer, Data Engineer, Data Architect, Web Developer, among other roles**, the mission here is to translate the complexity of AI into accessible and relevant content, driven by the passion to uncover the future of technology, especially Artificial Intelligence.
+
+My interest in technology began in the mid-1990s, when I first encountered DOS and Linux systems. Over the years, I deepened my knowledge across several distributions, such as CentOS, Debian, and Ubuntu, working in Linux server administration, networking, and user support until 2015.
+
+In 2020, I completed a degree in Internet Systems Technology at the Federal Institute of Brasília (IFB), where I gained experience with Java, Node.js, SQL, and other development tools.
+
+After graduating, my interest in data and artificial intelligence led me to a postgraduate degree in Data Engineering and Architecture, with dual certification in Artificial Intelligence, completed at the end of 2024 at XP Educação. During that specialization, I explored technologies such as Apache Spark, Apache Airflow, Python, SQL, data pipelines, generative AI, and AI agents.
+
+Currently, I continue to deepen my expertise through courses and bootcamps in data and AI.
+
+As a hobby, I enjoy studying languages and believe I am at the following levels:
+
+- English and Spanish: B1
+- French and Italian: A1
+
+I am always open to connecting, sharing ideas, and collaborating — especially if you are working on something interesting in AI or data.
+
+---
+
+### Connect
+
+You can follow more discussions about AI and technology on these channels:
 
 - <i class="fab fa-linkedin fa-fw"></i> **LinkedIn:** <a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank">Marcos Data Engineer</a>
 - <i class="fab fa-github fa-fw"></i> **GitHub:** <a href="https://github.com/marcos-data-engineer" target="_blank">marcos-data-engineer</a>
-- <i class="fas fa-globe fa-fw"></i> **Portfólio/Blog:** <a href="https://dataengineer.net.br" target="_blank">dataengineer.net.br</a>
+- <i class="fas fa-globe fa-fw"></i> **Portfolio/Blog:** <a href="https://dataengineer.net.br" target="_blank">dataengineer.net.br</a>
 - <i class="fab fa-youtube fa-fw"></i> **YouTube:** <a href="https://www.youtube.com/@ai-insights-marcos" target="_blank">Beyond AI Code</a>
