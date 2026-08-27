@@ -10,7 +10,8 @@ Disallow: /_site/
 Disallow: /assets/
 
 # Sitemap
-Sitemap: https://blog.dataengineer.net.br/sitemap.xml
+Sitemap: https://marcos-data-engineer.github.io/blog/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1
+
