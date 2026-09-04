@@ -2,6 +2,7 @@
 title: "Beyond AI Code: Agent Advancements, Enterprise Control, and Shifting Tech Tides"
 date: 2026-09-04 16:07:52 -0300
 categories: [Artificial Intelligence, Weekly Digest]
+published: false
 tags: [ai, llm, data-engineering, trends]
 description: >-
   This week, we delve into new agentic AI mechanisms, robust enterprise deployment strategies, and significant leadership changes impacting the tech landscape.
