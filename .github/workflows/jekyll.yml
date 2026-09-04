@@ -45,12 +45,33 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: >-
+          bundle exec jekyll build
+          --baseurl "${{ steps.pages.outputs.base_path }}"
+          --destination ./_site
         env:
           JEKYLL_ENV: production
+      - name: Validate Pages artifact
+        run: |
+          test -f ./_site/sitemap.xml
+          test -f ./_site/robots.txt
+          grep -Fx 'Sitemap: https://marcos-data-engineer.github.io/blog/sitemap.xml' ./_site/robots.txt
+          ruby -r rexml/document -e '
+            document = REXML::Document.new(File.read("./_site/sitemap.xml"))
+            root = document.root
+            expected_namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+            abort "Invalid sitemap root" unless root&.name == "urlset" && root.namespace == expected_namespace
+            locations = REXML::XPath.match(document, "//*[local-name()=\"loc\"]").map(&:text)
+            abort "sitemap.xml has no URLs" if locations.empty?
+            expected_prefix = "https://marcos-data-engineer.github.io/blog/"
+            invalid = locations.reject { |location| location.start_with?(expected_prefix) }
+            abort "Invalid sitemap URLs: #{invalid.join(", ")}" unless invalid.empty?
+          '
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   # Deployment job
   deploy:
