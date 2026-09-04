@@ -211,7 +211,6 @@ exclude:
 keep_files:
   - robots.txt
   - ads.txt
-  - sitemap.xml
 
 jekyll-archives:
   enabled: [categories, tags]
