@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title>Beyond AI Code</title>
   <subtitle>A deep exploration of how artificial intelligence is transforming our world, from technology to society.</subtitle>
-  <updated>2026-08-27T11:20:43-03:00</updated>
+  <updated>2026-09-04T18:23:56-03:00</updated>
   <author>
     <name>Beyond AI Code</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -17,6 +17,32 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Autonomous Agents: Architecting for Performance, Governance, and Explainability</title>
+    <link href="http://localhost:4000/blog/posts/weekly-ai-digest/" rel="alternate" type="text/html" title="Autonomous Agents: Architecting for Performance, Governance, and Explainability" />
+    <published>2026-09-04T18:23:23-03:00</published>
+  
+    <updated>2026-09-04T18:23:23-03:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/weekly-ai-digest/</id>
+    <content type="text/html" src="http://localhost:4000/blog/posts/weekly-ai-digest/" />
+    <author>
+      <name>marcos</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence" />
+    
+    <category term="Weekly Digest" />
+    
+  
+
+  <summary>This week, we delve into the evolving landscape of AI autonomous agents, exploring breakthroughs in performance optimization, governance, and explainability.</summary>
+
+  </entry>
 
   
   <entry>
