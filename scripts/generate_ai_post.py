@@ -5,109 +5,96 @@ import datetime
 import feedparser
 from google import genai
 
-# Inicialização da SDK (utiliza GEMINI_API_KEY do ambiente)
 client = genai.Client()
 
-# RSS Feeds de notícias
+# Feeds alinhados a Linux, DevOps, MLOps e Automação de IA
 rss_urls = [
-    "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "https://news.mit.edu/rss/topic/artificial-intelligence2",
-    "https://rss.arxiv.org/rss/cs.AI"
+    "https://phoronix.com/phoronix-rss.php",                      # Linux & Kernel News
+    "https://kubernetes.io/feed.xml",                              # Cloud Native & Infrastructure
+    "https://aws.amazon.com/blogs/machine-learning/feed/",       # AWS MLOps & AI Infra
+    "https://pythonweekly.com/rss"                                 # Python Ecosystem & Automation
 ]
 
 content_buffer = ""
-
 for url in rss_urls:
     feed = feedparser.parse(url)
-    for entry in feed.entries[:3]:
+    for entry in feed.entries[:2]:
         summary = entry.get("summary", entry.get("description", ""))
         link = entry.get("link", "")
         title = entry.title
         content_buffer += f"Title: {title}\nURL: {link}\nSummary: {summary}\n\n"
 
-# Formatação de data (UTC-3)
 now = datetime.datetime.now()
 date_front_matter = now.strftime("%Y-%m-%d %H:%M:%S -0300")
 date_filename = now.strftime("%Y-%m-%d")
 
-# Prompt estruturado para o tema Chirpy
 prompt = f"""
-You are a Data Engineer specialized in Artificial Intelligence and author of the blog 'Beyond AI Code'.
+You are a Senior Linux Infrastructure, DevOps, and Data Engineer authoring the blog 'Beyond AI Code'.
 
-Synthesize the news below into a weekly technical blog post in International English.
+Analyze the news below and generate TWO outputs strictly delimited by '===LINKEDIN_POST===':
 
-STEP 1: Identify the single most prominent technical topic among the collected news (e.g., 'robotics', 'neural-network', 'data-center', 'quantum-computing', 'microchip', 'autonomous-agents').
-Use this topic as a single-word-slug inside the image path URL below.
-
-FORMATTING RULES (JEKYLL / CHIRPY):
-1. The output MUST start strictly with YAML Front Matter delimited by '---':
+OUTPUT 1: Markdown Post for Jekyll (Chirpy Theme)
+- Must start strictly with YAML Front Matter:
 ---
-title: "INSERT_AN_ENGAGING_TITLE"
+title: "INSERT_DIRECT_TECHNICAL_TITLE"
 date: {date_front_matter}
 published: false
-categories: [Artificial Intelligence, Weekly Digest]
-tags: [ai, llm, data-engineering, trends]
+categories: [DevOps, AI Infrastructure]
+tags: [linux, automation, devops, data-engineering]
 description: >-
-  INSERT_A_CONCISE_SUMMARY_UP_TO_160_CHARACTERS
+  INSERT_CONCISE_TECHNICAL_SUMMARY_UP_TO_160_CHARS
 author: marcos
 image:
-  path: https://picsum.photos/seed/TOPIC_SLUG_HERE/1200/630
-  alt: Technical illustration related to weekly AI developments
-math: false
-mermaid: false
+  path: https://picsum.photos/seed/devops-infra/1200/630
+  alt: Technical illustration of Linux and AI infrastructure
 ---
 
-2. TITLE INSTRUCTIONS:
-- DO NOT use prefixes like 'Beyond the Code:' or 'Beyond AI Code:' in the title field.
-- Make the title direct, concise, and focused on the key technical subjects of the week.
+- Write in International English focusing on practical system administration, MLOps, automation, and infrastructure implications.
+- Include section headers with technical emojis (e.g., '## 🐧 Linux & Kernel', '## ⚡ Automation & Data').
+- Include markdown links to original sources and a '## 🔗 Sources & References' section.
 
-3. VISUAL ENGAGEMENT & STYLE:
-- Use relevant emojis in all H2 section headers (e.g., '## 🤖 AI Agents', '## ⚡ Performance Improvements', '## 🚀 Strategic Moves').
-- Maintain a highly professional, technical, and analytical tone for Data Engineers and AI Practitioners.
+===LINKEDIN_POST===
 
-4. SOURCES & CITATIONS (VERY IMPORTANT FOR COPYRIGHT COMPLIANCE):
-- Interweave direct markdown hyperlinks to the original articles when discussing specific news items.
-- At the end of the post, ALWAYS include a dedicated section titled '## 🔗 Sources & References' listing the original source links provided in the prompt.
+OUTPUT 2: LinkedIn Announcement Post (English or Portuguese)
+- A punchy 150-word LinkedIn post summarizing 3 key technical takeaways from the week.
+- Include relevant hashtags (#Linux #DevOps #Automation #DataEngineering #AIInfra).
+- Include a Call-To-Action: "Read the full technical analysis on Beyond AI Code."
 
-Collected news & source links:
+Collected Technical News:
 {content_buffer}
 """
 
-# Execução da requisição com mecanismo de tentativas (retry)
-max_retries = 3
-response = None
+# Execução com tratamento de resposta
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents=prompt,
+)
 
-for attempt in range(max_retries):
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-        )
-        break
-    except Exception as e:
-        if attempt < max_retries - 1:
-            print(f"API temporariamente indisponível ({e}). Tentando novamente em 10 segundos... ({attempt + 1}/{max_retries})")
-            time.sleep(10)
-        else:
-            raise e
+raw_output = response.text.strip()
 
-post_content = response.text.strip()
+# Separação do artigo do Blog e da legenda do LinkedIn
+if "===LINKEDIN_POST===" in raw_output:
+    blog_content, linkedin_content = raw_output.split("===LINKEDIN_POST===")
+else:
+    blog_content = raw_output
+    linkedin_content = ""
 
-# Sanitização rigorosa: garante que o arquivo comece estritamente no primeiro '---'
-post_content = re.sub(r'^```[a-zA-Z]*\n', '', post_content)
-if "---" in post_content:
-    first_dash_idx = post_content.find("---")
-    post_content = post_content[first_dash_idx:]
+# Sanitização do Markdown
+blog_content = re.sub(r'^```[a-zA-Z]*\n', '', blog_content.strip())
+if "---" in blog_content:
+    blog_content = blog_content[blog_content.find("---"):]
 
-if post_content.endswith("```"):
-    post_content = post_content[:-3].strip()
-
-# Gravação do rascunho
+# Gravação dos arquivos
 output_dir = "_posts"
 os.makedirs(output_dir, exist_ok=True)
-filename = os.path.join(output_dir, f"{date_filename}-weekly-ai-digest.md")
 
-with open(filename, "w", encoding="utf-8") as f:
-    f.write(post_content)
+# Salva o Post do Blog
+with open(os.path.join(output_dir, f"{date_filename}-weekly-ops-digest.md"), "w", encoding="utf-8") as f:
+    f.write(blog_content.strip())
 
-print(f"Draft generated successfully: {filename}")
+# Salva a Legenda Pronta para o LinkedIn
+if linkedin_content:
+    with open(os.path.join(output_dir, f"{date_filename}-linkedin-caption.txt"), "w", encoding="utf-8") as f:
+        f.write(linkedin_content.strip())
+
+print("Drafts for Blog and LinkedIn created successfully.")
