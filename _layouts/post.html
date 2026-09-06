@@ -92,7 +92,11 @@ script_includes:
           {% endif %}
 
           <!-- read time -->
-          {% include read-time.html content=content prompt=true lang=lang %}
+          <span
+            class="post-reading-time"
+            data-reading-time
+            aria-live="polite"
+          >Calculando tempo de leitura...</span>
         </div>
       </div>
     </div>
