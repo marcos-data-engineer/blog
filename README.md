@@ -18,7 +18,7 @@ The repository already includes several advanced configurations and integrations
 
 * **SEO and Monetization:** Search engine optimization and Google AdSense review implemented (`SEO_ADSENSE_REVIEW.md`, `ads.txt`).
 * **Commenting System:** Integration with Utterances, allowing readers to comment using GitHub issues.
-* **Project Support:** PayPal donation button configured (`paypal_donation.html`).
+* **Project Support:** LivePix donation component configured via `_includes/livepix_donation.html`.
 * **Structured Metadata:** Schema.org configurations for articles, author, and organization, improving search engine indexing.
 
 ## 📁 Repository Structure
