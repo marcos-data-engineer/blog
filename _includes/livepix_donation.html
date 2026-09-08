@@ -1,0 +1,59 @@
+<aside class="livepix-donation card h-100 border-0" aria-labelledby="livepix-donation-title">
+  <div class="card-body p-4">
+    <div class="livepix-donation__icon" aria-hidden="true">
+      <svg viewBox="0 0 32 32" role="img" focusable="false">
+        <path d="M16 3.5 27.5 15 16 28.5 4.5 15 16 3.5Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="m11 15 5-5 5 5-5 5-5-5Z" fill="currentColor"/>
+      </svg>
+    </div>
+    <h3 id="livepix-donation-title" class="card-title h4 mb-3">Apoie o blog via Pix</h3>
+    <p class="card-text small mb-4">
+      Sua contribuição ajuda a manter a produção de conteúdo sobre IA e tecnologia.
+    </p>
+    <a class="livepix-donation__link btn btn-primary" href="https://livepix.gg/marcosdataengineer" target="_blank" rel="noopener noreferrer">
+      Contribuir pelo LivePix
+      <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+    </a>
+  </div>
+</aside>
+
+<style>
+  .livepix-donation {
+    background: var(--card-bg, var(--main-bg, #f8f9fa));
+    border: 1px solid var(--main-border-color, rgba(127, 127, 127, 0.2)) !important;
+    text-align: center;
+  }
+
+  .livepix-donation__icon {
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto 1rem;
+    place-items: center;
+    border-radius: 50%;
+    color: #087f5b;
+    background: rgba(8, 127, 91, 0.12);
+  }
+
+  .livepix-donation__icon svg {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .livepix-donation__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .livepix-donation .card-body {
+      padding: 1.25rem !important;
+    }
+
+    .livepix-donation__link {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>

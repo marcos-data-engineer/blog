@@ -59,8 +59,6 @@ analytics:
   cloudflare:
     id: "" # fill in your Cloudflare Web Analytics token
 
-buymeacoffee_username: "marcos.andrade"
-
 # Pageviews settings
 pageviews:
   provider: "" # now only supports 'goatcounter'

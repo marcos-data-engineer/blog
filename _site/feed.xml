@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/blog/</id>
+  <id>https://marcos-data-engineer.github.io/blog/</id>
   <title>Beyond AI Code</title>
   <subtitle>A deep exploration of how artificial intelligence is transforming our world, from technology to society.</subtitle>
-  <updated>2026-09-04T18:23:56-03:00</updated>
+  <updated>2026-09-08T14:06:31-03:00</updated>
   <author>
     <name>Beyond AI Code</name>
-    <uri>http://localhost:4000/blog/</uri>
+    <uri>https://marcos-data-engineer.github.io/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://marcos-data-engineer.github.io/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/blog/"/>
+    href="https://marcos-data-engineer.github.io/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
   <rights> © 2026 Beyond AI Code </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -20,40 +20,14 @@
 
   
   <entry>
-    <title>Autonomous Agents: Architecting for Performance, Governance, and Explainability</title>
-    <link href="http://localhost:4000/blog/posts/weekly-ai-digest/" rel="alternate" type="text/html" title="Autonomous Agents: Architecting for Performance, Governance, and Explainability" />
-    <published>2026-09-04T18:23:23-03:00</published>
-  
-    <updated>2026-09-04T18:23:23-03:00</updated>
-  
-    <id>http://localhost:4000/blog/posts/weekly-ai-digest/</id>
-    <content type="text/html" src="http://localhost:4000/blog/posts/weekly-ai-digest/" />
-    <author>
-      <name>marcos</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence" />
-    
-    <category term="Weekly Digest" />
-    
-  
-
-  <summary>This week, we delve into the evolving landscape of AI autonomous agents, exploring breakthroughs in performance optimization, governance, and explainability.</summary>
-
-  </entry>
-
-  
-  <entry>
     <title>The History of Artificial Intelligence</title>
-    <link href="http://localhost:4000/blog/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="The History of Artificial Intelligence" />
+    <link href="https://marcos-data-engineer.github.io/blog/posts/the-history-of-artificial-intelligence/" rel="alternate" type="text/html" title="The History of Artificial Intelligence" />
     <published>2025-11-18T09:00:00-03:00</published>
   
     <updated>2025-11-18T09:00:00-03:00</updated>
   
-    <id>http://localhost:4000/blog/posts/the-history-of-artificial-intelligence/</id>
-    <content type="text/html" src="http://localhost:4000/blog/posts/the-history-of-artificial-intelligence/" />
+    <id>https://marcos-data-engineer.github.io/blog/posts/the-history-of-artificial-intelligence/</id>
+    <content type="text/html" src="https://marcos-data-engineer.github.io/blog/posts/the-history-of-artificial-intelligence/" />
     <author>
       <name>Beyond AI Code</name>
     </author>

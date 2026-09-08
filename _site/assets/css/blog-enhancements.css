@@ -1,0 +1,37 @@
+.copy-code-block {
+  position: relative;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  border: 1px solid rgba(127, 127, 127, 0.45);
+  border-radius: 0.35rem;
+  padding: 0.25rem 0.55rem;
+  color: inherit;
+  background: rgba(127, 127, 127, 0.18);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.copy-code-button:hover,
+.copy-code-button.is-copied {
+  background: #2f8f5b;
+  border-color: #2f8f5b;
+  color: #fff;
+}
+
+#toc > ol {
+  padding-left: 1.25rem;
+}
+
+#toc .toc-h3 {
+  margin-left: 1rem;
+  font-size: 0.92em;
+}
+
+.post-reading-time {
+  margin-left: 0.75rem;
+}

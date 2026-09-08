@@ -132,19 +132,8 @@ script_includes:
 
   <div class="post-tail-wrapper text-muted">
     <div class="row g-4 mt-5 mb-5">
-      <!-- Buy Me a Coffee Card -->
       <div class="col-md-6">
-        <div class="card h-100 border-0 bg-light">
-          <div class="card-body text-center p-4">
-            <h3 class="card-title h4 mb-3">Support our work</h3>
-            <p class="card-text small mb-4">
-              "Beyond AI Code" is produced with dedication to offer the best content about AI. If our articles helped you, consider making a small contribution.
-            </p>
-            <a href="https://www.buymeacoffee.com/{{ site.buymeacoffee_username }}" target="_blank">
-              <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;">
-            </a>
-          </div>
-        </div>
+        {% include livepix_donation.html %}
       </div>
 
       <!-- Newsletter Card -->
