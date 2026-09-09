@@ -4,6 +4,10 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -15,9 +19,9 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Beyond AI Code
+title: Data Architecture & AI Insights
 
-tagline: The future of AI, today.
+tagline: The future of AI & Data, today.
 
 description: "A deep exploration of how artificial intelligence is transforming our world, from technology to society."
 
@@ -197,6 +201,7 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
+  - _site
   - docs
   - tools
   - README.md
