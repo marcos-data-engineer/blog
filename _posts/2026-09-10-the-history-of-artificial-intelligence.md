@@ -1,9 +1,9 @@
 ﻿---
 layout: post
 title: "The History of Artificial Intelligence"
-date: 2025-11-18 12:00:00 +0000
+date: 2026-09-10 12:00:00 +0000
 categories: [Artificial Intelligence, History]
-tags: [artificial-intelligence, history, technology, AI, machine-learning]
+tags: [artificial-intelligence, history, technology, machine-learning]
 description: "A journey through the evolution of Artificial Intelligence — from Alan Turing's ideas to the age of generative AI."
 lang: en
 image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
@@ -110,8 +110,8 @@ Karel Čapek introduces the word “robot,” influencing all futuristic literat
 <div class="timeline-item"><strong>1943 – Formal Neuron Models</strong><br>
 McCulloch and Pitts publish the first functional model of an artificial neuron.</div>
 
-<div class="timeline-item"><strong>1950 – The Turing Test / Asimov</strong><br>
-Alan Turing proposes the Turing Test; Asimov publishes the Three Laws of Robotics.</div>
+<div class="timeline-item"><strong>1950 – Machine Intelligence and Robotics</strong><br>
+Alan Turing publishes his work on machine intelligence; Asimov publishes the Three Laws of Robotics.</div>
 
 <div class="timeline-item"><strong>1956 – Dartmouth Conference</strong><br>
 John McCarthy formalizes the term “Artificial Intelligence.”</div>
@@ -219,15 +219,6 @@ These laws anticipated real ethical debates about **machine autonomy** and **mor
 
 The true “birth” of AI as a formal research field occurred in the mid-20th century, driven by the rise of computers.
 
-* **The Turing Test:** In 1950, Alan Turing published “Computing Machinery and Intelligence,” where he proposed a test to determine whether a machine could exhibit behavior indistinguishable from a human. The Turing Test became a central concept in the field.
-
-<figure style="text-align: center;">
-  <a title="Holly Bellman, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Turing-test.gif"><img width="256" alt="Turing test" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Turing-test.gif?20131117100618"></a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Illustration of the Turing Test.
-  </figcaption>
-</figure>
-
 * **The Dartmouth Conference (1956):** This event is widely considered the birth of AI. Organized by John McCarthy, Marvin Minsky, and others, it brought together the leading thinkers of the time. McCarthy coined the term “Artificial Intelligence” during the workshop.
 
 <figure style="text-align: center;">
@@ -316,7 +307,7 @@ The second wave of resurgence came with a renewed focus on **Machine Learning**.
 * **Key Event:** The resurgence of **connectionism (neural networks)** in the late 1980s and the development of important algorithms like **backpropagation** laid the groundwork for the current era of **Deep Learning**. This quiet, mathematical work prepared the field for the explosion of data and compute power that arrived at the turn of the century.
 
 <figure style="text-align: center;">
-  <a title="Chrislb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="Artificial Neuron Model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ArtificialNeuronModel_english.png/512px-ArtificialNeuronModel_english.png/512px-ArtificialNeuronModel_english.png?20210920140233"></a>
+    <a title="Chrislb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="Artificial Neuron Model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ArtificialNeuronModel_english.png/512px-ArtificialNeuronModel_english.png?20210920140233"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Diagram of an artificial neuron.
   </figcaption>
@@ -330,7 +321,7 @@ In 1997, IBM’s **Deep Blue** defeated world chess champion **Garry Kasparov**.
 It was the first time a machine surpassed a human in a complex cognitive domain.
 
 <figure>
-  <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg/256px-Deep_Blue.jpg/20100215052624"></a>
+    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg/20100215052624"></a>
   <figcaption>IBM’s Deep Blue supercomputer (1997). © IBM – Public domain.</figcaption>
 </figure>
 
@@ -784,105 +775,27 @@ This revolution is driven mainly by sophisticated deep learning architectures:
     * **2022:** The public launch of **ChatGPT** (OpenAI) made the power of LLMs accessible to the masses, proving that complex AI could become a consumer utility.
     * **Impact:** LLMs are now used for coding, summarization, complex reasoning, and customer service, fundamentally changing knowledge work.
 
-## 🤖 Embedded Code: LLM Flowchart
+## 🤖 LLM Flow
 
-````text`
-   +-----------------+
-   |   Text Input    |
-   |   (Prompt)      |
-   +-------+---------+
-           |
-           v
-   +-------------------+
-   |  LLM / Transformer|
-   |    (The AI Brain) |
-   +-------+-----------+
-           |
-           v
-   +-----------------+
-   |   Text Output   |
-   |   (Response)    |
-   +-----------------+
-````
+```mermaid
+flowchart TD
+    A[Text input<br/>Prompt] --> B[LLM / Transformer<br/>The AI brain]
+    B --> C[Text output<br/>Response]
+```
 
 ### 2. Generative Visual Models (Text-to-Image)
 
 * **Core Technology:** Advanced models such as **Generative Adversarial Networks (GANs)** and, more recently, **Diffusion Models** (used by DALL-E, Midjourney, and Stable Diffusion). These models learn to map complex text commands to visual features, generating images from scratch.
 * **Impact:** They redefined digital art, graphic design, and content creation, moving the field from mere analysis to genuine creative production.
 
-<style>
-/* Styles for the Simple Generative Image Flowchart */
-.llm-flow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px auto;
-    max-width: 600px;
-    gap: 15px;
-    padding: 10px;
-}
+## 🖼️ Text-to-Image Flow
 
-.flow-step {
-    padding: 15px 25px;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.flow-input {
-    background-color: #6c757d; /* Gray for Input Text */
-    min-width: 100px;
-}
-
-.flow-processor {
-    background-color: #007bff; /* Primary Blue */
-    border: 3px solid #ffc107; /* Highlight with yellow/orange border for Diffusion/Creative process */
-    min-width: 150px;
-    padding: 20px 30px;
-}
-
-.flow-output {
-    background-color: #dc3545; /* Red/Maroon for Visual Output */
-    min-width: 100px;
-}
-
-.flow-arrow {
-    font-size: 2em;
-    color: #007bff;
-    line-height: 1;
-}
-
-@media (max-width: 500px) {
-    .llm-flow {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .flow-arrow {
-        transform: rotate(90deg);
-        margin: -5px 0;
-    }
-}
-</style>
-
-<div class="llm-flow">
-    <div class="flow-step flow-input">
-        Text Prompt (Input)
-    </div>
-
-    <div class="flow-arrow">→</div>
-
-    <div class="flow-step flow-processor">
-        Generative Model <br> (Diffusion / Transformer)
-    </div>
-
-    <div class="flow-arrow">→</div>
-
-    <div class="flow-step flow-output">
-        Image Output
-    </div>
-</div>
+```mermaid
+flowchart LR
+    A[Text prompt] --> B[Generative model]
+    B --> C[Image output]
+    B -.-> D[Diffusion or transformer]
+```
 
 ---
 
@@ -939,12 +852,9 @@ The rapid advance into the <b>Generative AI Age</b> is a powerful validation of 
     
 The theoretical foundations established by <b>Turing</b> and the computational advances enabled by <b>GPUs</b> converged to create systems that make old dreams of “thinking machines” come true.
     
-The next great horizon is <b>Artificial General Intelligence (AGI)</b>, the ultimate goal of building machines with human-like ability to learn, adapt, and apply knowledge across any task, preparing the ground for the next revolution. My next article will cover it in depth.
+The next great horizon is <b>Artificial General Intelligence (AGI)</b>, the goal of building machines with human-like ability to learn, adapt, and apply knowledge across many tasks. My next article will explore it in depth.
     
 The history of AI is a testament to human ambition: what looks like science fiction today often becomes the foundational technology of tomorrow.
-
-
-The **history of artificial intelligence** shows that every scientific advance brought us closer to machines capable of learning, creating, and collaborating with us. In the next article, I will explore AGI in depth.
 
 ---
 
