@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brain-left" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+    <linearGradient id="brain-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#11998e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="#0f172a"/>
+  <!-- Lado Esquerdo - IA / Circuitos -->
+  <path d="M230 120 C180 120 120 160 120 230 C120 270 140 300 160 330 C180 360 210 390 230 400" fill="none" stroke="url(#brain-left)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M230 170 C190 170 160 190 160 230 C160 260 180 290 200 320" fill="none" stroke="url(#brain-left)" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="120" cy="230" r="14" fill="#00d2ff"/>
+  <circle cx="160" cy="330" r="10" fill="#00d2ff"/>
+  <circle cx="200" cy="320" r="8" fill="#0072ff"/>
+  <line x1="160" y1="230" x2="230" y2="230" stroke="url(#brain-left)" stroke-width="10" stroke-linecap="round"/>
+  <line x1="120" y1="230" x2="80" y2="230" stroke="#00d2ff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="80" cy="230" r="8" fill="#00d2ff"/>
+
+  <!-- Lado Direito - IA / Redes -->
+  <path d="M282 120 C332 120 392 160 392 230 C392 270 372 300 352 330 C332 360 302 390 282 400" fill="none" stroke="url(#brain-right)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M282 170 C322 170 352 190 352 230 C352 260 332 290 312 320" fill="none" stroke="url(#brain-right)" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="392" cy="230" r="14" fill="#38ef7d"/>
+  <circle cx="352" cy="330" r="10" fill="#38ef7d"/>
+  <circle cx="312" cy="320" r="8" fill="#11998e"/>
+  <line x1="352" y1="230" x2="282" y2="230" stroke="url(#brain-right)" stroke-width="10" stroke-linecap="round"/>
+  <line x1="392" y1="230" x2="432" y2="230" stroke="#38ef7d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="432" cy="230" r="8" fill="#38ef7d"/>
+</svg>
