@@ -155,7 +155,7 @@ Long before the first computers, the idea of creating artificial beings capable 
 <figure>
 <div style="text-align: center;">
 <a href="https://www.flickr.com/photos/4lkna/52066315805" title="Talos (1963)">
-<img src="{{ '/assets/img/posts/history-of-ai/talos.jpg' | relative_url }}" width="371" height="500" alt="Talos (1963)"/>
+<img src="{{ '/assets/img/posts/history-of-ai/talos.jpg' | relative_url | remove_first: site.baseurl }}" width="371" height="500" alt="Talos (1963)"/>
 </a>
 </div>
 <figcaption>
@@ -168,7 +168,7 @@ Long before the first computers, the idea of creating artificial beings capable 
 
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Rechenmaschine_von_Leibniz_(Nachbau)_07.jpg">
-<img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="{{ '/assets/img/posts/history-of-ai/leibniz.jpg' | relative_url }}">
+<img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="{{ '/assets/img/posts/history-of-ai/leibniz.jpg' | relative_url | remove_first: site.baseurl }}">
 </a>
 <figcaption>
 Leibniz’s calculating machine — CC BY-SA 4.0, via Wikimedia Commons.
@@ -188,7 +188,7 @@ But it was mathematician **Alan Turing**, in 1950, who turned that dream into sc
 In the paper *Computing Machinery and Intelligence*, Turing proposed the famous **Turing Test**, an experiment to determine whether a machine could exhibit intelligent behavior indistinguishable from a human.
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">
-<img src="{{ '/assets/img/posts/history-of-ai/turing.jpg' | relative_url }}" width="300" alt="Alan Turing as a youth">
+<img src="{{ '/assets/img/posts/history-of-ai/turing.jpg' | relative_url | remove_first: site.baseurl }}" width="300" alt="Alan Turing as a youth">
 </a>
 <figcaption>Alan Turing — Public domain via Wikimedia Commons.</figcaption>
 </figure>
@@ -207,12 +207,10 @@ In his collection **“I, Robot”**, Asimov introduced the **Three Laws of Robo
 
 These laws anticipated real ethical debates about **machine autonomy** and **moral responsibility**, discussions that continue today with autonomous systems and generative AI.
 
-<figure>
-    ![Isaac Asimov]({{ '/assets/img/posts/history-of-ai/asimov.jpg' | relative_url }})
-  <figcaption>
-    Isaac Asimov (around 1959). Author of “I, Robot”. Public domain via Wikimedia Commons.
-  </figcaption>
-</figure>
+![Isaac Asimov]({{ '/assets/img/posts/history-of-ai/asimov.jpg' | relative_url | remove_first: site.baseurl }})
+
+_Isaac Asimov (around 1959). Author of “I, Robot”. Public domain via Wikimedia Commons._
+
 ---
 
 ## 🧠 The Golden Age of AI (1950s – 1970s)
@@ -221,12 +219,10 @@ The true “birth” of AI as a formal research field occurred in the mid-20th c
 
 * **The Dartmouth Conference (1956):** This event is widely considered the birth of AI. Organized by John McCarthy, Marvin Minsky, and others, it brought together the leading thinkers of the time. McCarthy coined the term “Artificial Intelligence” during the workshop.
 
-<figure style="text-align: center;">
-    ![John McCarthy]({{ '/assets/img/posts/history-of-ai/mccarthy.jpg' | relative_url }})
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Portrait of Professor John McCarthy (1927-2011) at Stanford University in 2006. Known as one of the “fathers of AI,” he was the main organizer of the 1956 Dartmouth Conference, where the field of Artificial Intelligence was formally established.
-  </figcaption>
-</figure>
+![John McCarthy]({{ '/assets/img/posts/history-of-ai/mccarthy.jpg' | relative_url | remove_first: site.baseurl }})
+
+_Portrait of Professor John McCarthy (1927-2011) at Stanford University in 2006. Known as one of the “fathers of AI,” he was the main organizer of the 1956 Dartmouth Conference, where the field of Artificial Intelligence was formally established._
+
 
 > “<i>The Dartmouth Conference of 1956 is widely considered the seminal event of artificial intelligence as a field of study.</i>”
 <cite style="display: block; text-align: right; font-size: 0.9em; color: #666;">
@@ -247,7 +243,7 @@ During this period, pioneering programs demonstrated the potential of AI. The **
 Years later, in **1966**, Joseph Weizenbaum developed **ELIZA**, one of the first chatbots. Although it did not truly understand conversation, ELIZA simulated the dialogue of a psychotherapist, using a rule-based system and keyword recognition to create the illusion of human understanding.
 
 <figure style="text-align: center;">
-    <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="A conversation with the ELIZA chatbot." src="{{ '/assets/img/posts/history-of-ai/eliza.jpg' | relative_url }}"></a>
+    <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="A conversation with the ELIZA chatbot." src="{{ '/assets/img/posts/history-of-ai/eliza.jpg' | relative_url | remove_first: site.baseurl }}"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     An example of a conversation with ELIZA, one of the first programs to simulate a therapeutic conversation and impress audiences in the 1960s.
   </figcaption>
@@ -261,7 +257,7 @@ Years later, in **1966**, Joseph Weizenbaum developed **ELIZA**, one of the firs
   <a title="John Ferguson, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:FEMA_-_1009_-_Photograph_by_John_Ferguson_taken_on_01-25-1998_in_New_York.jpg">
     <img width="512" 
          alt="FEMA - 1009 - Photograph by John Ferguson taken on 01-25-1998 in New York" 
-         src="{{ '/assets/img/posts/history-of-ai/ai-winter.jpg' | relative_url }}">
+         src="{{ '/assets/img/posts/history-of-ai/ai-winter.jpg' | relative_url | remove_first: site.baseurl }}">
   </a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Artificial Intelligence experienced funding freezes and a loss of global interest.  
@@ -279,18 +275,10 @@ The main funding cut occurred in **1973**, after the release of the **Lighthill 
 
 ### 🧩 The Rebirth of Expert Systems (1980s)
 
-<figure style="text-align: center;">
-  <a title="Christophe Roche, CC BY-SA 4.0 — via Wikimedia Commons" 
-     href="https://commons.wikimedia.org/wiki/File:MP-LRO_Expert_System.jpg">
-    <img width="512" 
-         alt="Visual representation of an Expert System" 
-         src="{{ '/assets/img/posts/history-of-ai/expert-system.jpg' | relative_url }}">
-  </a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Visual representation of an Expert System — technology that marked AI’s comeback in the 1980s, before the second AI Winter.  
-    <br>Christophe Roche — CC BY-SA 4.0, via Wikimedia Commons.
-  </figcaption>
-</figure>
+![Expert System]({{ '/assets/img/posts/history-of-ai/expert-system.jpg' | relative_url | remove_first: site.baseurl }})
+
+_Visual representation of an Expert System — technology that marked AI’s comeback in the 1980s, before the second AI Winter. Credit: Christophe Roche, CC BY-SA 4.0._
+
 
 Despite the crisis, research continued in more practical applications. The **silent resurgence** was driven by the commercialization of **Expert Systems**.
 
@@ -306,12 +294,10 @@ The second wave of resurgence came with a renewed focus on **Machine Learning**.
 
 * **Key Event:** The resurgence of **connectionism (neural networks)** in the late 1980s and the development of important algorithms like **backpropagation** laid the groundwork for the current era of **Deep Learning**. This quiet, mathematical work prepared the field for the explosion of data and compute power that arrived at the turn of the century.
 
-<figure style="text-align: center;">
-    <a title="Chrislb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="Artificial Neuron Model" src="{{ '/assets/img/posts/history-of-ai/artificial-neuron.jpg' | relative_url }}"></a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Diagram of an artificial neuron.
-  </figcaption>
-</figure>
+![Artificial Neuron]({{ '/assets/img/posts/history-of-ai/artificial-neuron.jpg' | relative_url | remove_first: site.baseurl }})
+
+_Diagram of an artificial neuron._
+
 
 ---
 
@@ -320,10 +306,10 @@ The second wave of resurgence came with a renewed focus on **Machine Learning**.
 In 1997, IBM’s **Deep Blue** defeated world chess champion **Garry Kasparov**.  
 It was the first time a machine surpassed a human in a complex cognitive domain.
 
-<figure>
-    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="{{ '/assets/img/posts/history-of-ai/deep-blue.jpg' | relative_url }}"></a>
-  <figcaption>IBM’s Deep Blue supercomputer (1997). © IBM – Public domain.</figcaption>
-</figure>
+![Deep Blue]({{ '/assets/img/posts/history-of-ai/deep-blue.jpg' | relative_url | remove_first: site.baseurl }})
+
+_IBM's Deep Blue supercomputer (1997). Credit: IBM — Public domain._
+
 
 ---
 
@@ -337,10 +323,10 @@ This technology opened the door to applications in:
 - **Finance** (risk analysis and automation);
 - **Enterprise support** (cognitive chatbots).
 
-<figure>
-    <a title="Clockready, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="{{ '/assets/img/posts/history-of-ai/ibm-watson.jpg' | relative_url }}"></a>
-  <figcaption>IBM Watson logo (2017). © IBM Corporation — used with credit.</figcaption>
-</figure>
+![IBM Watson]({{ '/assets/img/posts/history-of-ai/ibm-watson.jpg' | relative_url | remove_first: site.baseurl }})
+
+_IBM Watson logo (2017). Credit: IBM Corporation._
+
 
 ---
 
@@ -401,8 +387,6 @@ The success of Deep Learning was a perfect storm, supported by the following adv
 }
 
 .data-bar-value {
-    position: absolute;
-    top: -18px;
     font-size: 0.7em;
     font-weight: bold;
     color: #333;
@@ -412,8 +396,6 @@ The success of Deep Learning was a perfect storm, supported by the following adv
 .bar-1995 { height: 10%; }
 .bar-2005 { height: 25%; }
 .bar-2015 { height: 60%; }
-.bar-2025 { height: 95%; }
-</style>
 
 <div class="big-data-chart">
     <div class="data-bar-container">
@@ -421,16 +403,10 @@ The success of Deep Learning was a perfect storm, supported by the following adv
             <span class="data-bar-value">~1 ZB</span>
         </div>
         <span class="data-bar-label">1995</span>
-    </div>
-
     <div class="data-bar-container">
         <div class="data-bar bar-2005">
-            <span class="data-bar-value">~130 ZB</span>
-        </div>
         <span class="data-bar-label">2005</span>
     </div>
-
-    <div class="data-bar-container">
         <div class="data-bar bar-2015">
             <span class="data-bar-value">~4000 ZB</span>
         </div>
@@ -438,8 +414,6 @@ The success of Deep Learning was a perfect storm, supported by the following adv
     </div>
 
     <div class="data-bar-container">
-        <div class="data-bar bar-2025">
-            <span class="data-bar-value">~18000 ZB</span>
         </div>
         <span class="data-bar-label">Today (Estimated)</span>
     </div>
@@ -452,23 +426,14 @@ The success of Deep Learning was a perfect storm, supported by the following adv
 * **Impact:** Training models that once took months on traditional CPUs changed to days or hours on GPU clusters, making fast experimentation and iteration feasible.
 
 <style>
-/* Styles for the CPU vs GPU comparison */
-.cpu-gpu-compare {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    margin: 30px auto;
     max-width: 700px;
     gap: 20px;
-    flex-wrap: wrap; /* Allows blocks to wrap on small screens */
-}
 
 .processor-card {
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
-    text-align: center;
     flex: 1; /* Allows cards to grow and shrink */
     min-width: 280px; /* Minimum width for each card */
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
@@ -751,18 +716,10 @@ The convergence of the three pillars led to results that redefined what AI could
 
 **The Present and Future of Artificial Intelligence (2020s – Today)**
 
-<figure style="text-align: center;">
-  <a title="U.S. Air Force, Public domain, via Wikimedia Commons" 
-     href="https://commons.wikimedia.org/wiki/File:Department_of_the_Air_Force_launches_NIPRGPT_(240607-F-AF000-1002).jpg">
-    <img width="512" 
-         alt="Department of the Air Force launches NIPRGPT (240607-F-AF000-1002)" 
-         src="{{ '/assets/img/posts/history-of-ai/nipr-gpt.jpg' | relative_url }}">
-  </a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
-    Demonstration of NIPR GPT, a generative model used by the U.S. Air Force — a clear example of how generative AI has entered real, high-responsibility operations.  
-    <br>U.S. Air Force — Public domain, via Wikimedia Commons.
-  </figcaption>
-</figure>
+![NIPR GPT]({{ '/assets/img/posts/history-of-ai/nipr-gpt.jpg' | relative_url | remove_first: site.baseurl }})
+
+_Demonstration of NIPR GPT. Credit: U.S. Air Force — Public domain._
+
 
 AI’s journey, which spans centuries of ambition, has culminated in its most transformative phase so far: **Generative AI**. Unlike earlier systems designed only to analyze, classify, or predict, generative models can create original, high-quality content across many media types.
 
