@@ -6,7 +6,7 @@ categories: [Artificial Intelligence, History]
 tags: [artificial-intelligence, history, technology, machine-learning]
 description: "A journey through the evolution of Artificial Intelligence — from Alan Turing's ideas to the age of generative AI."
 lang: en
-image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Is_artificial_intelligence_our_future.jpg"
+image: "/assets/img/posts/history-of-ai/cover.jpg"
 published: true
 ---
 
@@ -155,7 +155,7 @@ Long before the first computers, the idea of creating artificial beings capable 
 <figure>
 <div style="text-align: center;">
 <a href="https://www.flickr.com/photos/4lkna/52066315805" title="Talos (1963)">
-<img src="https://live.staticflickr.com/65535/52066315805_34fd274688.jpg" width="371" height="500" alt="Talos (1963)"/>
+<img src="{{ '/assets/img/posts/history-of-ai/talos.jpg' | relative_url }}" width="371" height="500" alt="Talos (1963)"/>
 </a>
 </div>
 <figcaption>
@@ -168,7 +168,7 @@ Long before the first computers, the idea of creating artificial beings capable 
 
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Rechenmaschine_von_Leibniz_(Nachbau)_07.jpg">
-<img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg/512px-Rechenmaschine_von_Leibniz_%28Nachbau%29_07.jpg">
+<img width="512" alt="Rechenmaschine von Leibniz (Nachbau) 07" src="{{ '/assets/img/posts/history-of-ai/leibniz.jpg' | relative_url }}">
 </a>
 <figcaption>
 Leibniz’s calculating machine — CC BY-SA 4.0, via Wikimedia Commons.
@@ -188,7 +188,7 @@ But it was mathematician **Alan Turing**, in 1950, who turned that dream into sc
 In the paper *Computing Machinery and Intelligence*, Turing proposed the famous **Turing Test**, an experiment to determine whether a machine could exhibit intelligent behavior indistinguishable from a human.
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" width="300" alt="Alan Turing as a youth">
+<img src="{{ '/assets/img/posts/history-of-ai/turing.jpg' | relative_url }}" width="300" alt="Alan Turing as a youth">
 </a>
 <figcaption>Alan Turing — Public domain via Wikimedia Commons.</figcaption>
 </figure>
@@ -208,7 +208,7 @@ In his collection **“I, Robot”**, Asimov introduced the **Three Laws of Robo
 These laws anticipated real ethical debates about **machine autonomy** and **moral responsibility**, discussions that continue today with autonomous systems and generative AI.
 
 <figure>
-    ![Isaac Asimov](https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov_1956.jpg)
+    ![Isaac Asimov]({{ '/assets/img/posts/history-of-ai/asimov.jpg' | relative_url }})
   <figcaption>
     Isaac Asimov (around 1959). Author of “I, Robot”. Public domain via Wikimedia Commons.
   </figcaption>
@@ -222,7 +222,7 @@ The true “birth” of AI as a formal research field occurred in the mid-20th c
 * **The Dartmouth Conference (1956):** This event is widely considered the birth of AI. Organized by John McCarthy, Marvin Minsky, and others, it brought together the leading thinkers of the time. McCarthy coined the term “Artificial Intelligence” during the workshop.
 
 <figure style="text-align: center;">
-    ![John McCarthy](https://upload.wikimedia.org/wikipedia/commons/4/49/John_McCarthy_stanford.jpg)
+    ![John McCarthy]({{ '/assets/img/posts/history-of-ai/mccarthy.jpg' | relative_url }})
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Portrait of Professor John McCarthy (1927-2011) at Stanford University in 2006. Known as one of the “fathers of AI,” he was the main organizer of the 1956 Dartmouth Conference, where the field of Artificial Intelligence was formally established.
   </figcaption>
@@ -247,7 +247,7 @@ During this period, pioneering programs demonstrated the potential of AI. The **
 Years later, in **1966**, Joseph Weizenbaum developed **ELIZA**, one of the first chatbots. Although it did not truly understand conversation, ELIZA simulated the dialogue of a psychotherapist, using a rule-based system and keyword recognition to create the illusion of human understanding.
 
 <figure style="text-align: center;">
-  <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="A conversation with the ELIZA chatbot." src="https://upload.wikimedia.org/wikipedia/commons/4/4e/ELIZA_conversation.jpg?20180705093747"></a>
+    <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="A conversation with the ELIZA chatbot." src="{{ '/assets/img/posts/history-of-ai/eliza.jpg' | relative_url }}"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     An example of a conversation with ELIZA, one of the first programs to simulate a therapeutic conversation and impress audiences in the 1960s.
   </figcaption>
@@ -261,7 +261,7 @@ Years later, in **1966**, Joseph Weizenbaum developed **ELIZA**, one of the firs
   <a title="John Ferguson, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:FEMA_-_1009_-_Photograph_by_John_Ferguson_taken_on_01-25-1998_in_New_York.jpg">
     <img width="512" 
          alt="FEMA - 1009 - Photograph by John Ferguson taken on 01-25-1998 in New York" 
-         src="https://upload.wikimedia.org/wikipedia/commons/4/45/FEMA_-_1009_-_Photograph_by_John_Ferguson_taken_on_01-25-1998_in_New_York.jpg">
+         src="{{ '/assets/img/posts/history-of-ai/ai-winter.jpg' | relative_url }}">
   </a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Artificial Intelligence experienced funding freezes and a loss of global interest.  
@@ -284,7 +284,7 @@ The main funding cut occurred in **1973**, after the release of the **Lighthill 
      href="https://commons.wikimedia.org/wiki/File:MP-LRO_Expert_System.jpg">
     <img width="512" 
          alt="Visual representation of an Expert System" 
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/MP-LRO_Expert_System.jpg/512px-MP-LRO_Expert_System.jpg">
+         src="{{ '/assets/img/posts/history-of-ai/expert-system.jpg' | relative_url }}">
   </a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Visual representation of an Expert System — technology that marked AI’s comeback in the 1980s, before the second AI Winter.  
@@ -307,7 +307,7 @@ The second wave of resurgence came with a renewed focus on **Machine Learning**.
 * **Key Event:** The resurgence of **connectionism (neural networks)** in the late 1980s and the development of important algorithms like **backpropagation** laid the groundwork for the current era of **Deep Learning**. This quiet, mathematical work prepared the field for the explosion of data and compute power that arrived at the turn of the century.
 
 <figure style="text-align: center;">
-    <a title="Chrislb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="Artificial Neuron Model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ArtificialNeuronModel_english.png/512px-ArtificialNeuronModel_english.png?20210920140233"></a>
+    <a title="Chrislb, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english.png"><img width="512" alt="Artificial Neuron Model" src="{{ '/assets/img/posts/history-of-ai/artificial-neuron.jpg' | relative_url }}"></a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Diagram of an artificial neuron.
   </figcaption>
@@ -321,7 +321,7 @@ In 1997, IBM’s **Deep Blue** defeated world chess champion **Garry Kasparov**.
 It was the first time a machine surpassed a human in a complex cognitive domain.
 
 <figure>
-    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg"></a>
+    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="{{ '/assets/img/posts/history-of-ai/deep-blue.jpg' | relative_url }}"></a>
   <figcaption>IBM’s Deep Blue supercomputer (1997). © IBM – Public domain.</figcaption>
 </figure>
 
@@ -338,7 +338,7 @@ This technology opened the door to applications in:
 - **Enterprise support** (cognitive chatbots).
 
 <figure>
-    <a title="Clockready, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/IBM_Watson.PNG/512px-IBM_Watson.PNG"></a>
+    <a title="Clockready, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="{{ '/assets/img/posts/history-of-ai/ibm-watson.jpg' | relative_url }}"></a>
   <figcaption>IBM Watson logo (2017). © IBM Corporation — used with credit.</figcaption>
 </figure>
 
@@ -756,7 +756,7 @@ The convergence of the three pillars led to results that redefined what AI could
      href="https://commons.wikimedia.org/wiki/File:Department_of_the_Air_Force_launches_NIPRGPT_(240607-F-AF000-1002).jpg">
     <img width="512" 
          alt="Department of the Air Force launches NIPRGPT (240607-F-AF000-1002)" 
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Department_of_the_Air_Force_launches_NIPRGPT_%28240607-F-AF000-1002%29.jpg/512px-Department_of_the_Air_Force_launches_NIPRGPT_%28240607-F-AF000-1002%29.jpg">
+         src="{{ '/assets/img/posts/history-of-ai/nipr-gpt.jpg' | relative_url }}">
   </a>
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Demonstration of NIPR GPT, a generative model used by the U.S. Air Force — a clear example of how generative AI has entered real, high-responsibility operations.  
