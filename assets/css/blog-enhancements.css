@@ -36,6 +36,79 @@
   margin-left: 0.75rem;
 }
 
+/* Harmonização do Dark Mode no conteúdo dos posts */
+body,
+#main-wrapper,
+#post-wrapper,
+main,
+article,
+.post,
+.post-content,
+#sidebar,
+.sidebar {
+  background-color: #1b1b1e !important;
+  color: #e4e4e7 !important;
+}
+
+/* Legibilidade das tabelas Markdown/Kramdown */
+.content table,
+article table {
+  background-color: #27272a !important;
+  color: #f4f4f5 !important;
+  border-collapse: collapse !important;
+  border: 1px solid #3f3f46 !important;
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+}
+
+.content table th,
+article table th {
+  background-color: #18181b !important;
+  color: #00d2ff !important;
+  border: 1px solid #3f3f46 !important;
+  padding: 10px 14px !important;
+  font-weight: 700 !important;
+}
+
+.content table td,
+article table td {
+  color: #e4e4e7 !important;
+  border: 1px solid #3f3f46 !important;
+  padding: 10px 14px !important;
+}
+
+.content table tr:nth-child(even) {
+  background-color: #202023 !important;
+}
+
+/* Ajuste de cards e containers customizados do post */
+.post-content div,
+.content div {
+  color: #ffffff;
+}
+
+/* Caixas de suporte e formulários */
+div:has(a[href*="livepix"]),
+.support-box,
+.subscribe-box {
+  background-color: #27272a !important;
+  border: 1px solid #3f3f46 !important;
+  border-radius: 8px !important;
+  padding: 1.5rem !important;
+  color: #ffffff !important;
+}
+
+div:has(a[href*="livepix"]) *,
+.support-box *,
+.subscribe-box * {
+  color: #ffffff !important;
+}
+
+div:has(a[href*="livepix"]) p,
+.support-box p {
+  color: #a1a1aa !important;
+}
+
 /* Padronização Global de Imagens nos Posts */
 #post-wrapper .content img,
 main .content img {
