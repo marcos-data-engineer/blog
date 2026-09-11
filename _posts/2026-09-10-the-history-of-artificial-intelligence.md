@@ -208,7 +208,7 @@ In his collection **“I, Robot”**, Asimov introduced the **Three Laws of Robo
 These laws anticipated real ethical debates about **machine autonomy** and **moral responsibility**, discussions that continue today with autonomous systems and generative AI.
 
 <figure>
-  <a title="Phillip Leonian [1] from New York World-Telegram & Sun.[2], Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg"><img width="256" alt="Isaac Asimov" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/256px-Isaac.Asimov01.jpg?20160101235125"></a>
+    ![Isaac Asimov](https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov_1956.jpg)
   <figcaption>
     Isaac Asimov (around 1959). Author of “I, Robot”. Public domain via Wikimedia Commons.
   </figcaption>
@@ -222,7 +222,7 @@ The true “birth” of AI as a formal research field occurred in the mid-20th c
 * **The Dartmouth Conference (1956):** This event is widely considered the birth of AI. Organized by John McCarthy, Marvin Minsky, and others, it brought together the leading thinkers of the time. McCarthy coined the term “Artificial Intelligence” during the workshop.
 
 <figure style="text-align: center;">
-  <a title="null0 from Singapore, Singapore, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:John_McCarthy_(computer_scientist)_Stanford_2006_(272020300).jpg"><img width="512" alt="John McCarthy (computer scientist) Stanford 2006 (272020300)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/John_McCarthy_%28computer_scientist%29_Stanford_2006_%28272020300%29.jpg/512px-John_McCarthy_%28computer_scientist%29_Stanford_2006_%28272020300%29.jpg?20180127021759"></a>
+    ![John McCarthy](https://upload.wikimedia.org/wikipedia/commons/4/49/John_McCarthy_stanford.jpg)
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
     Portrait of Professor John McCarthy (1927-2011) at Stanford University in 2006. Known as one of the “fathers of AI,” he was the main organizer of the 1956 Dartmouth Conference, where the field of Artificial Intelligence was formally established.
   </figcaption>
@@ -321,7 +321,7 @@ In 1997, IBM’s **Deep Blue** defeated world chess champion **Garry Kasparov**.
 It was the first time a machine surpassed a human in a complex cognitive domain.
 
 <figure>
-    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg/20100215052624"></a>
+    <a title="James the photographer, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img width="256" alt="Deep Blue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Deep_Blue.jpg/256px-Deep_Blue.jpg"></a>
   <figcaption>IBM’s Deep Blue supercomputer (1997). © IBM – Public domain.</figcaption>
 </figure>
 
@@ -338,7 +338,7 @@ This technology opened the door to applications in:
 - **Enterprise support** (cognitive chatbots).
 
 <figure>
-  <a title="Clockready, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/IBM_Watson.PNG/512px-IBM_Watson.PNG/20110724205849"></a>
+    <a title="Clockready, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IBM_Watson.PNG"><img width="512" alt="IBM Watson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/IBM_Watson.PNG/512px-IBM_Watson.PNG"></a>
   <figcaption>IBM Watson logo (2017). © IBM Corporation — used with credit.</figcaption>
 </figure>
 
