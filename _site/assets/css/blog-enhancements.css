@@ -35,3 +35,28 @@
 .post-reading-time {
   margin-left: 0.75rem;
 }
+
+/* Padronização Global de Imagens nos Posts */
+#post-wrapper .content img,
+main .content img {
+  max-height: 420px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  display: block !important;
+  margin: 1.8rem auto !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+  object-fit: contain !important;
+}
+
+/* Ajuste de Legendas de Imagens (Captions) */
+#post-wrapper .content em,
+main .content figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--text-muted-color, #a3a3a3);
+  margin-top: -0.8rem;
+  margin-bottom: 1.8rem;
+}
