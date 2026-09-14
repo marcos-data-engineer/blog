@@ -38,7 +38,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Beyond AI Code
+  name: Data Architecture & AI Insights
   email: contact@dataengineer.net.br
   links:
     # The first element serves as the copyright owner's link
@@ -46,6 +46,9 @@ social:
     - https://linkedin.com/in/marcos-data-engineer
   # Uncomment below to add more social links
   # - https://www.facebook.com/username
+
+twitter:
+  username: dataaiinsights
 
 # Site Verification Settings
 webmaster_verifications:
