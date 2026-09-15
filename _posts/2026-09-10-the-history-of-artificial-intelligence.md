@@ -41,10 +41,14 @@ figure {
   text-align: center;
 }
 
-figure img {
-  border-radius: 12px;
-  max-width: 100%;
+figure img,
+img {
+  display: block;
+  width: 100%;
+  max-width: 680px;
   height: auto;
+  margin: 1.5rem auto;
+  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 

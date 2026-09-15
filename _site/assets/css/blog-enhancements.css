@@ -136,3 +136,33 @@ main .content figcaption {
   margin-top: -0.8rem;
   margin-bottom: 1.8rem;
 }
+
+/* Responsividade geral do footer e do conteúdo para mobile */
+.site-footer .container {
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .site-footer .container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .site-footer .container p {
+    width: 100%;
+    margin-bottom: 0.35rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-footer {
+    font-size: 0.8rem;
+  }
+
+  .site-footer .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}

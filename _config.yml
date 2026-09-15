@@ -208,6 +208,7 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
+  - assets/robots*
 keep_files:
   - ads.txt
 
