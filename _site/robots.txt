@@ -1,3 +1,5 @@
 User-agent: *
-Allow: /
+
+Disallow: /norobots/
+
 Sitemap: https://marcos-data-engineer.github.io/blog/sitemap.xml
