@@ -6,7 +6,10 @@ categories: [Artificial Intelligence, History]
 tags: [artificial-intelligence, history, technology, machine-learning]
 description: "A journey through the evolution of Artificial Intelligence — from Alan Turing's ideas to the age of generative AI."
 lang: en
-image: "/assets/img/posts/history-of-ai/cover.jpg"
+author: Marcos Vasconcellos
+image:
+  path: /assets/img/posts/history-of-ai/cover.jpg
+  alt: "The History of Artificial Intelligence"
 published: true
 ---
 
