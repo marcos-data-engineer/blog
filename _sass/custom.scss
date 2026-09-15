@@ -1,0 +1,49 @@
+/* Clarear Navegação da Sidebar Esquerda */
+#sidebar,
+#sidebar .site-title a,
+#sidebar .site-subtitle,
+#sidebar .nav-link {
+  color: #f4f4f5 !important;
+}
+
+#sidebar .site-subtitle {
+  color: #a1a1aa !important;
+}
+
+/* Destaque para link ativo e hover */
+#sidebar .nav-item.active .nav-link,
+#sidebar .nav-link:hover {
+  color: #00d2ff !important;
+}
+
+/* Ícones da Sidebar (Home, Categories, GitHub, Email, RSS) */
+#sidebar i,
+#sidebar svg,
+#sidebar .sidebar-bottom a {
+  color: #d4d4d8 !important;
+  opacity: 1 !important;
+}
+
+#sidebar .sidebar-bottom a:hover i,
+#sidebar .sidebar-bottom a:hover svg {
+  color: #38ef7d !important;
+}
+
+/* Clarear Sidebar Direita (TOC / Sumário do Artigo) */
+#toc-wrapper,
+#toc-wrapper .toc-link,
+.panel-heading {
+  color: #d4d4d8 !important;
+}
+
+.toc-link.is-active-link {
+  color: #00d2ff !important;
+  font-weight: 600 !important;
+}
+
+/* Rodapé e Copyright */
+footer,
+footer a,
+footer .site-footer {
+  color: #a1a1aa !important;
+}

@@ -38,8 +38,8 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Beyond AI Code
-  email: contact@dataengineer.net.br
+  name: Data Architecture & AI Insights
+  email: contact.marcos.dataengineer@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/marcos-data-engineer
@@ -208,11 +208,7 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
-  - "assets/**/robots.txt"
-
-# Manter arquivo robots.txt customizado da raiz
 keep_files:
-  - robots.txt
   - ads.txt
 
 jekyll-archives:
