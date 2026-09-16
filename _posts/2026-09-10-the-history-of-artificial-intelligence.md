@@ -834,4 +834,4 @@ The history of AI is a testament to human ambition: what looks like science fict
 
 ---
 
-*Originally revised and adapted by Marcos Vasconcellos de Andrade — Beyond AI Code project.*
+*Originally revised and adapted by Marcos Vasconcellos de Andrade — Data Architecture & AI Insights.*

@@ -47,3 +47,26 @@ footer a,
 footer .site-footer {
   color: #a1a1aa !important;
 }
+
+#tail-wrapper,
+#comments,
+.comments,
+.utterances,
+#post-extend-wrapper,
+div[class*="comments"] {
+  background-color: #1b1b1e !important;
+  color: #e4e4e7 !important;
+}
+
+#post-wrapper .content img,
+main .content img {
+  max-height: 280px !important;
+  max-width: 85% !important;
+  width: auto !important;
+  display: block !important;
+  margin: 1.5rem auto !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+  object-fit: contain !important;
+}
