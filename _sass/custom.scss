@@ -48,25 +48,44 @@ footer .site-footer {
   color: #a1a1aa !important;
 }
 
+/* Moldura Unificada de Imagens nos Posts */
+#post-wrapper .content img,
+main .content img {
+  width: 100% !important;
+  max-width: 580px !important;
+  height: 340px !important;
+  object-fit: contain !important;
+  background-color: #121215 !important;
+  display: block !important;
+  margin: 1.8rem auto !important;
+  padding: 8px !important;
+  border-radius: 10px !important;
+  border: 1px solid #3f3f46 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Card de Inscrição por E-mail */
+.subscribe-box,
+div:has(input[type="email"]),
+.post-content form {
+  background-color: #27272a !important;
+  border: 1px solid #3f3f46 !important;
+  color: #ffffff !important;
+}
+
+input[type="email"] {
+  background-color: #18181b !important;
+  color: #ffffff !important;
+  border: 1px solid #52525b !important;
+}
+
+/* Área Geral de Comentários e Rodapé Externo */
+html,
+body,
 #tail-wrapper,
 #comments,
 .comments,
-.utterances,
-#post-extend-wrapper,
-div[class*="comments"] {
+#post-extend-wrapper {
   background-color: #1b1b1e !important;
   color: #e4e4e7 !important;
-}
-
-#post-wrapper .content img,
-main .content img {
-  max-height: 280px !important;
-  max-width: 85% !important;
-  width: auto !important;
-  display: block !important;
-  margin: 1.5rem auto !important;
-  border-radius: 8px !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
-  object-fit: contain !important;
 }
