@@ -198,3 +198,78 @@ main .content .highlight {
   max-width: 100% !important;
   overflow-x: auto !important;
 }
+
+/* LivePix e cards de inscrição em uma coluna no mobile */
+@media (max-width: 768px) {
+  .livepix-container,
+  .donation-wrapper,
+  .livepix-donation,
+  div[class*="subscribe"],
+  .post-tail-wrapper > .row {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+  }
+
+  .livepix-donation {
+    flex: 0 0 100% !important;
+  }
+}
+
+/* Contraste para cards e diagramas com fundo claro */
+#post-wrapper .content .card.bg-light,
+#post-wrapper .content .nn-card,
+#post-wrapper .content .processor-card,
+#post-wrapper .content div[class*="diagram"],
+#post-wrapper .content [style*="background: #fff"],
+#post-wrapper .content [style*="background: #ffffff"],
+#post-wrapper .content [style*="background-color: #fff"],
+#post-wrapper .content [style*="background-color: #ffffff"],
+#post-wrapper .content [style*="background-color: #f8f9fa"] {
+  color: #0f172a !important;
+}
+
+#post-wrapper .content .card.bg-light > *,
+#post-wrapper .content .nn-card > *,
+#post-wrapper .content .processor-card > *,
+#post-wrapper .content div[class*="diagram"] > *,
+#post-wrapper .content [style*="background: #fff"] > *,
+#post-wrapper .content [style*="background: #ffffff"] > *,
+#post-wrapper .content [style*="background-color: #fff"] > *,
+#post-wrapper .content [style*="background-color: #ffffff"] > *,
+#post-wrapper .content [style*="background-color: #f8f9fa"] > * {
+  color: #0f172a !important;
+}
+
+/* Cabeçalho da área de comentários */
+#comments,
+.comments-title,
+#utterances-comments-head,
+.utterances-container h3,
+.utterances-container p {
+  color: #f8fafc !important;
+  opacity: 1 !important;
+}
+
+/* Títulos mais compactos em smartphones */
+@media (max-width: 576px) {
+  h1.post-title,
+  .post-title,
+  #post-wrapper article > header h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.25 !important;
+  }
+
+  #post-wrapper article h2,
+  #post-wrapper article .content h2,
+  h2 {
+    font-size: 1.25rem !important;
+  }
+
+  #post-wrapper article h3,
+  #post-wrapper article .content h3,
+  h3 {
+    font-size: 1.1rem !important;
+  }
+}
