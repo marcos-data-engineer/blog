@@ -7,6 +7,12 @@ html:not([data-mode]) {
   --search-wrapper-bg: #ffffff;
 }
 
+/* Integra a barra superior ao fundo off-white */
+#topbar-wrapper,
+#topbar {
+  background-color: var(--main-bg) !important;
+}
+
 /* Estilo Limpo e Padronizado de Imagens - Tema Claro */
 #post-wrapper .content img,
 main .content img {
