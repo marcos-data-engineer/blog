@@ -89,3 +89,112 @@ body,
   background-color: #1b1b1e !important;
   color: #e4e4e7 !important;
 }
+
+/* Contraste de texto em cards e diagramas com fundo claro */
+#post-wrapper .content .nn-card,
+#post-wrapper .content .processor-card,
+#post-wrapper .content .card.bg-light,
+#post-wrapper .content [style*="background-color: #fff"],
+#post-wrapper .content [style*="background-color: #ffffff"],
+#post-wrapper .content [style*="background-color: #f8f9fa"] {
+  color: #1e293b !important;
+}
+
+#post-wrapper .content .nn-card h3,
+#post-wrapper .content .nn-card .description-text,
+#post-wrapper .content .nn-card p,
+#post-wrapper .content .nn-card b,
+#post-wrapper .content .nn-card .core-label,
+#post-wrapper .content .processor-card h3,
+#post-wrapper .content .processor-card .description-text,
+#post-wrapper .content .processor-card .core-label,
+#post-wrapper .content .card.bg-light h1,
+#post-wrapper .content .card.bg-light h2,
+#post-wrapper .content .card.bg-light h3,
+#post-wrapper .content .card.bg-light p,
+#post-wrapper .content .card.bg-light label,
+#post-wrapper .content [style*="background-color: #fff"] :not(.nn-layer),
+#post-wrapper .content [style*="background-color: #ffffff"] :not(.nn-layer),
+#post-wrapper .content [style*="background-color: #f8f9fa"] :not(.nn-layer) {
+  color: #1e293b !important;
+}
+
+/* Layouts de comparação empilhados em telas estreitas */
+@media (max-width: 768px) {
+  #main-wrapper,
+  #post-wrapper,
+  #post-wrapper article,
+  #post-wrapper article .content {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  #post-wrapper .content h1,
+  #post-wrapper .content h2,
+  #post-wrapper .content h3,
+  #post-wrapper > article > header h1 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .cpu-gpu-compare,
+  .nn-compare-container {
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: stretch !important;
+  }
+
+  .processor-card,
+  .nn-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  #post-wrapper .content table,
+  #post-wrapper .content pre,
+  #post-wrapper .content .highlight,
+  main .content table,
+  main .content pre,
+  main .content .highlight {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+}
+
+/* Tipografia compacta para smartphones */
+@media (max-width: 576px) {
+  #post-wrapper article h1,
+  #post-wrapper article .content h1 {
+    font-size: clamp(1.35rem, 6vw, 1.75rem) !important;
+  }
+
+  #post-wrapper article h2,
+  #post-wrapper article .content h2 {
+    font-size: clamp(1.15rem, 5vw, 1.4rem) !important;
+  }
+
+  #post-wrapper article h3,
+  #post-wrapper article .content h3 {
+    font-size: clamp(1rem, 4.5vw, 1.2rem) !important;
+  }
+
+  #post-wrapper article h1,
+  #post-wrapper article h2,
+  #post-wrapper article h3 {
+    line-height: 1.2 !important;
+    letter-spacing: 0 !important;
+  }
+}
+
+/* Evita que tabelas e blocos de código alarguem a viewport */
+#post-wrapper .content table,
+main .content table,
+#post-wrapper .content pre,
+main .content pre,
+#post-wrapper .content .highlight,
+main .content .highlight {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
