@@ -1,3 +1,12 @@
+/* Fundo Off-White Suave no Tema Claro */
+html[data-mode="light"],
+html:not([data-mode]) {
+  --main-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --sidebar-bg: #f1f5f9;
+  --search-wrapper-bg: #ffffff;
+}
+
 /* Estilo Limpo e Padronizado de Imagens - Tema Claro */
 #post-wrapper .content img,
 main .content img {
@@ -7,5 +16,5 @@ main .content img {
   display: block !important;
   margin: 1.8rem auto !important;
   border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
 }
