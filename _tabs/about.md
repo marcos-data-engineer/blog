@@ -1,34 +1,36 @@
 ---
 layout: page
-title: About
+title: Sobre
 icon: fas fa-info-circle
 order: 4
 ---
 
-## About Data Architecture & AI Insights
+## Sobre Arquitetura de Dados & IA
 
-**Data Architecture & AI Insights** is a technical publication dedicated to Data Engineering, MLOps, Linux Infrastructure, and Generative AI Systems. The primary goal is to provide practical architectural patterns, infrastructure deep dives, and automation strategies bridging low-level systems administration with modern AI workloads.
+**Arquitetura de Dados & IA** é uma publicação técnica sobre engenharia de dados, MLOps, infraestrutura Linux e sistemas de inteligência artificial generativa. O objetivo é compartilhar padrões de arquitetura aplicáveis, análises aprofundadas de infraestrutura e estratégias de automação que aproximem a administração de sistemas das aplicações modernas de IA.
 
-Key topics covered on this blog include:
-* **Data Engineering & MLOps:** Production-grade data pipelines, orchestration (Apache Airflow, Spark), and scalable AI infrastructure.
-* **Autonomous AI Agents:** Design and implementation of cost-effective, agentic workflows leveraging lightweight LLM APIs and cloud-native automation.
-* **Linux & Systems Infrastructure:** Enterprise Linux administration, kernel updates, containerization, and DevOps practices.
+Os principais temas do blog incluem:
 
----
-
-## About the Author
-
-The mind behind **Data Architecture & AI Insights** is **Marcos Vasconcellos de Andrade**, a Data Architect and Systems Engineer with over 20 years of experience across IT infrastructure, software development, and data platforms.
-
-### Technical Track Record
-* **Data Architecture & AI (Postgraduate, 2024):** Specialization completed at XP Educação covering Data Architecture, Apache Spark, Apache Airflow, Python, SQL, Generative AI, and AI Agents.
-* **Internet Systems Technology (B.S., 2020):** Degree earned at the Federal Institute of Brasília (IFB), focusing on software development, web frameworks, Java, Node.js, and relational databases.
-* **Linux Systems Administration (1990s–2015):** Over 15 years of hands-on experience managing Enterprise Linux distributions (Debian, CentOS, Ubuntu), network architecture, and server infrastructure.
+* **Engenharia de dados e MLOps:** pipelines de dados prontos para produção, orquestração com Apache Airflow e Spark, e infraestrutura escalável para IA.
+* **Agentes autônomos de IA:** projeto e implementação de fluxos agênticos eficientes, com APIs de LLM e automação nativa da nuvem.
+* **Linux e infraestrutura de sistemas:** administração de distribuições Linux corporativas, atualizações de kernel, conteinerização e práticas de DevOps.
 
 ---
 
-## Connect & Collaborate
+## Sobre o autor
 
-* **LinkedIn:** [Marcos Vasconcellos](https://www.linkedin.com/)
+**Marcos Vasconcellos de Andrade** é arquiteto de dados e engenheiro de sistemas, com mais de 20 anos de experiência em infraestrutura de TI, desenvolvimento de software e plataformas de dados.
+
+### Formação e experiência
+
+* **Arquitetura de Dados e IA (pós-graduação, 2024):** especialização pela XP Educação, com estudos de arquitetura de dados, Apache Spark, Apache Airflow, Python, SQL, IA generativa e agentes de IA.
+* **Tecnologia em Sistemas para Internet (2020):** graduação pelo Instituto Federal de Brasília (IFB), com foco em desenvolvimento de software, frameworks web, Java, Node.js e bancos de dados relacionais.
+* **Administração de sistemas Linux (1990–2015):** mais de 15 anos de experiência prática com distribuições Linux (Debian, CentOS e Ubuntu), arquitetura de redes e infraestrutura de servidores.
+
+---
+
+## Contato e colaboração
+
+* **LinkedIn:** [Marcos Vasconcellos](https://www.linkedin.com/in/marcos-data-engineer/)
 * **GitHub:** [marcos-data-engineer](https://github.com/marcos-data-engineer)
-* **X (Twitter):** [@dataaiinsights](https://x.com/dataaiinsights)
+* **X:** [@dataaiinsights](https://x.com/dataaiinsights)

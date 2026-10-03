@@ -2,9 +2,9 @@
 html[data-mode="light"],
 html:not([data-mode]) {
   --main-bg: #f8f9fa;
-  --card-bg: #ffffff;
+  --card-bg: #fff;
   --sidebar-bg: #f1f5f9;
-  --search-wrapper-bg: #ffffff;
+  --search-wrapper-bg: #fff;
 }
 
 /* Integra a barra superior ao fundo off-white */
@@ -14,13 +14,13 @@ html:not([data-mode]) {
 }
 
 /* Estilo Limpo e Padronizado de Imagens - Tema Claro */
-#post-wrapper .content img,
-main .content img {
+main .content img,
+#post-wrapper .content img {
   max-width: 90% !important;
   height: auto !important;
   max-height: 420px !important;
   display: block !important;
   margin: 1.8rem auto !important;
   border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 6%) !important;
 }

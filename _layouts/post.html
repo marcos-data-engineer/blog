@@ -39,7 +39,7 @@ script_includes:
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
-        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Imagem de capa do artigo" }}"{% endcapture %}
 
         {% if page.image.lqip %}
           {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
@@ -96,7 +96,7 @@ script_includes:
             class="post-reading-time"
             data-reading-time
             aria-live="polite"
-          >Reading time: calculating...</span>
+          >Calculando o tempo de leitura...</span>
         </div>
       </div>
     </div>
@@ -140,18 +140,18 @@ script_includes:
       <div class="col-md-6">
         <div class="card h-100 border-0 bg-light">
           <div class="card-body p-4">
-            <h3 class="card-title h4 mb-3 text-center">Subscribe for new AI articles</h3>
+            <h3 class="card-title h4 mb-3 text-center">Receba novos artigos sobre IA</h3>
             <form action="https://webdeveloper.us5.list-manage.com/subscribe/post?u=e50ec429973d9732dacb3df2d&amp;id=688487e1bd&amp;v_id=3446&amp;f_id=000dbaedf0"
                   method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
               <div class="mb-3">
-                <label for="mce-EMAIL" class="form-label small">Email Address</label>
+                <label for="mce-EMAIL" class="form-label small">Endereço de e-mail</label>
                 <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="your@email.com" required>
               </div>
               <div aria-hidden="true" style="position: absolute; left: -5000px;">
                 <input type="text" name="b_e50ec429973d9732dacb3df2d_688487e1bd" tabindex="-1" value="">
               </div>
               <div class="d-grid">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" value="Subscribe">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" value="Inscrever-se">
               </div>
             </form>
           </div>

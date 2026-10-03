@@ -11,7 +11,7 @@ plugins:
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: pt-BR
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/Sao_Paulo
@@ -19,11 +19,11 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Data Architecture & AI Insights
+title: Arquitetura de Dados & IA
 
-tagline: The future of AI & Data, today.
+tagline: O futuro da IA e dos dados, hoje.
 
-description: "A deep exploration of how artificial intelligence is transforming our world, from technology to society."
+description: "Análises sobre como a inteligência artificial transforma a tecnologia, os negócios e a sociedade."
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,7 +38,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Data Architecture & AI Insights
+  name: Arquitetura de Dados & IA
   email: contact.marcos.dataengineer@gmail.com
   links:
     # The first element serves as the copyright owner's link

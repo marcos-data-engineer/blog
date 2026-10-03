@@ -20,13 +20,13 @@
       var button = document.createElement('button');
       button.type = 'button';
       button.className = 'copy-code-button';
-      button.textContent = 'Copy';
+      button.textContent = 'Copiar';
       button.addEventListener('click', function () {
         var onSuccess = function () {
-          button.textContent = 'Copied!';
+          button.textContent = 'Copiado!';
           button.classList.add('is-copied');
           window.setTimeout(function () {
-            button.textContent = 'Copy';
+            button.textContent = 'Copiar';
             button.classList.remove('is-copied');
           }, 1800);
         };
@@ -56,8 +56,8 @@
 
     var words = content.textContent.trim().split(/\s+/).filter(Boolean).length;
     var minutes = Math.max(1, Math.ceil(words / WORDS_PER_MINUTE));
-    target.textContent = minutes + ' min read';
-    target.setAttribute('aria-label', 'Estimated reading time: ' + minutes + ' minutes');
+    target.textContent = minutes + ' min de leitura';
+    target.setAttribute('aria-label', 'Tempo estimado de leitura: ' + minutes + ' minutos');
   }
 
   function buildTableOfContents() {

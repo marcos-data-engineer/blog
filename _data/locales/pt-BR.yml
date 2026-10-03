@@ -1,0 +1,22 @@
+pt-BR:
+  tabs:
+    home: início
+    about: sobre
+    categories: categorias
+    tags: tags
+    archives: arquivo
+  common:
+    switch_mode: alternar modo
+    toggle_theme: alternar tema
+  panel:
+    toc: índice
+  post:
+    posted: publicado em
+    updated: atualizado em
+    written_by: por
+    pageview_measure: visualizações
+  copyright:
+    license:
+      template: ""
+      link: ""
+      name: ""

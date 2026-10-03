@@ -1,70 +1,49 @@
 ---
 layout: page
-title: "Privacy Policy"
-description: "Privacy Policy of the AI & Tech Blog - How we collect and use your data"
+title: "Política de Privacidade"
+description: "Saiba quais dados podem ser coletados durante o uso do blog e como são utilizados."
 permalink: /privacy-policy/
 sitemap: true
 ---
 
-# Privacy Policy
+# Política de Privacidade
 
-**Last updated: {{ site.time | date: "%d %B %Y" }}**
+**Última atualização: {{ site.time | date: "%d/%m/%Y" }}**
 
-## Information We Collect
+Esta página descreve os serviços de terceiros configurados no site e os dados que eles podem processar. A disponibilidade de cookies e tecnologias semelhantes pode depender das configurações desses serviços e do seu navegador.
+
+## Serviços e dados
 
 ### Google Analytics
-This site uses Google Analytics to analyze site usage. Google Analytics collects information such as:
-- Pages visited
-- Time spent on the site
-- Approximate geographic location
-- Device and browser used
+
+O site está configurado para usar o Google Analytics para gerar estatísticas de acesso. Conforme a configuração do serviço, podem ser tratados dados como páginas acessadas, duração da visita, localização aproximada, dispositivo e navegador.
 
 ### Google AdSense
-This site may display ads provided by Google AdSense. Google may use cookies to show ads based on your previous visits to this site and other sites.
 
-### Cookies
-We use cookies to:
-- Improve the user experience
-- Analyze site traffic
-- Personalize content and ads
+O site pode exibir anúncios do Google AdSense. O Google pode usar cookies ou tecnologias semelhantes para personalizar anúncios com base na atividade de navegação, de acordo com as configurações da sua conta e do serviço.
 
-## How We Use Information
+### Cookies e tecnologias semelhantes
 
-The information collected is used to:
-- Improve content and site experience
-- Analyze usage patterns
-- Display relevant ads
+Essas tecnologias podem ser usadas para medir audiência, viabilizar funcionalidades e personalizar anúncios. Você pode gerenciar cookies nas configurações do navegador e as preferências de anúncios na sua conta Google.
 
-## Information Sharing
+## Finalidades e compartilhamento
 
-We do not sell, trade, or transfer your personal information to third parties, except:
-- When required by law
-- To protect our rights
-- With trusted service providers (Google Analytics, AdSense)
+As informações tratadas pelos serviços podem ser usadas para compreender o uso do site, aprimorar o conteúdo e apresentar anúncios. Dados também podem ser processados pelos respectivos provedores e divulgados quando exigido por lei.
 
-## Your Rights
+## Suas opções
 
-You have the right to:
-- Disable cookies in your browser
-- Opt out of personalized ads
-- Request deletion of personal data
+- Gerencie ou desative cookies nas configurações do navegador.
+- Ajuste a personalização de anúncios em [Configurações de anúncios do Google](https://adssettings.google.com/).
+- Consulte as opções de recusa da [Network Advertising Initiative](https://www.networkadvertising.org/choices/).
 
-## Ad Controls
+## Contato
 
-To manage Google personalized ads:
-- Visit [Google Ads Settings](https://adssettings.google.com/)
-- Use the [NAI opt-out tool](http://www.networkadvertising.org/choices/)
+Em caso de dúvidas sobre esta política, entre em contato pelo e-mail [contact.marcos.dataengineer@gmail.com](mailto:contact.marcos.dataengineer@gmail.com) ou pelo [LinkedIn de Marcos Vasconcellos](https://www.linkedin.com/in/marcos-data-engineer/).
 
-## Contact
+## Atualizações
 
-For questions about this privacy policy:
-- Email: contact@dataengineer.net.br
-- LinkedIn: [Marcos Data Engineer](https://www.linkedin.com/in/marcos-data-engineer/)
-
-## Changes
-
-This policy may be updated periodically. Significant changes will be communicated via the website.
+Esta política pode ser atualizada para refletir mudanças no site ou nos serviços utilizados. A data no início da página indica a revisão mais recente.
 
 ---
 
-*This policy complies with LGPD (Brazilian General Data Protection Law) and GDPR.*
+Esta descrição não substitui uma avaliação jurídica. As operações de tratamento devem ser revisadas para assegurar conformidade com a legislação aplicável, incluindo a LGPD.
