@@ -1,525 +1,509 @@
-# 📊 ESCOPO PRESENTACIÓN - Video 1: Introducción
+# 📊 ESCOPO DA APRESENTAÇÃO - Vídeo 1: Introdução
 ## Formato: Google Slides / PowerPoint
 
-**Software Recomendado:** Google Slides (grátis, en la nube, fácil)  
-**Duración total:** 5 minutos  
-**Resolución:** 1920x1080 (16:9)
+**Software recomendado:** Google Slides (disponível gratuitamente na nuvem e fácil de usar)
+**Duração total:** 5 minutos
+**Resolução:** 1920x1080 (16:9)
 
 ---
 
-## 🎨 DISEÑO GENERAL
+## 🎨 DESIGN GERAL
 
-### **Colores Corporativos Propuestos**
+### **Cores corporativas propostas**
 ```
-Primario:    #1E40AF (Azul profesional)
-Secundario:  #F59E0B (Naranja energético)
-Fondo:       #FFFFFF (Blanco limpio) o #F9FAFB (Gris muy suave)
-Texto:       #1F2937 (Gris oscuro)
-Acentos:     #10B981 (Verde éxito)
+Primária:    #1E40AF (Azul profissional)
+Secundária:  #F59E0B (Laranja energético)
+Fundo:       #FFFFFF (Branco limpo) ou #F9FAFB (Cinza muito suave)
+Texto:       #1F2937 (Cinza escuro)
+Acentos:     #10B981 (Verde sucesso)
 ```
 
-### **Tipografía**
+### **Tipografia**
 ```
 Títulos:      Montserrat Bold, 44pt
 Subtítulos:   Poppins SemiBold, 28pt
-Cuerpo:       Inter Regular, 20pt
-Monospace:    Roboto Mono, 18pt (para código/tecnicismos)
+Corpo:        Inter Regular, 20pt
+Monoespaço:   Roboto Mono, 18pt (para código/técnicos)
 ```
 
-### **Efectos de Transición (entre slides)**
+### **Efeitos de transição (entre slides)**
 ```
 Tipo: Fade (suave)
-Duración: 0.5 segundos
-Todas las transiciones iguales (consistencia)
+Duração: 0.5 segundos
+Todas as transições iguais (consistência)
 ```
 
 ---
 
-## 📑 DESGLOSE SLIDE POR SLIDE
+## 📑 DESCRIÇÃO SLIDE A SLIDE
 
-### **SLIDE 1: PORTADA/INTRO (0:00-0:10)**
+### **SLIDE 1: CAPA/INTRODUÇÃO (0:00-0:10)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Layout:      Título centrado, fondo degradado
-Fondo:       Gradiente azul (#1E40AF) a azul claro (#3B82F6)
-             O imagen-fondo suave (blog+código abstracto)
-             
-Título:      "¿Blog Visual, Rápido y Gratis?"
-             Fuente: Montserrat Bold, 56pt
-             Color: BLANCO
-             Posición: Centro-alto
-             
+Layout:      Título central, fundo degradê
+Fundo:       Gradiente azul (#1E40AF) para azul claro (#3B82F6)
+             Ou imagem de fundo suave (blog + código abstrato)
+
+Título:      "Blog Visual, Rápido e Grátis?"
+             Fonte: Montserrat Bold, 56pt
+             Cor: BRANCO
+             Pos.: Centro-alto
+
 Emoji:       💻 🚀 📝
-             Grandes (48pt), distribuidos abajo
-             
-Música:      Comienza (suave, -6dB)
+             Grandes (48pt), distribuídos abaixo
+
+Música:      Começa (suave, -6dB)
 ```
 
 #### Timing:
 ```
-Aparicial: Inmediata
-Duración: 10 segundos
-Narración: (SILENCIO - solo música)
+Aparição: Imediata
+Duração: 10 segundos
+Narração: (SILÊNCIO - só música)
 ```
 
 #### Notas para OBS:
 ```
-- Captura completa del slide
-- OBS en resolución 1920x1080
-- Sin mouse visible
+- Captura completa do slide
+- OBS em resolução 1920x1080
+- Sem mouse visível
 ```
 
 ---
 
 ### **SLIDE 2: GANCHO (0:10-0:45)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Layout:      Dos columnas
-             Izquierda: Texto grande
-             Derecha: Imagen
+Layout:      Duas colunas
+             Esquerda: Texto grande
+             Direita: Imagem
 
-Izquierda:
+Esquerda:
 ┌─────────────────────────────────┐
-│  ¿Cansado de pagar             │
+│  Cansado de pagar             │
 │   por hosting?                  │
 │                                 │
-│  ¿No quieres complicarte       │
-│   con WordPress?                │
+│  Não quer se complicar       │
+│   com WordPress?                │
 │                                 │
-│  ✓ TENEMOS BUENAS NOTICIAS     │
+│  ✓ TEMOS BOAS NOTÍCIAS     │
 │                                 │
-│  Puedes crear un blog           │
-│  PROFESIONAL                    │
-│  GRATIS                         │
+│  Você pode criar um blog           │
+│  PROFISSIONAL                    │
+│  GRÁTIS                         │
 └─────────────────────────────────┘
 
 Estilos:
 - Título: Montserrat Bold, 40pt, #1E40AF
-- "TENEMOS..." Poppins Bold, 24pt, #F59E0B (naranja)
-- Body: Inter, 22pt, #374151
+- "TENEMOS..." Poppins Bold, 24pt, #F59E0B (laranja)
+- Corpo: Inter, 22pt, #374151
 
-Derecha:
-[IMAGEN 1: Screenshot de tu blog funcionando]
-- Proporciones: 400x300px
-- Borde: 2px #10B981 (green)
+Direita:
+[IMAGEM 1: Screenshot do seu blog funcionando]
+- Proporções: 400x300px
+- Borda: 2px #10B981 (verde)
 - Sombra suave
 ```
 
 #### Timing:
 ```
-Aparición: Fade in desde slide 1
-Duración: 35 segundos
-Narración: Lee todo el contenido (sin prisa)
-          "¡Hola! ¿Cansado de pagar por hosting?..." [leer completo]
+Aparição: Fade in do slide 1
+Duração: 35 segundos
+Narração: Lê todo o conteúdo (sem pressa)
+          "Olá! Cansado de pagar por hospedagem?..." [ler completo]
 ```
 
-#### Notas Técnicas:
+#### Notas técnicas:
 ```
-- Imagen puede ser screenshot real de tu blog
-- O puedes hacerla más "fancy" con Canva
-- Los checkmarks ✓ añaden dinamismo
+- A imagem pode ser uma captura de tela real do seu blog
+- Ou você pode criar uma composição visual no Canva
+- Os checkmarks ✓ dão dinamismo
 ```
 
 ---
 
-### **SLIDE 3: PROMESA - PUNTO 1 (0:45-1:15)**
+### **SLIDE 3: PROMESSA - PONTO 1 (0:45-1:15)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Layout:      Número grande + Icono + Texto
+Layout:      Número grande + Ícone + Texto
 
          ╔════════════════════════════════════╗
          ║           1                        ║  (número grande)
-         ║      Instalar todo lo necesario   ║
+         ║      Instalar tudo o que é necessário   ║
          ║                                    ║
          ║  Ruby • Git • Jekyll               ║
-         ║  Paso a paso. Sin complicaciones. ║
+         ║  Passo a passo. Sem complicações. ║
          ╚════════════════════════════════════╝
 
 Estilos:
-- "1": Montserrat Bold, 140pt, #1E40AF, opacidad 0.1 (fondo)
+- "1": Montserrat Bold, 140pt, #1E40AF, opacidade 0.1 (fundo)
 - Título: Montserrat Bold, 40pt, #1F2937
-- Items (Ruby...): Inter, 24pt, #374151
-- Descripción: Inter Italic, 20pt, #6B7280 (gris)
+- Itens (Ruby...): Inter, 24pt, #374151
+- Descrição: Inter Italic, 20pt, #6B7280 (cinza)
 
-Fondo:
-- Blanco o gris muy suave
-- Borde izquierdo: 6px #F59E0B
+Fundo:
+- Branco ou cinza bem suave
+- Borda esquerda: 6px #F59E0B
 ```
 
 #### Timing:
 ```
-Aparición: Slide animado - número aparece primero,
-           luego contenido
-Duración: 30 segundos
-Narración: "Primero: Instalar todo lo necesario en Windows..."
+Aparição: Slide animado — número aparece primeiro,
+           depois o conteúdo
+Duração: 30 segundos
+Narração: "Primeiro: instalar tudo o que é necessário no Windows..."
 ```
 
 #### Notas:
 ```
-- Usa NÚMEROS grandes (1, 2, 3, 4) para estructura
-- Cada punto es su propio slide = mejor pacing
+- Use NÚMEROS grandes (1, 2, 3, 4) para estruturar
+- Cada ponto aparece em um slide próprio para facilitar o acompanhamento
 ```
 
 ---
 
-### **SLIDE 4: PROMESA - PUNTO 2 (1:15-1:40)**
+### **SLIDE 4: PROMESSA - PONTO 2 (1:15-1:40)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
          ╔════════════════════════════════════╗
          ║           2                        ║
-         ║      Crear tu primer blog         ║
+         ║      Criar seu primeiro blog       ║
          ║                                    ║
-         ║  Con tus propios artículos        ║
-         ║  Estructura profesional           ║
-         ║  Diseño limpio                    ║
+         ║  Com seus próprios artigos        ║
+         ║  Estrutura profissional           ║
+         ║  Design limpo                     ║
          ╚════════════════════════════════════╝
 
 Estilos:
-- "2": Montserrat Bold, 140pt, #10B981, opacidad 0.1
-- Resto igual a Slide 3
+- "2": Montserrat Bold, 140pt, #10B981, opacidade 0.1
+- Resto igual ao Slide 3
 
-Fondo:
-- Borde izquierdo: 6px #10B981 (verde)
+Fundo:
+- Borda esquerda: 6px #10B981 (verde)
 ```
 
 #### Timing:
 ```
-Aparición: Fade (continuo)
-Duración: 25 segundos
-Narración: "Segundo: Crear tu primer blog..."
+Aparição: Fade (contínuo)
+Duração: 25 segundos
+Narração: "Segundo: criar seu primeiro blog..."
 ```
 
 ---
 
-### **SLIDE 5: PROMESA - PUNTO 3 (1:40-2:05)**
+### **SLIDE 5: PROMESSA - PONTO 3 (1:40-2:05)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
          ╔════════════════════════════════════╗
          ║           3                        ║
-         ║      Publicar en GitHub Pages     ║
+         ║      Publicar no GitHub Pages     ║
          ║                                    ║
-         ║  Tu dominio gratis                ║
-         ║  Online en minutos                ║
-         ║  Control total                    ║
+         ║  Seu domínio grátis               ║
+         ║  Online em minutos                ║
+         ║  Controle total                   ║
          ╚════════════════════════════════════╝
 
 Estilos:
-- "3": Montserrat Bold, 140pt, #3B82F6, opacidad 0.1
+- "3": Montserrat Bold, 140pt, #3B82F6, opacidade 0.1
 
-Fondo:
-- Borde izquierdo: 6px #3B82F6
+Fundo:
+- Borda esquerda: 6px #3B82F6
 ```
 
 #### Timing:
 ```
-Duración: 25 segundos
-Narración: "Tercero: Publicar online en GitHub Pages..."
+Duração: 25 segundos
+Narração: "Terceiro: publicar no GitHub Pages..."
 ```
 
 ---
 
-### **SLIDE 6: PROMESA - PUNTO 4 (2:05-2:30)**
+### **SLIDE 6: PROMESSA - PONTO 4 (2:05-2:30)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
          ╔════════════════════════════════════╗
          ║           4                        ║
-         ║      El siguiente paso             ║
+         ║      O próximo passo              ║
          ║                                    ║
-         ║  Monetizar tu blog                ║
-         ║  Hacer crecer tu audiencia        ║
-         ║  Nuevas oportunidades             ║
+         ║  Monetizar seu blog               ║
+         ║  Fazer crescer sua audiência     ║
+         ║  Novas oportunidades              ║
          ╚════════════════════════════════════╝
 
 Estilos:
-- "4": Montserrat Bold, 140pt, #EC4899, opacidad 0.1 (rosa)
+- "4": Montserrat Bold, 140pt, #EC4899, opacidade 0.1 (rosa)
 
-Fondo:
-- Borde izquierdo: 6px #EC4899
+Fundo:
+- Borda esquerda: 6px #EC4899
 ```
 
 #### Timing:
 ```
-Duración: 25 segundos
-Narración: "Y cuarto: El siguiente paso..."
+Duração: 25 segundos
+Narração: "E quarto: o próximo passo..."
 ```
 
 ---
 
-### **SLIDE 7: GRAN PROMESA (2:30-3:10)**
+### **SLIDE 7: GRANDE PROMESSA (2:30-3:10)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Fondo:       Gradiente #10B981 a #059669 (verde)
+Fundo:       Gradiente #10B981 a #059669 (verde)
 
-Texto Centro:
+Texto central:
 ┌──────────────────────────────────┐
-│  "CUANDO TERMINES ESTE CURSO"     │
+│  "AO CONCLUIR ESTE CURSO"        │
 │                                   │
-│  Tendrás un blog                 │
-│  𝐏𝐑𝐎𝐅𝐄𝐒𝐈𝐎𝐍𝐀𝐋                │
+│  Você terá um blog               │
+│  𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐈𝐎𝐍𝐀𝐋                │
 │                                   │
-│  ✓ Control total                 │
-│  ✓ Dominio gratis                │
-│  ✓ Hosting gratis                │
-│  ✓ NADA DE PAGAR                 │
+│  ✓ Controle total                │
+│  ✓ Endereço gratuito no GitHub Pages │
+│  ✓ Hospedagem sem custo no GitHub Pages │
 │                                   │
-│  No una página de Wix.           │
-│  No un blog de WordPress.        │
+│  Com estrutura própria, sem depender de um construtor visual. │
 │                                   │
-│  Un blog REAL.                   │
-│  Que TEMES que funcione.          │
+│  Um blog REAL.                  │
+│  Que você sabe que funciona.   │
 └──────────────────────────────────┘
 
 Estilos:
-- Todo BLANCO para contrastar con fondo verde
+- Tudo em BRANCO para contrastar com o fundo verde
 - Título: Montserrat Bold, 32pt
-- "PROFESIONAL": Letras grandes, 48pt, negrita
+- "PROFISSIONAL": letras grandes, 48pt, negrito
 - Checkmarks: 🟢 (emoji verde)
-- Body: Inter, 22pt
+- Corpo: Inter, 22pt
 ```
 
 #### Timing:
 ```
-Aparición: Slide completo aparece con Fade
-Duración: 40 segundos
-Narración: Lee todo el contenido (lentamente, con énfasis)
+Aparição: Slide completo aparece em fade
+Duração: 40 segundos
+Narração: Lê todo o conteúdo (lentamente, com ênfase)
 ```
 
 #### Notas:
 ```
-- Este es el SLIDE más importante (venta!)
-- Usa contraste de colores para destacar
-- Emojis verdes refuerzan "éxito"
+- Este é o SLIDE mais importante (venda!)
+- Usa contraste de cores para destacar
+- Emojis verdes reforçam "sucesso"
 ```
 
 ---
 
-### **SLIDE 8: COMPARATIVA (3:10-3:50)**
+### **SLIDE 8: COMPARATIVO (3:10-3:50)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Título:     "¿Por qué Jekyll y no WordPress?"
+Título:     "Por que Jekyll e não WordPress?"
              Montserrat Bold, 36pt, #1F2937
 
-Tabla Comparativa (lado a lado):
+Tabela comparativa (lado a lado):
 
 ┌─────────────────────┬─────────────────────┐
 │   💰 WORDPRESS      │    ✨ JEKYLL       │
 ├─────────────────────┼─────────────────────┤
-│ $50-200 al año      │ $0 Gratis           │
-│ 🐢 Lento (~3s load) │ ⚡ Velocidad (~0.5s)│
-│ 🔓 Vulnerable       │ 🔒 Seguro           │
-│ 📦 Pesado/Complejo  │ ✏️ Minimalista      │
-│ 📚 Muchos plugins   │ 📝 Solo tu código   │
-│ 🤯 Abrumador        │ 🎯 Simp e limpio    │
+│ $50-200 por ano     │ $0 Grátis           │
+│ 🐢 Lento (~3s)      │ ⚡ Velocidade (~0.5s)│
+│ 🔓 Vulnerável       │ 🔒 Seguro           │
+│ 📦 Pesado/Complexo │ ✏️ Minimalista      │
+│ 📚 Muitos plugins   │ 📝 Só o seu código  │
+│ 🤯 Acessório?      │ 🎯 Simples e limpo │
 └─────────────────────┴─────────────────────┘
 
-Colores:
-WordPress (izquierda):  Fondo #FEE2E2 (rojo suave)
-Jekyll (derecha):       Fondo #DCFCE7 (verde suave)
+Cores:
+WordPress (esquerda):  Fundo #FEE2E2 (vermelho suave)
+Jekyll (direita):       Fundo #DCFCE7 (verde suave)
 
-Emojis:  Tamaño 28pt
+Emojis:  tamanho 28pt
 
-Fondo general: Blanco
+Fundo geral: Branco
 ```
 
 #### Timing:
 ```
-Aparición: Tabla aparece completa O fila por fila
-Duración: 40 segundos
-Narración: Lee comparativa lentamente
-           "Mira, WordPress es muy popular..."
+Aparição: Tabela aparece completa ou linha por linha
+Duração: 40 segundos
+Narração: Lê a comparação lentamente
+           "Veja, WordPress é muito popular..."
 ```
 
 #### Notas:
 ```
-- Visual impact MÁXIMO aquí
-- Usa colores para mostrar "bueno vs malo"
-- Emojis hacen más escaneable
+- Visual impactante MÁXIMO aqui
+- Usa cores para mostrar "bom vs ruim"
+- Emojis deixam mais escaneável
 ```
 
 ---
 
-### **SLIDE 9: PROOF - TU BLOG (3:50-4:10)**
+### **SLIDE 9: PROVA - SEU BLOG (3:50-4:10)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Texto Superior:
-"ESTO ES LO QUE LOGRAMOS CON JEKYLL"
+Texto superior:
+"UM BLOG PUBLICADO COM JEKYLL"
 Montserrat Bold, 32pt, #1E40AF
 
-Imagen Centro:
-[VÍDEO EN VIVO - Navegador mostrando blog.dataengineer.net.br]
-- Abre navegador (Chrome o Firefox)
-- Navega a: https://blog.dataengineer.net.br
-- Muestra homepage completa
-- Scroll lento mostrando artículos
-- Proporciones: Fullscreen o 1000x600px
-- Borde: 2px #10B981
-- Sombra proyectada
+Imagem central:
+[VÍDEO AO VIVO - Navegador mostrando marcos-data-engineer.github.io/blog]
+- Abra o navegador (Chrome ou Firefox)
+- Acesse: https://marcos-data-engineer.github.io/blog/
+- Mostre a página inicial completa
+- Role a página devagar para mostrar os artigos
+- Proporções: tela cheia ou 1000x600px
+- Borda: 2px #10B981
+- Sombra projetada
 
-Texto Superpuesto (sobre la navegación):
-"⚡ 95+ Lighthouse Score"
-"Tu blog en 2 horas"
-"blog.dataengineer.net.br"
+Texto sobreposto (sobre a navegação):
+"⚡ Site estático"
+"Publicação pelo GitHub Pages"
+"marcos-data-engineer.github.io/blog"
 
 Estilos:
 - Textos overlay: Inter Bold, 24pt
-- Borde de link: 3px #F59E0B (naranja, destaca)
-- Fondo semi-transparente negro (#000 con 60% opacidad)
+- Borda do link: 3px #F59E0B (laranja, destaque)
+- Fundo semi-transparente preto (#000 com 60% opacidade)
 ```
 
 #### Timing:
 ```
-Aparición: Imagen se carga/aparece con zoom suave
-Duración: 20 segundos
-Narración: Silencio - dejar que la imagen hable
-           (O di: "Y mira... esto es lo que lograrás")
+Aparição: Imagem carrega/aparece com zoom suave
+Duração: 20 segundos
+Narração: Silêncio — deixar a imagem falar
+           (ou diga: "E veja... isso é o que você vai conseguir")
 ```
 
 #### Notas:
 ```
-- Este slide es tu MEJOR argumento
-- Captura screenshot en alta res
-- Lighthouse score es CRUCIAL (prueba velocidad)
+- Este slide é a MELHOR argumentação
+- Capture a tela em alta resolução
+- Use as métricas do Lighthouse como referência; os resultados variam conforme a página e as condições do teste
 ```
 
 ---
 
 ### **SLIDE 10: REQUISITOS (4:10-4:30)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Título:     "Antes de empezar"
+Título:     "Antes de começar"
              Montserrat Bold, 36pt
 
-Requisitos (listado):
-✅ Windows 10 o superior
-✅ Conexión a Internet
-✅ ~30 minutos de tu tiempo
-✅ Voluntad de aprender
+Requisitos (lista):
+✅ Windows 10 ou superior
+✅ Conexão com a internet
+✅ ~30 minutos do seu tempo
+✅ Vontade de aprender
 
-Iconos: 32pt, verdes (#10B981)
+Ícones: 32pt, verdes (#10B981)
 Texto: Inter, 24pt
 
-Advertencia amable:
+Aviso amigável:
 ┌──────────────────────────────────────┐
 │ ⚠️  AVISO IMPORTANTE                 │
 │                                      │
-│ Esto es fácil, pero requiere         │
-│ atención en cada paso.               │
+│ Isso é fácil, mas exige            │
+│ atenção em cada etapa.             │
 │                                      │
-│ Afortunadamente, si te atascas,      │
-│ estoy aquí para ayudarte.            │
-│ Discord: [tu servidor]               │
+│ Felizmente, se você travar,         │
+│ estou aqui para te ajudar.         │
+│ Discord: [seu servidor]            │
 └──────────────────────────────────────┘
 
-Fondo aviso: Amarillo suave #FEF3C7
-Borde: 2px #F59E0B
+Fundo do aviso: amarelo suave #FEF3C7
+Borda: 2px #F59E0B
 ```
 
 #### Timing:
 ```
-Duración: 20 segundos
-Narración: "Vale, antes de empezar, hay algunas cosas..."
+Duração: 20 segundos
+Narração: "Tudo bem, antes de começar, há algumas coisas..."
 ```
 
 ---
 
-### **SLIDE 11: LLAM ADA A LA ACCIÓN (4:30-4:50)**
+### **SLIDE 11: CHAMADA À AÇÃO (4:30-4:50)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Fondo:      Gradiente sutil: blanco a gris claro
+Fundo:      Gradiente sutil: branco a cinza claro
 
-Centrado:
+Centralizado:
 ┌─────────────────────────────────────┐
-│  "¿ESTÁS LISTO?"                    │
+│  "ESTÁ PRONTO?"                    │
 │  Montserrat Bold, 44pt              │
 │                                     │
-│  En el siguiente video:             │
-│  Instalamos Ruby + Git + Jekyll     │
+│  No próximo vídeo:                 │
+│  Instalaremos Ruby + Git + Jekyll   │
 │                                     │
 │  👉 VER MÓDULO 1                    │
-│     (botón visual o texto grande)   │
-│     Inter Bold, 28pt, #1E40AF       │
-│     Subrayado o borde para look     │
-│     de "clickeable"                 │
+│     (botão visual ou texto grande)  │
+│     Inter Bold, 28pt, #1E40AF      │
+│     Sublinhado ou borda para look  │
+│     de "clicável"                  │
 │                                     │
-│  Comentario importante:             │
-│  "Deja un comentario abajo.         │
-│   Dime qué te emociona más."        │
-│   Inter, 18pt, #6B7280 (gris)       │
+│  Comentário importante:             │
+│  "Deixe um comentário abaixo.       │
+│   Diga o que mais te emociona."    │
+│   Inter, 18pt, #6B7280 (cinza)     │
 └─────────────────────────────────────┘
 ```
 
 #### Timing:
 ```
-Duración: 20 segundos
-Narración: Lee contenido
-           "Perfecto. Creo que estás listo..."
+Duração: 20 segundos
+Narração: Lê o conteúdo
+           "Perfeito. Acho que você está pronto..."
 ```
 
 ---
 
 ### **SLIDE 12: DESPEDIDA/CRÉDITOS (4:50-5:00)**
 
-#### Contenido Visual:
+#### Conteúdo visual:
 ```
-Fondo:      Gradiente: #1E40AF a #3B82F6
+Fundo:      Gradiente: #1E40AF a #3B82F6
 
-Centrado, en BLANCO:
+Centralizado, em BRANCO:
 ┌─────────────────────────────────────┐
-│  "¡Nos vemos en el siguiente        │
+│  "Até nos vermos no próximo        │
 │   módulo!"                          │
 │  Montserrat Bold, 40pt              │
 │                                     │
 │  📚 GitHub Pages + Jekyll           │
-│  💻 Windows Setup                   │
-│  🚀 Blog profesional sin costos     │
+│  💻 Configuração do Windows         │
+│  🚀 Blog profissional sem custos   │
 │                                     │
 │  Marcos Vasconcellos               │
-│  Blog: [tu dominio]                │
-│  GitHub: [tu usuario]              │
+│  Blog: [seu domínio]               │
+│  GitHub: [seu usuário]             │
 └─────────────────────────────────────┘
 
-Emojis: 32pt, distribuidos
-```
-
-#### Timing:
-```
-Duración: 10 segundos (último segundo música sigue)
-Narración: Silencio - solo música (suave, -3dB)
+Emojis: 32pt, distribuídos
 ```
 
 ---
 
-## 🎵 TIMING DE MÚSICA
-
-```
-Slide 1:        Entrada (fade in durante 2 segundos)
-Slides 2-11:    Música ambiental baja (-12dB)
-Slide 12:       Salida (cresce un poco, -3dB)
-                Termina cuando video termina
-```
-
----
-
-## 📊 RESUMO EXECUTIVO DOS SLIDES
+## 🔎 RESUMO DOS TIMINGS
 
 ```
 SLIDE 1:    Portada (10 seg)
 SLIDE 2:    Gancho (35 seg)
-SLIDES 3-6: 4 Promesas (cada 25-30 seg)
-SLIDE 7:    Gran promesa (40 seg)
-SLIDE 8:    Comparativa (40 seg)
-SLIDE 9:    Proof (tu blog) (20 seg)
+SLIDE 3:    Promessa 1 (30 seg)
+SLIDE 4:    Promessa 2 (25 seg)
+SLIDE 5:    Promessa 3 (25 seg)
+SLIDE 6:    Promessa 4 (25 seg)
+SLIDE 7:    Grande promessa (40 seg)
+SLIDE 8:    Comparativo (40 seg)
+SLIDE 9:    Prova (20 seg)
 SLIDE 10:   Requisitos (20 seg)
 SLIDE 11:   CTA (20 seg)
 SLIDE 12:   Despedida (10 seg)
@@ -529,151 +513,151 @@ TOTAL:     ~5 minutos exatos
 
 ---
 
-## 🛠️ IMPLEMENTACIÓN
+## 🛠️ IMPLEMENTAÇÃO
 
-### **Opción 1: Google Slides (RECOMENDADO)**
+### **Opção 1: Google Slides (RECOMENDADO)**
 
 ```
-Ventajas:
-✅ Gratis
-✅ En la nube (acceso desde cualquier lado)
-✅ Fácil compartir
-✅ Exporta a MP4/video
+Vantagens:
+✅ Grátis
+✅ Na nuvem (acesso de qualquer lugar)
+✅ Fácil de compartilhar
+✅ Exporta para MP4/vídeo
 ✅ Colaborativo
 
-Desventajas:
-⚠️ Menos control de diseño que PowerPoint
+Desvantagens:
+⚠️ Menos controle de design que o PowerPoint
 
-PASOS:
+PASSOS:
 1. Abre docs.google.com
-2. Crea presentación nueva
-3. Título: "Blog Profesional - Video 1"
-4. Comienza a crear slides según especificación
-5. Para exportar a video:
+2. Cria uma apresentação nova
+3. Título: "Blog Profissional - Vídeo 1"
+4. Começa a criar os slides conforme a especificação
+5. Para exportar para vídeo:
    - File > Download > MP4 Video
-   - Espera 5-10 min (Google procesa)
+   - Espera 5-10 min (Google processa)
 ```
 
-### **Opción 2: PowerPoint**
+### **Opção 2: PowerPoint**
 
 ```
-Ventajas:
-✅ Máximo control
-✅ Animaciones profesionales
-✅ Exporta perfecto a video
+Vantagens:
+✅ Máximo controle
+✅ Animações profissionais
+✅ Exporta muito bem para vídeo
 
-Desventajas:
-⚠️ No es gratis (si no tienes)
+Desvantagens:
+⚠️ Não é grátis (se você não tiver)
 
-RECOMENDACIÓN:
-Si tienes PowerPoint, úsalo
-Si no quieres gastar, Google Slides
+RECOMENDAÇÃO:
+Se você tiver PowerPoint, use-o.
+Se não quiser gastar, use Google Slides.
 ```
 
-### **Opción 3: Canva (Alternative bonita)**
+### **Opção 3: Canva (alternativa bonita)**
 
 ```
-Ventajas:
-✅ Diseño visual muy bonito (pre-diseños)
-✅ Gratis + Pro barato
+Vantagens:
+✅ Design visual muito bonito (pré-desenhos)
+✅ Grátis + Pro barato
 ✅ Fácil de usar
 
-Desventajas:
-⚠️ Menos flexible que PowerPoint
-⚠️ La versión gratis tiene limitaciones
+Desvantagens:
+⚠️ Menos flexível que o PowerPoint
+⚠️ A versão grátis tem limitações
 ```
 
-**MI RECOMENDACIÓN:** Google Slides (gratis, exporta direto a video)
+**MINHA RECOMENDAÇÃO:** Google Slides (grátis, exporta direto para vídeo)
 
 ---
 
-## 🎬 EXPORTACIÓN A VIDEO (GOOGLE SLIDES)
+## 🎬 EXPORTAÇÃO PARA VÍDEO (GOOGLE SLIDES)
 
 ```
-1. Abre tu presentación en Google Slides
+1. Abre sua apresentação no Google Slides
 2. File > Download > MP4 Video
-3. Elige resolución: 1920x1080 (27 minutos)
-   (Nota: cada segundo toma ~5x para procesar)
-4. Google te manda email cuando está listo
-5. Descarga el MP4
-6. Abre en OBS o CapCut
-7. Añade narración (voice-over)
-8. Añade música de fondo
-9. Exporta final MP4
-10. Sube a Hotmart (privado) para feedback
+3. Escolha a resolução: 1920x1080 (27 minutos)
+   (Nota: cada segundo leva ~5x para processar)
+4. O Google te envia e-mail quando estiver pronto
+5. Baixa o MP4
+6. Abre no OBS ou CapCut
+7. Adiciona narração (voice-over)
+8. Adiciona música de fundo
+9. Exporta o final em MP4
+10. Envie à Hotmart (em modo privado) para receber comentários
 ```
 
 ---
 
-## 📝 ARCHIVO PARA DESCARGAR
+## 📝 ARQUIVO PARA DOWNLOAD
 
-Después que haya explicado esto, te dejo listo:
-- ✅ Este especifiación completa
-- ✅ Link a paleta de colores
+Depois que isso for explicado, você terá pronto:
+- ✅ Esta especificação completa
+- ✅ Link para paleta de cores
 - ✅ URLs de música royalty-free
-- ✅ Template de Google Slides (opcional)
+- ✅ Template do Google Slides (opcional)
 
 ---
 
-## 💡 TIPS EXTRA
+## 💡 DICAS EXTRAS
 
-### **Animaciones Recomendadas**
+### **Animações recomendadas**
 
 ```
 SLIDE 2:
-- Texto izquierda: Fade in (0.5s)
-- Imagen derecha: Slide in from right (0.5s)
+- Texto da esquerda: Fade in (0.5s)
+- Imagem da direita: Slide in from right (0.5s)
 
 SLIDES 3-6:
 - Número grande: Fade in (0.3s)
-- Contenido: Fade in (0.3s delay)
+- Conteúdo: Fade in (intervalo de 0,3s)
 
 SLIDE 7:
 - Background: Fade (0.5s)
-- Todos checklist: Fade staggered (0.2s cada)
+- Todos os checklists: Fade staggered (0.2s cada)
 
 SLIDE 8:
-- Tabla: Aparece de arriba hacia abajo
+- Tabela: aparece de cima para baixo
 
 SLIDE 9:
-- Imagen: Zoom in subtle (1s)
+- Imagem: Zoom in sutil (1s)
 
 SLIDES 10-12:
-- Minimal - solo fade
+- Minimalista — só fade
 ```
 
-### **Mantenimiento de Consistencia**
+### **Manutenção da consistência**
 
 ```
-✅ Fuentes: SIEMPRE Montserrat + Poppins + Inter
-✅ Colores: Usa SOLO la paleta (no improvises)
-✅ Espacios: Márgenes de 40px en todos lados
-✅ Alineación: Todo centrado o alineado a grid
-✅ Iconos: Usa emoji unicode (consistente entre SO)
+✅ Fontes: SEMPRE Montserrat + Poppins + Inter
+✅ Cores: use SOMENTE a paleta (não improvise)
+✅ Espaços: margens de 40px em todos os lados
+✅ Alinhamento: tudo centrado ou alocado em grade
+✅ Ícones: use emoji unicode (consistente entre SOs)
 ```
 
 ---
 
-## ✅ CHECKLIST ANTES DE GRABAR
+## ✅ CHECKLIST ANTES DE GRAVAR
 
-- [ ] Presentación terminada en Google Slides
-- [ ] Todos textos revisados (sin typos)
-- [ ] Imágenes de alta calidad (min 300ppi)
-- [ ] Colores se ven bien en pantalla (prueba en monitor)
-- [ ] Exporta a MP4 (espera procesamiento)
-- [ ] Prueba MP4 en media player (juega correctamente)
-- [ ] Narración grabada en OBS/Audacity (wav limpio)
-- [ ] Música royalty-free descargada
-- [ ] Abre MP4 en CapCut o editor
-- [ ] Añade narración de voz
-- [ ] Añade música de fondo
+- [ ] Apresentação finalizada no Google Slides
+- [ ] Todos os textos revisados (sem erros de digitação)
+- [ ] Imagens em alta qualidade (mín 300ppi)
+- [ ] Cores aparecem bem na tela (teste no monitor)
+- [ ] Exporta para MP4 (espere o processamento)
+- [ ] Testa o MP4 no reprodutor (reproduz corretamente)
+- [ ] Narração gravada em OBS/Audacity (wav limpo)
+- [ ] Música royalty-free baixada
+- [ ] Abre o MP4 no CapCut ou editor
+- [ ] Adiciona narração de voz
+- [ ] Adiciona música de fundo
 - [ ] Exporta finalmente
-- [ ] Sube a Drive para que revise
+- [ ] Sobe para o Drive para revisão
 
 ---
 
-**Enviame preguntas si algo no está claro!**
+**Me envia perguntas se algo não estiver claro!**
 
-Cuando tengas la presentación terminada en Google Slides, comparteme el link y veo!
+Quando tiver a apresentação pronta no Google Slides, compartilha o link e eu vejo!
 
 🚀📊✨

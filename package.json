@@ -1,7 +1,7 @@
 {
   "name": "marcos-ai-blog",
   "version": "1.0.0",
-  "description": "Marcos' AI Blog powered by Jekyll and Chirpy theme",
+  "description": "Blog de arquitetura de dados e inteligência artificial com Jekyll e Chirpy",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",

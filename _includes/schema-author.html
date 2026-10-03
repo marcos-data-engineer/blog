@@ -3,9 +3,9 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Marcos Vasconcellos de Andrade",
-  "url": "{{ site.url }}/about",
-  "image": "{{ site.avatar | prepend: site.url }}",
-  "jobTitle": "Data Engineer & AI Researcher",
+  "url": {{ '/about/' | absolute_url | jsonify }},
+  "image": {{ site.avatar | absolute_url | jsonify }},
+  "jobTitle": "Engenheiro de Dados e Pesquisador de IA",
   "worksFor": {
     "@type": "Organization",
     "name": "{{ site.title }}"

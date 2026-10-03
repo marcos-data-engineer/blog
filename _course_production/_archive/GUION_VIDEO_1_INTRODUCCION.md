@@ -1,492 +1,451 @@
-# 🎬 GUIÓN COMPLETO - Video 1: Introducción
-## Módulo 0: Presentación del Proyecto
+# 🎬 GUIÃO COMPLETO - Vídeo 1: Introdução
+## Módulo 0: Apresentação do Projeto
 
-**Duración:** 5 minutos  
-**Idioma:** Español (natural y accesible)  
-**Formato:** Script + Instrucciones técnicas
+**Duração:** 5 minutos
+**Idioma:** português brasileiro (tradução do roteiro original)
+**Formato:** roteiro + instruções técnicas
+
+> **Arquivo histórico:** este roteiro contém propostas antigas. Use a documentação atual do módulo como referência e confirme recursos, custos e resultados antes de gravar.
 
 ---
 
-## 📋 GUIÓN DE NARRACIÓN COMPLETO
+## 📋 GUIÃO DE NARRAÇÃO COMPLETO
 
-### **SECCIÓN 1: GANCHO INICIAL (0:00 - 1:00)**
+### **SEÇÃO 1: GANCHO INICIAL (0:00 - 1:00)**
 
-#### 🎤 Lo que dirás (LEER con naturalidad):
-
-```
-"¡Hola! ¿Cansado de pagar por hosting? ¿No quieres complicarte con WordPress?
-
-Tengo buenas noticias: puedes crear un blog profesional, completamente GRATIS,
-sin pagar un centavo por dominio ni hosting.
-
-Y lo mejor... sin tocar casi código.
-
-En este curso te voy a enseñar cómo hacer exactamente eso. 
-
-Conmigo van a crear su primer blog utilizando GitHub Pages y Jekyll.
-En Windows. Do cero.
-
-Y esto... es lo que vamos a lograr hoy."
-```
-
-#### 🖥️ Lo que haces en pantalla:
+#### 🎤 O que você dirá (LER com naturalidade):
 
 ```
-00:00  [PANTALLA NEGRA]
-       Mostrar texto grande/colorido en color:
-       "¿Blog gratis sin código?"
+"Olá! Quer criar um blog sem pagar pela hospedagem?
 
-00:15  [Transición suave]
-       Abre navegador (Firefox o Chrome)
-       
-00:20  Navega a tu blog real: https://blog.dataengineer.net.br
-       Deja cargar completamente
-       Muestra homepage
-       Scroll lento hacia abajo mostrando:
-       - Títulos atractivos
-       - Imágenes de calidad
-       - Estructura profesional
-       
-00:45  [Pantalla vuelve a ti en cámara o webcam]
-       (IMPORTANTE: si no tienes webcam, salta esto)
-       Asegúrate de estar limpio, luz natural
-       
-01:00  [Transición a siguiente sección]
+Com Jekyll e GitHub Pages, você pode publicar um site estático sem custo de hospedagem.
+Um endereço no GitHub Pages é incluído; se quiser usar um domínio próprio,
+poderá haver custos adicionais.
+
+Neste curso, vou mostrar como criar um blog usando Jekyll e GitHub Pages,
+no Windows e passo a passo. A instalação e a publicação envolvem alguns comandos,
+mas você vai aprender o que precisa fazer.
+
+E é isso que vamos começar hoje."
+```
+
+#### 🖥️ O que você faz na tela:
+
+```
+00:00  [TELA PRETA]
+       Mostrar texto grande/colorido em cor:
+       "Blog com hospedagem sem custo?"
+
+00:15  [Transição suave]
+       Abre o navegador (Firefox ou Chrome)
+
+00:20  Acesse o site: https://marcos-data-engineer.github.io/blog/
+       Deixe carregar completamente
+       Mostre a homepage
+       Role devagar mostrando:
+       - Títulos atrativos
+       - Imagens de qualidade
+       - Estrutura profissional
+
+00:45  [Tela volta para você em câmera ou webcam]
+       (IMPORTANTE: se não tiver webcam, pule isso)
+       Confira o enquadramento e a iluminação
+
+01:00  [Transição para a próxima seção]
 ```
 
 #### 📝 Notas técnicas:
 
-- Habla claramente, **no muy rápido**
-- Tono entusiasta pero profesional
-- Primera frase es el "hook" - es lo más importante
-- Si no tienes webcam, usa screen + voz en off
+- Fale claramente, **não muito rápido**
+- Tom entusiasta, mas profissional
+- A primeira frase é o gancho — é o mais importante
+- Se não tiver webcam, grave a tela e faça a narração em seguida
 
 ---
 
-### **SECCIÓN 2: PROMESA DEL CURSO (1:00 - 2:00)**
+### **SEÇÃO 2: PROMESSA DO CURSO (1:00 - 2:00)**
 
-#### 🎤 Lo que dirás:
-
-```
-"En este curso aprenderás:
-
-Primero: Instalar todo lo necesario en Windows.
-Ruby, Git, y Jekyll. Paso a paso.
-
-Segundo: Crear tu primer blog desde cero.
-Con tus propios artículos.
-
-Tercero: Publicar online en GitHub Pages.
-Tu dominio gratis. ¡Sí, gratis!
-
-Y cuarto: El siguiente paso.
-Cómo monetizar, cómo hacer crecer tu blog.
-
-Todo esto... sin gastar un euro.
-
-¿Pero sabes lo mejor?
-
-Cuando termines este curso, 
-tendrás un blog PROFESIONAL.
-No una página hecha con Wix o WordPress.
-
-Un blog REAL. Con control total.
-Que TEMES que funcione."
-```
-
-#### 🖥️ Lo que haces en pantalla:
+#### 🎤 O que você dirá:
 
 ```
-01:00  [Pantalla negra o blanco]
-       Muestra título: "¿Qué aprenderás?"
-       (Puedes usar texto en PowerPoint, Canva, o simplemente
-        fondo de color con texto)
+"Neste curso você aprenderá:
 
-01:05  [Aparece primer punto en texto grande]
+Primeiro: instalar tudo o que é necessário no Windows.
+Ruby, Git e Jekyll. Passo a passo.
+
+Segundo: criar o seu primeiro blog do zero.
+Com os seus próprios artigos.
+
+Terceiro: publicar seu site no GitHub Pages.
+Você recebe um endereço no domínio github.io sem custo de hospedagem.
+Um domínio próprio pode ter custos adicionais.
+
+E quarto: o próximo passo.
+Como monetizar, como fazer crescer o seu blog.
+
+Você pode hospedar esse site no GitHub Pages sem custo.
+
+Mas sabe o melhor?
+
+Quando você terminar este curso,
+terá um blog PROFISSIONAL.
+Não uma página feita com Wix ou WordPress.
+
+Um blog com arquivos e conteúdo sob seu controle,
+publicado conforme as etapas do curso."
+```
+
+#### 🖥️ O que você faz na tela:
+
+```
+01:00  [Tela preta ou branca]
+       Mostra título: "O que você vai aprender?"
+       (Você pode usar texto em PowerPoint, Canva ou apenas
+        fundo colorido com texto)
+
+01:05  [Aparece o primeiro ponto em texto grande]
        "1. Instalar Ruby + Git + Jekyll"
-       (muestra pequeño logo o icono de cada uno)
+       (mostra pequeno logo ou ícone de cada um)
        Pausa 3 segundos
 
-01:10  [Desaparece, aparece segundo punto]
-       "2. Crear tu primer blog"
-       [Mostra screenshot del Jekyll nuevecito]
+01:10  [Desaparece, aparece o segundo ponto]
+       "2. Criar seu primeiro blog"
+       [Mostra uma captura de tela do projeto Jekyll recém-criado]
        Pausa 3 segundos
 
-01:15  [Desaparece, aparece tercer punto]
-       "3. Publicar en GitHub Pages"
-       [Muestra GitHub logo]
+01:15  [Desaparece, aparece o terceiro ponto]
+       "3. Publicar no GitHub Pages"
+       [Mostra logo do GitHub]
        Pausa 3 segundos
 
-01:20  [Desaparece, aparece cuarto punto]
-       "4. Monetizar y crecer"
-       [Muestra tu blog con Google Analytics o screenshot de stats]
+01:20  [Desaparece, aparece o quarto ponto]
+       "4. Monetizar e crescer"
+       [Mostra seu blog; use dados de análise somente se estiverem configurados]
        Pausa 3 segundos
 
-01:25  [Transición suave a siguiente sección]
-       Texto grande: "TODO GRATIS"
-       (efecto de zoom o aparición lenta)
+01:25  [Transição suave para a próxima seção]
+       Texto grande: "HOSPEDAGEM SEM CUSTO"
+       (efeito de zoom ou aparecimento lento)
 
-02:00  [Siguiente sección]
+02:00  [Próxima seção]
 ```
 
 #### 📝 Notas técnicas:
 
-- IMPORTANTE: Haz pequeñas pausas entre puntos
-- Deja que el viewer procese la información
-- Usa transiciones simples (no muchos efectos)
-- Mantén fonts legibles (mínimo 32pt)
+- IMPORTANTE: faça pequenas pausas entre os pontos
+- Deixe o espectador processar a informação
+- Use transições simples (sem muitos efeitos)
+- Mantenha fontes legíveis (mínimo 32pt)
 
 ---
 
-### **SECCIÓN 3: POR QUÉ JEKYLL (2:00 - 3:30)**
+### **SEÇÃO 3: POR QUE JEKYLL (2:00 - 3:30)**
 
-#### 🎤 Lo que dirás:
-
-```
-"Ahora, quizás te preguntas: ¿Por qué Jekyll y no WordPress?
-
-Buena pregunta.
-
-Mira, WordPress es muy popular. Lo sé.
-Pero necesita hosting. Hosting cuesta dinero. Entre 50 y 200 dólares al año.
-
-Con Jekyll, tu blog corre en GitHub.
-Y GitHub... es gratis. Completamente gratis.
-
-Segundo: Jekyll es rápido. MÁS rápido que WordPress.
-Tu blog va a cargar en milisegundos.
-
-Tercero: Jekyll es seguro.
-No hay bases de datos para hackear.
-No hay plugins que funcionen mal.
-
-Es solo... código estático.
-
-Cuarto: Jekyll es minimalista.
-Sin distracciones. Sin bloatware.
-Solo tú, tu contenido, y tu blog.
-
-Y por último: Jekyll está hecho para developers.
-Pero don't worry - ese eres tú a partir de hoy.
-
-Así que... ¿por qué no hacerlo del modo correcto desde el inicio?
-
-Eso es lo que te propongo hoy."
-```
-
-#### 🖥️ Lo que haces en pantalla:
+#### 🎤 O que você dirá:
 
 ```
-02:00  [Comparativa en texto/tabla]
-       Muestra lado a lado:
-       
-       WORDPRESS              vs      JEKYLL
-       ─────────────────────         ──────────────────
-       💰 $50-200/año                💰 $0/año
-       🐢 Lento                      ⚡ Ultra-rápido
-       🔓 Vulnerable                 🔒 Seguro
-       📦 Pesado                      ✏️ Limpio
-       
-       (Usa emojis, colores claros)
-       Pausa 5 segundos para que lean
+"Talvez você esteja se perguntando: por que Jekyll?
 
-02:15  [Tabla desaparece]
-       Muestra tu blog nuevamente
+Jekyll gera páginas estáticas a partir de arquivos e modelos.
+Com o GitHub Pages, você pode hospedar um site compatível sem custo de hospedagem.
+Isso não significa que todo domínio, serviço ou recurso adicional seja gratuito.
+
+Como o site publicado não depende de um banco de dados em tempo de execução,
+o funcionamento e a manutenção são diferentes dos de uma plataforma dinâmica.
+Isso não torna uma solução automaticamente mais rápida ou mais segura:
+os resultados dependem da implementação, das dependências e da configuração.
+
+O curso apresenta o fluxo de trabalho com Jekyll, GitHub Pages e um editor visual.
+Você também vai executar comandos durante a instalação e a publicação."
+```
+
+#### 🖥️ O que você faz na tela:
+
+```
+02:00  [Comparativa em texto/tabela]
+       Mostra um resumo sem atribuir preço ou desempenho fixos:
+
+       JEKYLL + GITHUB PAGES
+       • Geração de páginas estáticas
+       • Hospedagem sem custo no GitHub Pages
+       • Instalação e publicação com comandos
+       • Domínio próprio opcional, sujeito a custos
+
+       Pause para que o público leia.
+
+02:15  [A tabela desaparece]
+       Mostra seu blog novamente
        Abre Chrome DevTools (F12)
-       Va a "Lighthouse"
-       Muestra score 95+/100
-       
-       (Esto es tu "proof" - demuestra velocidad)
+       Vai para "Lighthouse"
+       Mostra o relatório Lighthouse da página e informa que os resultados variam
+
+       (O relatório mede a página naquele momento; não prometa uma pontuação fixa)
        Pausa 10 segundos
 
-02:30  [Cierra DevTools]
-       Muestra artículo tuyo en blog
-       Texto superpuesto: "Tuyo en 2 horas"
+02:30  [Fecha DevTools]
+       Mostra artigo seu no blog
+       Texto sobreposto: "Seu em 2 horas"
 
-03:00  [Transición a siguiente sección]
+03:00  [Transição para próxima seção]
 ```
 
 #### 📝 Notas técnicas:
 
-- Las comparativas visuales convencen MÁS que las palabras
-- Mostrar tu blog funcionando es tu mejor argumento
-- Lighthouse score prueba velocidad (venderá mucho!)
-- No aceleres aquí - deja que procesen
+- Apresente diferenças verificáveis sem generalizar custos ou desempenho
+- Mostrar seu blog funcionando é seu melhor argumento
+- O Lighthouse oferece métricas da página testada; os resultados podem variar
+- Não acelere aqui — deixe que processem
 
 ---
 
-### **SECCIÓN 4: REQUISITOS & ADVERTENCAS (3:30 - 4:15)**
+### **SEÇÃO 4: REQUISITOS E ADVERTÊNCIAS (3:30 - 4:15)**
 
-#### 🎤 Lo que dirás:
-
-```
-"Vale, antes de empezar, hay algunas cosas que necesitas saber.
-
-Primero: Necesitas Windows 10 o superior.
-(Sí, es un curso de Windows específicamente)
-
-Segundo: Necesitas tener instalado... bueno, eso enseño yo. No te preocupes.
-
-Tercero: Este curso es para PRINCIPIANTES.
-Si nunca tocaste una terminal, perfecto.
-Si no sabes qué es Git, mejor aún.
-Aquí les enseño TODO.
-
-Pero también: Algunos pasos son técnicos.
-Si en algún momento te atascas, escríbeme.
-Tengo una comunidad Discord donde todos nos ayudamos.
-
-Y última cosa: Este curso es HANDS-ON.
-Eso significa: Tú vas a hacer EXACTAMENTE lo que hago yo.
-En paralelo. Paso por paso.
-
-No es solo mirar.
-Es hacer. 
-
-Porque ese es el único modo de aprender."
-```
-
-#### 🖥️ Lo que haces en pantalla:
+#### 🎤 O que você dirá:
 
 ```
-03:30  [Pantalla lista de requisitos]
-       ✓ Windows 10 o superior
-       ✓ Conección a Internet
-       ✓ ~30 minutos de tu tiempo
-       ✓ Ganas de aprender
-       
+"Antes de começar, há alguns pontos importantes.
+
+Primeiro: você precisa de um computador com Windows 10 ou superior,
+conexão com a internet e cerca de 30 minutos para esta etapa.
+
+Segundo: não se preocupe se ainda não tiver as ferramentas instaladas.
+O curso apresenta a instalação passo a passo.
+
+Terceiro: o conteúdo é voltado a iniciantes.
+Você não precisa conhecer Git ou terminal, mas vai executar alguns comandos
+seguindo as instruções.
+
+Se houver um canal de suporte disponível para o curso, consulte-o quando tiver dúvidas.
+
+Este é um curso prático: acompanhe as etapas e faça as atividades no seu computador.
+Praticar ajuda a fixar o que foi apresentado."
+```
+
+#### 🖥️ O que você faz na tela:
+
+```
+03:30  [Tela com lista de requisitos]
+       ✓ Windows 10 ou superior
+       ✓ Conexão com a internet
+       ✓ ~30 minutos do seu tempo
+       ✓ Vontade de aprender
+
        Pausa 3 segundos
 
 03:45  [Desaparece requisitos]
-       [Aparece ADVERTENCIA amable]
-       Texto: "Esto es fácil, pero requiere atención"
-       Fondo amarillo suave (no rojo - es amable)
-       
+       [Aparece aviso amigável]
+       Texto: "Isso é fácil, mas exige atenção"
+       Fundo amarelo suave (não vermelho — é amigável)
+
        Pausa 3 segundos
 
-04:00  [Desaparece advertencia]
-       [Discord logo o link]
-       Muestra: "Discord: [link]"
-       O tu email de soporte
-       
+04:00  [Desaparece aviso]
+       [Logo do Discord ou link]
+       Mostra: "Discord: [link]"
+       Ou seu e-mail de suporte
+
        Pausa 3 segundos
 
-04:15  [Transición a siguiente sección]
+04:15  [Transição para a próxima seção]
 ```
 
 #### 📝 Notas técnicas:
 
-- Sé honesto sobre dificultad (genera confianza)
-- La "advertencia" amable es mejor que amenaza
-- Mostrar dónde obtener soporte aumenta confianza de compra
-- NO exageres los requisitos
+- Seja honesto sobre a dificuldade (gera confiança)
+- O aviso amigável é melhor do que ameaça
+- Mostrar onde obter suporte aumenta a confiança de compra
+- NÃO exagere nos requisitos
 
 ---
 
-### **SECCIÓN 5: LLAMADO A LA ACCIÓN & DESPEDIDA (4:15 - 5:00)**
+### **SEÇÃO 5: CHAMADA À AÇÃO E DESPEDIDA (4:15 - 5:00)**
 
-#### 🎤 Lo que dirás:
-
-```
-"Perfecto. Creo que estás listo.
-
-O lista. Somos todos inclusivos acá.
-
-En el siguiente video, empezamos desde cero.
-Te voy a enseñar a instalar todo lo necesario.
-
-Pero antes que nada: Siéntete libre de contactarme si tienes dudas.
-
-Y algo importante: Deja un comentario abajo.
-Dime qué es lo que más te entusiasma de este proyecto.
-¿Tu tema? ¿Tu dominio? ¿La libertad?
-
-Los comentarios me ayudan a entender qué esperas de este curso.
-
-Y finalmente: Si este vídeo te pareció útil,
-dale un like. No es obligatorio, pero mi algoritmo te lo agradece.
-
-Bueno... ¡vamos a crear un blog increíble!
-
-Te veo en el siguiente módulo.
-
-¡Hasta luego!"
-```
-
-#### 🖥️ Lo que haces en pantalla:
+#### 🎤 O que você dirá:
 
 ```
-04:15  [Aparece tu cara (si tienes webcam)]
-       O pausa, sonríe, da "thumbs up"
-       (si no webcam, simple transición)
-       
+"Perfeito. Espero que você esteja pronto para começar.
+
+Se preferir, faça uma pausa e continue quando puder.
+
+No próximo vídeo, começamos do zero.
+Vou mostrar como instalar as ferramentas necessárias.
+
+Mas antes de mais nada: sinta-se à vontade para me contatar se tiver dúvidas.
+
+Se estiver assistindo a uma plataforma com comentários, conte o que mais chamou
+sua atenção neste projeto: o tema, o domínio ou a possibilidade de publicar conteúdo.
+
+Os comentários me ajudam a entender o que você espera deste curso.
+
+Se este vídeo foi útil, você pode avaliá-lo na plataforma.
+
+Bem... vamos criar um blog incrível!
+
+Vejo você no próximo módulo.
+
+Até logo!"
+```
+
+#### 🖥️ O que você faz na tela:
+
+```
+04:15  [Aparece o seu rosto (se tiver webcam)]
+       Ou pausa, sorri, faz "thumbs up"
+       (se não tiver webcam, transição simples)
+
        Pausa 5 segundos
 
-04:25  [Aparece texto/botón hipotético]
-       "👉 Ver Módulo 1: Instalación"
-       O: "Siguiente video"
-       
+04:25  [Aparece texto/botão hipotético]
+       "👉 Ver Módulo 1: Instalação"
+       Ou: "Próximo vídeo"
+
        Pausa 3 segundos
 
-04:35  [Música de salida comienza (suave)]
-       [Pantalla con logos: GitHub, Jekyll, Windows]
-       [Texto: "Blog Profesional Sin Costos"]
-       [Tu nombre]
-       [Link a tu sitio]
-       
-       Pausa 5-8 segundos (deja que termine la música)
+04:35  [Música de saída começa (suave)]
+       [Tela com logos: GitHub, Jekyll, Windows]
+       [Texto: "Blog com hospedagem sem custo no GitHub Pages"]
+       [Seu nome]
+       [Link do seu site]
 
-05:00  [FIN]
+       Pausa 5-8 segundos (deixe a música terminar)
+
+05:00  [FIM]
 ```
 
 #### 📝 Notas técnicas:
 
-- El CTA (call-to-action) debe ser claro
-- "Deja comentario" es más efectivo que "dale like"
-- Música suave de salida = profesionalismo
-- Créditos finales mantienen profesionalismo
+- O CTA (call-to-action) deve ser claro
+- "Deixe comentário" é mais eficaz do que "de um like"
+- Música suave de saída = profissionalismo
+- Créditos finais mantêm o profissionalismo
 
 ---
 
-## 🎬 INSTRUCCIONES TÉCNICAS DE GRABACIÓN
+## 🎬 INSTRUÇÕES TÉCNICAS DE GRAVAÇÃO
 
-### **Configuración OBS**
-
-```
-Resolución: 1920x1080
-FPS: 60 (exportar después a 30 para web)
-Bitrate: 6000-8000 kbps (para calidad)
-Encoder: NVIDIA NVENC (si tienes GPU) o x264 (si no)
-```
-
-### **Escenas OBS Necesarias**
+### **Configuração do OBS**
 
 ```
-Escena 1: Intro (pantalla negra + música)
-Escena 2: Navegador (tu blog)
-Escena 3: Comparativa (WordPress vs Jekyll)
-Escena 4: Requisitos
-Escena 5: Despedida (logos)
+Resolução: 1920x1080
+FPS: 60 (exportar depois para 30 para web)
+Bitrate: 6000-8000 kbps (boa qualidade)
+Encoder: NVIDIA NVENC (se tiver GPU) ou x264 (se não)
 ```
 
-### **Transiciones**
+### **Cenas OBS necessárias**
 
 ```
-Entre escenas: Fade (0.5 segundos)
-Dentro de escena: Ninguna (corta directamente)
+Cena 1: Intro (tela preta + música)
+Cena 2: Navegador (seu blog)
+Cena 3: Comparativa (WordPress vs Jekyll)
+Cena 4: Requisitos
+Cena 5: Despedida (logos)
+```
+
+### **Transições**
+
+```
+Entre cenas: Fade (0,5 segundo)
+Dentro da cena: nenhuma (vai direto)
 ```
 
 ---
 
-## 🎵 RECOMENDACIONES DE MÚSICA
+## 🎵 RECOMENDAÇÕES DE MÚSICA
 
 ### **Intro** (0:00-0:15)
-- Algo dinámico pero no invasivo
-- Royalty-free: "Bensound - Sunny" o similar
-- Volumen: -6dB
+- Algo dinâmico, mas não invasivo
+- Royalty-free: "Bensound - Sunny" ou similar
+- Volume: -6dB
 
-### **Durante contenido** (opcional)
-- Silencio completo (concentración)
-- O música ambient muy baja ("-15dB)
+### **Durante o conteúdo** (opcional)
+- Silêncio total (concentração)
+- Ou música ambiente muito baixa ("-15dB)
 
-### **Salida** (4:35-5:00)
-- Uplifting, positivo
+### **Saída** (4:35-5:00)
+- Inspiradora, positiva
 - Royalty-free: "Bensound - Happiness"
-- Volumen: -3dB (más alto en salida)
+- Volume: -3dB (mais alto na saída)
 
-**Fuentes gratis de música:**
-- YouTube Audio Library (tienes acceso)
+**Fontes grátis de música:**
+- YouTube Audio Library (você tem acesso)
 - Bensound.com
 - FreePD.com
 - Pixabay.com (música)
 
 ---
 
-## ⚙️ CHECKLIST ANTES DE GRABAR
+## ⚙️ CHECKLIST ANTES DE GRAVAR
 
 ### **Hardware**
-- [ ] Micrófono funciona (prueba en OBS)
-- [ ] Pantalla limpia (sin notificaciones activas)
-- [ ] Monitor con buena resolución (1920x1080+)
-- [ ] Internet estable
+- [ ] Microfone funciona (teste no OBS)
+- [ ] Tela limpa (sem notificações ativas)
+- [ ] Monitor com boa resolução (1920x1080+)
+- [ ] Internet estável
 
 ### **Software**
-- [ ] OBS actualizado
-- [ ] Navegador en modo incógnito (sin extensiones que rompan diseño)
-- [ ] Tu blog en servidor local o en vivo (accesible)
-- [ ] Música descargada (no streamear, para evitar lag)
+- [ ] OBS atualizado
+- [ ] Navegador em modo incógnito (sem extensões que quebrem o design)
+- [ ] Seu blog em servidor local ou ao vivo (acessível)
+- [ ] Música baixada (não transmitir, para evitar lag)
 
 ### **Ambiente**
-- [ ] Luz natural o buena iluminación
-- [ ] Sin ruidos de fondo (cierra ventanas, apaga AC)
-- [ ] Sin mascotas/niños durante grabación
-- [ ] Teléfono en silencio
+- [ ] Luz natural ou boa iluminação
+- [ ] Sem ruídos de fundo (feche janelas, apague o ar-condicionado)
+- [ ] Sem pets/crianças durante a gravação
+- [ ] Celular no silêncio
 
 ---
 
-## 📝 CONSEJOS DE DICCIÓN EN ESPAÑOL
-
-**Siendo que es tu segundo idioma, algunos tips:**
+## 📝 DICAS DE DICÇÃO
 
 1. **Ritmo:**
-   - Hablo un poco más lento que en portugués
-   - Pausa entre frases (muy importante!)
-   - Don't rush
+   - Fale com naturalidade e faça pausas entre as frases
+   - Evite acelerar no final
 
-2. **Pronunciación:**
-   - "V" y "B" suenan igual en español (normal)
-   - "LL" suena como "Y" (no como dos L's)
-   - "Z" suena como "Theta" (de España) o "S" (de Latinoamérica)
-   - Usa "Th" para "Z" ya que tu público es mayormente español
+2. **Pronúncia de nomes e termos técnicos:**
+   - Pronuncie siglas como URL letra por letra, se isso soar mais claro
+   - Mantenha uma pronúncia consistente para GitHub, Jekyll e WordPress
+   - Não traduza nomes de ferramentas ou comandos
 
-3. **Tono:**
-   - Entusiasta pero profesional
-   - Conversacional (no robótico)
-   - Como si explicaras a un amigo
-
-4. **Evita:**
-   - Anglicismos (di "crear un repositorio", no "reposítori")
-   - Gerundios (di "mientras instala", no "estando instalando")
-   - Puede sonar forzado
-
-5. **Acentos naturales:**
-   - "URL" = "u-erre-ele" (letra por letra)
-   - "GitHub" = "Git-hab" (así llaman en español)
-   - "Jekyll" = "He-kill" o "Ye-kill" (tu elección)
+3. **Tom:**
+   - Entusiasta, mas profissional
+   - Conversacional, sem parecer uma leitura mecânica
+   - Explique como se estivesse conversando com alguém que está aprendendo
 
 ---
 
 ## 🎯 OBJETIVO FINAL
 
-Al terminar este vídeo, el espectador debe:
+Ao terminar este vídeo, o espectador deve:
 
-✅ Entender QUÉ es un blog estático  
-✅ Saber POR QUÉ Jekyll es mejor  
-✅ Sentir confianza de que PUEDE hacerlo  
-✅ Tener ganas de ver Módulo 1  
+✅ Entender O QUE é um blog estático
+✅ Saber POR QUE Jekyll é melhor
+✅ Sentir confiança de que PODE fazer
+✅ Ter vontade de ver o Módulo 1
 
-**Métrica de éxito:** Si al terminar siente "Ok, estoy listo para aprender", ganaste.
-
----
-
-## 📤 ENVÍO PARA FEEDBACK
-
-Una vez que grabes este vídeo:
-
-1. **Exporta en MP4** (H.264, 1280x720 para envío)
-2. **Carga en Google Drive** o similar
-3. **Comparte conmigo el link**
-4. **Yo doy feedback sobre:**
-   - Claridad y fluidez del español
-   - Pacing (¿muy lento? ¿muy rápido?)
-   - Información: ¿clara? ¿confusa?
-   - Técnica: Volumen, iluminación, etc
-   - Cintura: Largo total, timing de secciones
+**Métrica de sucesso:** se ao final ele pensar "Ok, estou pronto para aprender", você ganhou.
 
 ---
 
-**¡Ahora estás listo para grabar!**
+## 📤 ENVIO PARA AVALIAÇÃO
 
-Cualquier pregunta, me avoces. 
+Uma vez que você grave este vídeo:
 
-**¡Suerte! 🎬🚀**
+1. **Exporte em MP4** (H.264, 1280x720 para envio)
+2. **Carregue no Google Drive** ou similar
+3. **Compartilhe o link comigo**
+4. **Avalie:**
+   - Clareza e fluidez do português brasileiro
+   - Ritmo: está muito lento ou muito rápido?
+   - Conteúdo: está claro ou confuso?
+   - Aspectos técnicos: volume, iluminação etc.
+   - Duração e tempo de cada seção
+
+---
+
+**Agora você está pronto para gravar!**
+
+Qualquer dúvida, me avise.
+
+**Boa sorte! 🎬🚀**

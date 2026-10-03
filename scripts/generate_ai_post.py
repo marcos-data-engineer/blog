@@ -44,7 +44,7 @@ MODEL_BLOG = "gemini-2.5-pro"      # melhor em seguir instrucoes longas/complexa
 MODEL_LINKEDIN = "gemini-2.5-flash"  # tarefa curta, flash resolve bem e mais rapido
 
 AUTHOR_NAME = "Marcos Vasconcellos"
-BLOG_NAME = "Beyond AI Code"
+BLOG_NAME = "Arquitetura de Dados & IA"
 OUTPUT_DIR = "_posts"
 
 MAX_RETRIES = 4
@@ -266,10 +266,10 @@ def build_blog_prompt(content_buffer, image_info, date_front_matter):
     image_block = ""
     if image_info:
         image_block = f"""
-A REAL, VERIFIED Creative Commons image is available for this article. Use it as
-the front-matter cover AND as the single embedded <figure> in the introduction.
-DO NOT invent any other Wikimedia Commons file, filename, or license — use ONLY
-the data below, copied exactly:
+A imagem Creative Commons REAL E VERIFICADA abaixo está disponível para o artigo.
+Use-a como capa no front matter E como a única figura incorporada na introdução.
+NÃO invente outros arquivos, nomes ou licenças do Wikimedia Commons — use SOMENTE
+os dados abaixo, sem alterações:
   - Image URL: {image_info['image_url']}
   - Wikimedia Commons page: {image_info['page_url']}
   - Artist / credit: {image_info['artist']}
@@ -277,98 +277,91 @@ the data below, copied exactly:
 """
     else:
         image_block = """
-No verified Creative Commons image was found this run. Use
-https://picsum.photos/seed/agi-architecture/1200/630 as a purely decorative
-placeholder image for the front-matter cover, and do NOT attach any Wikimedia
-Commons / Creative Commons attribution to it (it is a random stock photo, not
-a licensed research image). Do not include an embedded <figure> with a fake
-Commons citation anywhere in the article.
+Nenhuma imagem Creative Commons verificada foi encontrada nesta execução. Use
+https://picsum.photos/seed/agi-architecture/1200/630 apenas como imagem decorativa
+de capa no front matter. NÃO atribua a ela licença Creative Commons nem crédito do
+Wikimedia Commons: é uma imagem aleatória, não uma imagem de pesquisa licenciada.
+Não inclua no artigo nenhuma figura com crédito fictício do Commons.
 """
 
     return f"""
-You are {AUTHOR_NAME}, a Senior AI Architect, Data Engineer, and Author of the
+Você é {AUTHOR_NAME}, arquiteto sênior de IA, engenheiro de dados e autor do
 blog '{BLOG_NAME}'.
 
-Your task is to write a benchmark-quality technical blog post in International
-English about Artificial General Intelligence (AGI), analyzing current
-frontier research and connecting it as a direct sequel to our foundational
-article 'The History of Artificial Intelligence'.
+Escreva um artigo técnico de alta qualidade, em português brasileiro natural,
+sobre inteligência artificial geral (AGI). Analise pesquisas atuais de ponta e
+conecte o texto como continuação direta do nosso artigo fundamental
+'A história da inteligência artificial'.
 
-OUTPUT RULES (STRICT):
-- Output ONLY the raw Markdown file, starting with the front matter '---'.
-- No preamble, no explanation, no "Here is the article" text before or after.
-- Do not wrap the output in a code fence.
+REGRAS DE SAÍDA (OBRIGATÓRIAS):
+- Retorne SOMENTE o arquivo Markdown bruto, começando pelo front matter '---'.
+- Não inclua introdução, explicação ou texto como "Aqui está o artigo".
+- Não coloque o conteúdo dentro de um bloco de código.
 
-EDITORIAL & VISUAL REQUIREMENTS (MUST STRICTLY MATCH THE QUALITY OF
-'THE HISTORY OF ARTIFICIAL INTELLIGENCE'):
+REQUISITOS EDITORIAIS E VISUAIS (MANTENHA A QUALIDADE DE
+'A HISTÓRIA DA INTELIGÊNCIA ARTIFICIAL'):
 
 1. FRONT MATTER (JEKYLL / CHIRPY):
 ---
 layout: post
-title: "INSERT_DIRECT_TECHNICAL_AGI_TITLE"
+title: "INSIRA_UM_TÍTULO_TÉCNICO_DIRETO_SOBRE_AGI"
 date: {date_front_matter}
-categories: [Artificial Intelligence, AGI]
-tags: [agi, artificial-general-intelligence, llm, ai-history, future-of-ai, data-engineering]
-description: "INSERT_AN_ENGAGING_SUMMARY_UP_TO_160_CHARS_ABOUT_THE_ROAD_TO_AGI"
-lang: en
+categories: [Inteligência Artificial, AGI]
+tags: [agi, inteligencia-artificial-geral, llm, historia-da-ia, futuro-da-ia, engenharia-de-dados]
+description: "INSIRA_UM_RESUMO_ENVOLVENTE_DE_ATÉ_160_CARACTERES_SOBRE_O_CAMINHO_ATÉ_AGI"
+lang: pt-BR
 author: {AUTHOR_NAME}
 image:
   path: INSERT_COVER_IMAGE_URL
-  alt: "Conceptual illustration of Artificial General Intelligence and Cognitive Scaling"
+  alt: "Ilustração conceitual de inteligência artificial geral e expansão cognitiva"
 published: false
 ---
 
-2. NARRATIVE BRIDGE:
-- Opening quote using <blockquote>...</blockquote> and <cite>...</cite> from a
-  prominent scientist, philosopher, or AI pioneer (use a real, verifiable quote).
-- Begin the introductory body by building a narrative bridge from 'The History
-  of Artificial Intelligence' (which covered Alan Turing, Dartmouth 1956, Deep
-  Blue, and Generative AI) to today's race toward AGI.
-- Frame the collected news below (scaling laws, world models, reasoning
-  chains, autonomous agents, and alignment) as the core pillars for bridging
-  Narrow AI to AGI. Only cite facts that are actually supported by the
-  collected items — do not invent statistics, paper titles, or benchmarks
-  that are not present in the source material below.
+2. CONEXÃO NARRATIVA:
+- Abra com uma citação verificável de cientista, filósofo ou pioneiro da IA,
+  usando <blockquote>...</blockquote> e <cite>...</cite>.
+- Conecte a introdução a 'A história da inteligência artificial', que aborda
+  Alan Turing, Dartmouth em 1956, Deep Blue e IA generativa, e à atual busca por AGI.
+- Apresente as notícias coletadas abaixo — leis de escala, modelos de mundo,
+  cadeias de raciocínio, agentes autônomos e alinhamento — como possíveis pilares
+  para aproximar a IA restrita da AGI. Cite somente fatos sustentados pelas fontes;
+  não invente estatísticas, títulos de artigos ou benchmarks.
 
-3. RICH VISUAL COMPONENTS & EMBEDDED HTML/CSS:
+3. COMPONENTES VISUAIS E HTML/CSS INCORPORADO:
 {image_block}
-- Embed a custom <style>...</style> inline block (e.g., custom callout boxes,
-  an "AGI readiness" card, or a timeline CSS wrapper), matching the visual
-  density of the reference article.
-- Include at least ONE Mermaid diagram (```mermaid ... ```) depicting an AGI
-  cognitive architecture, agentic decision loop, or world-model data flow.
-- Include a Markdown comparison table evaluating key metrics (e.g.,
-  Reasoning vs. Memory vs. Alignment vs. Compute) across 2–4 approaches
-  actually mentioned in the source material.
+- Incorpore um bloco <style>...</style> próprio (por exemplo, cartões informativos
+  ou uma linha do tempo), mantendo densidade visual semelhante à do artigo de referência.
+- Inclua pelo menos um diagrama Mermaid (```mermaid ... ```) que represente uma
+  arquitetura cognitiva de AGI, o ciclo de decisão de um agente ou o fluxo de um modelo de mundo.
+- Inclua uma tabela Markdown comparando métricas relevantes — raciocínio, memória,
+  alinhamento e capacidade computacional, por exemplo — entre 2 a 4 abordagens citadas
+  nas fontes.
 
-4. REFERENCES & AUTHOR SIGN-OFF:
-- Interweave direct Markdown hyperlinks to the ORIGINAL source URLs from the
-  collected news below when referencing specific items. Do not fabricate URLs.
-- Conclude strictly with these two closing sections:
-  * '## 📚 References and Credits' (itemized list of the source URLs actually
-    used above, plus the image credit line if an image was provided).
-  * Sign-off line: '*Originally revised and adapted by {AUTHOR_NAME} — Data
-    Architecture & AI Insights.*'
+4. REFERÊNCIAS E CRÉDITOS:
+- Inclua links Markdown diretos para as URLs ORIGINAIS das notícias abaixo ao
+  mencionar cada fonte. Não invente URLs.
+- Termine estritamente com estas duas partes:
+  * '## 📚 Referências e créditos', com as URLs realmente usadas e o crédito da
+    imagem, se houver.
+  * Assinatura: '*Revisado e adaptado por {AUTHOR_NAME} — Arquitetura de Dados & IA.*'
 
-Collected Technical News from Verified AI Sources (use only what is relevant
-and factually supported by these excerpts):
+Notícias técnicas coletadas de fontes verificadas sobre IA (use apenas o que for
+relevante e sustentado pelos trechos abaixo):
 {content_buffer}
 """
 
 
 def build_linkedin_prompt(blog_markdown):
     return f"""
-You are {AUTHOR_NAME}, author of the blog '{BLOG_NAME}'. You just published the
-blog post below. Write ONLY a LinkedIn announcement post in English:
+Você é {AUTHOR_NAME}, autor do blog '{BLOG_NAME}', e acabou de publicar o artigo
+abaixo. Escreva SOMENTE uma publicação para anunciá-lo no LinkedIn, em português brasileiro:
 
-- Punchy, ~150 words, executive tone.
-- Bridges the history of AI to the current AGI research frontier covered in
-  the post.
-- Include 2-3 concrete takeaways from the post (do not invent new facts not
-  present in the post).
-- End with hashtags: #AGI #ArtificialGeneralIntelligence #DataEngineering #MLOps #FutureOfAI
-- End with the call-to-action: "Read the full analysis on {BLOG_NAME}."
-- Output ONLY the LinkedIn post text, no preamble, no markdown headers.
+- Texto direto, com cerca de 150 palavras e tom executivo.
+- Conecte a história da IA às pesquisas atuais sobre AGI abordadas no artigo.
+- Inclua de 2 a 3 conclusões concretas do artigo, sem inventar fatos.
+- Termine com as hashtags: #AGI #InteligenciaArtificial #EngenhariaDeDados #MLOps #FuturoDaIA
+- Finalize com a chamada: "Leia a análise completa em {BLOG_NAME}."
+- Retorne SOMENTE o texto da publicação, sem introdução ou títulos Markdown.
 
 --- BLOG POST ---
 {blog_markdown}

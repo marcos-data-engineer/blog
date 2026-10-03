@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Script para gerar PPTX completo com todos os 12 slides da Sección 1
+Script para gerar o PPTX completo com os 12 slides da Seção 1
 Usa python-pptx para criar apresentação profissional
 """
 
@@ -11,6 +11,7 @@ from pptx.util import Inches, Pt
 from pptx.enum.text import PP_ALIGN
 from pptx.dml.color import RGBColor
 from pptx.enum.shapes import MSO_SHAPE
+from pathlib import Path
 
 # Configurações
 SLIDE_WIDTH = Inches(10)
@@ -34,7 +35,7 @@ COLORS = {
 def add_title_box(
     slide, x, y, width, height, text, font_size=40, color=None, bold=True
 ):
-    """Helper para adicionar caixa de texto com formatação padrão"""
+    """Adiciona uma caixa de texto com a formatação padrão."""
     if color is None:
         color = COLORS["azul_principal"]
 
@@ -57,7 +58,7 @@ def add_title_box(
 def add_body_box(
     slide, x, y, width, height, text, font_size=20, color=None, align=PP_ALIGN.LEFT
 ):
-    """Helper para adicionar caixa de corpo de texto"""
+    """Adiciona uma caixa de texto para o conteúdo."""
     if color is None:
         color = COLORS["gris_oscuro"]
 
@@ -78,7 +79,7 @@ def add_body_box(
 
 
 def slide_1_portada(prs):
-    """SLIDE 1: Portada"""
+    """SLIDE 1: Capa"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -96,7 +97,7 @@ def slide_1_portada(prs):
     )
     title_frame = title_box.text_frame
     title_frame.word_wrap = True
-    title_frame.text = "¿Blog Visual, Rápido y Gratis?"
+    title_frame.text = "Blog profissional sem custo de hospedagem"
 
     title_paragraph = title_frame.paragraphs[0]
     title_paragraph.font.name = "Montserrat"
@@ -118,11 +119,11 @@ def slide_1_portada(prs):
         emoji_para.font.color.rgb = COLORS["blanco"]
         emoji_para.alignment = PP_ALIGN.CENTER
 
-    print("✅ Slide 1 (Portada)")
+    print("✅ Slide 1 (Capa)")
 
 
 def slide_2_gancho(prs):
-    """SLIDE 2: Gancho"""
+    """SLIDE 2: Apresentação da proposta"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -131,26 +132,26 @@ def slide_2_gancho(prs):
     fill.solid()
     fill.fore_color.rgb = COLORS["blanco"]
 
-    # Columna izquierda
-    add_title_box(slide, 0.4, 0.3, 4.5, 1, "¿Cansado de pagar\npor hosting?", 32)
+    # Coluna esquerda
+    add_title_box(slide, 0.4, 0.3, 4.5, 1, "Cansado de pagar\npor hospedagem?", 32)
     add_title_box(
-        slide, 0.4, 1.2, 4.5, 1, "¿No quieres complicarte\ncon WordPress?", 32
+        slide, 0.4, 1.2, 4.5, 1, "Quer evitar as complicações\ndo WordPress?", 32
     )
 
-    # Buenas noticias
+    # Boa notícia
     bn_box = slide.shapes.add_textbox(
         Inches(0.4), Inches(2.1), Inches(4.5), Inches(0.6)
     )
     bn_frame = bn_box.text_frame
-    bn_frame.text = "✓ TENEMOS BUENAS NOTICIAS"
+    bn_frame.text = "✓ TEMOS UMA BOA NOTÍCIA"
     bn_para = bn_frame.paragraphs[0]
     bn_para.font.name = "Poppins"
     bn_para.font.size = Pt(22)
     bn_para.font.bold = True
     bn_para.font.color.rgb = COLORS["naranja"]
 
-    # Body
-    body_text = "Puedes crear un blog\nPROFESIONAL\nGRATIS"
+    # Texto principal
+    body_text = "Você pode criar um blog\nPROFISSIONAL\ncom hospedagem sem custo"
     body_box = slide.shapes.add_textbox(
         Inches(0.4), Inches(2.8), Inches(4.5), Inches(1.5)
     )
@@ -167,13 +168,13 @@ def slide_2_gancho(prs):
     for paragraph in body_frame.paragraphs:
         paragraph.font.name = "Inter"
         paragraph.font.color.rgb = COLORS["gris_oscuro"]
-        if "PROFESIONAL" in paragraph.text or "GRATIS" in paragraph.text:
+        if "PROFISSIONAL" in paragraph.text or "GRÁTIS" in paragraph.text:
             paragraph.font.bold = True
             paragraph.font.size = Pt(24)
         else:
             paragraph.font.size = Pt(18)
 
-    # Imagen placeholder
+    # Espaço reservado para imagem
     image_shape = slide.shapes.add_shape(
         MSO_SHAPE.RECTANGLE, Inches(5.3), Inches(0.4), Inches(4.2), Inches(3.25)
     )
@@ -185,18 +186,18 @@ def slide_2_gancho(prs):
     tf = image_shape.text_frame
     tf.clear()
     p = tf.paragraphs[0]
-    p.text = "[Tu blog screenshot aquí]\n(blog.dataengineer.net.br)"
+    p.text = "[Insira uma captura de tela do seu blog]\n(marcos-data-engineer.github.io/blog)"
     p.alignment = PP_ALIGN.CENTER
     p.font.size = Pt(14)
     p.font.color.rgb = RGBColor(153, 153, 153)
     p.font.italic = True
     tf.vertical_anchor = 1
 
-    print("✅ Slide 2 (Gancho)")
+    print("✅ Slide 2 (Proposta)")
 
 
 def slide_3_promesa_1(prs):
-    """SLIDE 3: Promesa Punto 1"""
+    """SLIDE 3: Promessa 1"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -205,7 +206,7 @@ def slide_3_promesa_1(prs):
     fill.solid()
     fill.fore_color.rgb = COLORS["blanco"]
 
-    # Borde izquierdo
+    # Borda esquerda
     border = slide.shapes.add_shape(
         MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(0.15), Inches(5.625)
     )
@@ -214,23 +215,23 @@ def slide_3_promesa_1(prs):
     border.line.fill.background()
 
     add_title_box(slide, 0.5, 0.5, 9, 0.8, "1", 140, COLORS["azul_principal"], False)
-    add_title_box(slide, 0.8, 1.2, 8, 1, "Instalar todo lo necesario", 40)
+    add_title_box(slide, 0.8, 1.2, 8, 1, "Instalar tudo o que é necessário", 40)
     add_body_box(
         slide,
         0.8,
         2.2,
         8,
         1.5,
-        "Ruby • Git • Jekyll\nPaso a paso. Sin complicaciones.",
+        "Ruby • Git • Jekyll\nPasso a passo, sem complicação.",
         24,
         COLORS["gris_oscuro"],
     )
 
-    print("✅ Slide 3 (Promesa 1)")
+    print("✅ Slide 3 (Promessa 1)")
 
 
 def slide_4_promesa_2(prs):
-    """SLIDE 4: Promesa Punto 2"""
+    """SLIDE 4: Promessa 2"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -247,23 +248,23 @@ def slide_4_promesa_2(prs):
     border.line.fill.background()
 
     add_title_box(slide, 0.5, 0.5, 9, 0.8, "2", 140, COLORS["verde"], False)
-    add_title_box(slide, 0.8, 1.2, 8, 1, "Crear tu primer blog", 40)
+    add_title_box(slide, 0.8, 1.2, 8, 1, "Crie seu primeiro blog", 40)
     add_body_box(
         slide,
         0.8,
         2.2,
         8,
         1.5,
-        "Con tus propios artículos\nEstructura profesional\nDiseño limpio",
+        "Com seus próprios artigos\nEstrutura profissional\nDesign limpo",
         24,
         COLORS["gris_oscuro"],
     )
 
-    print("✅ Slide 4 (Promesa 2)")
+    print("✅ Slide 4 (Promessa 2)")
 
 
 def slide_5_promesa_3(prs):
-    """SLIDE 5: Promesa Punto 3"""
+    """SLIDE 5: Promessa 3"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -280,23 +281,23 @@ def slide_5_promesa_3(prs):
     border.line.fill.background()
 
     add_title_box(slide, 0.5, 0.5, 9, 0.8, "3", 140, COLORS["azul_claro"], False)
-    add_title_box(slide, 0.8, 1.2, 8, 1, "Publicar en GitHub Pages", 40)
+    add_title_box(slide, 0.8, 1.2, 8, 1, "Publique no GitHub Pages", 40)
     add_body_box(
         slide,
         0.8,
         2.2,
         8,
         1.5,
-        "Tu dominio gratis\nOnline en minutos\nControl total",
+        "Seu site no ar sem custo de hospedagem\nPublicação pelo GitHub Pages\nConteúdo versionado com Git",
         24,
         COLORS["gris_oscuro"],
     )
 
-    print("✅ Slide 5 (Promesa 3)")
+    print("✅ Slide 5 (Promessa 3)")
 
 
 def slide_6_promesa_4(prs):
-    """SLIDE 6: Promesa Punto 4"""
+    """SLIDE 6: Próximos passos"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -313,23 +314,23 @@ def slide_6_promesa_4(prs):
     border.line.fill.background()
 
     add_title_box(slide, 0.5, 0.5, 9, 0.8, "4", 140, COLORS["naranja"], False)
-    add_title_box(slide, 0.8, 1.2, 8, 1, "El siguiente paso", 40)
+    add_title_box(slide, 0.8, 1.2, 8, 1, "Próximos passos", 40)
     add_body_box(
         slide,
         0.8,
         2.2,
         8,
         1.5,
-        "Monetizar tu blog\nHacer crecer tu audiencia\nNuevas oportunidades",
+        "Monetize seu blog\nAmplie seu público\nDescubra novas oportunidades",
         24,
         COLORS["gris_oscuro"],
     )
 
-    print("✅ Slide 6 (Promesa 4)")
+    print("✅ Slide 6 (Próximos passos)")
 
 
 def slide_7_gran_promesa(prs):
-    """SLIDE 7: Gran Promesa"""
+    """SLIDE 7: O resultado"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -347,17 +348,17 @@ def slide_7_gran_promesa(prs):
         0.3,
         8,
         5.025,
-        "CUANDO TERMINES ESTE CURSO\n\nTendrás un blog\nPROFESIONAL\n\n✓ Control total\n✓ Dominio gratis\n✓ Hosting gratis\n✓ NADA DE PAGAR\n\nNo una página de Wix.\nNo un blog de WordPress.\n\nUn blog REAL.\nQue TEMES que funcione.",
+        "AO CONCLUIR ESTE CURSO\n\nVocê terá um blog\nPROFISSIONAL\n\n✓ Controle total\n✓ Endereço no GitHub Pages (github.io)\n✓ Hospedagem sem custo no GitHub Pages\n✓ SEM MENSALIDADE DE HOSPEDAGEM\n\nCom estrutura própria, sem depender de um construtor visual.\n\nUm blog de verdade.\nQue você sabe que funciona.",
         28,
         COLORS["blanco"],
         PP_ALIGN.CENTER,
     )
 
-    print("✅ Slide 7 (Gran Promesa)")
+    print("✅ Slide 7 (Resultado)")
 
 
 def slide_8_comparativa(prs):
-    """SLIDE 8: Comparativa"""
+    """SLIDE 8: Comparação"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -367,10 +368,10 @@ def slide_8_comparativa(prs):
     fill.fore_color.rgb = COLORS["blanco"]
 
     # Título
-    add_title_box(slide, 0.5, 0.3, 9, 0.6, "¿Por qué Jekyll y no WordPress?", 36)
+    add_title_box(slide, 0.5, 0.3, 9, 0.6, "Jekyll ou WordPress: qual escolher?", 36)
 
-    # Tabla comparativa
-    # WordPress (izquierda)
+    # Tabela comparativa
+    # WordPress (esquerda)
     wp_box = slide.shapes.add_shape(
         MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(1.2), Inches(4.5), Inches(3.8)
     )
@@ -383,10 +384,10 @@ def slide_8_comparativa(prs):
     tf.clear()
     wp_items = [
         "💰 WordPress",
-        "$50-200 al año",
-        "🐢 Lento (~3s)",
-        "🔓 Vulnerable",
-        "📦 Pesado",
+        "Hospedagem pode ter custo",
+        "Amplo ecossistema de plugins",
+        "Requer atualizações frequentes",
+        "Usa banco de dados",
     ]
     tf.text = wp_items[0]
     for item in wp_items[1:]:
@@ -413,10 +414,10 @@ def slide_8_comparativa(prs):
     tf.clear()
     jekyll_items = [
         "✨ Jekyll",
-        "$0 Gratis",
-        "⚡ Velocidad",
-        "🔒 Seguro",
-        "📝 Minimalista",
+        "GitHub Pages sem custo de hospedagem",
+        "Arquivos estáticos e leves",
+        "Sem banco de dados em execução",
+        "Publicação pelo Git",
     ]
     tf.text = jekyll_items[0]
     for item in jekyll_items[1:]:
@@ -429,11 +430,11 @@ def slide_8_comparativa(prs):
         paragraph.font.bold = paragraph.text.startswith("✨")
         paragraph.alignment = PP_ALIGN.CENTER
 
-    print("✅ Slide 8 (Comparativa)")
+    print("✅ Slide 8 (Comparação)")
 
 
 def slide_9_proof(prs):
-    """SLIDE 9: Proof - Tu Blog"""
+    """SLIDE 9: Demonstração do blog"""
     blank_slide_layout = prs.slide_layouts[6]
     slide = prs.slides.add_slide(blank_slide_layout)
 
@@ -448,13 +449,13 @@ def slide_9_proof(prs):
         0.3,
         9,
         0.6,
-        "ESTO ES LO QUE LOGRAMOS CON JEKYLL",
+        "UM BLOG PUBLICADO COM JEKYLL",
         32,
         COLORS["azul_principal"],
         PP_ALIGN.CENTER,
     )
 
-    # Placeholder para imagem
+    # Espaço reservado para imagem
     image_shape = slide.shapes.add_shape(
         MSO_SHAPE.RECTANGLE, Inches(1.5), Inches(1.2), Inches(7), Inches(3.5)
     )
@@ -466,26 +467,26 @@ def slide_9_proof(prs):
     tf = image_shape.text_frame
     tf.clear()
     p = tf.paragraphs[0]
-    p.text = "[Screenshot de tu blog en alta resolución]"
+    p.text = "[Insira uma captura de tela do blog]"
     p.alignment = PP_ALIGN.CENTER
     p.font.size = Pt(18)
     p.font.color.rgb = RGBColor(153, 153, 153)
     tf.vertical_anchor = 1
 
-    # Texto overlay
+    # Texto sobreposto
     add_body_box(
         slide,
         0.5,
         4.8,
         9,
         0.7,
-        "⚡ 95+ Lighthouse Score  |  Tu blog en 2 horas",
+        "⚡ Site estático  |  Publicação pelo GitHub Pages",
         20,
         COLORS["blanco"],
         PP_ALIGN.CENTER,
     )
 
-    print("✅ Slide 9 (Proof)")
+    print("✅ Slide 9 (Demonstração)")
 
 
 def slide_10_requisitos(prs):
@@ -498,14 +499,14 @@ def slide_10_requisitos(prs):
     fill.solid()
     fill.fore_color.rgb = COLORS["blanco"]
 
-    add_title_box(slide, 0.5, 0.3, 9, 0.6, "Antes de empezar", 36)
+    add_title_box(slide, 0.5, 0.3, 9, 0.6, "Antes de começar", 36)
 
     # Requisitos
     reqs = [
-        "✅ Windows 10 o superior",
-        "✅ Conexión a Internet",
-        "✅ ~30 minutos de tu tiempo",
-        "✅ Voluntad de aprender",
+        "✅ Windows 10 ou superior",
+        "✅ Conexão com a internet",
+        "✅ Cerca de 30 minutos disponíveis",
+        "✅ Vontade de aprender",
     ]
     for i, req in enumerate(reqs):
         add_body_box(
@@ -523,7 +524,7 @@ def slide_10_requisitos(prs):
 
     tf = warning_box.text_frame
     tf.word_wrap = True
-    tf.text = "⚠️ AVISO IMPORTANTE\n\nEsto es fácil, pero requiere atención en cada paso.\nAfortunadamente, si te atascas, estoy aquí para ayudarte."
+    tf.text = "⚠️ IMPORTANTE\n\nO processo é acessível, mas exige atenção em cada etapa.\nSe surgir alguma dúvida, estarei aqui para ajudar."
 
     for paragraph in tf.paragraphs:
         paragraph.font.name = "Inter"
@@ -545,20 +546,20 @@ def slide_11_cta(prs):
     fill.gradient_stops[0].color.rgb = COLORS["blanco"]
     fill.gradient_stops[1].color.rgb = COLORS["gris_claro"]
 
-    add_title_box(slide, 0.5, 0.8, 9, 0.8, "¿ESTÁS LISTO?", 44)
+    add_title_box(slide, 0.5, 0.8, 9, 0.8, "VAMOS COMEÇAR?", 44)
     add_body_box(
         slide,
         0.5,
         1.8,
         9,
         1,
-        "En el siguiente video:\nInstalamos Ruby + Git + Jekyll",
+        "No próximo vídeo:\nVamos instalar Ruby + Git + Jekyll",
         24,
         COLORS["gris_oscuro"],
         PP_ALIGN.CENTER,
     )
 
-    # CTA Button (visual)
+    # Botão de chamada para ação (visual)
     cta_box = slide.shapes.add_shape(
         MSO_SHAPE.ROUNDED_RECTANGLE, Inches(3.5), Inches(3.2), Inches(3), Inches(0.7)
     )
@@ -567,7 +568,7 @@ def slide_11_cta(prs):
     cta_box.line.fill.background()
 
     tf = cta_box.text_frame
-    tf.text = "👉 VER MÓDULO 1"
+    tf.text = "👉 IR PARA O MÓDULO 1"
     p = tf.paragraphs[0]
     p.font.name = "Inter"
     p.font.size = Pt(22)
@@ -582,7 +583,7 @@ def slide_11_cta(prs):
         4.1,
         9,
         0.8,
-        "Deja un comentario abajo. Dime qué te emociona más.",
+        "Deixe um comentário: o que mais despertou seu interesse?",
         16,
         RGBColor(107, 114, 128),
         PP_ALIGN.CENTER,
@@ -609,7 +610,7 @@ def slide_12_despedida(prs):
         0.8,
         9,
         0.8,
-        "¡Nos vemos en el siguiente módulo!",
+        "Até o próximo módulo!",
         40,
         COLORS["blanco"],
         PP_ALIGN.CENTER,
@@ -621,13 +622,13 @@ def slide_12_despedida(prs):
         1.8,
         9,
         1.2,
-        "📚 GitHub Pages + Jekyll\n💻 Windows Setup\n🚀 Blog profesional sin costos",
+        "📚 GitHub Pages + Jekyll\n💻 Configuração no Windows\n🚀 Blog profissional sem custo de hospedagem",
         24,
         COLORS["blanco"],
         PP_ALIGN.CENTER,
     )
 
-    # Datos personales
+    # Dados pessoais
     add_body_box(
         slide,
         0.5,
@@ -645,7 +646,7 @@ def slide_12_despedida(prs):
         3.5,
         9,
         0.7,
-        "Data Engineer | AI Specialist",
+        "Engenheiro de Dados | Especialista em IA",
         14,
         RGBColor(219, 234, 254),
         PP_ALIGN.CENTER,
@@ -656,7 +657,7 @@ def slide_12_despedida(prs):
         4.1,
         9,
         0.5,
-        "Más de 20 años de experiencia en tecnología e IA",
+        "Mais de 20 anos de experiência em tecnologia e IA",
         13,
         RGBColor(219, 234, 254),
         PP_ALIGN.CENTER,
@@ -668,19 +669,19 @@ def slide_12_despedida(prs):
         4.7,
         9,
         0.7,
-        "🔗 blog.dataengineer.net.br  |  📧 [tu-email]  |  💼 LinkedIn",
+        "🔗 marcos-data-engineer.github.io/blog\n📧 contact.marcos.dataengineer@gmail.com  |  💼 linkedin.com/in/marcos-data-engineer",
         12,
         COLORS["blanco"],
         PP_ALIGN.CENTER,
     )
 
-    print("✅ Slide 12 (Despedida/Créditos)")
+    print("✅ Slide 12 (Encerramento e créditos)")
 
 
 def main():
-    """Función principal"""
+    """Gera os slides e salva a apresentação final no diretório do módulo."""
 
-    print("🎬 Gerando apresentação PowerPoint completa (12 slides)...")
+    print("🎬 Gerando a apresentação completa em PowerPoint (12 slides)...")
     print("")
 
     # Cria apresentação
@@ -702,36 +703,39 @@ def main():
     slide_11_cta(prs)
     slide_12_despedida(prs)
 
-    # Salva arquivo
-    output_path = r"c:\Users\vasco\git\blog\_video-course-docs\SECCION_1_COMPLETA.pptx"
+    output_path = (
+        Path(__file__).resolve().parents[1]
+        / "M00_Introducao"
+        / "apresentacao_final.pptx"
+    )
     prs.save(output_path)
 
     print("")
     print("=" * 70)
-    print("✅ SUCESSO! Apresentação completa criada:")
+    print("✅ Apresentação criada com sucesso:")
     print(f"📁 {output_path}")
     print("=" * 70)
     print("")
-    print("📊 Resumo de slides criados:")
-    print("  1. Portada/Intro (0:00-0:10)")
-    print("  2. Gancho (0:10-0:45)")
-    print("  3. Promesa Punto 1 (0:45-1:15)")
-    print("  4. Promesa Punto 2 (1:15-1:40)")
-    print("  5. Promesa Punto 3 (1:40-2:05)")
-    print("  6. Promesa Punto 4 (2:05-2:30)")
-    print("  7. Gran Promesa (2:30-3:10)")
-    print("  8. Comparativa (3:10-3:50)")
-    print("  9. Proof - Tu Blog (3:50-4:10)")
-    print("  10. Requisitos (4:10-4:30)")
-    print("  11. CTA (4:30-4:50)")
-    print("  12. Despedida/Créditos (4:50-5:00)")
+    print("📊 Resumo dos slides:")
+    print("  1. Capa (0:00–0:10)")
+    print("  2. Apresentação da proposta (0:10–0:45)")
+    print("  3. Instalação (0:45–1:15)")
+    print("  4. Primeiro blog (1:15–1:40)")
+    print("  5. Publicação no GitHub Pages (1:40–2:05)")
+    print("  6. Próximos passos (2:05–2:30)")
+    print("  7. Resultado esperado (2:30–3:10)")
+    print("  8. Comparação (3:10–3:50)")
+    print("  9. Demonstração do blog (3:50–4:10)")
+    print("  10. Requisitos (4:10–4:30)")
+    print("  11. Chamada para ação (4:30–4:50)")
+    print("  12. Encerramento e créditos (4:50–5:00)")
     print("")
-    print("⭐ Agora:")
-    print("  1. Abre el archivo en Google Slides")
-    print("  2. Añade tu imagen de blog en Slide 9")
-    print("  3. Ajusta email/LinkedIn en Slide 12")
-    print("  4. Verifica colores y fonts")
-    print("  5. ¡Listo para grabar!")
+    print("⭐ Próximas etapas:")
+    print("  1. Abra o arquivo no Google Slides")
+    print("  2. Insira a captura de tela do blog no slide 9")
+    print("  3. Confira os dados de contato no slide 12")
+    print("  4. Revise cores e fontes")
+    print("  5. Apresentação pronta para gravação")
     print("")
 
 

@@ -1,32 +1,39 @@
 {% if page.layout == 'post' %}
+{% if page.authors %}
+  {% assign schema_author_key = page.authors | first %}
+{% else %}
+  {% assign schema_author_key = page.author %}
+{% endif %}
+{% assign schema_author = site.data.authors[schema_author_key] %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "image": {% if page.image %}"{{ page.image | default: site.social_preview_image | prepend: site.url }}"{% else %}"{{ site.social_preview_image | prepend: site.url }}"{% endif %},
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "image": {% if page.image %}{% assign schema_image = page.image.path | default: page.image %}{{ schema_image | absolute_url | jsonify }}{% else %}{{ site.social_preview_image | absolute_url | jsonify }}{% endif %},
+  "inLanguage": {{ site.lang | jsonify }},
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   {% if page.last_modified_at %}"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",{% endif %}
   "author": {
     "@type": "Person",
-    "name": "{{ site.social.name }}",
-    "url": "{{ site.url }}/about"
+    "name": {{ schema_author.name | default: site.social.name | jsonify }},
+    "url": {{ schema_author.url | default: '/about/' | absolute_url | jsonify }}
   },
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.title }}",
+    "name": {{ site.title | jsonify }},
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.avatar | prepend: site.url }}"
+      "url": {{ site.avatar | absolute_url | jsonify }}
     }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
+    "@id": {{ page.url | absolute_url | jsonify }}
   }
   {% if page.categories %},
-  "keywords": "{{ page.categories | join: ', ' }}"{% endif %}
+  "keywords": {{ page.categories | concat: page.tags | uniq | jsonify }}{% endif %}
 }
 </script>
 {% endif %}

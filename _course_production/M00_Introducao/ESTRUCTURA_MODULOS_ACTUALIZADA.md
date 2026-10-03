@@ -1,305 +1,305 @@
-# 📚 Estructura de Módulos - Curso Jekyll Visual
+# 📚 Estrutura de Módulos - Curso Jekyll Visual
 
-**Curso:** Blog Profesional, Visual y Gratis con Jekyll  
+**Curso:** Blog profissional com hospedagem sem custo no GitHub Pages
 **Plataforma:** Hotmart  
-**Idioma:** Español  
-**Público:** Bloggers + emprendedores (no necesita conocimientos técnicos)
+**Idioma:** Português (Brasil)
+**Público:** Blogueiros + empreendedores (não precisa de conhecimentos técnicos)
 
 ---
 
-## 🎯 Promesa Principal
+## 🎯 Promessa Principal
 
 ```
-"Crea un blog profesional, visual y completamente GRATIS
-sin pagar hosting, sin wordpress, sin complicaciones.
-Todo de forma visual - sin código."
+"Crie e publique um blog profissional com Jekyll e GitHub Pages,
+sem custo de hospedagem no GitHub Pages.
+Use um editor visual, como o Obsidian, para escrever seus artigos."
 ```
 
 ---
 
-## 📑 ESTRUCTURA DE MÓDULOS (6-7 módulos)
+## 📑 ESTRUTURA DE MÓDULOS (8 módulos, numerados de 0 a 7)
 
-### **MÓDULO 0: INTRODUCCIÓN (5 minutos) ✓**
+### **MÓDULO 0: INTRODUÇÃO (5 minutos) ✓**
 
-**Objetivo:** Vender la idea. Captar emoción.
+**Objetivo:** Vender a ideia. Captar emoção.
 
-**Contenido:**
-- Portada + Hook
-- 4 Promesas clave
+**Conteúdo:**
+- Capa + gancho
+- 4 promessas principais
 - Comparativa Jekyll vs WordPress
-- Proof: Tu blog funcionando
+- Prova: seu blog funcionando
 - Requisitos
 - CTA
 
-**Resultado esperado:** 
-- Alumno está emocionado
-- Sabe exactamente qué obtendrá
-- Entiende por qué Jekyll (no miedo al código)
+**Resultado esperado:**
+- O aluno fica empolgado
+- Entende exatamente o que vai obter
+- Compreende por que Jekyll e como seguir os comandos apresentados
 
 ---
 
-### **MÓDULO 1: INSTALACIÓN (30 minutos)**
+### **MÓDULO 1: INSTALAÇÃO (30 minutos)**
 
-**Subtítulo:** "Setup Initial en Windows"
+**Subtítulo:** "Configuração inicial no Windows"
 
-**Objetivo:** Instalar todo lo necesario (copy-paste)
+**Objetivo:** Instalar tudo o que é necessário (copiar e colar)
 
-**Temas:**
-1. Descargar + instalar Ruby (con instalador visual)
-2. Descargar + instalar Git (default settings)
-3. Instalar Jekyll (comando: gem install jekyll)
-4. Verificar instalación (comandos simples)
+**Tópicos:**
+1. Baixar + instalar Ruby (com instalador visual)
+2. Baixar + instalar Git (configurações padrão)
+3. Instalar Jekyll (comando: `gem install jekyll`)
+4. Verificar instalação (comandos simples)
 
-**Demostración:**
-- Abres PowerShell/CMD
-- Copias comandos (copy-paste)
-- Todo funciona sin errores
+**Demonstração:**
+- Abra o PowerShell ou o Prompt de Comando
+- Copie e cole os comandos
+- Tudo funciona sem erros
 
 **Nota importante:**
-- "Sé que parece técnico, pero es copy-paste"
-- Mostras exactamente lo que escribir
-- NO explicar internals
+- "Vamos executar cada comando juntos, passo a passo"
+- Mostra exatamente o que escrever
+- Não é necessário explicar os detalhes internos
 
-**Tiempo de conclusión:** ~25 minutos (+ 5 min soporte)
-
----
-
-### **MÓDULO 2: TU PRIMER BLOG (25 minutos)**
-
-**Subtítulo:** "Crear proyecto Jekyll desde cero"
-
-**Objetivo:** Crear estructura de blog (scaffolding)
-
-**Temas:**
-1. Crear carpeta `mi-blog`
-2. Instanciar Jekyll: `jekyll new mi-blog`
-3. Navegar: `cd mi-blog`
-4. Ver en vivo: `bundle exec jekyll serve`
-5. Abrir en navegador: localhost:4000
-
-**Demostración Visual:**
-- Muestra carpeta siendo creada
-- Blog apareciendo no navegador (tema Chirpy)
-- Estructura automática (posts, assets, etc)
-
-**Empoderamiento:**
-- "Tienes un blog PROFESIONAL en 2 minutos"
-- Muestra Lighthouse score (95+ performance)
-- Compara com WordPress (lento, pesado)
+**Tempo de conclusão:** ~25 minutos (+ 5 min de suporte)
 
 ---
 
-### **MÓDULO 3: CREAR TU PRIMER ARTÍCULO (20 minutos)**
+### **MÓDULO 2: SEU PRIMEIRO BLOG (25 minutos)**
 
-**Subtítulo:** "Crear posts con Markdown (editor visual)"
+**Subtítulo:** "Criar projeto Jekyll do zero"
 
-**Objetivo:** Crear artículo SIN código
+**Objetivo:** Criar a estrutura inicial do blog
 
-**Temas:**
+**Tópicos:**
+1. Criar a pasta `meu-blog`
+2. Criar o projeto Jekyll: `jekyll new meu-blog`
+3. Entrar na pasta: `cd meu-blog`
+4. Ver ao vivo: `bundle exec jekyll serve`
+5. Abrir no navegador: `localhost:4000`
 
-**OPCIÓN A: Markdown Basicão (5 min)**
-- Mostrar sintaxis: `# Titulo`, `**negrita**`, `[link]`
-- Criar artículo com archivo.md
-- Jekyll renderiza automático
+**Demonstração visual:**
+- Mostra a pasta sendo criada
+- Blog aparecendo no navegador (tema Chirpy)
+- Estrutura automática (posts, assets, etc.)
 
-**OPCIÓN B: Obsidian Visual (15 min) - RECOMENDADO**
-- Instalar Obsidian (gratis)
-- Crear "vault" apuntando a carpeta `_posts`
-- Crear artículo con editor visual (sin ver Markdown)
-- Cambios se sincronizan al blog automático
-- **Esto es el diferencial**
+**Empoderamento:**
+- "Agora você tem um blog rodando localmente"
+- Mostre como conferir o desempenho com Lighthouse, sem prometer uma pontuação específica
+- Compare os fluxos de trabalho sem generalizar custos ou desempenho
 
-**Demostración:**
-- Abre Obsidian
-- Titula artículo
-- Formatea (bold, cursiva, links) visualmente
-- Blog se actualiza en tiempo real
-- Alumno piensa: "¡No escribí Markdown en absoluto!"
+---
 
-**Empoderamiento:**
-- "Blog visual, exacto como WordPress"
-- Pero con velocidad + seguridad de Jekyll
+### **MÓDULO 3: CRIAR SEU PRIMEIRO ARTIGO (20 minutos)**
+
+**Subtítulo:** "Criar posts com Markdown (editor visual)"
+
+**Objetivo:** Criar um artigo com Markdown ou usar o editor visual do Obsidian
+
+**Tópicos:**
+
+**OPÇÃO A: Markdown básico (5 min)**
+- Mostrar sintaxe: `# Título`, `**negrito**`, `[link]`
+- Criar artigo com `arquivo.md`
+- Jekyll renderiza automaticamente
+
+**OPÇÃO B: Obsidian visual (15 min) - RECOMENDADO**
+- Instalar Obsidian (grátis)
+- Criar um "vault" apontando para a pasta `_posts`
+- Criar artigo com editor visual (sem ver Markdown)
+- Alterações se sincronizam automaticamente com o blog
+- **Este é o diferencial**
+
+**Demonstração:**
+- Abre o Obsidian
+- Titula o artigo
+- Formata (negrito, itálico, links) visualmente
+- Blog atualiza em tempo real
+- O aluno pensa: "Eu não escrevi Markdown de forma alguma!"
+
+**Empoderamento:**
+- "Blog visual, exatamente como WordPress"
+- Mas com velocidade + segurança do Jekyll
 
 ---
 
 ### **MÓDULO 4: GITHUB PAGES - PUBLICAR ONLINE (22 minutos)**
 
-**Subtítulo:** "Tu blog en internet. Gratis."
+**Subtítulo:** "Seu blog na internet, com hospedagem sem custo no GitHub Pages."
 
-**Objetivo:** Deploy automatic a GitHub
+**Objetivo:** Publicar o site automaticamente no GitHub Pages
 
-**Temas:**
-1. Crear cuenta GitHub (si no tiene)
-2. Crear repositorio: `username.github.io`
-3. Conectar repositorio local: `git config`
+**Tópicos:**
+1. Criar conta no GitHub (se ainda não tiver)
+2. Criar repositório: `username.github.io`
+3. Conectar repositório local: `git config`
 4. Push inicial: `git add -A && git commit && git push`
-5. GitHub Pages activa automático
-6. Tu blog está ONLINE en `username.github.io`
+5. GitHub Pages ativo automaticamente
+6. Seu blog está ONLINE em `username.github.io`
 
-**Demostración:**
-- Muestra repositorio siendo creado
-- Push happening (status bars)
-- Blog appears en GitHub Pages (en vivo!)
-- Cambios que haces se publicam automático
+**Demonstração:**
+- Mostra repositório sendo criado
+- Push acontecendo (barras de status)
+- Blog aparece no GitHub Pages (ao vivo!)
+- Alterações que você faz são publicadas automaticamente
 
-**Tips:**
-- Configurar dominio personalizado (opcional)
-- GitHub Pages solo regenera cada 10min (mentionar)
+**Dicas:**
+- Configurar domínio personalizado (opcional)
+- GitHub Pages só regenera a cada 10 minutos (mencionar)
 
 ---
 
-### **MÓDULO 5: CUSTOMIZACIÓN + SEO (30 minutos)**
+### **MÓDULO 5: CUSTOMIZAÇÃO + SEO (30 minutos)**
 
-**Subtítulo:** "Personaliza tu blog + sube en Google"
+**Subtítulo:** "Personalize seu blog + suba no Google"
 
-**Objetivo:** Blog único + ranking
+**Objetivo:** Blog único + ranqueamento
 
-**Temas:**
-1. Cambiar tema/configuración (YAML)
-2. Añadir imágenes (lazy loading)
-3. Metadatos (título, descripción, tags)
+**Tópicos:**
+1. Mudar tema/configuração (YAML)
+2. Adicionar imagens (lazy loading)
+3. Metadados (título, descrição, tags)
 4. Schema.org (JSON-LD para SEO)
-5. Google Search Console (verificación)
+5. Google Search Console (verificação)
 6. Google Analytics (tracking)
 
-**Demostración:**
-- Editas `_config.yml` con Obsidian
-- Blog se regenera automático
-- Cambios visibles
-- GSC muestra crawler activity
-- Analytics muestra visitors
+**Demonstração:**
+- Edita `_config.yml` com Obsidian
+- Blog se regenera automaticamente
+- Alterações são visíveis
+- GSC mostra atividade de crawlers
+- Analytics mostra visitantes
 
 ---
 
-### **MÓDULO 6 (BONUS): MONETIZAR TU BLOG (15 minutos)**
+### **MÓDULO 6 (BÔNUS): MONETIZAR SEU BLOG (15 minutos)**
 
-**Subtítulo:** "Gana dinero con tu blog"
+**Subtítulo:** "Ganhe dinheiro com seu blog"
 
-**Objetivo:** Opciones de ingresos
+**Objetivo:** Opções de renda
 
-**Temas:**
-1. Google AdSense (passive income)
-2. Affiliate marketing (tu niche)
-3. Email marketing (lead capture)
-4. Produtos digitales (tus cursos)
+**Tópicos:**
+1. Google AdSense (renda passiva)
+2. Marketing de afiliados (seu nicho)
+3. Email marketing (captação de leads)
+4. Produtos digitais (seus cursos)
 
-**Demostración:**
-- Mostrar tu blog con AdSense
-- Clicks = dinero
-- Modelos de ingresos posibles
+**Demonstração:**
+- Mostrar seu blog com AdSense
+- Cliques = dinheiro
+- Modelos de renda possíveis
 
 ---
 
-### **MÓDULO 7 (BONUS): CRECER Y OPTIMIZAR (20 minutos)**
+### **MÓDULO 7 (BÔNUS): CRESCER E OTIMIZAR (20 minutos)**
 
-**Subtítulo:** "Estrategia para crecer audiencia"
+**Subtítulo:** "Estratégia para crescer audiência"
 
-**Objetivo:** Plan de crecimiento
+**Objetivo:** Plano de crescimento
 
-**Temas:**
-1. Estrategia de contenido
-2. SEO on-page (palabras clave)
+**Tópicos:**
+1. Estratégia de conteúdo
+2. SEO on-page (palavras-chave)
 3. Link building (backlinks)
-4. Social media strategy (promotion)
-5. Email list (retention)
+4. Estratégia de redes sociais (divulgação)
+5. Lista de e-mail (retenção)
 
-**Demostración:**
-- Tools recomendadas (Ahrefs, Semrush gratis)
-- Tu blog en Google (ranking por keywords)
-- Tráfico visible en Analytics
+**Demonstração:**
+- Ferramentas recomendadas (Ahrefs, Semrush grátis)
+- Seu blog no Google (ranqueamento por keywords)
+- Tráfego visível no Analytics
 
 ---
 
-## ⏱️ RESUMEN DE TIMING
+## ⏱️ RESUMO DE TEMPO
 
 ```
-TOTAL CURSO: ~2 horas 12 minutos
+TOTAL DO CURSO: ~2 horas e 47 minutos
 
-Módulo 0: Introducción       5 min    (grabado)
-Módulo 1: Instalación        30 min   (step-by-step)
-Módulo 2: Crear blog         25 min   (scaffolding)
-Módulo 3: Primer artículo    20 min   (Obsidian visual)
-Módulo 4: GitHub Pages       22 min   (deploy + online)
-Módulo 5: Customización      30 min   (SEO + branding)
-Módulo 6: Monetizar          15 min   (bonus)
-Módulo 7: Crecer             20 min   (bonus)
+Módulo 0: Introdução       5 min    (gravado)
+Módulo 1: Instalação        30 min   (passo a passo)
+Módulo 2: Criar blog        25 min   (estrutura inicial)
+Módulo 3: Primeiro artigo   20 min   (Obsidian visual)
+Módulo 4: GitHub Pages      22 min   (publicação na internet)
+Módulo 5: Customização      30 min   (SEO + identidade visual)
+Módulo 6: Monetizar         15 min   (bônus)
+Módulo 7: Crescer           20 min   (bônus)
                              ─────────────────
                              167 min (~2h 47min)
 
-(Flexible: Usuario puede hacer en 2-3 sesiones)
+(Flexível: o usuário pode fazer em 2-3 sessões)
 ```
 
 ---
 
-## 🎯 DIFERENCIADORES vs Otros Jekyll Cursos
+## 🎯 DIFERENCIADORES vs Outros Cursos de Jekyll
 
 ```
-❌ Competencia: "Jekyll para developers"
-✅ Tu curso: "Blog VISUAL para blogueros"
+❌ Concorrência: "Jekyll para desenvolvedores"
+✅ Seu curso: "Blog VISUAL para blogueiros"
 
-❌ Competencia: "Terminal commands"
-✅ Tu curso: "Interface visual (Obsidian)"
+❌ Concorrência: "Comandos de terminal"
+✅ Seu curso: "Interface visual (Obsidian)"
 
-❌ Competencia: "Técnico + teórico"
-✅ Tu curso: "Práctico + visual step-by-step"
+❌ Concorrência: "Técnico + teórico"
+✅ Seu curso: "Prático, visual e passo a passo"
 
-❌ Competencia: "Sin monetización"
-✅ Tu curso: "Cómo generar ingresos"
+❌ Concorrência: "Sem monetização"
+✅ Seu curso: "Como gerar renda"
 ```
 
 ---
 
-## 📊 MATRIZ DE CONTENIDO
+## 📊 MATRIZ DE CONTEÚDO
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║             MÓDULO    DURACIÓN  DIFICULTAD  AUDIENCIA         ║
+║             MÓDULO    DURAÇÃO  DIFICULDADE  PÚBLICO          ║
 ╠═══════════════════════════════════════════════════════════════╣
-║ 0. Intro         5m      🟢 Fácil    Todos                    ║
-║ 1. Setup         30m     🟢 Fácil    Non-techies              ║
-║ 2. Crear         25m     🟢 Fácil    Bloggers                 ║
-║ 3. Artículos     20m     🟢 Fácil    Escritores               ║
-║ 4. Online        22m     🟡 Medium   Adventurous              ║
-║ 5. Customización 30m     🟡 Medium   Enthusiasts              ║
-║ 6. Monetizar     15m     🟢 Fácil    Entrepreneurs            ║
-║ 7. Crecer        20m     🟡 Medium   Growth-focused           ║
+║ 0. Intro         5m      🟢 Fácil    Todos                  ║
+║ 1. Instalação    30m     🟢 Fácil    Iniciantes             ║
+║ 2. Criar         25m     🟢 Fácil    Blogueiros            ║
+║ 3. Artigos       20m     🟢 Fácil    Escritores            ║
+║ 4. Publicação    22m     🟡 Médio   Aventureiros           ║
+║ 5. Customização  30m     🟡 Médio   Entusiastas           ║
+║ 6. Monetizar     15m     🟢 Fácil    Empreendedores        ║
+║ 7. Crescer       20m     🟡 Médio   Foco em crescimento   ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## ✅ CHECKLIST PRODUCCIÓN
+## ✅ CHECKLIST DE PRODUÇÃO
 
-- [ ] Módulo 0: Slides 12 grabar + editar
-- [ ] Módulo 1: Screencast instalación
-- [ ] Módulo 2: Screencast scaffolding
-- [ ] Módulo 3: Screencast Obsidian (principal diferenciador!)
-- [ ] Módulo 4: Screencast GitHub + Deploy
-- [ ] Módulo 5: Screencast customización
-- [ ] Módulo 6: Screencast monetización (bonus)
-- [ ] Módulo 7: Screencast crecimiento (bonus)
+- [ ] Módulo 0: Gravar e editar o vídeo com os 12 slides
+- [ ] Módulo 1: Gravação de tela da instalação
+- [ ] Módulo 2: Gravação de tela da criação do projeto
+- [ ] Módulo 3: Gravação de tela do Obsidian (principal diferencial!)
+- [ ] Módulo 4: Gravação de tela do GitHub e da publicação
+- [ ] Módulo 5: Gravação de tela da personalização
+- [ ] Módulo 6: Gravação de tela sobre monetização (bônus)
+- [ ] Módulo 7: Gravação de tela sobre crescimento (bônus)
 
 ---
 
-## 💡 MENSAJES CLAVE (Marketing)
+## 💡 MENSAGENS-CHAVE (Marketing)
 
-**Para Anuncio Hotmart:**
+**Para anúncio Hotmart:**
 ```
-"Blog profesional, visual y completamente GRATIS
-Instala en 30 minutos. Crea artículos sin código.
-Publicado online en 1 hora. Sin WordPress."
+"Aprenda a criar e publicar um blog estático com Jekyll e GitHub Pages.
+Use o Obsidian como editor visual; a instalação e a publicação incluem comandos.
+A hospedagem no GitHub Pages não tem custo para este projeto."
 ```
 
 **Para YouTube (trailer):**
 ```
-"¿Quieres empezar a bloguear?
-Olvídate de WordPress caro. 
-Crea un blog profesional GRATIS en 2 horas.
-Con interfaz visual. Sin código."
+"Quer começar a publicar?
+Aprenda a criar um blog com Jekyll e GitHub Pages.
+Escreva com um editor visual e publique seu site estático.
+O curso explica os comandos necessários em cada etapa."
 ```
 
 ---
 
-**Próximo paso:** Producción de videos (orden sugerida: Mod 0 → 1 → 3 → 2 → 4 → 5)
+**Próximo passo:** Produção de vídeos (ordem sugerida: Mód. 0 → 1 → 3 → 2 → 4 → 5)
 
-*Última actualización: 24 de Febrero, 2026*
+*Última atualização: 24 de fevereiro de 2026*

@@ -1,119 +1,40 @@
-# 📹 Video Course Documentation
-## "Blog Visual, Rápido y Gratis" con Jekyll
+# Documentação de produção do curso
 
-Esta pasta contém toda a documentação e recursos para a produção do curso de vídeo **"Blog Profesional Visual con Jekyll para Windows"** na plataforma Hotmart.
+Esta pasta reúne os roteiros, as especificações e o arquivo-fonte da apresentação do curso **Blog profissional com hospedagem sem custo no GitHub Pages**, voltado ao Windows.
 
----
+## Arquivos
 
-## 📂 Arquivos nesta pasta
+- `ESTRUCTURA_MODULOS_ACTUALIZADA.md`: organização e objetivos dos módulos.
+- `roteiro_detalhado.md`: roteiro de narração e orientações de gravação do módulo de introdução.
+- `escopo_apresentacao.md`: conteúdo, layout e tempo previsto para os 12 slides.
+- `CORRECOES_SLIDES_GOOGLE.md`: checklist de revisão do deck atual.
+- `apresentacao_final.pptx`: apresentação gerada; inclui espaços reservados para capturas de tela que devem ser substituídas antes da gravação.
+- `../_scripts/gerar_slides_completos.py`: fonte usada para gerar o PowerPoint.
 
-### **Documentação de Estrutura**
-- `ESTRUCTURA_MODULOS_ACTUALIZADA.md` - Roadmap completo (7 módulos, timing, diferenciadores)
+O roteiro antigo foi arquivado e adaptado para português brasileiro em `../_archive/GUION_VIDEO_1_INTRODUCCION.md`; ele não deve ser usado como versão atual.
 
-### **Guiones (Scripts de Narração)**
-- `GUION_VIDEO_1_INTRODUCCION.md` - Script para voz (antigo - usar ROTEIRO_DETALLADO)
-- `ROTEIRO_DETALLADO_SECCION_1.md` - **Script atual com novo messaging (Visual, não "sin código")**
+## Posicionamento do curso
 
-### **Especificaciones de Presentación**
-- `ESCOPO_PRESENTACION_VIDEO_1.md` - Especificação de todos os 12 slides (visual layout)
+O curso ensina a criar e publicar um blog estático com Jekyll e GitHub Pages. O Obsidian pode ser usado como editor visual, mas a instalação e a publicação ainda envolvem comandos; por isso, a promessa não é “sem código”. As instruções mostram os comandos necessários passo a passo.
 
-### **Presentación Generada**
-- `SECCION_1_COMPLETA.pptx` - **Arquivo POWERPOINT pronto (importar no Google Slides)**
-- `gerar_slides_completos.py` - Script que gera o PPTX (reutilizable)
+## Estrutura dos módulos
 
----
-
-## 🎯 O QUE MUDOU?
-
-### **Messaging Atualizado:**
-
-```
-ANTES:  "¿Blog Gratis Sin Código?"
-        → Enganoso (Markdown é "código")
-
-DEPOIS: "¿Blog Visual, Rápido y Gratis?"
-        → Honesto (interface visual com Obsidian)
+```text
+Módulo 0: Introdução (5 min)
+Módulo 1: Instalação (30 min)
+Módulo 2: Primeiro blog (25 min)
+Módulo 3: Primeiro artigo com Markdown ou Obsidian (20 min)
+Módulo 4: Publicação no GitHub Pages (22 min)
+Módulo 5: Personalização e SEO (30 min)
+Módulo 6: Monetização (15 min, bônus)
+Módulo 7: Crescimento da audiência (20 min, bônus)
 ```
 
-### **Novo Módulo Estrutura:**
+## Revisão antes da gravação
 
-```
-Módulo 0: Introducción (5 min) ✓ Já com novo positioning
-Módulo 1: Instalación (30 min)
-Módulo 2: Crear blog (25 min)
-Módulo 3: Artículos con Obsidian (20 min) ← DIFERENCIAL!
-Módulo 4: GitHub Pages (22 min)
-Módulo 5: Customización + SEO (30 min)
-Módulo 6: BONUS - Monetizar (15 min)
-Módulo 7: BONUS - Crecer (20 min)
-```
+1. Regenere e abra `apresentacao_final.pptx`.
+2. Substitua as capturas de tela de exemplo por imagens atuais do site.
+3. Confira a URL e os dados de contato no slide final.
+4. Verifique se textos, fontes e elementos cabem nos slides.
 
----
-
-## 🎬 Próximos Passos
-
-### **1. Revisar Slides**
-   - Abre `SECCION_1_COMPLETA.pptx` en Google Slides
-   - Slide 1: Agora diz **"¿Blog Visual, Rápido y Gratis?"** ✓
-   - Adiciona tu imagen de blog en Slide 9
-   - Ajusta email/LinkedIn en Slide 12
-
-### **2. Graba Módulo 0**
-   - Usa `ROTEIRO_DETALLADO_SECCION_1.md` (script atualizado)
-   - Música: "Bensound - Sunny" (gratis)
-   - OBS: Captura de pantalla + voz
-
-### **3. Planeja Módulos 1-7**
-   - Consulta `ESTRUCTURA_MODULOS_ACTUALIZADA.md`
-   - Recomendación: Grava en order → Mod 0 → 1 → 3 → 2 → 4 → 5
-   - Módulo 3 (Obsidian) es el diferenciador clave
-
----
-
-## 🎨 Paleta de Cores (Copy-paste os códigos HEX)
-
-```
-Azul Principal:    #1E40AF
-Azul Claro:        #3B82F6
-Naranja:           #F59E0B
-Verde:             #10B981
-Gris Oscuro:       #374151
-Blanco:            #FFFFFF
-```
-
----
-
-## 📝 Fontes Utilizadas (Google Fonts - Grátis)
-
-```
-Títulos/Headlines:  Montserrat Bold
-Subtítulos:         Poppins SemiBold
-Corpo/Body:         Inter Regular
-```
-
----
-
-## ✅ ESTADO ATUAL (24 Febrero 2026)
-
-- [x] Messaging atualizado ("Visual" em vez de "Sin Código")
-- [x] Slides regenerados com novo positioning
-- [x] Roteiro atualizado com nova narração
-- [x] Estrutura de 7 módulos documentada
-- [x] Arquivos antigos/duplicados removidos
-- [ ] Módulo 0 gravado e editado
-- [ ] Módulo 1-7 em produção
-
----
-
-## 📌 Notas Importantes
-
-⚠️ **Esta pasta está em `.gitignore`** → Não será commitada no Git  
-✓ **Contenha toda a documentação de produção**  
-✓ **Backup regularmente** (Google Drive, OneDrive, etc)
-
-✨ **Diferencial:** Obsidian como ferramenta visual para criar artículos (Módulo 3 BONUS)
-
----
-
-*Última actualización: 24 de Febrero, 2026*
-
+Os dados públicos do site devem permanecer alinhados a `_config.yml`. A URL configurada atualmente é `https://marcos-data-engineer.github.io/blog/`.

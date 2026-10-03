@@ -1,52 +1,62 @@
-# Artificial Intelligence Blog 🧠⚙️
+# Blog de Arquitetura de Dados e Inteligência Artificial 🧠⚙️
 
-Welcome to the official repository for the Artificial Intelligence blog, hosted at [blog.dataengineer.ne.br](https://blog.dataengineer.ne.br). 
+Repositório do blog de arquitetura de dados e inteligência artificial, publicado em [marcos-data-engineer.github.io/blog](https://marcos-data-engineer.github.io/blog).
 
-This space is dedicated to exploring, documenting, and sharing knowledge about AI, data architecture, Large Language Models (LLMs), and cutting-edge development tools.
+O conteúdo aborda engenharia de dados, arquitetura, modelos de linguagem de grande porte (LLMs), inteligência artificial generativa e ferramentas modernas de desenvolvimento.
 
-## 🛠️ Technologies and Architecture
+## Tecnologias
 
-The blog was built with a focus on performance, accessibility, and maintainability, utilizing the following technologies:
+- **Gerador de sites estáticos:** [Jekyll](https://jekyllrb.com/)
+- **Tema:** [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+- **Publicação e CI/CD:** GitHub Pages, automatizado por GitHub Actions.
 
-* **Static Site Generator:** [Jekyll](https://jekyllrb.com/)
-* **Theme:** [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A clean, responsive, and text-focused theme.
-* **Hosting & CI/CD:** GitHub Pages via GitHub Actions (`pages.yml`) for automated deployment.
+## Recursos
 
-## ✨ Integrated Features
+- Otimização para mecanismos de busca com `jekyll-seo-tag` e `jekyll-sitemap`.
+- Comentários por meio do Utterances, usando discussões do GitHub.
+- Apoio ao projeto via LivePix.
+- Dados estruturados Schema.org para artigos, autoria e organização.
+- RSS, busca e navegação por categorias e tags.
 
-The repository already includes several advanced configurations and integrations:
+## Estrutura do repositório
 
-* **SEO and Monetization:** Search engine optimization and Google AdSense review implemented (`SEO_ADSENSE_REVIEW.md`, `ads.txt`).
-* **Commenting System:** Integration with Utterances, allowing readers to comment using GitHub issues.
-* **Project Support:** LivePix donation component configured via `_includes/livepix_donation.html`.
-* **Structured Metadata:** Schema.org configurations for articles, author, and organization, improving search engine indexing.
+- `_posts/`: artigos em Markdown.
+- `_data/`: configurações de idioma, contato e compartilhamento.
+- `_includes/`: componentes HTML reutilizáveis e metadados estruturados.
+- `_layouts/`: modelos de páginas e artigos.
+- `_tabs/`: páginas de navegação do site.
+- `assets/`: imagens, ícones, folhas de estilo e scripts.
+- `_course_production/`: documentação e arquivos-fonte do material do curso.
+- `_config.yml`: configuração principal do Jekyll.
 
-## 📁 Repository Structure
+## Executar localmente
 
-Here is a summary of how the repository is organized:
+Requisitos: Ruby, Bundler, Node.js e npm.
 
-* `_posts/`: Contains the blog articles in Markdown format (e.g., `2024-07-24-the-history-of-artificial-intelligence.md`).
-* `_data/`: Data configuration files, such as contacts and social sharing options.
-* `_includes/`: Modular HTML components (header, footer, comments, SEO schemas).
-* `_layouts/`: Page templates (such as the default `post` template).
-* `assets/`: Static files, including images, icons, CSS, and minified scripts.
-* `_config.yml`: Main Jekyll configuration file.
+1. Instale as dependências Ruby:
 
-## 🚀 How to Run Locally
-
-If you want to run the blog locally to test changes or write new articles before deployment, follow the steps below:
-
-1. **Prerequisites:** Make sure you have [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/) installed in your environment.
-2. **Install dependencies:**
    ```bash
    bundle install
-Run the local server:
+   ```
 
-Bash
-bundle exec jekyll serve
-Access: Open your browser and go to http://localhost:4000.
+2. Instale as dependências JavaScript:
 
-✍️ About the Author
-Created and maintained by Marcos Vasconcellos de Andrade, straight from Brasília - Brazil. The blog reflects continuous learning and a passion for technology, with a practical focus on data architecture, artificial intelligence foundation models (LLMs), autonomous agents, and modern development tools like Claude Code.
+   ```bash
+   npm install
+   ```
 
-This project utilizes internal implementation guides and review checklists to keep quality and SEO up to date.
+3. Inicie o site:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Acesse <http://localhost:4000/blog/>.
+
+Para compilar os recursos JavaScript, execute `npm run build` antes de iniciar o Jekyll.
+
+## Autoria
+
+Projeto criado e mantido por Marcos Vasconcellos de Andrade, em Brasília, Brasil. O conteúdo reflete estudos e experiências práticas em arquitetura de dados, infraestrutura, inteligência artificial generativa, agentes autônomos e ferramentas modernas de desenvolvimento.
+
+> A URL pública e o caminho-base são definidos em `_config.yml`. Mantenha-os alinhados ao domínio configurado no GitHub Pages para evitar URLs canônicas e sitemaps apontando para endereços diferentes.

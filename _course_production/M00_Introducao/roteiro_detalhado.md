@@ -1,338 +1,338 @@
-# 🎬 ROTEIRO DETALLADO - SECCIÓN 1
+# 🎬 ROTEIRO DETALHADO - SEÇÃO 1
 ## "Gancho Inicial" (0:00 - 1:00)
 
-**Objetivo:** Captar atención. Vender la idea. Mostrar que es posible.
+**Objetivo:** captar a atenção, vender a ideia e mostrar que é possível.
 
 ---
 
-## 📊 SLIDES NECESARIOS
+## 📊 SLIDES NECESSÁRIOS
 
-### **SLIDE 1: Portada/Intro**
+### **SLIDE 1: Capa/Introdução**
 
-#### Especificaciones:
+#### Especificações:
 
 ```
-Duración total en pantalla: 10 segundos (0:00 - 0:10)
-Tipo: Portada estilo "cine"
+Duração total na tela: 10 segundos (0:00 - 0:10)
+Tipo: capa estilo "cinema"
 ```
 
 #### Visual:
 
 ```
-FONDO:
+FUNDO:
 Gradiente suave azul → azul claro
-Inicio:  #1E40AF (azul fuerte)
-Fin:     #3B82F6 (azul claro)
-O alternativa: Imagen blurred de código/blog
+Início: #1E40AF (azul forte)
+Fim:    #3B82F6 (azul claro)
+Ou alternativa: imagem borrada de código/blog
 
 TEXTO CENTRAL:
-"¿Blog Visual, Rápido y Gratis?"
+"Blog Visual, Rápido e Grátis?"
 
-Fuente:      Montserrat Bold
-Tamaño:      56pt
-Color:       BLANCO (#FFFFFF)
-Posición:    Centro horizontal, 40% desde arriba
-Sombra:      Sombra ligera negra (2px, opacidad 30%)
+Fonte:      Montserrat Bold
+Tamanho:    56pt
+Cor:        BRANCO (#FFFFFF)
+Posição:    Centro horizontal, 40% a partir do topo
+Sombra:     Sombra leve preta (2px, opacidade 30%)
 
-EMOJIS DECORATIVOS (abajo):
+EMOJIS DECORATIVOS (abaixo):
 💻  🚀  📝
 
-Tamaño:      48pt cada uno
-Posición:    Espaciados uniformemente abajo (20% desde pie)
-Color:       BLANCO o con efecto
+Tamanho:    48pt cada um
+Posição:    Distribuídos uniformemente na parte inferior (20% do rodapé)
+Cor:        BRANCO ou com efeito
 
 MÚSICA:
-(Empieza aqui - ver sección música)
-Fade in durante primeros 2 segundos
-Volumen: -6dB
+(começa aqui — veja a seção de música)
+Fade in durante os primeiros 2 segundos
+Volume: -6dB
 ```
 
-#### Animaciones en Google Slides:
+#### Animações no Google Slides:
 
 ```
 Entrada:
-- Fondo: Sin animación (aparece instantáneo)
-- Texto: Fade in, 0.5 segundos, delay 0.5s
-- Emojis: Aparecen staggered:
-  - 💻 fade in a 1s
-  - 🚀 fade in a 1.5s  
-  - 📝 fade in a 2s
+- Fundo: sem animação (aparece instantaneamente)
+- Texto: fade in de 0,5 segundo, com intervalo de 0,5s
+- Emojis: aparecem em sequência:
+  - 💻 fade in em 1s
+  - 🚀 fade in em 1,5s
+  - 📝 fade in em 2s
 
-Salida (final del slide):
-- Fade out, 0.5 segundos, al segundo 9
+Saída (final do slide):
+- Fade out, 0,5 segundo, no segundo 9
 ```
 
-#### Instrucciones OBS:
+#### Instruções OBS:
 
 ```
-00:00  Captura pantalla completa (1920x1080)
-       Escena: "SLIDE_1_PORTADA"
-       
-       Si usas Google Slides:
-       - Abre en navegador FULLSCREEN (F11)
-       - Inicia presentación (barra espaciadora)
-       - Deja en SLIDE 1
-       - OBS captura esta ventana
-       
-00:10  Transición suave (Fade, 0.5s en OBS)
-       Cambio a SLIDE 2
+00:00  Captura de tela completa (1920x1080)
+       Cena: "SLIDE_1_PORTADA"
+
+       Se usar o Google Slides:
+       - Abra no navegador em tela cheia (F11)
+       - Inicie a apresentação (barra de espaço)
+       - Deixe no SLIDE 1
+       - OBS captura esta janela
+
+00:10  Transição suave (Fade, 0,5s no OBS)
+       Muda para SLIDE 2
 ```
 
-#### LO QUE DIRÁS (narración):
+#### O QUE VOCÊ DIRÁ (narração):
 
 ```
-(SILENCIO TOTAL)
+(SILÊNCIO TOTAL)
 
-No hables en este slide. Solo música.
-Deja que el viewer procese lo visual.
+Não fale neste slide. Só música.
+Deixe o espectador processar o visual.
 
-Este es tu hook - el "gancho".
-La música hace el trabajo aquí.
+Este é o seu gancho.
+A música faz o trabalho aqui.
 ```
 
 #### Notas técnicas:
 
 ```
-✓ NO incluyas texto pequeño (distracting)
-✓ Usa SOLO logo/emojis (simple = poderoso)
-✓ Mantén 10 segundos (no menos, no más)
-✓ Música es 80% del impacto aquí
+✓ NÃO inclua texto pequeno (distração)
+✓ Use SOMENTE logo/emojis (simples = poderoso)
+✓ Mantenha 10 segundos (nem menos, nem mais)
+✓ Música é 80% do impacto aqui
 ```
 
 ---
 
-### **SLIDE 2: El Gancho (Contenido)**
+### **SLIDE 2: O Gancho (conteúdo)**
 
-#### Especificaciones:
+#### Especificações:
 
 ```
-Duración: 50 segundos (0:10 - 1:00)
-Tipo: Dos columnas - Texto + Imagen
+Duração: 50 segundos (0:10 - 1:00)
+Tipo: duas colunas — texto + imagem
 ```
 
 #### Visual:
 
 ```
-LAYOUT: Dos columnas (50-50 split)
+LAYOUT: duas colunas (50-50 split)
 
 ═══════════════════════════════════════════════════════════
 ║                                                          ║
-║  COLUMNA IZQUIERDA            COLUMNA DERECHA           ║
-║  (Texto - 50%)                (Imagen - 50%)            ║
+║  COLUNA ESQUERDA            COLUNA DIREITA               ║
+║  (Texto - 50%)              (Imagem - 50%)             ║
 ║                                                          ║
 ═══════════════════════════════════════════════════════════
 
 ─────────────────────────────────────────────────────────
 
-COLUMNA IZQUIERDA (Texto):
+COLUNA ESQUERDA (Texto):
 
-Espaciado: 60px margen izquierdo
+Espaçamento: 60px de margem esquerda
 
-PREGUNTA 1:
-"¿Cansado de pagar"
+PERGUNTA 1:
+"Cansado de pagar"
 "por hosting?"
 
-Fuente:      Montserrat Bold
-Tamaño:      40pt
-Color:       #1E40AF (azul)
-Posición:    Arriba-izquierda, y=80px
+Fonte:      Montserrat Bold
+Tamanho:    40pt
+Cor:        #1E40AF (azul)
+Posição:    canto superior esquerdo, y=80px
 
-[ESPACIO: 20px]
+[ESPAÇO: 20px]
 
-PREGUNTA 2:
-"¿No quieres complicarte"
-"con WordPress?"
+PERGUNTA 2:
+"Não quer se complicar"
+"com WordPress?"
 
-Fuente:      Montserrat Bold
-Tamaño:      40pt
-Color:       #1E40AF (azul)
-Posición:    y=180px
+Fonte:      Montserrat Bold
+Tamanho:    40pt
+Cor:        #1E40AF (azul)
+Posição:    y=180px
 
-[ESPACIO: 40px]
+[ESPAÇO: 40px]
 
-TITULAR DESTACADO:
-"✓ TENEMOS BUENAS NOTICIAS"
+TÍTULO DESTACADO:
+"✓ TEMOS BOAS NOTÍCIAS"
 
-Fuente:      Poppins Bold
-Tamaño:      28pt
-Color:       #F59E0B (naranja)
-Posición:    y=280px
-Efecto:      Checkmark es emoji ✓ verde (#10B981)
+Fonte:      Poppins Bold
+Tamanho:    28pt
+Cor:        #F59E0B (laranja)
+Posição:    y=280px
+Efeito:     Checkmark em emoji ✓ verde (#10B981)
 
-[ESPACIO: 30px]
+[ESPAÇO: 30px]
 
-PÁRRAFO CUERPO:
-"Puedes crear un blog"
-"PROFESIONAL"
-"GRATIS"
+PARÁGRAFO DO CORPO:
+"Você pode criar um blog"
+"PROFISSIONAL"
+"GRÁTIS"
 
-Fuente:      Inter Regular
-Tamaño:      24pt (normal), 32pt para "PROFESIONAL"
-Color:       #374151 (gris oscuro)
-Posición:    y=350px
+Fonte:      Inter Regular
+Tamanho:    24pt (normal), 32pt para "PROFISSIONAL"
+Cor:        #374151 (cinza escuro)
+Posição:    y=350px
 
-[ESPACIO: 2px entre líneas]
+[ESPAÇO: 2px entre linhas]
 
 ─────────────────────────────────────────────────────────
 
-COLUMNA DERECHA (Imagen):
+COLUNA DIREITA (Imagem):
 
-IMAGEN PRINCIPAL:
-Screenshot de tu blog: blog.dataengineer.net.br
+IMAGEM PRINCIPAL:
+Captura de tela do site: https://marcos-data-engineer.github.io/blog/
 
-Tamaño:      450px ancho × 350px alto
-Proporciones: Fullpage screenshot (homepage)
-Borde:       3px sólido #10B981 (verde)
-Sombra:      Proyectada (8px, opacidad 25%)
-Posición:    Centrada en columna derecha, y=60px
+Tamanho:      450px de largura × 350px de altura
+Proporções: captura da página inicial completa
+Borda:       3px sólido #10B981 (verde)
+Sombra:      projetada (8px, opacidade 25%)
+Posição:     centralizada na coluna direita, y=60px
 
-NOTA: Si quieres la imagen DINÁMICA (video en vivo),
-ver sección "OPCIÓN 2" más abajo.
+OBS: se quiser uma imagem DINÂMICA (vídeo ao vivo),
+veja a seção "OPÇÃO 2" abaixo.
 ```
 
-#### Animaciones en Google Slides:
+#### Animações no Google Slides:
 
 ```
-Entrada del Slide 2 (desde Slide 1):
+Entrada do Slide 2 (a partir do Slide 1):
 
-01. Fade in completo del slide: 0.5s
-    Trigger: Automático al salir Slide 1
+01. Fade in completo do slide: 0,5s
+    Acionamento: automático ao sair do Slide 1
 
-02. Columna IZQUIERDA animación:
-    - Pregunta 1: Aparece fade in a 0.3s (delay 0s)
-    - Pregunta 2: Aparece fade in a 0.3s (delay 0.3s)
-    - "Buenas noticias": Zoom suave in a 0.5s (delay 0.8s)
-    - Body text: Fade in a 0.3s (delay 1.2s)
+02. Coluna ESQUERDA: animação:
+    - Pergunta 1: aparece com fade in em 0,3s (intervalo de 0s)
+    - Pergunta 2: aparece com fade in em 0,3s (intervalo de 0,3s)
+    - "Boas notícias": aproximação suave em 0,5s (intervalo de 0,8s)
+    - Texto do corpo: fade in em 0,3s (intervalo de 1,2s)
 
-03. Columna DERECHA animación:
-    - Imagen: Slide in from right a 0.8s (delay 0.5s)
-    - Borde imagen: Aparece cuando imagen
+03. Coluna DIREITA: animação:
+    - Imagem: entrada deslizante pela direita em 0,8s (intervalo de 0,5s)
+    - Borda da imagem: aparece junto com a imagem
 
-Nota: Las animaciones crean "cinematic feel"
-      User sigue el flujo visual de izq a derecha
+Nota: as animações criam uma sensação cinematográfica
+      o usuário segue o fluxo visual da esquerda para a direita
 
-Salida del Slide 2 (final a 1:00):
-    - Fade out, 0.5s, al segundo 59
+Saída do Slide 2 (final do 1:00):
+    - Fade out de 0,5s no segundo 59
 ```
 
-#### Instrucciones OBS - OPCIÓN 1 (Screenshot estático):
+#### Instruções do OBS — OPÇÃO 1 (captura de tela estática):
 
 ```
 00:10  Mostrar SLIDE 2
-       
-       Pre-grabación:
-       - Captura screenshot fullpage de tu blog
-       - Abre en Canva o PowerPoint
-       - Ajusta tamaño y borde (3px verde)
-       - Añade como imagen en slide
-       
-       Grabación:
+
+       Pré-gravação:
+       - Capture uma imagem da página inicial inteira do site
+       - Abra no Canva ou PowerPoint
+       - Ajuste o tamanho e a borda (3px verde)
+       - Adicione como imagem no slide
+
+       Gravação:
        - OBS: "SLIDE_2_GANCHO"
-       - Captura pantalla Google Slides fullscreen
-       - Deja reproducir las animaciones
-       - Deja sonar tu voz
-       
-00:59  Mantén visible el slide completo 49 segundos
-       
-01:00  Transición fade (0.5s en OBS)
-       Cambio a siguiente slide
+       - Capture a tela do Google Slides em modo de tela cheia
+       - Deixe as animações serem reproduzidas
+       - Deixe a sua voz tocar
+
+00:59  Mantenha o slide inteiro visível por 49 segundos
+
+01:00  Transição gradual (0,5s no OBS)
+       Muda para o próximo slide
 ```
 
-#### Instrucciones OBS - OPCIÓN 2 (Video en vivo - MÁS IMPACTANTE):
+#### Instruções OBS — OPÇÃO 2 (vídeo ao vivo — MAIS IMPACTANTE):
 
 ```
-MEJOR OPCIÓN: Mostrar blog FUNCIONANDO en vivo
+MELHOR OPÇÃO: mostrar o blog FUNCIONANDO ao vivo
 
-00:10  En lugar de screenshot:
-       - Abre Chrome
-       - Navega a blog.dataengineer.net.br
-       - Espera carga completa
-       - Muestra homepage
-       
-       OBS captura simultáneamente:
-       
-       00:10-00:15  Carga navegador (lento)
-       00:15-00:30  Scroll lento por homepage
-                    Muestra títulos atractivos, imágenes
-       00:30-00:45  Scroll más hacia abajo
-                    Muestra estructura profesional
-       00:45-00:59  Pausa en algún artículo bonito
-                    Deja que user vea calidad
-       
-01:00  Transición a siguiente slide
+00:10  Em vez de uma captura de tela:
+       - Abra o Chrome
+       - Acesse https://marcos-data-engineer.github.io/blog/
+       - Espere o carregamento completo
+       - Mostre a homepage
+
+       OBS captura simultaneamente:
+
+       00:10-00:15  Carregamento do navegador (lento)
+       00:15-00:30  Rola lentamente pela homepage
+                    Mostra títulos atrativos, imagens
+       00:30-00:45  Rola mais para baixo
+                    Mostra estrutura profissional
+       00:45-00:59  Pausa em algum artigo bonito
+                    Deixe o usuário ver a qualidade
+
+01:00  Transição para o próximo slide
 ```
 
-**RECOMENDACIÓN:** Opción 2 (video vivo) es MÁS impactante.
-Muestra que el blog EXISTE y FUNCIONA.
+**RECOMENDAÇÃO:** a opção 2 (vídeo ao vivo) é mais impactante.
+Mostra que o blog EXISTE e FUNCIONA.
 
 ---
 
-## 🎤 NARRACIÓN COMPLETA SECCIÓN 1
+## 🎤 NARRAÇÃO COMPLETA DA SEÇÃO 1
 
-### Palabra por palabra (respeta pausas):
+### Palavra por palavra (respeite as pausas):
 
 ```
 [00:00-00:10]
-(SILENCIO - solo música)
+(SILÊNCIO — só música)
 
 ═══════════════════════════════════════════════════════════
 
 [00:10-00:15]
 (Voz suave, entusiasta)
 
-"¡Hola!"
+"Olá!"
 
 [PAUSA: 1 segundo]
 
-"¿Cansado de pagar por hosting?"
+"Cansado de pagar por hospedagem?"
 
-[PAUSA: 0.5 segundos - deja que procesen]
+[PAUSA: 0,5 segundo — deixe processarem]
 
 ═══════════════════════════════════════════════════════════
 
 [00:15-00:22]
 
-"¿No quieres complicarte con WordPress?"
+"Não quer se complicar com WordPress?"
 
 [PAUSA: 1 segundo]
 
-"Bueno... tengo buenas noticias."
+"Bem... tenho boas notícias."
 
-[PAUSA: 0.5 segundos]
+[PAUSA: 0,5 segundo]
 
 ═══════════════════════════════════════════════════════════
 
 [00:22-00:35]
 
-"Puedes crear un blog profesional..."
+"Você pode criar um blog profissional..."
 
-[PAUSA: 0.3 segundos]
+[PAUSA: 0,3 segundo]
 
-"Completamente GRATIS."
+"Completamente GRÁTIS."
 
-[ÉNFASIS en "GRATIS" - más lento, más fuerte]
+[ÊNFASE em "GRÁTIS" — mais lento, mais forte]
 
 [PAUSA: 1 segundo]
 
-"Sin pagar un centavo por dominio."
+"Sem pagar um centavo por domínio."
 
-[PAUSA: 0.3 segundos]
+[PAUSA: 0,3 segundo]
 
-"Sin pagar por hosting."
+"Sem pagar por hospedagem."
 
-[PAUSA: 0.5 segundos]
+[PAUSA: 0,5 segundo]
 
 ═══════════════════════════════════════════════════════════
 
 [00:35-00:45]
 
-"Y lo mejor..."
+"E o melhor..."
 
-[PAUSA: 0.5 segundos - espera efecto dramático]
+[PAUSA: 0,5 segundo — espere o efeito dramático]
 
-"Con una interfaz VISUAL."
+"Com uma interface VISUAL."
 
-[ÉNFASIS en "VISUAL" - lo importante]
+[ÊNFASE em "VISUAL" — o importante]
 
 [PAUSA: 1 segundo]
 
@@ -340,309 +340,306 @@ Muestra que el blog EXISTE y FUNCIONA.
 
 [00:45-00:55]
 
-"En este curso te voy a enseñar..."
+"Neste curso vou te ensinar..."
 
-[PAUSA: 0.3 segundos]
+[PAUSA: 0,3 segundo]
 
-"Cómo crear tu primer blog utilizando GitHub Pages y Jekyll."
+"Como criar o seu primeiro blog usando GitHub Pages e Jekyll."
 
-[PAUSA: 0.3 segundos]
+[PAUSA: 0,3 segundo]
 
-"En Windows. Do cero."
+"No Windows. Do zero."
 
-[PAUSA: 0.5 segundos]
+[PAUSA: 0,5 segundo]
 
 ═══════════════════════════════════════════════════════════
 
 [00:55-01:00]
 
-"Y mira..."
+"E veja..."
 
-[PAUSA: 0.5 segundos]
+[PAUSA: 0,5 segundo]
 
-"Esto es lo que vamos a lograr hoy."
+"Isso é o que vamos conseguir hoje."
 
-[PAUSA: fin del slide]
+[PAUSA: fim do slide]
 
 ═══════════════════════════════════════════════════════════
 ```
 
-#### Notas de dicción:
+#### Notas de dicção:
 
 ```
 TONO:
-✓ Entusiasta pero profesional (no predicador)
-✓ Conversacional (como hablando con amigo)
-✓ Enfático en palabras clave (GRATIS, blog, profesional)
+✓ Entusiasta, mas profissional (não pregador)
+✓ Conversacional (como se falasse com um amigo)
+✓ Ênfase nas palavras-chave (GRÁTIS, blog, profissional)
 
-VELOCIDAD:
-✓ Normal - no aceleres
-✓ Este es el "hook" - déjalo respirar
-✓ Pausas son MÁS importantes que las palabras
+VELOCIDADE:
+✓ Normal — não acelere
+✓ Este é o gancho — deixe a ideia respirar
+✓ Pausas são MAIS importantes do que as palavras
 
-PRONUNCIACIÓN (español):
-✓ "CANSADO" - énfasis en primera sílaba
-✓ "WordPress" - "Word-Press" (do sílabas)
-✓ "GRATIS" - "GRAH-tis" (no "GRAH-tees")
-✓ "Jekyll" - "He-kill" o "Je-kill" (tu elección, pero se consistente)
-✓ "GitHub" - "Git-hab"
-✓ "hosting" - "os-ting" (pronuncia la "o" como en "ostra")
+PRONÚNCIA (espanhol):
+✓ "CANSADO" — ênfase na primeira sílaba
+✓ "WordPress" — "Word-Press" (duas sílabas)
+✓ "GRÁTIS" — "GRAH-tis" (não "GRAH-tees")
+✓ "Jekyll" — "He-kill" ou "Je-kill" (sua escolha, mas seja consistente)
+✓ "GitHub" — "Git-hab"
+✓ "hosting" — "os-ting" (pronuncie a vogal como em "ostra")
 
-ÉNFASIS EMOCIONAL:
-✓ "GRATIS" = más fuerte, más lento (la gente pone atención)
-✓ "profesional" = confianza (no dudes)
-✓ "casi código" = con un toque de ironía (sonríe mientras hablas)
-✓ "esto es lo que..." = esperanza, ilusión
+ÊNFASE EMOCIONAL:
+✓ "GRÁTIS" = mais forte, mais lento (as pessoas prestam atenção)
+✓ "profesional" = confiança (não vacile)
+✓ "casi código" = com toque de ironia (sorria ao falar)
+✓ "esto es lo que..." = esperança, ilusão
 
-ERRORES COMUNES (evita):
-✗ No suenes como si lees (aunque leas)
-✗ No aceleres al final de frase
-✗ No "m" mudas (siempre pronuncia todo)
-✗ No portuguizar (evita "eh", "hã")
+ERROS COMUNS (evite):
+✗ Não pareça que está lendo (mesmo que leia)
+✗ Não acelere no final da frase
+✗ Não deixe "m" mudo (pronuncie tudo)
+✗ Não portugueize (evite "eh", "hã")
 ```
 
 ---
 
-## 🎵 MÚSICA (SECCIÓN 1)
+## 🎵 MÚSICA (SEÇÃO 1)
 
 ### Timing:
 
 ```
 00:00  Fade IN (2 segundos)
-       Volumen: -6dB (baja)
-       Comienza suave
-       
-00:10  FULL volumen (-3dB)
-       Acompaña la narración
-       Nota: Baja durante hablada
-       
-01:00  Fade OUT (0.5 segundos)
-       Volumen vuelve a -6dB
-       O desaparece si siguiente slide tiene silencio
+       Volume: -6dB (baixo)
+       Começa suave
+
+00:10  VOLUME TOTAL (-3dB)
+       Acompanha a narração
+       Observação: abaixe durante a fala
+
+01:00  Fade OUT (0,5 segundo)
+       Volume volta para -6dB
+       Ou desaparece se o próximo slide tiver silêncio
 ```
 
-### Recomendaciones de canción:
+### Recomendações de música:
 
 ```
 Características:
-✓ Uplifting, pero no invasivo
-✓ Tempo: 80-100 BPM (no muy rápido)
-✓ Duración: Mínimo 1:30
-✓ Sin voces (instrumental)
-✓ Energía: Media (no demasiado dramática)
+✓ Inspiradora, mas não invasiva
+✓ Tempo: 80-100 BPM (não muito rápido)
+✓ Duração: mínimo 1:30
+✓ Sem vozes (instrumental)
+✓ Energia: média (não muito dramática)
 
-OPCIONES GRATIS:
+OPÇÕES GRÁTIS:
 1. "Bensound - Sunny"
    https://www.bensound.com/royalty-free-music/track/sunny
-   → Perfecta para esto (optimista, limpia)
+   → Perfeita para isso (otimista, limpa)
 
 2. "Bensound - Improving"
    https://www.bensound.com/royalty-free-music/track/improving
-   → Also good (motivational)
+   → Também funciona (motivacional)
 
 3. YouTube Audio Library:
-   Busca "Corporate" o "Uplifting"
-   → Montón de opciones gratis
+   Busque "Corporate" ou "Uplifting"
+   → Há várias opções grátis
 
-DESCARGA ANTES DE GRABAR:
-✓ Descarga MP3 a carpeta local (tipo C:\Musica\)
-✓ En OBS, añade como "Audio Input Capture"
-✓ Ajusta volumen a -6dB
-✓ Deja que OBS sincronice con video
+BAIXE ANTES DE GRAVAR:
+✓ Baixe o MP3 para uma pasta local (ex.: C:\Música\)
+✓ No OBS, adicione como "Audio Input Capture"
+✓ Ajuste volume para -6dB
+✓ Deixe o OBS sincronizar com o vídeo
 
-NO hagas streaming de Spotify/YouTube
-→ Causa lag y problemas sync
+NÃO faça streaming de Spotify/YouTube
+→ Causa lag e problemas de sincronização
 ```
 
 ---
 
-## ⚙️ CONFIGURACIÓN OBS PARA ESTA SECCIÓN
+## ⚙️ CONFIGURAÇÃO DO OBS PARA ESTA SEÇÃO
 
-### Escenas necesarias:
-
-```
-Escena 1: "SECCION_1_INTRO"
-├─ Fuente: Captura de ventana Google Slides
-├─ Tamaño: 1920x1080
-├─ Filtros: Ninguno (natural)
-└─ Micrófono: Entrada de audio (tu micrófono)
-
-Recursos adicionales:
-├─ Audio: Música "Sunny" (descargada)
-├─ Video: Copia de seguridad (por si falla)
-└─ Chat: Invisible (para grabación)
-```
-
-### Configuración audio:
+### Cenas necessárias:
 
 ```
-Micrófono:
-- Nivel: -18dB a -12dB (no clipeado)
-- Sample rate: 48kHz (estándar)
-- Canales: Estéreo
-- Noise gate: Activado (reduce ruido fondo)
+Cena 1: "SECAO_1_INTRO"
+├─ Fonte: captura de janela do Google Slides
+├─ Tamanho: 1920x1080
+├─ Filtros: nenhum (natural)
+└─ Microfone: entrada de áudio (seu microfone)
+
+Recursos adicionais:
+├─ Áudio: música "Sunny" (baixada)
+├─ Vídeo: cópia de segurança (caso falhe)
+└─ Chat: invisível (para gravação)
+```
+
+### Configuração de áudio:
+
+```
+Microfone:
+- Nível: -18dB a -12dB (sem clipping)
+- Sample rate: 48kHz (padrão)
+- Canais: estéreo
+- Noise gate: ativado (reduz ruído de fundo)
 
 Música:
-- Nivel: -6dB durante narración
+- Nível: -6dB durante a narração
 - Fade in: 2 segundos
-- Fade out: 0.5 segundos
+- Fade out: 0,5 segundo
 
 Mix final:
 - Voz: -6dB a -3dB (protagonista)
-- Música: -12dB a -6dB (acompaña)
-- Relación: 70% voz, 30% música
+- Música: -12dB a -6dB (acompanha)
+- Relação: 70% voz, 30% música
 ```
 
-### Configuración video:
+### Configuração de vídeo:
 
 ```
-Codec: H.264 (x264 o NVIDIA NVENC)
-Bitrate: 6000 kbps (buena calidad)
-Framerate: 60 FPS grabación (exportar a 30)
-Resolución: 1920x1080
-Encoder: GPU si tienes (NVIDIA/AMD)
+Codec: H.264 (x264 ou NVIDIA NVENC)
+Bitrate: 6000 kbps (boa qualidade)
+Framerate: 60 FPS gravação (exportar depois para 30)
+Resolução: 1920x1080
+Encoder: GPU se tiver (NVIDIA/AMD)
 ```
 
 ---
 
-## 📹 PREP ANTES DE GRABAR
+## 📹 PREPARO ANTES DE GRAVAR
 
 ### Hardware:
 
 ```
-☐ Micrófono: Conectado y probado
-  - Graba 10 segundos, escúchate
-  - ¿Claro? ¿Sin ruido?
-  
-☐ Auriculares: Conectados (para escuchar música mientras hablas)
-  
-☐ Monitor: 1920x1080 mínimo (para ver slides bien)
-  
-☐ Internet: Estable (no necesitas para esto, pero test)
+☐ Microfone: conectado e testado
+  - Grave 10 segundos, ouça a si mesmo
+  - Claro? Sem ruído?
+
+☐ Fones: conectados (para ouvir a música enquanto fala)
+
+☐ Monitor: 1920x1080 mínimo (para ver os slides bem)
 ```
 
 ### Software:
 
 ```
-☐ Google Chrome/Firefox: Última versión
-  ☐ Google Slides: Pantalla completa funciona
-  
-☐ OBS Studio: v30+ (actualizado)
-  ☐ Avisos de meoria: Ignorados
-  ☐ Escena "SECCION_1_INTRO": Creada
-  ☐ Fuentes audio: Configuradas
-  
-☐ Música: Descargada y verificada
-  - Ruta: C:\Musica\bensound-sunny.mp3
-  - Duración: OK (1:30+)
-  
-☐ Archivo de output: Directorio preparado
-  - Guardar en: C:\Videos\Seccion_1\
-```
+☐ Google Chrome/Firefox: última versão
+  ☐ Google Slides: tela cheia funciona
+
+☐ OBS Studio: v30+ (atualizado)
+  ☐ Avisos de memória: ignorados
+  ☐ Cena "SECAO_1_INTRO": criada
+  ☐ Fontes de áudio: configuradas
+
+☐ Música: baixada e verificada
+  - Caminho: C:\Músicaensound-sunny.mp3
+  - Duração: ok (1:30+)
+
+☐ Arquivo de saída: diretório preparado
+  - Salvar em: C:\Vídeos\Secao_1```
 
 ### Ambiente:
 
 ```
-☐ Luz: Natural o artificial buena (sin sombras)
+☐ Luz: natural ou artificial boa (sem sombras)
 
-☐ Ruido: Cerrar ventanas, apagar AC, silencio
+☐ Ruído: fechar janelas, desligar ar-condicionado, silêncio
 
-☐ Mascotas: Afuera o aisladas
+☐ Pets: fora ou isolados
 
-☐ Teléfono: SILENCIO total
+☐ Celular: SILÊNCIO total
 
-☐ Notificaciones Windows: Desactivadas
-  - Configuración > Notificaciones > OFF
-  - O modo "Focus Assist"
+☐ Notificações do Windows: desativadas
+  - Configurações > Notificações > Desativadas
+  - Ou modo "Focus Assist"
 
-☐ Pantalla: Sin extensiones de Chrome que rompan diseño
-  - Idealmente: Modo incógnito de Chrome
+☐ Tela: sem extensões do Chrome que atrapalhem o design
+  - Idealmente: modo incógnito do Chrome
 ```
 
-### Pre-grabación (5 min antes):
+### Pré-gravação (5 minutos antes):
 
 ```
-1. [ ] Abre OBS
-2. [ ] Selecciona escena "SECCION_1_INTRO"
-3. [ ] Test audio:
-   - Habla 5 segundos en micrófono
-   - Mira nivel en OBS (debería estar -18 a -12dB)
-4. [ ] Abre Google Slides en Chrome fullscreen
-5. [ ] Navega a SLIDE 1
-6. [ ] En OBS, "Start Recording"
-7. [ ] Espera 2 segundos (buffer)
-8. [ ] Inicia presentación (spacebar)
-9. [ ] Deja que Google Slides reproduzca
-10. [ ] En el segundo 0:10, COMIENZA A HABLAR
-11. [ ] Sigue el script exactamente
-12. [ ] Al segundo 1:00, termina frase y espera transición
-13. [ ] Stop recording
+1. [ ] Abra o OBS
+2. [ ] Selecione a cena "SECAO_1_INTRO"
+3. [ ] Teste o áudio:
+   - Fale 5 segundos no microfone
+   - Veja o nível no OBS (deveria estar entre -18 e -12dB)
+4. [ ] Abra o Google Slides no Chrome em modo de tela cheia
+5. [ ] Vá para SLIDE 1
+6. [ ] No OBS, clique "Iniciar gravação"
+7. [ ] Espere 2 segundos para evitar cortes no início
+8. [ ] Inicie a apresentação com a barra de espaço
+9. [ ] Deixe o Google Slides reproduzir
+10. [ ] No segundo 0:10, COMECE A FALAR
+11. [ ] Siga o roteiro exatamente
+12. [ ] No segundo 1:00, termine a frase e espere a transição
+13. [ ] Pare a gravação
 ```
 
 ---
 
-## 📝 SCRIPT IMPRIMIBLE
+## 📝 ROTEIRO IMPRESSO
 
-(Para imprimir y leer mientras grabas)
+(Para imprimir e ler enquanto grava)
 
 ```
 ════════════════════════════════════════════════════════════
-              SECCIÓN 1 - SCRIPT IMPRIMIBLE
-═══════════════════════════════════════════════════════════
+              SEÇÃO 1 — ROTEIRO IMPRESSO
+════════════════════════════════════════════════════════════
 
 [00:00-00:10]
-🔇 SILENCIO (solo música)
+🔇 SILÊNCIO (só música)
 
 [00:10-00:15]
-"¡Hola!"
+"Olá!"
 [PAUSA 1s]
-"¿Cansado de pagar por hosting?"
-[PAUSA 0.5s]
+"Cansado de pagar por hospedagem?"
+[PAUSA 0,5s]
 
 [00:15-00:22]
-"¿No quieres complicarte con WordPress?"
+"Não quer se complicar com WordPress?"
 [PAUSA 1s]
-"Bueno... tengo buenas noticias."
-[PAUSA 0.5s]
+"Bem... tenho boas notícias."
+[PAUSA 0,5s]
 
 [00:22-00:35]
-"Puedes crear un blog profesional..."
-[PAUSA 0.3s]
-"Completamente GRATIS."
-[ÉNFASIS - pausado]
+"Você pode criar um blog profissional..."
+[PAUSA 0,3s]
+"Completamente GRÁTIS."
+[ÊNFASE — pausado]
 [PAUSA 1s]
-"Sin pagar un centavo por dominio."
-[PAUSA 0.3s]
-"Sin pagar por hosting."
-[PAUSA 0.5s]
+"Sem pagar um centavo por domínio."
+[PAUSA 0,3s]
+"Sem pagar por hospedagem."
+[PAUSA 0,5s]
 
 [00:35-00:45]
-"Y lo mejor..."
-[PAUSA 0.5s]
+"E o melhor..."
+[PAUSA 0,5s]
 "Sin tocar casi código."
-[con ironía]
+[com ironia]
 [PAUSA 1s]
 
 [00:45-00:55]
-"En este curso te voy a enseñar..."
-[PAUSA 0.3s]
-"Cómo crear tu primer blog utilizando GitHub Pages y Jekyll."
-[PAUSA 0.3s]
-"En Windows. Do cero."
-[PAUSA 0.5s]
+"Neste curso vou te ensinar..."
+[PAUSA 0,3s]
+"Como criar o seu primeiro blog usando GitHub Pages e Jekyll."
+[PAUSA 0,3s]
+"No Windows. Do zero."
+[PAUSA 0,5s]
 
 [00:55-01:00]
-"Y mira..."
-[PAUSA 0.5s]
-"Esto es lo que vamos a lograr hoy."
-[fin]
+"E veja..."
+[PAUSA 0,5s]
+"Isso é o que vamos conseguir hoje."
+[fim]
 
 ════════════════════════════════════════════════════════════
-TIPS DE GRABACIÓN:
-✓ Lee con naturalidad (no robótico)
-✓ Pausas son TAN importantes como palabras
-✓ Si te equivocas, para y recomienza desde el inicio
-✓ Haz 2-3 takes (luego eliges la mejor)
+DICAS DE GRAVAÇÃO:
+✓ Leia com naturalidade (não robótico)
+✓ Pausas são tão importantes quanto as palavras
+✓ Se errar, pare e recomece do início
+✓ Faça 2-3 takes (depois escolhe o melhor)
 ════════════════════════════════════════════════════════════
 ```
 
@@ -650,59 +647,59 @@ TIPS DE GRABACIÓN:
 
 ## ✅ CHECKLIST FINAL ANTES DE ENVIAR
 
-Una vez que grabes esta sección, revisa:
+Depois de gravar esta seção, revise:
 
 ```
-AUDIO:
-☐ ¿Se oye claro tu voz?
-☐ ¿Hay ruido de fondo (AC, ventana, digambos)?
-☐ ¿La música está a volumen correcto?
-☐ ¿No hay clipping (picos de audio distorsionados)?
+ÁUDIO:
+☐ Sua voz está clara?
+☐ Há ruído de fundo (ar-condicionado, janela, etc.)?
+☐ A música está no volume correto?
+☐ Não há clipping (picos de áudio distorcidos)?
 
-VIDEO:
-☐ ¿Se ve Google Slides completo en pantalla?
-☐ ¿Las transiciones de slides son suaves?
-☐ ¿La resolución es 1920x1080 o similar?
-☐ ¿Hay lag o desincronización audio/video?
+VÍDEO:
+☐ O Google Slides aparece completo na tela?
+☐ As transições dos slides são suaves?
+☐ A resolução é 1920x1080 ou similar?
+☐ Há lag ou desincronização de áudio/vídeo?
 
-CONTENIDO:
-☐ ¿Todas las palabras se pronuncian claras?
-☐ ¿Las pausas están en el lugar correcto?
-☐ ¿El timing total es ~60 segundos?
-☐ ¿La energía/entusiasmo se siente genuino?
+CONTEÚDO:
+☐ Todas as palavras são pronunciadas claramente?
+☐ As pausas estão no lugar certo?
+☐ O tempo total é ~60 segundos?
+☐ A energia/entusiasmo parece genuíno?
 
-EDICIÓN:
-☐ ¿Exportaste a MP4 con buena calidad?
-☐ ¿El archivo tiene tamaño normal (100-300MB)?
-☐ ☐ ¿Puedes reproducir sin problemas?
+EDIÇÃO:
+☐ Exportou para MP4 com boa qualidade?
+☐ O arquivo tem tamanho normal (100-300MB)?
+☐ Você consegue reproduzir sem problemas?
 
-SI TODO OK:
-→ Sube a Google Drive
-→ Comparte link conmigo
-→ Te doy feedback detallado
+SE TUDO OK:
+→ Envie para o Google Drive
+→ Compartilhe o link comigo
+→ Envie para receber comentários detalhados
 ```
 
 ---
 
-## 📧 QUÉ ENVIARME
+## 📧 O QUE ME ENVIAR
 
-Cuando hayas grabado Sección 1:
+Quando você gravar a Seção 1:
 
-1. **Archivo MP4** (resol 1280x720 o 1920x1080)
-2. **Duración:** ~60 segundos
-3. **Ubicación:** Google Drive (compartible)
-4. **Nombre:** `Seccion_1_Gancho_[tu_nombre].mp4`
-5. **Describir:** Cualquier nota sobre la grabación
-   - "Primer intento, conozco que el acento..."
-   - "Hice 3 takes, esta es la mejor"
-   - Lo que sea relevante
+1. **Arquivo MP4** (resolução 1280x720 ou 1920x1080)
+2. **Duração:** ~60 segundos
+3. **Localização:** Google Drive (compartilhável)
+4. **Nome:** `Seccion_1_Gancho_[seu_nome].mp4`
+5. **Descreva:** qualquer nota sobre a gravação
+   - "Primeira tentativa, sei que o sotaque..."
+   - "Fiz 3 takes, essa é a melhor"
+   - O que for relevante
 
 ---
 
-**¡Cuando estés listo, me avisas!**
+**Quando estiver pronto, me avise!**
 
-Este roteiro está detallado al máximo.
+Este roteiro está detalhado ao máximo.
 
-Cualquier duda sobre slides, OBS, audio, simplemente pregunta.
+Qualquer dúvida sobre slides, OBS, áudio, basta perguntar.
 
 🚀🎬✨
