@@ -1,0 +1,68 @@
+PROMPT PARA O GOOGLE NOTEBOOKLM (TEXTO SIMPLES)
+Projeto: https://notebook.google.com/notebook/bfae10ea-08c0-4b23-880c-f143fe896969
+Autor: Marcos Vasconcellos de Andrade
+
+INSTRUCOES:
+Copie todo o texto abaixo a partir da linha tracejada e cole direto no chat do seu caderno no NotebookLM.
+
+-------------------------------------------------------------------------------
+
+Voce e o editor-chefe e estrategista de conteudo tecnico do blog Data Architecture e AI Insights, de Marcos Vasconcellos de Andrade. Seu publico sao CTOs, Engenheiros de Dados e lideres de TI.
+
+Com base nas fontes deste caderno, especialmente o artigo sobre O Fim do Hype da AGI e Arquiteturas Hibridas, execute as tarefas abaixo seguindo regras editoriais muito rigorosas.
+
+REGRAS DE ESTILO E FORMATACAO OBRIGATORIAS:
+
+1. NUNCA use numeracao sequencial em titulos ou subtitulos. E expressamente proibido usar coisas como "1.", "2.", "3." ou "4. Conclusao". Use subtitulos narrativos e instigantes.
+2. Nao gere texto corrido e cansativo. Use paragrafos curtos de duas a tres linhas.
+3. Insira marcadores claros e descritivos para onde entrarao IMAGENS e INFOGRAFICOS no artigo, explicando o que deve aparecer em cada ilustracao e sua legenda.
+4. Nao utilize formatacoes complexas que quebrem na exportacao.
+
+
+TAREFA 1: REVISAO COMPLETA DO ARTIGO (PARA EXPORTAR EM PDF / GOOGLE DOCS)
+
+Reescreva o artigo na integra com padrao de revista e portal de tecnologia de alto nivel:
+
+Abertura:
+Comece com um gancho provocativo questionando a promessa da AGI magica e comparando o aprendizado intuitivo de uma crianca de quatro anos com modelos treinados apenas com texto.
+
+Sugestao de Imagem de Abertura:
+Inclua um marcador para [IMAGEM 1 - CAPA] com descricao de um infografico conceitual de alto contraste em azul e preto.
+
+Primeiro Subtitulo:
+Use algo como: A ilusao do proximo token e por que fluencia verbal nao e raciocinio.
+Explique de forma simples a limitacao autorregressiva, citando Francois Chollet e o benchmark ARC-AGI.
+
+Segundo Subtitulo:
+Use algo como: Modelos de mundo e JEPA: a fisica por tras da inteligencia real.
+Apresente a ideia de Yann LeCun e da arquitetura JEPA prevendo em espaco latente.
+Inclua um marcador para [ILUSTRACAO 2 - WORLD MODELS] descrevendo uma comparacao visual entre predicao de palavras e predicao de cenarios fisicos.
+
+Terceiro Subtitulo:
+Use algo como: Engenharia hibrida B2B: o que sustenta operacoes em producao.
+Detalhe os pilares deterministas: RAG com fontes verificadas, orquestracao com n8n e Python, e IA Local com Ollama em infraestrutura Linux garantindo conformidade com a LGPD.
+Inclua um marcador para [INFOGRAFICO 3 - FLUXO DE ARQUITETURA HIBRIDA] detalhando o fluxo de uma requisicao passando pelo n8n, consultando a base de dados via RAG e executando acoes seguras.
+
+Tabela Comparativa:
+Apresente uma tabela comparando com clareza a abordagem do Hype da AGI versus a Abordagem Hibrida Real em termos de custo, controle de dados, risco e entrega de valor.
+
+Conclusao:
+Feche com um posicionamento maduro e provocativo de que o retorno real vem de arquiteturas bem desenhadas e nao de esperar oraculos milagrosos.
+
+
+TAREFA 2: ROTEIRO PARA VIDEO CURTO (ESTUDIO)
+
+Crie um roteiro direto e envolvente de 60 a 90 segundos para orientar a criacao do video no Estudio deste caderno:
+- Abertura (0 a 15 segundos): Gancho impactante sobre o mito da AGI pronta para amanha.
+- Desenvolvimento (15 a 60 segundos): O problema das alucinacoes e a solucao via arquiteturas hibridas deterministas.
+- Encerramento (60 a 90 segundos): Convite para ler a analise no blog e avaliar a infraestrutura da empresa.
+
+
+TAREFA 3: REVISAO VISUAL FINAL
+
+Aponte tres detalhes criticos que Marcos deve verificar no PDF final gerado antes de publicar no blog e nas redes.
+
+
+TAREFA 4: 5 PERGUNTAS DE ENGAJAMENTO PARA O LINKEDIN
+
+Crie 5 perguntas estrategicas para gerar discussoes qualificadas nos comentarios com CTOs e Heads de Tecnologia.
