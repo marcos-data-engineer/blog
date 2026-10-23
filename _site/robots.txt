@@ -1,3 +1,1 @@
-User-agent: *
-Allow: /
-Sitemap: https://marcos-data-engineer.github.io/blog/sitemap.xml
+Sitemap: http://localhost:4000/blog/sitemap.xml

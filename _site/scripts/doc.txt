@@ -1,0 +1,269 @@
+===============================================================================
+
+DOCUMENTAÇÃO DO FLUXO DE TRABALHO: AGENTE AI, BLOG JEKYLL E GNOTE
+
+===============================================================================
+
+
+
+AUTOR: Marcos Vasconcellos de Andrade
+
+PROJETO: Blog Data Architecture & AI Insights
+
+OBJETIVO: Automatizar a criação de artigos técnicos profundos para o blog Jekyll
+
+          e gerar resumos multimídia (vídeo/áudio) via GNote/NotebookLM.
+
+
+
+-------------------------------------------------------------------------------
+
+1. VISÃO GERAL DO PIPELINE
+
+-------------------------------------------------------------------------------
+
+O fluxo de trabalho foi estruturado em quatro etapas encadeadas:
+
+
+
+[Feeds RSS / Temas]
+
+       │
+
+       ▼
+
+[Agente Python + Gemini 2.5] ──► (Gera Artigo .md com CSS/Mermaid/Figuras)
+
+       │
+
+       ▼
+
+[Publicação no Jekyll (_posts/)]
+
+       │
+
+       ▼
+
+[Prompting & Ajuste no GNote] ──► (Gera Vídeo Executivo B2B com Voz Masculina)
+
+       │
+
+       ▼
+
+[Incorporação do Vídeo no Artigo .md]
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+2. ETAPA 1: EXECUÇÃO E REGRAS DO AGENTE PYTHON (`scripts/generate_ai_post.py`)
+
+-------------------------------------------------------------------------------
+
+O script Python atua como o motor autônomo de inteligência de conteúdo.
+
+
+
+2.1. Modos de Operação:
+
+  - Modo Guiado:
+
+    Disparado passando parâmetros explícitos de título e/ou keywords.
+
+    Exemplo: python scripts/generate_ai_post.py -t "Título" -k "jepa,llm,agi"
+
+
+
+  - Modo Autônomo:
+
+    Disparado sem argumentos. O script varre a lista de canais RSS técnicos
+
+    (OpenAI, DeepMind, BAIR Berkeley, arXiv, MIT, TechCrunch, HuggingFace)
+
+    buscando termos relevantes e trending topics para sintetizar um tema.
+
+
+
+2.2. Coleta e Resiliência:
+
+  - O script faz a extração dos últimos artigos RSS usando User-Agent próprio.
+
+  - Implementa mecanismo de Backoff Exponencial (até 5 tentativas) para chamadas
+
+    à API do Google Gemini (`gemini-2.5-flash`), garantindo resiliência contra
+
+    rate limits ou instabilidades de rede.
+
+
+
+2.3. Estrutura de Saída (.md):
+
+  - Salva o arquivo diretamente no diretório `_posts/` com o padrão de nome:
+
+    `YYYY-MM-DD-slug-do-titulo-HHMM.md`
+
+  - Contém Front Matter completo configurado para o tema Jekyll Chirpy:
+
+    layout, title, date, categories, tags, description, lang, author e image path.
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+3. ETAPA 2: PADRÕES EDITORIAIS E VISUAIS DO ARTIGO (JEKYLL/CHIRPY)
+
+-------------------------------------------------------------------------------
+
+Para garantir alta densidade técnica e apelo visual alinhado ao padrão do blog,
+
+o prompt do agente foi calibrado com os seguintes componentes obrigatórios:
+
+
+
+3.1. CSS Embutido Nativo:
+
+  - O artigo gerado contém um bloco `<style>` logo após o Front Matter para
+
+    estilizar caixas de destaques (`.callout-box`), figuras, tabelas e
+
+    gráficos/cards em CSS puro.
+
+
+
+3.2. Componentes Visuais no Texto:
+
+  - Elementos `<figure>` contendo `<img>` estilizadas, caminhos locais de
+
+    imagem (`/assets/img/posts/{slug}/...`) e legendas `<figcaption>`.
+
+  - Diagramas do Mermaid (` ```mermaid `) para representar fluxos de arquitetura
+
+    de dados e diferenças entre modelos (ex: LLMs vs. JEPA / World Models).
+
+  - Caixas de chamada (callout) destacando alertas ou conceitos críticos.
+
+  - Tabelas comparativas em Markdown estruturado.
+
+
+
+3.3. Estilo Narrativo (Storytelling):
+
+  - Formato de ensaio técnico denso e pragmático (foco B2B/Engenharia).
+
+  - Abertura com citação marcante em `<blockquote>`.
+
+  - Fundamentação teórica (ex: matemática da predição autorregressiva,
+
+    limites do paradigma de próximo token, ARC-AGI de François Chollet).
+
+  - Aplicação prática em arquitetura de dados (Linux, Ollama, RAG, n8n/Python, LGPD).
+
+  - Seção final de Referências Bibliográficas com links reais e clicáveis.
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+4. ETAPA 3: GERAÇÃO E AJUSTE DO RESUMO EM VÍDEO NO GNOTE (NOTEBOOKLM)
+
+-------------------------------------------------------------------------------
+
+Após a geração do artigo escrito, utilizamos o GNote (Estúdio de Vídeo do
+
+NotebookLM) para criar uma síntese multimídia executiva.
+
+
+
+4.1. Desafios Encontrados e Soluções:
+
+  - Problema 1 (Duração excessiva): Quando alimentado com o artigo longo, o GNote
+
+    gerava vídeos de mais de 9 minutos.
+
+    * Solução: Inserção de restrição estrita no prompt (300 a 380 palavras no total,
+
+      limite de 1m30s a 2m30s) e delimitação em 3 blocos bem definidos.
+
+  - Problema 2 (Gênero da Voz): O sistema ignorava a instrução de voz masculina.
+
+    * Solução: Declaração de comando em caixa alta no início do prompt:
+
+      `[CONFIGURAÇÃO OBRIGATÓRIA] VOZ: ÚNICO APRESENTADOR MASCULINO.`
+
+
+
+4.2. Estrutura do Prompt do GNote:
+
+  1. Identidade & Voz: Apresentador masculino, tom executivo B2B, maduro e pausado.
+
+  2. Bloco 1 (O Gargalo dos LLMs): Explicação da limitação da predição de tokens e alucinação.
+
+  3. Bloco 2 (Modelos de Mundo e JEPA): Transição para os World Models e espaço latente.
+
+  4. Bloco 3 (Arquitetura Híbrida B2B): Solução com orquestrador determinístico (n8n/Python),
+
+     LLM como interface, RAG privado, Ollama em Linux local e conformidade LGPD.
+
+  5. Encerramento: Chamada para ação (CTA) convidando para a leitura no blog.
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+5. ETAPA 4: INCORPORAÇÃO DO VÍDEO NO ARTIGO DO BLOG
+
+-------------------------------------------------------------------------------
+
+Com o vídeo exportado (`.mp4`), o arquivo é salvo no diretório de assets do blog
+
+(ex: `assets/video/`) e integrado no topo do artigo Markdown.
+
+
+
+5.1. Código HTML Responsivo para Jekyll:
+
+
+
+<div style="max-width: 400px; margin: 2rem auto; text-align: center;">
+
+  <video controls style="width: 100%; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+
+    <source src="{{ '/assets/video/nome-do-video.mp4' | relative_url }}" type="video/mp4">
+
+    Seu navegador não suporta a exibição de vídeos.
+
+  </video>
+
+  <p style="font-size: 0.85em; color: #666; margin-top: 0.5rem; font-style: italic;">
+
+    🎬 <strong>Resumo em Vídeo (1m21s):</strong> Assista aos pontos centrais da análise.
+
+  </p>
+
+</div>
+
+
+
+-------------------------------------------------------------------------------
+
+6. RESUMO DOS ARQUIVOS DO PROJETO
+
+-------------------------------------------------------------------------------
+
+- `scripts/generate_ai_post.py`: Agente autônomo Python para coleta RSS e geração do `.md`.
+
+- `_posts/YYYY-MM-DD-*.md`: Artigos gerados com Front Matter, CSS embutido e gráficos.
+
+- `assets/img/posts/{slug}/`: Imagens e capas do artigo.
+
+- `assets/video/`: Arquivos `.mp4` gerados pelo GNote para os resumos multimídia.
+
+===============================================================================
