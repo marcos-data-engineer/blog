@@ -9,3 +9,12 @@ __pycache__/
 *.pyc
 .DS_Store
 keyd/
+
+# Material privado / ferramentas locais (não publicar)
+_course_production/
+.clinerules
+.antigravityignore
+.vscode/
+.bundle/
+.env
+*.env

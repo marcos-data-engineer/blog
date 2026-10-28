@@ -209,6 +209,10 @@ exclude:
   - "*.config.js"
   - package*.json
   - assets/robots*
+  - scripts
+  - requirements.txt
+  - keyd
+  - _course_production
 keep_files:
   - ads.txt
 
