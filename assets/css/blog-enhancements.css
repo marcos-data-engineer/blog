@@ -69,7 +69,8 @@ main .content figcaption {
 @media (max-width: 768px) {
   .site-footer .container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     width: 100%;
   }
 
