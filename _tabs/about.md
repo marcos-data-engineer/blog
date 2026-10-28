@@ -7,7 +7,7 @@ order: 4
 
 <div class="row align-items-center mb-4">
   <div class="col-md-4 text-center mb-3 mb-md-0">
-    <img src="/blog/assets/img/avatar.jpg" 
+    <img src="/assets/img/avatar.jpg" 
          alt="Marcos Vasconcellos de Andrade" 
          class="about-avatar rounded-circle shadow border border-3 border-primary" 
          width="170" 
