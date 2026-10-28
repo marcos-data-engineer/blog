@@ -232,3 +232,20 @@ input:focus-visible {
     animation: none !important;
   }
 }
+
+/* -------------------------------------------------------------
+ * Home Minimalista (Estilo Substack/Medium):
+ * Oculta a sidebar direita apenas na página inicial (quando houver #post-list),
+ * centralizando o feed de artigos e preservando o painel de TOC nos posts.
+ * ----------------------------------------------------------- */
+.row:has(#post-list) #panel-wrapper {
+  display: none !important;
+}
+
+.row:has(#post-list) main {
+  width: 100% !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  flex: 0 0 100% !important;
+}
