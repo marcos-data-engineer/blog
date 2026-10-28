@@ -1,36 +1,92 @@
 ---
 layout: page
 title: Sobre
-icon: fas fa-info-circle
+icon: fas fa-user-tie
 order: 4
 ---
 
-## Sobre Arquitetura de Dados & IA
-
-**Arquitetura de Dados & IA** é uma publicação técnica sobre engenharia de dados, MLOps, infraestrutura Linux e sistemas de inteligência artificial generativa. O objetivo é compartilhar padrões de arquitetura aplicáveis, análises aprofundadas de infraestrutura e estratégias de automação que aproximem a administração de sistemas das aplicações modernas de IA.
-
-Os principais temas do blog incluem:
-
-* **Engenharia de dados e MLOps:** pipelines de dados prontos para produção, orquestração com Apache Airflow e Spark, e infraestrutura escalável para IA.
-* **Agentes autônomos de IA:** projeto e implementação de fluxos agênticos eficientes, com APIs de LLM e automação nativa da nuvem.
-* **Linux e infraestrutura de sistemas:** administração de distribuições Linux corporativas, atualizações de kernel, conteinerização e práticas de DevOps.
+<div class="row align-items-center mb-4">
+  <div class="col-md-4 text-center mb-3 mb-md-0">
+    <img src="{{ '/assets/img/avatar.jpg' | relative_url }}" 
+         alt="Marcos Vasconcellos de Andrade" 
+         class="rounded-circle shadow-sm border border-3 border-primary" 
+         style="width: 170px; height: 170px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h2 class="h3 fw-bold mb-1">Marcos Vasconcellos de Andrade</h2>
+    <p class="text-primary fw-semibold mb-2">
+      Consultor de TI & Especialista em Soluções Autônomas, Engenharia de Dados e Infraestrutura Linux
+    </p>
+    <p class="text-muted small mb-3">
+      <i class="fas fa-map-marker-alt me-1"></i> Brasília, Distrito Federal, Brasil &bull; Atuação Remota / Híbrida B2B
+    </p>
+    <div class="d-flex flex-wrap gap-2">
+      <a href="https://www.linkedin.com/in/marcos-data-engineer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+        <i class="fab fa-linkedin me-1"></i> LinkedIn
+      </a>
+      <a href="https://github.com/marcos-data-engineer" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">
+        <i class="fab fa-github me-1"></i> Portfólio GitHub
+      </a>
+      <a href="mailto:contact.marcos.dataengineer@gmail.com" class="btn btn-outline-secondary btn-sm">
+        <i class="fas fa-envelope me-1"></i> Contato Direto
+      </a>
+    </div>
+  </div>
+</div>
 
 ---
 
-## Sobre o autor
+### Resumo Executivo & Consultoria B2B
 
-**Marcos Vasconcellos de Andrade** é arquiteto de dados e engenheiro de sistemas, com mais de 20 anos de experiência em infraestrutura de TI, desenvolvimento de software e plataformas de dados.
+Consultor de TI e especialista com mais de 30 anos de vivência em ambientes de missão crítica no setor corporativo e governamental. Atuo no desenvolvimento de **arquiteturas sob medida**, **automação inteligente de fluxos operacionais** e integração de **inteligência artificial aplicada a dados privados**.
 
-### Formação e experiência
-
-* **Arquitetura de Dados e IA (pós-graduação, 2024):** especialização pela XP Educação, com estudos de arquitetura de dados, Apache Spark, Apache Airflow, Python, SQL, IA generativa e agentes de IA.
-* **Tecnologia em Sistemas para Internet (2020):** graduação pelo Instituto Federal de Brasília (IFB), com foco em desenvolvimento de software, frameworks web, Java, Node.js e bancos de dados relacionais.
-* **Administração de sistemas Linux (1990–2015):** mais de 15 anos de experiência prática com distribuições Linux (Debian, CentOS e Ubuntu), arquitetura de redes e infraestrutura de servidores.
+Projeto e implanto ecossistemas de **IA Privada On-Premise** (Ollama, Open WebUI, Agentes Autônomos) e orquestração de fluxos determinísticos com **n8n em Docker** e **Python**, com total conformidade à **LGPD/GDPR**, soberania de dados e foco na redução de custos de infraestrutura.
 
 ---
 
-## Contato e colaboração
+### Áreas de Especialidade & Serviços
 
-* **LinkedIn:** [Marcos Vasconcellos](https://www.linkedin.com/in/marcos-data-engineer/)
-* **GitHub:** [marcos-data-engineer](https://github.com/marcos-data-engineer)
-* **X:** [@dataaiinsights](https://x.com/dataaiinsights)
+<div class="row g-3 my-2">
+  <div class="col-md-6">
+    <div class="card h-100 border-0 bg-light p-3 shadow-sm">
+      <h4 class="h6 fw-bold text-primary mb-2"><i class="fas fa-server me-2"></i>Infraestrutura Linux & Hardening</h4>
+      <p class="small text-muted mb-0">Administração avançada (Debian, Ubuntu, Fedora, CentOS), hardening de servidores corporativos, segurança de rede, Shell/Bash scripting e garantia de alta disponibilidade.</p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 bg-light p-3 shadow-sm">
+      <h4 class="h6 fw-bold text-primary mb-2"><i class="fas fa-robot me-2"></i>Soluções Autônomas & IA Privada</h4>
+      <p class="small text-muted mb-0">Implantação de LLMs locais em servidores Linux, RAG corporativo privado, agentes autônomos e orquestração determinística com n8n (self-hosted) e scripts em Python.</p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 bg-light p-3 shadow-sm">
+      <h4 class="h6 fw-bold text-primary mb-2"><i class="fas fa-database me-2"></i>Engenharia de Dados & SQL Avançado</h4>
+      <p class="small text-muted mb-0">Modelagem relacional, diagnóstico e performance tuning em Oracle SQL, pipelines automatizados de ETL (Pentaho) e dashboards de observabilidade e negócios no Power BI.</p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100 border-0 bg-light p-3 shadow-sm">
+      <h4 class="h6 fw-bold text-primary mb-2"><i class="fas fa-shield-alt me-2"></i>Governança, Suporte N2/N3 & LGPD</h4>
+      <p class="small text-muted mb-0">Troubleshooting de incidentes complexos, cumprimento de SLAs críticos e adequação de fluxos de dados sensíveis às diretrizes da LGPD por design.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+### Formação Acadêmica & Certificações
+
+* **Pós-Graduação em Engenharia e Arquitetura de Dados com Inteligência Artificial** &mdash; *XP Educação (2024)*
+* **Tecnologia em Sistemas para Internet** &mdash; *Instituto Federal de Brasília (IFB, 2020)*
+* **Certificações Técnicas:** Explorando IAs Generativas na AWS, Administração de Servidores Linux, Fundamentos de IA Generativa e Claude 3, Copilot Chat e Backend com Python.
+
+---
+
+### Contato Comercial & Consultoria
+
+Para demandas de consultoria, contratos corporativos, projetos de automação/IA ou oportunidades de atuação sênior:
+
+* **LinkedIn Oficial:** [linkedin.com/in/marcos-data-engineer](https://www.linkedin.com/in/marcos-data-engineer)
+* **E-mail Comercial:** [contact.marcos.dataengineer@gmail.com](mailto:contact.marcos.dataengineer@gmail.com)
+* **Repositórios & Código:** [github.com/marcos-data-engineer](https://github.com/marcos-data-engineer)
