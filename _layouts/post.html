@@ -127,7 +127,12 @@ script_includes:
   {% endif %}
 
   <div class="content">
-    {{ content }}
+    {%- comment -%}
+      Chirpy prefixa o baseurl apenas em <img src>. Links para arquivos em /assets/
+      (ex.: créditos de imagem) recebem o prefixo aqui, sem editar os posts.
+    {%- endcomment -%}
+    {%- capture assets_href -%}href="{{ site.baseurl }}/assets/{%- endcapture -%}
+    {{ content | replace: 'href="/assets/', assets_href }}
   </div>
 
   <div class="post-tail-wrapper text-muted">
