@@ -89,3 +89,65 @@ main .content figcaption {
     padding-right: 0.75rem;
   }
 }
+
+/* -------------------------------------------------------------
+ * Estilização Visual Corporativa B2B & Modernização
+ * ----------------------------------------------------------- */
+
+/* Sidebar Profile Badge */
+.sidebar-author-badge {
+  margin-top: 0.35rem;
+  line-height: 1.3;
+}
+
+#avatar {
+  border: 3px solid rgba(13, 110, 253, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+#avatar:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 16px rgba(13, 110, 253, 0.35);
+}
+
+/* Card B2B de Consultoria & Negócios */
+.b2b-consulting-card {
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--main-border-color, rgba(13, 110, 253, 0.18)) !important;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.b2b-consulting-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(13, 110, 253, 0.12);
+}
+
+.b2b-consulting-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: rgba(13, 110, 253, 0.1);
+}
+
+/* Card de Infoprodutos Hotmart */
+.hotmart-product-card {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 152, 0, 0.04) 100%);
+  border: 1px solid rgba(255, 193, 7, 0.35) !important;
+  border-radius: 14px;
+}
+
+/* Polimento dos Cards de Posts na Home e Arquivos */
+.post-preview {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-2px);
+}

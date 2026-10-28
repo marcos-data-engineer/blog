@@ -1,0 +1,28 @@
+<!-- Espaço reservado para Infoprodutos e Cursos Hotmart (Agentes de IA) -->
+{% if site.data.products.featured %}
+<aside class="hotmart-product-card card border-0 my-4 shadow-sm" aria-labelledby="hotmart-product-title">
+  <div class="card-body p-4 text-center">
+    <div class="d-flex align-items-center justify-content-center gap-2 mb-2">
+      <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1">
+        <i class="fas fa-fire me-1"></i> Curso / Produto Oficial
+      </span>
+    </div>
+    
+    <h3 id="hotmart-product-title" class="card-title h5 fw-bold mb-2">
+      {{ site.data.products.featured.title }}
+    </h3>
+    
+    <p class="card-text text-muted small mb-3">
+      {{ site.data.products.featured.description }}
+    </p>
+
+    <a class="btn btn-warning fw-semibold px-4 py-2" 
+       href="{{ site.data.products.featured.hotmart_url }}" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      {{ site.data.products.featured.cta_text | default: "Conhecer o Produto na Hotmart" }}
+      <i class="fas fa-arrow-right ms-1"></i>
+    </a>
+  </div>
+</aside>
+{% endif %}
