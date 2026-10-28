@@ -36,9 +36,9 @@
   margin-left: 0.75rem;
 }
 
-/* Padronização Global de Imagens nos Posts */
-#post-wrapper .content img,
-main .content img {
+/* Padronização Global de Imagens nos Posts (exceto fotos de perfil) */
+#post-wrapper .content img:not(.about-avatar),
+main .content img:not(.about-avatar) {
   max-width: 90% !important;
   height: auto !important;
   max-height: 420px !important;

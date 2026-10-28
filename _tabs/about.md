@@ -7,10 +7,12 @@ order: 4
 
 <div class="row align-items-center mb-4">
   <div class="col-md-4 text-center mb-3 mb-md-0">
-    <img src="{{ '/assets/img/avatar.jpg' | relative_url }}" 
+    <img src="/blog/assets/img/avatar.jpg" 
          alt="Marcos Vasconcellos de Andrade" 
-         class="rounded-circle shadow-sm border border-3 border-primary" 
-         style="width: 170px; height: 170px; object-fit: cover;">
+         class="about-avatar rounded-circle shadow border border-3 border-primary" 
+         width="170" 
+         height="170" 
+         style="width: 170px !important; height: 170px !important; object-fit: cover !important; display: inline-block !important;">
   </div>
   <div class="col-md-8">
     <h2 class="h3 fw-bold mb-1">Marcos Vasconcellos de Andrade</h2>
