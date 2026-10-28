@@ -131,37 +131,7 @@ script_includes:
   </div>
 
   <div class="post-tail-wrapper text-muted">
-    {% include product_banner.html %}
-
-    <div class="row g-4 mt-4 mb-5">
-      <div class="col-md-6">
-        {% include b2b_consulting_card.html %}
-      </div>
-
-      <!-- Newsletter Card -->
-      <div class="col-md-6">
-        <div class="card h-100 border-0 bg-light">
-          <div class="card-body p-4">
-            <h3 class="card-title h4 mb-3 text-center">Receba novos artigos sobre IA</h3>
-            <form action="https://webdeveloper.us5.list-manage.com/subscribe/post?u=e50ec429973d9732dacb3df2d&amp;id=688487e1bd&amp;v_id=3446&amp;f_id=000dbaedf0"
-                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <div class="mb-3">
-                <label for="mce-EMAIL" class="form-label small">Endereço de e-mail</label>
-                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="your@email.com" required>
-              </div>
-              <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                <input type="text" name="b_e50ec429973d9732dacb3df2d_688487e1bd" tabindex="-1" value="">
-              </div>
-              <div class="d-grid">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" value="Inscrever-se">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-<!-- categories -->
+    <!-- categories -->
     {% if page.categories.size > 0 %}
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
@@ -187,6 +157,39 @@ script_includes:
       </div>
     {% endif %}
 
+    {% include product_banner.html %}
+
+    <div class="row g-4 mt-4 mb-2">
+      <div class="col-md-6">
+        {% include b2b_consulting_card.html %}
+      </div>
+
+      <!-- Newsletter Card -->
+      <div class="col-md-6">
+        <div class="card h-100 newsletter-card">
+          <div class="card-body p-4 d-flex flex-column">
+            <div class="text-center mb-3">
+              <span class="b2b-consulting-card__icon mb-2"><i class="fas fa-envelope-open-text fa-lg text-primary"></i></span>
+              <h3 class="card-title h5 fw-bold mb-1">Receba novos artigos sobre IA</h3>
+              <p class="small mb-0">Arquiteturas, automação e IA privada. Sem spam, cancele quando quiser.</p>
+            </div>
+            <form action="https://webdeveloper.us5.list-manage.com/subscribe/post?u=e50ec429973d9732dacb3df2d&amp;id=688487e1bd&amp;v_id=3446&amp;f_id=000dbaedf0"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mt-auto" target="_blank">
+              <div class="mb-3">
+                <label for="mce-EMAIL" class="form-label small visually-hidden">Endereço de e-mail</label>
+                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="seu@email.com" autocomplete="email" required>
+              </div>
+              <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                <input type="text" name="b_e50ec429973d9732dacb3df2d_688487e1bd" tabindex="-1" value="">
+              </div>
+              <div class="d-grid">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" value="Inscrever-se">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div
       class="
         post-tail-bottom

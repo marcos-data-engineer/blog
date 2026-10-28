@@ -1,0 +1,8 @@
+# Infoprodutos Hotmart exibidos no fim dos posts (_includes/product_banner.html).
+# O banner só aparece quando `featured` estiver definido. Descomente e preencha ao lançar o produto.
+#
+# featured:
+#   title: "Nome do Produto (ex.: Agentes de IA na Prática)"
+#   description: "Descrição curta e orientada a resultado."
+#   hotmart_url: "https://go.hotmart.com/SEU_LINK"
+#   cta_text: "Conhecer o Produto na Hotmart"
