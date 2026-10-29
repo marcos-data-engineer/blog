@@ -292,6 +292,11 @@ input:focus-visible {
  * LAYOUT DESKTOP: menu superior (como o portfólio), sem sidebar
  * Mobile (< 992px) mantém a sidebar deslizante do Chirpy.
  * ============================================================= */
+.pf-brand,
+.pf-nav {
+  display: none;
+}
+
 @media (min-width: 992px) {
   #sidebar { display: none !important; }
 
@@ -308,6 +313,10 @@ input:focus-visible {
     margin: 0 auto;
     gap: 1.5rem;
   }
+
+  .pf-brand { display: inline-flex !important; }
+  .pf-nav { display: flex !important; }
+  #breadcrumb { display: none !important; }
 
   #search { margin-left: auto; }
 }
@@ -468,9 +477,16 @@ input:focus-visible {
 }
 
 .pf-hero-side {
+  display: none;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .pf-hero-side {
+    display: flex !important;
+  }
 }
 
 .pf-hero-avatar {

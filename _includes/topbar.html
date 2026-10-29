@@ -6,10 +6,10 @@
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
     <!-- Menu superior no estilo do portfólio (somente desktop) -->
-    <a class="pf-brand d-none d-lg-inline-flex" href="{{ '/' | relative_url }}">
+    <a class="pf-brand" href="{{ '/' | relative_url }}">
       <span class="pf-brand-prompt">&gt;_</span> marcos<span class="pf-brand-accent">.blog</span>
     </a>
-    <nav class="pf-nav d-none d-lg-flex" aria-label="Menu principal">
+    <nav class="pf-nav" aria-label="Menu principal">
       <a href="{{ '/' | relative_url }}" {% if page.layout == 'home' %}class="active"{% endif %}>Artigos</a>
       <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}class="active"{% endif %}>Sobre</a>
       <a class="pf-nav-cta" href="https://linkedin.com/in/marcos-data-engineer" target="_blank" rel="noopener">LinkedIn <i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
@@ -21,7 +21,7 @@
       </button>
     </nav>
 
-    <nav id="breadcrumb" class="d-lg-none" aria-label="Breadcrumb">
+    <nav id="breadcrumb" aria-label="Breadcrumb">
       {% assign paths = page.url | split: '/' %}
 
       {% if paths.size == 0 or page.layout == 'home' %}
