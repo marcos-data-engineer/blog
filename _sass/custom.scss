@@ -1,12 +1,16 @@
 /* =============================================================
  * Blog com a identidade visual do portfólio (marcos-data-engineer.github.io)
- *  - Escuro (padrão): fiel ao portfólio — preto grafite, foto escurecida,
- *    verde esmeralda, Chivo Mono nos títulos/rótulos, Inter no texto.
- *  - Claro: tema próprio de leitura — papel quente, tinta escura,
- *    acento azul-petróleo discreto, sem brilho excessivo.
+ * Tema exclusivamente escuro: preto grafite, foto escurecida, verde esmeralda,
+ * Chivo Mono nos títulos/rótulos, Inter no texto e alto contraste de leitura.
  * ============================================================= */
 
-:root {
+:root,
+html,
+html[data-mode="dark"],
+html[data-mode="light"],
+html:not([data-mode]) {
+  color-scheme: dark;
+
   --pf-accent: #10b981;
   --pf-accent-hover: #34d399;
   --pf-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -14,20 +18,15 @@
   --pf-radius-sm: 6px;
   --pf-radius-md: 10px;
   --pf-radius-lg: 14px;
-}
 
-/* =============================================================
- * MODO ESCURO (padrão) — portfólio
- * ============================================================= */
-html[data-mode="dark"] {
   --pf-bg: #0b0f17;
   --pf-surface: #16181d;          /* grafite neutro (sem tom azul) */
   --pf-surface-hover: #1b1e24;
-  --pf-border: rgba(255, 255, 255, 0.08);
+  --pf-border: rgba(255, 255, 255, 0.1);
   --pf-border-accent: rgba(16, 185, 129, 0.45);
-  --pf-text: #e4e7eb;
-  --pf-muted: #9ca3af;
-  --pf-heading: #f8fafc;
+  --pf-text: #f1f5f9;             /* branco suave de alto contraste */
+  --pf-muted: #cbd5e1;            /* texto secundário bem legível */
+  --pf-heading: #ffffff;          /* títulos em branco puro */
 
   --main-bg: var(--pf-bg);
   --card-bg: var(--pf-surface);
@@ -35,7 +34,7 @@ html[data-mode="dark"] {
   --sidebar-bg: #0d1016;
   --sidebar-border-color: var(--pf-border);
   --sidebar-muted-color: var(--pf-muted);
-  --sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.06);
   --sidebar-btn-bg: var(--pf-surface);
   --sidebar-active-color: var(--pf-accent);
   --search-wrapper-bg: #121419;
@@ -43,99 +42,34 @@ html[data-mode="dark"] {
   --main-border-color: var(--pf-border);
   --text-color: var(--pf-text);
   --text-muted-color: var(--pf-muted);
+  --text-muted-highlight-color: #f8fafc;
   --heading-color: var(--pf-heading);
-  --label-color: var(--pf-muted);
+  --label-color: #e2e8f0;
   --link-color: var(--pf-accent-hover);
-  --link-underline-color: rgba(52, 211, 153, 0.35);
-  --toc-highlight: var(--pf-accent);
+  --link-underline-color: rgba(52, 211, 153, 0.4);
+  --toc-highlight: var(--pf-accent-hover);
   --blockquote-border-color: var(--pf-accent);
-  --blockquote-text-color: #cfd4da;
-  --inline-code-bg: rgba(16, 185, 129, 0.12);
-  --code-color: var(--pf-accent-hover);
+  --blockquote-text-color: #e2e8f0;
+  --inline-code-bg: rgba(16, 185, 129, 0.14);
+  --code-color: #6ee7b7;
   --highlight-bg-color: #0c0e12;
   --code-header-bg: #111317;
   --tb-odd-bg: #14161b;
   --tb-even-bg: #181a20;
   --tb-border-color: var(--pf-border);
 
-  body {
-    background-color: var(--pf-bg);
-    background-image:
-      radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 35%),
-      radial-gradient(circle at 85% 80%, rgba(14, 165, 233, 0.05) 0%, transparent 35%),
-      linear-gradient(180deg, rgba(11, 15, 23, 0.94) 0%, rgba(11, 15, 23, 0.985) 100%),
-      url("../img/bg-portfolio.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-  #main-wrapper,
-  #main-wrapper > .container,
-  #topbar {
-    background: transparent !important;
-  }
-
-  #topbar-wrapper {
-    background: rgba(11, 15, 23, 0.96) !important;
-    border-bottom: 1px solid var(--pf-border);
-  }
-
-  #sidebar { border-right: 1px solid var(--pf-border); }
-  #sidebar .site-title { color: var(--pf-heading) !important; }
-
-  #sidebar .nav-item.active .nav-link {
-    background: rgba(16, 185, 129, 0.1) !important;
-    color: var(--pf-accent) !important;
-  }
-
-  .post-preview,
-  .card {
-    background: var(--pf-surface) !important;
-    border: 1px solid var(--pf-border) !important;
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
-  }
-
-  .post-preview:hover,
-  .card-wrapper:hover .card {
-    border-color: var(--pf-border-accent) !important;
-    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.16) !important;
-  }
-
-  .content h1, .content h2, .content h3, .content h4,
-  article h1, .card-title { color: var(--pf-heading) !important; }
-
-  .post-preview .card-text,
-  .post-meta { color: var(--pf-muted) !important; }
-
-  div[class^="language-"] { border: 1px solid rgba(16, 185, 129, 0.3); }
-
-  .sidebar-author-badge .badge {
-    background: rgba(16, 185, 129, 0.12) !important;
-    color: #6ee7b7 !important;
-    border-color: var(--pf-border-accent) !important;
-  }
-
-  #avatar { box-shadow: 0 0 0 3px var(--pf-accent), 0 0 24px rgba(16, 185, 129, 0.25) !important; }
-
-  .post-tag:hover {
-    background: rgba(16, 185, 129, 0.12) !important;
-    border-color: var(--pf-border-accent) !important;
-    color: var(--pf-accent) !important;
-  }
-
   /* Componentes próprios (topnav/hero) */
-  --pf-nav-color: #9ca3af;
+  --pf-nav-color: #cbd5e1;
   --pf-nav-hover-bg: rgba(255, 255, 255, 0.06);
-  --pf-nav-active: #f8fafc;
-  --pf-brand-color: #f8fafc;
+  --pf-nav-active: #ffffff;
+  --pf-brand-color: #ffffff;
   --pf-brand-accent: #10b981;
   --pf-cta-bg: #10b981;
   --pf-cta-color: #062219;
   --pf-cta-hover: #34d399;
   --pf-hero-sub: #10b981;
   --pf-badge-bg: rgba(17, 20, 26, 0.9);
-  --pf-badge-color: #cbd5e1;
+  --pf-badge-color: #e2e8f0;
   --pf-badge-status: #6ee7b7;
   --pf-badge-status-border: rgba(16, 185, 129, 0.45);
   --pf-btn2-bg: #1a1d23;
@@ -146,110 +80,159 @@ html[data-mode="dark"] {
 }
 
 /* =============================================================
- * MODO CLARO — leitura tipo "papel", sem brilho e sem verde
+ * SUPERFÍCIES E CONTRASTE GLOBAL (SOBRESCREVE <style> EMBUTIDO EM POSTS)
  * ============================================================= */
-html[data-mode="light"],
-html:not([data-mode]) {
-  --pf-paper: #f6f4ef;            /* fundo quente, reduz o efeito "lanterna" */
-  --pf-card: #fbfaf7;
-  --pf-line: #e4e0d8;
-  --pf-ink: #2b2d31;
-  --pf-ink-soft: #5f6368;
-  --pf-ink-strong: #17181b;
-  --pf-link: #1f5d84;             /* azul-petróleo discreto */
+body {
+  font-family: var(--pf-font-sans) !important;
+  color: var(--pf-text) !important;
+  background-color: var(--pf-bg) !important;
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 35%),
+    radial-gradient(circle at 85% 80%, rgba(14, 165, 233, 0.05) 0%, transparent 35%),
+    linear-gradient(180deg, rgba(11, 15, 23, 0.94) 0%, rgba(11, 15, 23, 0.985) 100%),
+    url("../img/bg-portfolio.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
 
-  --main-bg: var(--pf-paper);
-  --card-bg: var(--pf-card);
-  --card-hover-bg: #ffffff;
-  --sidebar-bg: #efece5;
-  --sidebar-border-color: var(--pf-line);
-  --sidebar-muted-color: var(--pf-ink-soft);
-  --sidebar-hover-bg: rgba(23, 24, 27, 0.05);
-  --sidebar-active-color: var(--pf-ink-strong);
-  --search-wrapper-bg: var(--pf-card);
-  --search-border-color: var(--pf-line);
-  --main-border-color: var(--pf-line);
-  --text-color: var(--pf-ink);
-  --text-muted-color: var(--pf-ink-soft);
-  --heading-color: var(--pf-ink-strong);
-  --link-color: var(--pf-link);
-  --link-underline-color: rgba(31, 93, 132, 0.3);
-  --toc-highlight: var(--pf-link);
-  --blockquote-border-color: #c9c3b6;
-  --blockquote-text-color: #4a4d52;
-  --inline-code-bg: #ece8df;
-  --code-color: #8a3b12;
+#main-wrapper,
+#main-wrapper > .container,
+#topbar {
+  background: transparent !important;
+}
 
-  #topbar-wrapper {
-    background: rgba(246, 244, 239, 0.97) !important;
-    border-bottom: 1px solid var(--pf-line);
+#topbar-wrapper {
+  background: rgba(11, 15, 23, 0.96) !important;
+  border-bottom: 1px solid var(--pf-border);
+}
+
+#sidebar { border-right: 1px solid var(--pf-border); }
+#sidebar .site-title { color: var(--pf-heading) !important; }
+
+#sidebar .nav-item.active .nav-link {
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: var(--pf-accent) !important;
+}
+
+.post-preview,
+.card {
+  background: var(--pf-surface) !important;
+  border: 1px solid var(--pf-border) !important;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+.post-preview:hover,
+.card-wrapper:hover .card {
+  border-color: var(--pf-border-accent) !important;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.16) !important;
+}
+
+/* Títulos e textos dentro dos artigos: força branco claro sobre qualquer <style> antigo */
+h1, h2, h3, h4, h5, h6,
+article h1, article h2, article h3, article h4, article h5, article h6,
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
+.card-title {
+  color: var(--pf-heading) !important;
+}
+
+article .content,
+article .content p,
+article .content li,
+article .content td,
+article .content dd,
+article .content dt,
+#post-wrapper .content,
+#post-wrapper .content p,
+#post-wrapper .content li {
+  color: var(--pf-text) !important;
+}
+
+article .content strong,
+article .content b,
+article .content th,
+.timeline-item strong {
+  color: #ffffff !important;
+}
+
+article .content a:not(.btn):not(.img-link) {
+  color: var(--pf-accent-hover) !important;
+}
+
+article .content blockquote,
+article .content blockquote p {
+  color: #e2e8f0 !important;
+  border-left-color: var(--pf-accent) !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+}
+
+figcaption,
+article .content figcaption,
+#post-wrapper .content img + em,
+main .content a.popup + em {
+  color: var(--pf-muted) !important;
+}
+
+.post-desc,
+.post-preview .card-text,
+.post-meta,
+.post-tail-wrapper,
+.text-muted {
+  color: var(--pf-muted) !important;
+}
+
+/* Painel direito (TOC, Atualizados recentemente, Trending Tags) */
+#panel-wrapper .access > div,
+#toc-wrapper {
+  color: var(--pf-muted) !important;
+}
+
+#panel-wrapper .panel-heading,
+#toc-wrapper .panel-heading {
+  color: var(--pf-heading) !important;
+  font-family: var(--pf-font-mono);
+  font-weight: 700;
+}
+
+#toc-wrapper a.toc-link,
+#panel-wrapper .content a {
+  color: var(--pf-muted) !important;
+
+  &:hover {
+    color: var(--pf-accent-hover) !important;
   }
+}
 
-  #topbar { background: transparent !important; }
+#toc-wrapper a.toc-link.is-active-link {
+  color: var(--pf-accent-hover) !important;
+  font-weight: 600;
+}
 
-  #sidebar { border-right: 1px solid var(--pf-line); }
-  #sidebar .site-title { color: var(--pf-ink-strong) !important; }
+div[class^="language-"] { border: 1px solid rgba(16, 185, 129, 0.3); }
 
-  #sidebar .nav-item.active .nav-link {
-    background: rgba(23, 24, 27, 0.07) !important;
-    color: var(--pf-ink-strong) !important;
+.sidebar-author-badge .badge,
+.b2b-consulting-card .badge {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: #6ee7b7 !important;
+  border-color: var(--pf-border-accent) !important;
+}
+
+#avatar { box-shadow: 0 0 0 3px var(--pf-accent), 0 0 24px rgba(16, 185, 129, 0.25) !important; }
+
+.post-tag {
+  color: var(--pf-muted) !important;
+  border-color: var(--pf-border) !important;
+
+  &:hover {
+    background: rgba(16, 185, 129, 0.12) !important;
+    border-color: var(--pf-border-accent) !important;
+    color: var(--pf-accent-hover) !important;
   }
-
-  .post-preview,
-  .card {
-    background: var(--pf-card) !important;
-    border: 1px solid var(--pf-line) !important;
-    box-shadow: none;
-  }
-
-  .post-preview:hover,
-  .card-wrapper:hover .card {
-    border-color: #cfc9bd !important;
-    box-shadow: 0 6px 18px rgba(40, 32, 20, 0.07) !important;
-  }
-
-  .sidebar-author-badge .badge {
-    background: #e7e3da !important;
-    color: var(--pf-ink) !important;
-    border-color: var(--pf-line) !important;
-  }
-
-  #avatar { box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px var(--pf-line) !important; }
-
-  article .content blockquote { background: #efece5 !important; }
-
-  .post-tag:hover {
-    background: #e7e3da !important;
-    color: var(--pf-ink-strong) !important;
-  }
-
-  .site-title::before { color: var(--pf-ink-soft); }
-
-  --pf-nav-color: #5f6368;
-  --pf-nav-hover-bg: rgba(23, 24, 27, 0.05);
-  --pf-nav-active: #17181b;
-  --pf-brand-color: #17181b;
-  --pf-brand-accent: #1f5d84;
-  --pf-cta-bg: #17181b;
-  --pf-cta-color: #f6f4ef;
-  --pf-cta-hover: #2f3237;
-  --pf-hero-sub: #1f5d84;
-  --pf-badge-bg: #efece5;
-  --pf-badge-color: #4a4d52;
-  --pf-badge-status: #1f5d84;
-  --pf-badge-status-border: rgba(31, 93, 132, 0.35);
-  --pf-btn2-bg: transparent;
-  --pf-btn2-border: #cfc9bd;
-  --pf-terminal-bg: #1d1f23;
-  --pf-terminal-border: #2f3237;
-  --pf-avatar-ring: #ffffff;
 }
 
 /* =============================================================
  * TIPOGRAFIA
  * ============================================================= */
-body { font-family: var(--pf-font-sans); }
-
 h1, h2, h3,
 .site-title,
 .card-title,
@@ -360,21 +343,6 @@ input:focus-visible {
   }
 }
 
-.pf-mode-btn {
-  margin-left: 0.35rem;
-  background: transparent;
-  border: 1px solid var(--main-border-color);
-  border-radius: 999px;
-  color: var(--pf-nav-color);
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  &:hover { color: var(--pf-nav-active); }
-}
-
 /* =============================================================
  * HERO DA HOME (espelha o hero do portfólio)
  * ============================================================= */
@@ -435,7 +403,7 @@ input:focus-visible {
 }
 
 .pf-hero-desc {
-  color: var(--text-muted-color);
+  color: var(--pf-muted);
   max-width: 38rem;
   line-height: 1.7;
   margin-bottom: 1.5rem;
@@ -509,7 +477,7 @@ input:focus-visible {
   border-radius: var(--pf-radius-md);
   padding: 0.6rem 0.85rem;
   font-size: 0.72rem;
-  color: #cbd5e1;
+  color: #e2e8f0;
   position: relative;
 }
 
@@ -517,7 +485,7 @@ input:focus-visible {
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  color: #94a3b8;
+  color: #cbd5e1;
   padding-bottom: 0.4rem;
   margin-bottom: 0.4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -556,10 +524,6 @@ input:focus-visible {
   background: var(--pf-accent) !important;
   border-color: var(--pf-accent) !important;
   color: #052017 !important;
-}
-
-article .content blockquote {
-  border-left-color: var(--blockquote-border-color) !important;
 }
 
 .post-tag { border-radius: 999px !important; }

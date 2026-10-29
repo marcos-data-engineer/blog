@@ -78,7 +78,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # vazio = exibe botão de alternância; padrão escuro definido em _includes/head.html
+theme_mode: dark
 # [light | dark]
 
 # The CDN endpoint for media resources.
