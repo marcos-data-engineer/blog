@@ -42,7 +42,8 @@
 
   <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     {% unless site.theme_mode %}
-      <button type="button" class="btn btn-link nav-link" aria-label="{{ site.data.locales[i18n_lang].common.switch_mode | default: 'Switch Mode' }}" id="mode-toggle">
+      <button type="button" class="btn btn-link nav-link" aria-label="{{ site.data.locales[i18n_lang].common.switch_mode | default: 'Switch Mode' }}" title="Alternar modo claro/escuro" id="pf-mode-toggle"
+        onclick="var h=document.documentElement,m=h.getAttribute('data-mode')==='dark'?'light':'dark';h.setAttribute('data-mode',m);localStorage.setItem('pf-mode',m);">
         <i class="fas fa-adjust"></i>
       </button>
 

@@ -1,19 +1,553 @@
-/* Fundo Off-White Suave no Tema Claro */
+/* =============================================================
+ * Blog com a identidade visual do portfólio (marcos-data-engineer.github.io)
+ *  - Escuro (padrão): fiel ao portfólio — preto grafite, foto escurecida,
+ *    verde esmeralda, Chivo Mono nos títulos/rótulos, Inter no texto.
+ *  - Claro: tema próprio de leitura — papel quente, tinta escura,
+ *    acento azul-petróleo discreto, sem brilho excessivo.
+ * ============================================================= */
+
+:root {
+  --pf-accent: #10b981;
+  --pf-accent-hover: #34d399;
+  --pf-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --pf-font-mono: "Chivo Mono", ui-monospace, monospace;
+  --pf-radius-sm: 6px;
+  --pf-radius-md: 10px;
+  --pf-radius-lg: 14px;
+}
+
+/* =============================================================
+ * MODO ESCURO (padrão) — portfólio
+ * ============================================================= */
+html[data-mode="dark"] {
+  --pf-bg: #0b0f17;
+  --pf-surface: #16181d;          /* grafite neutro (sem tom azul) */
+  --pf-surface-hover: #1b1e24;
+  --pf-border: rgba(255, 255, 255, 0.08);
+  --pf-border-accent: rgba(16, 185, 129, 0.45);
+  --pf-text: #e4e7eb;
+  --pf-muted: #9ca3af;
+  --pf-heading: #f8fafc;
+
+  --main-bg: var(--pf-bg);
+  --card-bg: var(--pf-surface);
+  --card-hover-bg: var(--pf-surface-hover);
+  --sidebar-bg: #0d1016;
+  --sidebar-border-color: var(--pf-border);
+  --sidebar-muted-color: var(--pf-muted);
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+  --sidebar-btn-bg: var(--pf-surface);
+  --sidebar-active-color: var(--pf-accent);
+  --search-wrapper-bg: #121419;
+  --search-border-color: var(--pf-border);
+  --main-border-color: var(--pf-border);
+  --text-color: var(--pf-text);
+  --text-muted-color: var(--pf-muted);
+  --heading-color: var(--pf-heading);
+  --label-color: var(--pf-muted);
+  --link-color: var(--pf-accent-hover);
+  --link-underline-color: rgba(52, 211, 153, 0.35);
+  --toc-highlight: var(--pf-accent);
+  --blockquote-border-color: var(--pf-accent);
+  --blockquote-text-color: #cfd4da;
+  --inline-code-bg: rgba(16, 185, 129, 0.12);
+  --code-color: var(--pf-accent-hover);
+  --highlight-bg-color: #0c0e12;
+  --code-header-bg: #111317;
+  --tb-odd-bg: #14161b;
+  --tb-even-bg: #181a20;
+  --tb-border-color: var(--pf-border);
+
+  body {
+    background-color: var(--pf-bg);
+    background-image:
+      radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 35%),
+      radial-gradient(circle at 85% 80%, rgba(14, 165, 233, 0.05) 0%, transparent 35%),
+      linear-gradient(180deg, rgba(11, 15, 23, 0.94) 0%, rgba(11, 15, 23, 0.985) 100%),
+      url("../img/bg-portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #main-wrapper,
+  #main-wrapper > .container,
+  #topbar {
+    background: transparent !important;
+  }
+
+  #topbar-wrapper {
+    background: rgba(11, 15, 23, 0.96) !important;
+    border-bottom: 1px solid var(--pf-border);
+  }
+
+  #sidebar { border-right: 1px solid var(--pf-border); }
+  #sidebar .site-title { color: var(--pf-heading) !important; }
+
+  #sidebar .nav-item.active .nav-link {
+    background: rgba(16, 185, 129, 0.1) !important;
+    color: var(--pf-accent) !important;
+  }
+
+  .post-preview,
+  .card {
+    background: var(--pf-surface) !important;
+    border: 1px solid var(--pf-border) !important;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+  }
+
+  .post-preview:hover,
+  .card-wrapper:hover .card {
+    border-color: var(--pf-border-accent) !important;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.16) !important;
+  }
+
+  .content h1, .content h2, .content h3, .content h4,
+  article h1, .card-title { color: var(--pf-heading) !important; }
+
+  .post-preview .card-text,
+  .post-meta { color: var(--pf-muted) !important; }
+
+  div[class^="language-"] { border: 1px solid rgba(16, 185, 129, 0.3); }
+
+  .sidebar-author-badge .badge {
+    background: rgba(16, 185, 129, 0.12) !important;
+    color: #6ee7b7 !important;
+    border-color: var(--pf-border-accent) !important;
+  }
+
+  #avatar { box-shadow: 0 0 0 3px var(--pf-accent), 0 0 24px rgba(16, 185, 129, 0.25) !important; }
+
+  .post-tag:hover {
+    background: rgba(16, 185, 129, 0.12) !important;
+    border-color: var(--pf-border-accent) !important;
+    color: var(--pf-accent) !important;
+  }
+
+  /* Componentes próprios (topnav/hero) */
+  --pf-nav-color: #9ca3af;
+  --pf-nav-hover-bg: rgba(255, 255, 255, 0.06);
+  --pf-nav-active: #f8fafc;
+  --pf-brand-color: #f8fafc;
+  --pf-brand-accent: #10b981;
+  --pf-cta-bg: #10b981;
+  --pf-cta-color: #062219;
+  --pf-cta-hover: #34d399;
+  --pf-hero-sub: #10b981;
+  --pf-badge-bg: rgba(17, 20, 26, 0.9);
+  --pf-badge-color: #cbd5e1;
+  --pf-badge-status: #6ee7b7;
+  --pf-badge-status-border: rgba(16, 185, 129, 0.45);
+  --pf-btn2-bg: #1a1d23;
+  --pf-btn2-border: rgba(16, 185, 129, 0.45);
+  --pf-terminal-bg: #090b0f;
+  --pf-terminal-border: rgba(16, 185, 129, 0.45);
+  --pf-avatar-ring: #10b981;
+}
+
+/* =============================================================
+ * MODO CLARO — leitura tipo "papel", sem brilho e sem verde
+ * ============================================================= */
 html[data-mode="light"],
 html:not([data-mode]) {
-  --main-bg: #f8f9fa;
-  --card-bg: #fff;
-  --sidebar-bg: #f1f5f9;
-  --search-wrapper-bg: #fff;
+  --pf-paper: #f6f4ef;            /* fundo quente, reduz o efeito "lanterna" */
+  --pf-card: #fbfaf7;
+  --pf-line: #e4e0d8;
+  --pf-ink: #2b2d31;
+  --pf-ink-soft: #5f6368;
+  --pf-ink-strong: #17181b;
+  --pf-link: #1f5d84;             /* azul-petróleo discreto */
+
+  --main-bg: var(--pf-paper);
+  --card-bg: var(--pf-card);
+  --card-hover-bg: #ffffff;
+  --sidebar-bg: #efece5;
+  --sidebar-border-color: var(--pf-line);
+  --sidebar-muted-color: var(--pf-ink-soft);
+  --sidebar-hover-bg: rgba(23, 24, 27, 0.05);
+  --sidebar-active-color: var(--pf-ink-strong);
+  --search-wrapper-bg: var(--pf-card);
+  --search-border-color: var(--pf-line);
+  --main-border-color: var(--pf-line);
+  --text-color: var(--pf-ink);
+  --text-muted-color: var(--pf-ink-soft);
+  --heading-color: var(--pf-ink-strong);
+  --link-color: var(--pf-link);
+  --link-underline-color: rgba(31, 93, 132, 0.3);
+  --toc-highlight: var(--pf-link);
+  --blockquote-border-color: #c9c3b6;
+  --blockquote-text-color: #4a4d52;
+  --inline-code-bg: #ece8df;
+  --code-color: #8a3b12;
+
+  #topbar-wrapper {
+    background: rgba(246, 244, 239, 0.97) !important;
+    border-bottom: 1px solid var(--pf-line);
+  }
+
+  #topbar { background: transparent !important; }
+
+  #sidebar { border-right: 1px solid var(--pf-line); }
+  #sidebar .site-title { color: var(--pf-ink-strong) !important; }
+
+  #sidebar .nav-item.active .nav-link {
+    background: rgba(23, 24, 27, 0.07) !important;
+    color: var(--pf-ink-strong) !important;
+  }
+
+  .post-preview,
+  .card {
+    background: var(--pf-card) !important;
+    border: 1px solid var(--pf-line) !important;
+    box-shadow: none;
+  }
+
+  .post-preview:hover,
+  .card-wrapper:hover .card {
+    border-color: #cfc9bd !important;
+    box-shadow: 0 6px 18px rgba(40, 32, 20, 0.07) !important;
+  }
+
+  .sidebar-author-badge .badge {
+    background: #e7e3da !important;
+    color: var(--pf-ink) !important;
+    border-color: var(--pf-line) !important;
+  }
+
+  #avatar { box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px var(--pf-line) !important; }
+
+  article .content blockquote { background: #efece5 !important; }
+
+  .post-tag:hover {
+    background: #e7e3da !important;
+    color: var(--pf-ink-strong) !important;
+  }
+
+  .site-title::before { color: var(--pf-ink-soft); }
+
+  --pf-nav-color: #5f6368;
+  --pf-nav-hover-bg: rgba(23, 24, 27, 0.05);
+  --pf-nav-active: #17181b;
+  --pf-brand-color: #17181b;
+  --pf-brand-accent: #1f5d84;
+  --pf-cta-bg: #17181b;
+  --pf-cta-color: #f6f4ef;
+  --pf-cta-hover: #2f3237;
+  --pf-hero-sub: #1f5d84;
+  --pf-badge-bg: #efece5;
+  --pf-badge-color: #4a4d52;
+  --pf-badge-status: #1f5d84;
+  --pf-badge-status-border: rgba(31, 93, 132, 0.35);
+  --pf-btn2-bg: transparent;
+  --pf-btn2-border: #cfc9bd;
+  --pf-terminal-bg: #1d1f23;
+  --pf-terminal-border: #2f3237;
+  --pf-avatar-ring: #ffffff;
 }
 
-/* Integra a barra superior ao fundo off-white */
-#topbar-wrapper,
-#topbar {
-  background-color: var(--main-bg) !important;
+/* =============================================================
+ * TIPOGRAFIA
+ * ============================================================= */
+body { font-family: var(--pf-font-sans); }
+
+h1, h2, h3,
+.site-title,
+.card-title,
+.pf-brand,
+.pf-nav,
+.pf-badge,
+.pf-btn,
+.pf-terminal,
+#sidebar .nav-link span,
+.sidebar-author-badge .badge,
+.post-tag,
+.post-meta {
+  font-family: var(--pf-font-mono);
 }
 
-/* Estilo Limpo e Padronizado de Imagens - Tema Claro */
+h1, h2, h3, .card-title { font-weight: 700; }
+
+#post-wrapper .content,
+article .content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.site-title::before {
+  content: ">_ ";
+  color: var(--pf-accent);
+}
+
+::selection { background: rgba(16, 185, 129, 0.25); }
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--pf-accent) !important;
+  outline-offset: 3px;
+}
+
+/* =============================================================
+ * LAYOUT DESKTOP: menu superior (como o portfólio), sem sidebar
+ * Mobile (< 992px) mantém a sidebar deslizante do Chirpy.
+ * ============================================================= */
+@media (min-width: 992px) {
+  #sidebar { display: none !important; }
+
+  #main-wrapper { margin-left: 0 !important; }
+
+  #topbar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  #topbar {
+    max-width: 1140px !important;
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+
+  #search { margin-left: auto; }
+}
+
+.pf-brand {
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--pf-brand-color) !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.pf-brand-prompt,
+.pf-brand-accent { color: var(--pf-brand-accent); }
+
+.pf-nav {
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.88rem;
+
+  a {
+    color: var(--pf-nav-color) !important;
+    padding: 0.4rem 0.75rem;
+    border-radius: var(--pf-radius-sm);
+    text-decoration: none !important;
+    border-bottom: none !important;
+
+    &:hover { color: var(--pf-nav-active) !important; background: var(--pf-nav-hover-bg); }
+    &.active { color: var(--pf-nav-active) !important; }
+  }
+
+  a.pf-nav-cta {
+    background: var(--pf-cta-bg);
+    color: var(--pf-cta-color) !important;
+    font-weight: 700;
+    margin-left: 0.35rem;
+
+    &:hover { background: var(--pf-cta-hover); color: var(--pf-cta-color) !important; }
+  }
+}
+
+.pf-mode-btn {
+  margin-left: 0.35rem;
+  background: transparent;
+  border: 1px solid var(--main-border-color);
+  border-radius: 999px;
+  color: var(--pf-nav-color);
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover { color: var(--pf-nav-active); }
+}
+
+/* =============================================================
+ * HERO DA HOME (espelha o hero do portfólio)
+ * ============================================================= */
+.pf-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 2.5rem 0 2.75rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+.pf-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.pf-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: var(--pf-badge-bg);
+  color: var(--pf-badge-color);
+  border: 1px solid var(--main-border-color);
+
+  &--status {
+    color: var(--pf-badge-status);
+    border-color: var(--pf-badge-status-border);
+  }
+}
+
+.pf-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--pf-badge-status);
+  box-shadow: 0 0 8px var(--pf-badge-status);
+}
+
+.pf-hero-title {
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  line-height: 1.2;
+  margin: 0 0 0.6rem;
+}
+
+.pf-hero-subtitle {
+  font-family: var(--pf-font-mono);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--pf-hero-sub);
+  margin-bottom: 0.9rem;
+}
+
+.pf-hero-desc {
+  color: var(--text-muted-color);
+  max-width: 38rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.pf-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.2rem;
+  border-radius: var(--pf-radius-md);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  border-bottom-width: 1px !important;
+  transition: transform 0.2s ease, background 0.2s ease;
+
+  &:hover { transform: translateY(-2px); }
+
+  &--primary {
+    background: var(--pf-cta-bg);
+    color: var(--pf-cta-color) !important;
+
+    &:hover { background: var(--pf-cta-hover); }
+  }
+
+  &--secondary {
+    background: var(--pf-btn2-bg);
+    color: var(--heading-color) !important;
+    border-color: var(--pf-btn2-border);
+  }
+}
+
+.pf-hero-side {
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.pf-hero-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0 3px var(--pf-avatar-ring), 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+
+.pf-terminal {
+  margin-top: -1rem;
+  min-width: 240px;
+  background: var(--pf-terminal-bg);
+  border: 1px solid var(--pf-terminal-border);
+  border-radius: var(--pf-radius-md);
+  padding: 0.6rem 0.85rem;
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  position: relative;
+}
+
+.pf-terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #94a3b8;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ef4444;
+
+    &:nth-child(2) { background: #f59e0b; }
+    &:nth-child(3) { background: #10b981; margin-right: 0.3rem; }
+  }
+}
+
+.pf-t-prompt { color: #10b981; }
+.pf-t-ok { color: #6ee7b7; }
+
+@media (max-width: 767.98px) {
+  .pf-hero { padding-top: 1.5rem; }
+}
+
+/* =============================================================
+ * COMPONENTES COMUNS
+ * ============================================================= */
+.post-preview,
+.card,
+.b2b-consulting-card,
+.newsletter-card {
+  border-radius: var(--pf-radius-lg) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.copy-code-button:hover,
+.copy-code-button.is-copied {
+  background: var(--pf-accent) !important;
+  border-color: var(--pf-accent) !important;
+  color: #052017 !important;
+}
+
+article .content blockquote {
+  border-left-color: var(--blockquote-border-color) !important;
+}
+
+.post-tag { border-radius: 999px !important; }
+
 main .content img,
 #post-wrapper .content img {
   max-width: 90% !important;
@@ -21,6 +555,20 @@ main .content img,
   max-height: 420px !important;
   display: block !important;
   margin: 1.8rem auto !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 6%) !important;
+  border-radius: var(--pf-radius-md) !important;
+}
+
+/* Rodapé centralizado com o conteúdo */
+#tail-wrapper {
+  width: 100% !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  flex: 0 0 100% !important;
+}
+
+.site-footer .container {
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
 }

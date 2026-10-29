@@ -1,0 +1,26 @@
+<!-- Hero da home: mesmo padrão visual do portfólio (badges, nome, subtítulo, CTAs, terminal) -->
+<section class="pf-hero" aria-label="Apresentação">
+  <div class="pf-hero-text">
+    <div class="pf-hero-badges">
+      <span class="pf-badge pf-badge--status"><span class="pf-dot"></span>Blog técnico</span>
+      <span class="pf-badge"><i class="fas fa-location-dot"></i> Linux · Dados · IA Privada</span>
+    </div>
+    <h1 class="pf-hero-title">{{ site.title }}</h1>
+    <p class="pf-hero-subtitle">{{ site.tagline }}</p>
+    <p class="pf-hero-desc">{{ site.description }}</p>
+    <div class="pf-hero-ctas">
+      <a class="pf-btn pf-btn--primary" href="#post-list"><i class="fas fa-book-open"></i> Ler artigos</a>
+      <a class="pf-btn pf-btn--secondary" href="https://marcos-data-engineer.github.io/dataengineer.github.io/" target="_blank" rel="noopener"><i class="fas fa-user"></i> Ver portfólio</a>
+    </div>
+  </div>
+  <div class="pf-hero-side d-none d-md-flex">
+    <div class="pf-hero-avatar" role="img" aria-label="{{ site.social.name }}" style="background-image: url('{{ site.avatar | relative_url }}');"></div>
+    <div class="pf-terminal" aria-hidden="true">
+      <div class="pf-terminal-bar"><span></span><span></span><span></span> marcos@blog:~</div>
+      <div class="pf-terminal-body">
+        <div><span class="pf-t-prompt">$</span> ls posts/ | wc -l</div>
+        <div class="pf-t-ok">{{ site.posts.size }} artigos publicados</div>
+      </div>
+    </div>
+  </div>
+</section>
