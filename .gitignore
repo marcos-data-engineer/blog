@@ -12,7 +12,7 @@ Thumbs.db
 keyd/
 
 # Material privado / contexto de IA / ferramentas locais (sincronizados via gdrive-sync)
-_course_production/
+/_course_production
 scripts/
 doc.txt
 setup_notebook.txt
