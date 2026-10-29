@@ -538,7 +538,7 @@ main .content img,
   border-radius: var(--pf-radius-md) !important;
 }
 
-/* Rodapé centralizado com o conteúdo */
+/* Rodapé centralizado horizontal e verticalmente */
 #tail-wrapper {
   width: 100% !important;
   max-width: 900px !important;
@@ -547,8 +547,17 @@ main .content img,
   flex: 0 0 100% !important;
 }
 
-.site-footer .container {
+.site-footer {
   display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.site-footer .container {
+  height: 100%;
+  display: flex !important;
+  align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
 }
+
