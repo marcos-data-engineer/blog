@@ -26,7 +26,6 @@ O conteúdo aborda engenharia de dados, arquitetura, modelos de linguagem de gra
 - `_layouts/`: modelos de páginas e artigos.
 - `_tabs/`: páginas de navegação do site.
 - `assets/`: imagens, ícones, folhas de estilo e scripts.
-- `_course_production/`: documentação e arquivos-fonte do material do curso.
 - `_config.yml`: configuração principal do Jekyll.
 
 ## Executar localmente

@@ -8,13 +8,24 @@ __pycache__/
 .venv/
 *.pyc
 .DS_Store
+Thumbs.db
 keyd/
 
-# Material privado / ferramentas locais (não publicar)
+# Material privado / contexto de IA / ferramentas locais (sincronizados via gdrive-sync)
 _course_production/
+scripts/
+doc.txt
+setup_notebook.txt
+requirements.txt
 .clinerules
-.antigravityignore
 .vscode/
-.bundle/
+.idea/
 .env
-*.env
+.env.*
+!.env.example
+*.swp
+*.swo
+*~
+*.copy
+*.old
+nano.save*
