@@ -12,7 +12,7 @@ mermaid: true
 image:
   path: /assets/img/posts/o-fim-do-hype-da-agi-por-que-sua-empresa-deveria-focar-em/cover.jpg
   alt: "O Fim do Hype da AGI: Por Que Sua Empresa Deveria Focar em Arquiteturas Híbridas"
-published: false
+published: true
 ---
 
 <p class="text-center text-muted mb-4"><small><em>Imagem de capa: O Fim do Hype da AGI: Por Que Sua Empresa Deveria Focar em Arquiteturas Híbridas. (Créditos: <a href="{{ '/assets/img/posts/o-fim-do-hype-da-agi-por-que-sua-empresa-deveria-focar-em/cover.jpg' | relative_url }}" target="_blank" rel="noopener">Imagem ilustrativa</a>)</em></small></p>
