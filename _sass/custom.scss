@@ -181,6 +181,40 @@ main .content a.popup + em {
   color: var(--pf-muted) !important;
 }
 
+/* Garante contraste nos cards de rodapé dos posts (Newsletter, B2B, etc.) */
+.post-tail-wrapper .card p,
+.post-tail-wrapper .card small,
+.post-tail-wrapper .card label,
+.newsletter-card p,
+.newsletter-card small,
+.newsletter-card label {
+  color: var(--pf-muted) !important;
+}
+
+.newsletter-card .b2b-consulting-card__icon i {
+  color: var(--pf-accent) !important;
+}
+
+/* Campos de formulário no tema escuro (Newsletter / Inputs globais) */
+.form-control,
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid var(--pf-border) !important;
+  color: #ffffff !important;
+
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border-color: var(--pf-accent) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 0 0.2rem rgba(16, 185, 129, 0.25) !important;
+  }
+
+  &::placeholder {
+    color: #94a3b8 !important;
+    opacity: 1 !important;
+  }
+}
+
 /* Painel direito (TOC, Atualizados recentemente, Trending Tags) */
 #panel-wrapper .access > div,
 #toc-wrapper {
