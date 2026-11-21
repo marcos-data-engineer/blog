@@ -11,6 +11,10 @@ on:
   push:
     branches: ["main"]
 
+  # Executa diariamente para sincronizar automaticamente alterações na foto de perfil do GitHub
+  schedule:
+    - cron: '0 4 * * *'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -33,6 +37,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Fetch Latest GitHub Avatar
+        run: |
+          mkdir -p assets/img
+          curl -sL -A "curl/7.88.1" "https://github.com/marcos-data-engineer.png" -o assets/img/avatar.jpg
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
