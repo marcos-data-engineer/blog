@@ -23,8 +23,19 @@
     var isPt = (lang === 'pt');
     var host = window.location.hostname;
     if (isPt) {
+      // Deletar cookie googtrans em todos os escopos possíveis (domain, path, sem domain)
       document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
       document.cookie = 'googtrans=; path=/blog; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      document.cookie = 'googtrans=; domain=.github.io; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      document.cookie = 'googtrans=; domain=.marcos-data-engineer.github.io; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      document.cookie = 'googtrans=; domain=.marcos-data-engineer.github.io; path=/blog; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      // Resetar combo do Google Translate para PT e disparar eventos
+      var select = document.querySelector('.goog-te-combo');
+      if (select) {
+        select.value = 'pt';
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+        select.dispatchEvent(new Event('input', { bubbles: true }));
+      }
       return;
     }
     var val = '/pt/' + lang;
