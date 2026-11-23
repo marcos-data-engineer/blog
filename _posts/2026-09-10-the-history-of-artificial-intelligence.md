@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "A história da inteligência artificial"
 date: 2026-09-10 12:00:00 +0000
@@ -11,50 +11,27 @@ image:
   path: /assets/img/posts/history-of-ai/cover.jpg
   alt: "A história da inteligência artificial"
 published: true
+mermaid: true
+slug: the-history-of-artificial-intelligence
 ---
 
-<a href="https://commons.wikimedia.org/wiki/File:Is_artificial_intelligence_our_future.jpg">Elekes Andor</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+<p class="text-center text-muted mb-4"><small><em><a href="https://commons.wikimedia.org/wiki/File:Is_artificial_intelligence_our_future.jpg">Elekes Andor</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</em></small></p>
 
 <style>
-body {
-  font-family: 'Segoe UI', Roboto, sans-serif;
-  background: #fafafa;
-  color: #222;
-  line-height: 1.7;
-}
-
-h1, h2, h3 {
-  color: #111;
-  font-weight: 700;
-}
-
-blockquote {
-  font-style: italic;
-  color: #444;
-  border-left: 4px solid #1976d2;
-  padding-left: 1rem;
-  margin: 1.5rem 0;
-}
-
-figure {
-  margin: 2rem auto;
-  text-align: center;
-}
-
 figure img,
 img {
   display: block;
-  width: 100%;
-  max-width: 680px;
+  width: auto;
+  max-width: min(100%, 560px);
   height: auto;
   margin: 1.5rem auto;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 figcaption {
   font-size: 0.9em;
-  color: #666;
+  color: #94a3b8;
   margin-top: 0.5rem;
 }
 
@@ -62,13 +39,14 @@ figcaption {
   position: relative;
   margin: 2rem 0;
   padding-left: 20px;
-  border-left: 3px solid #1976d2;
+  border-left: 3px solid #10b981;
 }
 
 .timeline-item {
   position: relative;
   margin-bottom: 1.5rem;
   padding-left: 20px;
+  color: #cbd5e1;
 }
 
 .timeline-item::before {
@@ -78,21 +56,12 @@ figcaption {
   top: 4px;
   width: 14px;
   height: 14px;
-  background-color: #1976d2;
+  background-color: #10b981;
   border-radius: 50%;
 }
 
 .timeline-item strong {
-  color: #0d47a1;
-}
-
-a {
-  color: #1976d2;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #34d399;
 }
 </style>
 
@@ -148,7 +117,6 @@ Modelos como o ChatGPT popularizam a IA.</div>
 
 ---
 
-### 🌐 A história da inteligência artificial: da mitologia à realidade
 A inteligência artificial (IA) parece ser a tecnologia que define nossa época, mas sua história é muito mais antiga e fascinante do que muita gente imagina. Não se trata de uma invenção recente, e sim de uma área de estudo que atravessou décadas de avanços e retrocessos até se tornar uma força transformadora.
 
 Esta é a história das tentativas da humanidade de reproduzir uma de suas capacidades mais extraordinárias: a mente humana.
@@ -188,7 +156,7 @@ A máquina de calcular de Leibniz — CC BY-SA 4.0, via Wikimedia Commons.
 
 A busca por máquinas inteligentes é antiga.
 
-Da mitologia grega e de Talos ao autômato de Vaucanson, no século XVIII, as pessoas há muito tentam reproduzir artificialmente a vida.
+Do autômato de Vaucanson, no século XVIII, às concepções lógicas modernas, as pessoas há muito tentam reproduzir artificialmente a vida.
 
 Mas foi o matemático **Alan Turing** quem, em 1950, transformou esse sonho em ciência.
 
@@ -231,13 +199,8 @@ O verdadeiro “nascimento” da IA como campo formal de pesquisa ocorreu em mea
 _Retrato do professor John McCarthy (1927–2011) na Universidade Stanford, em 2006. Conhecido como um dos “pais da IA”, foi o principal organizador da Conferência de Dartmouth de 1956, marco da consolidação formal da área._
 
 
-> “<i>A Conferência de Dartmouth de 1956 é amplamente considerada o evento fundador da inteligência artificial como campo de estudo.</i>”
-<cite style="display: block; text-align: right; font-size: 0.9em; color: #666;">
-  — <a href="https://spectrum.ieee.org/dartmouth-ai-workshop" target="_blank">IEEE Spectrum</a>
-</cite>
-
 > “<i>A Conferência de Dartmouth não apenas cunhou o termo ‘inteligência artificial’; ela unificou todo um campo de estudo. Foi como um Big Bang mítico da IA: tudo o que sabemos sobre aprendizado de máquina, redes neurais e aprendizado profundo remonta àquele verão em New Hampshire.</i>”
-<cite style="display: block; text-align: right; font-size: 0.9em; color: #666; margin-top: 5px;">
+<cite style="display: block; text-align: right; font-size: 0.9em; color: #94a3b8; margin-top: 5px;">
   — <a href="https://spectrum.ieee.org/dartmouth-ai-workshop" target="_blank">IEEE Spectrum</a>
 </cite>
 
@@ -251,7 +214,7 @@ Em **1966**, Joseph Weizenbaum desenvolveu a **ELIZA**, um dos primeiros chatbot
 
 <figure style="text-align: center;">
     <a title="Consulte a página da autoria; domínio público, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.jpg"><img width="512" alt="Uma conversa com o chatbot ELIZA." src="{{ '/assets/img/posts/history-of-ai/eliza.jpg' | relative_url | remove_first: site.baseurl }}"></a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: #94a3b8; margin-top: 5px;">
     Exemplo de uma conversa com ELIZA, um dos primeiros programas a simular um diálogo terapêutico e impressionar o público na década de 1960.
   </figcaption>
 </figure>
@@ -266,7 +229,7 @@ Em **1966**, Joseph Weizenbaum desenvolveu a **ELIZA**, um dos primeiros chatbot
          alt="Fotografia da FEMA 1009, feita por John Ferguson em 25/01/1998, em Nova York"
          src="{{ '/assets/img/posts/history-of-ai/ai-winter.jpg' | relative_url | remove_first: site.baseurl }}">
   </a>
-  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: #94a3b8; margin-top: 5px;">
     A inteligência artificial enfrentou cortes de financiamento e perdeu interesse global.
     <br>Imagem ilustrativa de John Ferguson — domínio público, via Wikimedia Commons.
   </figcaption>
@@ -363,7 +326,7 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #2d3748;
     padding-bottom: 5px;
 }
 
@@ -379,7 +342,7 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 
 .data-bar {
     width: 70%;
-    background-color: #007bff; /* Primary blue */
+    background-color: #10b981; /* Accent emerald */
     transition: height 0.5s ease-out;
     position: relative;
     border-radius: 3px 3px 0 0;
@@ -388,14 +351,14 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 .data-bar-label {
     margin-top: 5px;
     font-size: 0.8em;
-    color: #555;
+    color: #94a3b8;
     font-weight: bold;
 }
 
 .data-bar-value {
     font-size: 0.7em;
     font-weight: bold;
-    color: #333;
+    color: #f1f5f9;
 }
 
 /* Heights to simulate exponential growth */
@@ -425,7 +388,7 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
         <span class="data-bar-label">Hoje</span>
     </div>
 </div>
-<figcaption style="text-align: center; font-size: 0.9em; color: #777;">Crescimento ilustrativo do volume global de dados digitais; as alturas não representam medições.</figcaption>
+<figcaption style="text-align: center; font-size: 0.9em; color: #94a3b8;">Crescimento ilustrativo do volume global de dados digitais; as alturas não representam medições.</figcaption>
 </figure>
 
 #### 2. Capacidade de processamento (o motor)
@@ -438,18 +401,21 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
     justify-content: space-around;
     max-width: 700px;
     gap: 20px;
+}
 
 .processor-card {
+    background-color: #16181d;
+    border: 1px solid #2d3748;
     border-radius: 8px;
     padding: 20px;
     flex: 1; /* Allows cards to grow and shrink */
     min-width: 280px; /* Minimum width for each card */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .processor-card h3 {
     margin-top: 0;
-    color: #333;
+    color: #f1f5f9;
     font-size: 1.5em;
     margin-bottom: 15px;
 }
@@ -466,7 +432,7 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 .core {
     width: 30px;
     height: 30px;
-    background-color: #007bff; /* Blue for powerful cores */
+    background-color: #3b82f6; /* Blue for powerful cores */
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -480,20 +446,20 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 .core.small {
     width: 15px;
     height: 15px;
-    background-color: #28a745; /* Green for smaller/simpler cores */
+    background-color: #10b981; /* Emerald for smaller/simpler cores */
     font-size: 0.6em;
 }
 
 .description-text {
     font-size: 0.9em;
-    color: #555;
+    color: #cbd5e1;
     line-height: 1.5;
 }
 
 /* Labels for core types */
 .core-label {
     font-size: 0.8em;
-    color: #777;
+    color: #94a3b8;
     margin-top: 5px;
 }
 
@@ -513,7 +479,6 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
         min-width: unset; 
     }
 }
-
 </style>
 
 <div class="cpu-gpu-compare">
@@ -588,19 +553,19 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 }
 
 .nn-card {
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
+    background-color: #16181d;
+    border: 1px solid #2d3748;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
     flex: 1; /* Allows cards to grow and shrink */
     min-width: 320px; /* Minimum width for each card */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .nn-card h3 {
     margin-top: 0;
-    color: #333;
+    color: #f1f5f9;
     font-size: 1.5em;
     margin-bottom: 15px;
 }
@@ -614,7 +579,7 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 }
 
 .nn-layer {
-    background-color: #007bff; /* Primary blue */
+    background-color: #3b82f6; /* Blue */
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
@@ -622,22 +587,22 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
     font-weight: bold;
     width: 80%;
     max-width: 200px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.nn-layer.input { background-color: #6c757d; } /* Gray for input */
-.nn-layer.output { background-color: #28a745; } /* Green for output */
-.nn-layer.hidden { background-color: #17a2b8; } /* Light blue for hidden */
+.nn-layer.input { background-color: #475569; } /* Gray for input */
+.nn-layer.output { background-color: #10b981; } /* Emerald for output */
+.nn-layer.hidden { background-color: #0284c7; } /* Cyan for hidden */
 
 .nn-arrow {
     font-size: 1.5em;
-    color: #555;
+    color: #94a3b8;
     margin: -5px 0; /* Adjust spacing between layers */
 }
 
 .description-text {
     font-size: 0.9em;
-    color: #555;
+    color: #cbd5e1;
     line-height: 1.5;
 }
 
@@ -740,7 +705,7 @@ Essa revolução é impulsionada principalmente por arquiteturas avançadas de a
     * **2022:** o lançamento público do **ChatGPT**, da OpenAI, tornou os LLMs acessíveis a milhões de pessoas e mostrou que sistemas complexos de IA poderiam chegar ao público geral.
     * **Impacto:** hoje, LLMs são usados para escrever código, resumir textos, apoiar raciocínios complexos e atender clientes, transformando o trabalho baseado em conhecimento.
 
-## 🤖 Fluxo de um LLM
+#### 🤖 Fluxo de um LLM
 
 ```mermaid
 flowchart TD
@@ -753,7 +718,7 @@ flowchart TD
 * **Tecnologia central:** modelos avançados como as **redes adversariais generativas (GANs)** e, mais recentemente, os **modelos de difusão**, usados pelo DALL-E, Midjourney e Stable Diffusion. Esses sistemas relacionam instruções textuais a características visuais e criam imagens do zero.
 * **Impacto:** eles redefiniram a arte digital, o design gráfico e a criação de conteúdo, levando a área da análise à produção criativa.
 
-## 🖼️ Fluxo de texto para imagem
+#### 🖼️ Fluxo de texto para imagem
 
 ```mermaid
 flowchart LR
@@ -764,60 +729,19 @@ flowchart LR
 
 ---
 
-<style>
-/* Styles for the Conclusion */
-.conclusion-box {
-    margin: 40px auto;
-    padding: 30px;
-    border-top: 5px solid #007bff;
-    border-bottom: 5px solid #007bff;
-    background-color: #f8f9fa;
-    text-align: center;
-    max-width: 800px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-}
-
-.conclusion-box h2 {
-    color: #333;
-    font-size: 1.8em;
-    margin-top: 0;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #e9ecef;
-    padding-bottom: 10px;
-}
-
-.conclusion-box p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.conclusion-box strong {
-    color: #007bff;
-    font-weight: 700;
-}
-
-.conclusion-quote {
-    font-style: italic;
-    font-size: 1.2em;
-    color: #28a745;
-    margin-top: 25px;
-}
-</style>
-
 ## 🧩 Conclusão: o futuro além do código
 
 Da filosofia de Turing à ética de Asimov, das vitórias do Watson à criatividade dos modelos generativos, a IA percorreu uma trajetória extraordinária.
 
 O desafio atual não é apenas criar máquinas mais inteligentes, mas sistemas cujos objetivos e valores sejam **mais alinhados às necessidades humanas**.
 
-O avanço acelerado da <b>era da IA generativa</b> demonstra a capacidade inventiva da humanidade.
+O contraste histórico entre as regras lógicas determinísticas das primeiras décadas e o poder probabilístico dos modelos generativos contemporâneos evidencia uma lição vital: a inteligência artificial moderna não opera de forma isolada. Para gerar valor confiável e seguro no ambiente corporativo, os modelos preditivos exigem orquestração determinística robusta, arquiteturas híbridas e uma governança rigorosa sobre o ciclo de vida dos dados.
+
+O avanço acelerado da **era da IA generativa** demonstra a capacidade inventiva da humanidade.
     
-Os fundamentos teóricos estabelecidos por <b>Turing</b> e os avanços computacionais viabilizados pelas <b>GPUs</b> convergiram para criar sistemas que tornam realidade antigos sonhos de “máquinas pensantes”.
+Os fundamentos teóricos estabelecidos por **Turing** e os avanços computacionais viabilizados pelas **GPUs** convergiram para criar sistemas que tornam realidade antigos sonhos de “máquinas pensantes”.
     
-O próximo grande horizonte é a <b>inteligência artificial geral (AGI)</b>: a busca por máquinas capazes de aprender, adaptar-se e aplicar conhecimentos em diferentes tarefas de modo comparável às pessoas. Esse tema merece uma análise própria.
+O próximo grande horizonte é a **inteligência artificial geral (AGI)**: a busca por máquinas capazes de aprender, adaptar-se e aplicar conhecimentos em diferentes tarefas de modo comparável às pessoas. Esse tema merece uma análise própria.
     
 A história da IA é um testemunho da ambição humana: o que hoje parece ficção científica pode se tornar a tecnologia fundamental de amanhã.
 
@@ -825,13 +749,13 @@ A história da IA é um testemunho da ambição humana: o que hoje parece ficç�
 
 ## 📚 Referências e créditos
 
-- Alan Turing, *Computing Machinery and Intelligence*, 1950.  
-- Isaac Asimov, *I, Robot*, 1950.  
-- John McCarthy et al., *Dartmouth Conference Proposal*, 1956.  
-- IBM Research, *Watson Jeopardy Project*, 2011.  
-- Stanford University, *History of AI Archive*.  
-- Wikimedia Commons (public domain and CC).  
-- *Deep Learning Revolution*, MIT Press, 2018.
+- Alan Turing, [Computing Machinery and Intelligence](https://doi.org/10.1093/mind/LIX.236.433), 1950.  
+- Isaac Asimov, [I, Robot](https://www.asimovonline.com/), 1950.  
+- John McCarthy et al., [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf), 1956.  
+- IBM Research, [Watson Jeopardy Project](https://www.ibm.com/history/watson-jeopardy), 2011.  
+- Stanford University, [History of Artificial Intelligence Archive](https://cs.stanford.edu/people/eroberts/CS181/projects/ai/history.html).  
+- [Wikimedia Commons](https://commons.wikimedia.org/) (public domain and CC).  
+- Terrence J. Sejnowski, [The Deep Learning Revolution](https://mitpress.mit.edu/9780262538039/the-deep-learning-revolution/), MIT Press, 2018.
 
 ---
 

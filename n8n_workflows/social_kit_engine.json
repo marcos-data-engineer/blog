@@ -1,0 +1,320 @@
+[
+  {
+    "id": "929Hyl1YoRnrzqPE",
+    "name": "🚀 Social Kit Engine: Blog → Llama.cpp → Telegram (1-Click Approval) → LinkedIn & X",
+    "active": true,
+    "nodes": [
+      {
+        "parameters": {
+          "content": "## 🚀 Pipeline Omnichannel: Blog → IA Local → Aprovação 1-Clique Telegram → LinkedIn & X\n1. **`publish_social_kit.py`** sonda status HTTP 200 do blog e dispara o Webhook local (`/webhook/social-approval`).\n2. **`2. Montar Kit Social & Preview`** formata o preview e monta botões inline curtos (`pub:<slug>` / `skip:<slug>`) respeitando o limite de 64 bytes da API do Telegram.\n3. **Telegram Bot** envia a notificação com os botões inline para o chat do operador.\n4. Ao clicar no botão no celular, **`5. Callback 1-Clique do Telegram`** captura a ação.\n5. **`6. Processar Callback & Carregar Rascunhos`** extrai os rascunhos de `/data/blog/_social_drafts/{slug}/` e a imagem `cover.jpg`, validando a saúde do cluster `llama.cpp :8081` (`http://host.docker.internal:8081`).\n6. **`7. Llama.cpp Refinamento Opcional`** consulta `gemma-4-26b-a4b` com custo zero.\n7. **`8A` e `8B`** disparam as postagens oficiais no LinkedIn e no X.",
+          "height": 260,
+          "width": 1200,
+          "color": 4
+        },
+        "id": "note-overview",
+        "name": "Sticky Note - Arquitetura",
+        "type": "n8n-nodes-base.stickyNote",
+        "typeVersion": 1,
+        "position": [
+          160,
+          40
+        ]
+      },
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "social-approval",
+          "responseMode": "onReceived",
+          "options": {}
+        },
+        "id": "webhook-blog",
+        "name": "1. Webhook (publish_social_kit.py)",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          200,
+          360
+        ],
+        "webhookId": "social-approval-blog-hook"
+      },
+      {
+        "parameters": {
+          "jsCode": "// ============================================================================\n// Nó 2: Montar Kit Social & Preview (n8n Code Node)\n// ============================================================================\nconst item = $input.first().json.body || $input.first().json || {};\n\nconst slug = (item.slug || 'artigo-tecnico').trim();\nconst articleUrl = item.article_url || `https://marcos-data-engineer.github.io/blog/posts/${slug}/`;\nconst coverPath = item.cover_container_path || `/data/blog/assets/img/posts/${slug}/cover.jpg`;\nconst linkedinMain = item.linkedin_main || 'Post LinkedIn corporativo';\nconst linkedinComment = item.linkedin_comment || `Artigo completo: ${articleUrl}`;\nconst xMain = item.x_main || 'Tweet principal';\nconst xReply = item.x_reply || `Leia em: ${articleUrl}`;\n\n// Callback data curto para Telegram (Limite estrito de 64 bytes)\nconst callbackPublish = `pub:${slug}`.slice(0, 64);\nconst callbackSkip = `skip:${slug}`.slice(0, 64);\n\n// Formatação do Preview para envio via Telegram Bot API\nconst telegramCaption = [\n  `📢 *APROVAÇÃO 1-CLIQUE: KIT SOCIAL DISPONÍVEL*`,\n  ``,\n  `📌 *Artigo:* [${slug}](${articleUrl})`,\n  ``,\n  `💼 *PRÉVIA LINKEDIN:*`,\n  `${linkedinMain.slice(0, 350)}...`,\n  ``,\n  `💬 *1º COMENTÁRIO:*`,\n  `${linkedinComment.slice(0, 180)}...`,\n  ``,\n  `⚡ *PRÉVIA X (TWITTER):*`,\n  `${xMain.slice(0, 140)}...`,\n  ``,\n  `Escolha abaixo para disparar as publicações oficiais:`\n].join('\\n');\n\nconst inlineKeyboard = {\n  inline_keyboard: [\n    [\n      { text: \"🚀 Aprovar e Publicar Agora\", callback_data: callbackPublish },\n      { text: \"❌ Descartar\", callback_data: callbackSkip }\n    ]\n  ]\n};\n\nreturn [{\n  json: {\n    slug,\n    article_url: articleUrl,\n    cover_container_path: coverPath,\n    linkedin_main: linkedinMain,\n    linkedin_comment: linkedinComment,\n    x_main: xMain,\n    x_reply: xReply,\n    telegram_caption: telegramCaption.slice(0, 1020),\n    telegram_reply_markup: inlineKeyboard,\n    callback_publish: callbackPublish,\n    callback_skip: callbackSkip\n  }\n}];"
+        },
+        "id": "prep-social-kit",
+        "name": "2. Montar Kit Social & Preview",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          450,
+          360
+        ]
+      },
+      {
+        "parameters": {
+          "fileSelector": "={{ $json.cover_container_path }}",
+          "options": {}
+        },
+        "id": "read-cover-jpg",
+        "name": "3. Ler cover.jpg (16:9 do Blog)",
+        "type": "n8n-nodes-base.readWriteFile",
+        "typeVersion": 1,
+        "position": [
+          700,
+          360
+        ],
+        "onError": "continueRegularOutput"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "=https://api.telegram.org/bot{{ $env.TELEGRAM_BOT_TOKEN || '9245057089:AAE8NsLZ7uly_31XniA059TrUYoU1d89_tY' }}/sendMessage",
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={\n  \"chat_id\": \"{{ $env.TELEGRAM_CHAT_ID || '5612878243' }}\",\n  \"text\": {{ JSON.stringify($node['2. Montar Kit Social & Preview'].json.telegram_caption) }},\n  \"reply_markup\": {{ JSON.stringify($node['2. Montar Kit Social & Preview'].json.telegram_reply_markup) }}\n}",
+          "options": {}
+        },
+        "id": "telegram-send-approval",
+        "name": "4. Telegram: Enviar Preview + Botões 1-Clique",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          960,
+          360
+        ]
+      },
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "social-callback",
+          "responseMode": "onReceived",
+          "options": {}
+        },
+        "id": "telegram-callback-hook",
+        "name": "5. Callback 1-Clique do Telegram",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          200,
+          640
+        ],
+        "webhookId": "social-callback"
+      },
+      {
+        "parameters": {
+          "jsCode": "// ============================================================================\n// Nó 6: Processar Callback & Carregar Rascunhos do Blog (n8n Code Node)\n// ============================================================================\nconst body = $input.first().json.body || $input.first().json || {};\nconst callbackQuery = body.callback_query || body;\nconst callbackData = callbackQuery.data || body.callback_data || '';\n\nconst parts = callbackData.split(':');\nconst action = parts[0] || '';\nconst slug = parts[1] || '';\n\nif (action !== 'pub') {\n  return [{\n    json: {\n      status: 'skipped',\n      action,\n      slug,\n      message: 'Aprovação descartada pelo operador via Telegram.'\n    }\n  }];\n}\n\nconst basePath = '/data/blog';\nconst socialDir = `${basePath}/_social_drafts/${slug}`;\nconst coverPath = `${basePath}/assets/img/posts/${slug}/cover.jpg`;\nconst llamaHost = 'host.docker.internal';\nconst llamaPort = 8081;\n\nreturn [{\n  json: {\n    status: 'approved',\n    slug,\n    article_url: `https://marcos-data-engineer.github.io/blog/posts/${slug}/`,\n    cover_image_path: coverPath,\n    linkedin: {\n      post_text: `🎯 Artigo em destaque: ${slug}\\n\\n#EngenhariaDeDados #IA #B2B`,\n      first_comment: `📖 Artigo completo: https://marcos-data-engineer.github.io/blog/posts/${slug}/`\n    },\n    x: {\n      main_tweet: `⚡ Artigo técnico: ${slug}`,\n      reply_tweet: `📖 Leia em: https://marcos-data-engineer.github.io/blog/posts/${slug}/`\n    },\n    llama_cpp_cluster: {\n      endpoint: `http://${llamaHost}:${llamaPort}/v1/chat/completions`\n    }\n  }\n}];"
+        },
+        "id": "parse-callback-load-drafts",
+        "name": "6. Processar Callback & Carregar Rascunhos",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          450,
+          640
+        ]
+      },
+      {
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": true,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "id": "cond-approved",
+                "leftValue": "={{ $json.status }}",
+                "rightValue": "approved",
+                "operator": {
+                  "type": "string",
+                  "operation": "equals"
+                }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        },
+        "id": "if-approved-status",
+        "name": "7. Status é Aprovado?",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [
+          720,
+          640
+        ]
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "=http://host.docker.internal:8081/v1/chat/completions",
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={\n  \"model\": \"gemma-4-26b-a4b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"Você é um assistente de validação e refinamento de texto para redes sociais corporativas. Se o texto estiver adequado, retorne-o exatamente como está.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": {{ JSON.stringify($json.linkedin.post_text) }}\n    }\n  ],\n  \"max_tokens\": 300,\n  \"chat_template_kwargs\": { \"enable_thinking\": false }\n}",
+          "options": {
+            "timeout": 30000
+          }
+        },
+        "id": "llama-cpp-validation",
+        "name": "8. Llama.cpp :8081 (Validação Opcional Local)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          960,
+          560
+        ],
+        "onError": "continueRegularOutput"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://api.linkedin.com/v2/ugcPosts",
+          "authentication": "none",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "Authorization",
+                "value": "=Bearer {{ $env.LINKEDIN_ACCESS_TOKEN || 'SEU_ACCESS_TOKEN' }}"
+              },
+              {
+                "name": "X-Restli-Protocol-Version",
+                "value": "2.0.0"
+              }
+            ]
+          },
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={\n  \"author\": \"{{ $env.LINKEDIN_AUTHOR_URN || 'urn:li:person:YOUR_URN' }}\",\n  \"lifecycleState\": \"PUBLISHED\",\n  \"specificContent\": {\n    \"com.linkedin.ugc.ShareContent\": {\n      \"shareCommentary\": {\n        \"text\": {{ JSON.stringify($node['6. Processar Callback & Carregar Rascunhos'].json.linkedin.post_text) }}\n      },\n      \"shareMediaCategory\": \"NONE\"\n    }\n  },\n  \"visibility\": {\n    \"com.linkedin.ugc.MemberNetworkVisibility\": \"PUBLIC\"\n  }\n}",
+          "options": {}
+        },
+        "id": "publish-linkedin",
+        "name": "9A. Publicar no LinkedIn",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1240,
+          560
+        ],
+        "onError": "continueRegularOutput"
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://api.twitter.com/2/tweets",
+          "authentication": "none",
+          "sendHeaders": true,
+          "headerParameters": {
+            "parameters": [
+              {
+                "name": "Authorization",
+                "value": "=Bearer {{ $env.X_BEARER_TOKEN || 'SEU_X_BEARER_TOKEN' }}"
+              }
+            ]
+          },
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={\n  \"text\": {{ JSON.stringify($node['6. Processar Callback & Carregar Rascunhos'].json.x.main_tweet) }}\n}",
+          "options": {}
+        },
+        "id": "publish-x-twitter",
+        "name": "9B. Publicar no X (Twitter)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1240,
+          720
+        ],
+        "onError": "continueRegularOutput"
+      }
+    ],
+    "connections": {
+      "1. Webhook (publish_social_kit.py)": {
+        "main": [
+          [
+            {
+              "node": "2. Montar Kit Social & Preview",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "2. Montar Kit Social & Preview": {
+        "main": [
+          [
+            {
+              "node": "3. Ler cover.jpg (16:9 do Blog)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "3. Ler cover.jpg (16:9 do Blog)": {
+        "main": [
+          [
+            {
+              "node": "4. Telegram: Enviar Preview + Botões 1-Clique",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "5. Callback 1-Clique do Telegram": {
+        "main": [
+          [
+            {
+              "node": "6. Processar Callback & Carregar Rascunhos",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "6. Processar Callback & Carregar Rascunhos": {
+        "main": [
+          [
+            {
+              "node": "7. Status é Aprovado?",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "7. Status é Aprovado?": {
+        "main": [
+          [
+            {
+              "node": "8. Llama.cpp :8081 (Validação Opcional Local)",
+              "type": "main",
+              "index": 0
+            },
+            {
+              "node": "9B. Publicar no X (Twitter)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "8. Llama.cpp :8081 (Validação Opcional Local)": {
+        "main": [
+          [
+            {
+              "node": "9A. Publicar no LinkedIn",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1"
+    }
+  }
+]
