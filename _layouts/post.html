@@ -1,13 +1,10 @@
 ---
 layout: default
-refactor: true
-panel_includes:
-  - toc
+panel_includes: []
 tail_includes:
   - related-posts
   - post-nav
-script_includes:
-  - comment
+script_includes: []
 ---
 
 {% include lang.html %}
@@ -195,6 +192,9 @@ script_includes:
         </div>
       </div>
     </div>
+
+    {% include comments/utterances.html %}
+
     <div
       class="
         post-tail-bottom

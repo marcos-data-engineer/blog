@@ -96,13 +96,13 @@ avatar: "/assets/img/avatar.jpg"
 social_preview_image: "/assets/img/avatar2.jpg" # Imagem padrão para compartilhamentos sociais
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: false
 
 comments:
-  provider: "utterances"
+  provider: "" # Utterances is loaded directly within post.html
   utterances:
-    repo: "marcos-data-engineer/blog" # Certifique-se de que o nome do repositório está correto
-    theme: "boxy-light"
+    repo: "marcos-data-engineer/blog"
+    theme: "github-dark"
 
 # comments:
 #   # Global switch for the post-comment system. Keeping it empty means disabled.
@@ -213,6 +213,7 @@ exclude:
   - requirements.txt
   - keyd
   - _course_production
+  - _social_drafts
 keep_files:
   - ads.txt
 
