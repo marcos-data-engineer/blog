@@ -58,16 +58,7 @@
       {% endif %}
     </nav>
     <!-- endof #breadcrumb -->
-<script>
-function translatePage(lang) {
-  if (lang === 'pt') {
-    var url = window.location.href.split('?')[0];
-    window.location.href = url;
-  } else if (lang === 'en' || lang === 'es') {
-    window.location.href = 'https://translate.google.com/translate?sl=pt&tl=' + lang + '&u=' + encodeURIComponent(window.location.href);
-  }
-}
-</script>
+
 
     <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>

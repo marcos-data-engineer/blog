@@ -16,20 +16,20 @@
   }
 
   function setLanguageCookie(lang) {
-    var val = (lang === 'pt') ? '' : '/auto/' + lang;
+    var isPt = (lang === 'pt');
+    var val = isPt ? '' : '/auto/' + lang;
+    var exp = isPt ? '; expires=Thu, 01 Jan 1970 00:00:00 GMT' : '';
     var host = window.location.hostname;
-    // Set for both exact host and wildcard domain
-    document.cookie = 'googtrans=' + val + '; path=/;';
-    document.cookie = 'googtrans=' + val + '; path=/; domain=' + host;
+    document.cookie = 'googtrans=' + val + '; path=/' + exp;
+    document.cookie = 'googtrans=' + val + '; path=/; domain=' + host + exp;
     if (host.indexOf('.') !== -1) {
-      document.cookie = 'googtrans=' + val + '; path=/; domain=.' + host;
+      document.cookie = 'googtrans=' + val + '; path=/; domain=.' + host + exp;
     }
   }
 
   function translatePage(targetLang) {
     setLanguageCookie(targetLang);
 
-    // Update active button state
     document.querySelectorAll('.pf-lang-btn').forEach(function(b) {
       if (b.getAttribute('data-lang') === targetLang) {
         b.classList.add('active');
@@ -45,13 +45,11 @@
       select.dispatchEvent(new Event('input', { bubbles: true }));
     }
 
-    // Always reload to guarantee clean translation in any direction
     setTimeout(function() {
       window.location.reload();
     }, 150);
   }
 
-  // Restore active button state based on cookie on initial load
   (function() {
     function getCookie(name) {
       var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
