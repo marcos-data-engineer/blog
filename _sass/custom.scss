@@ -717,14 +717,22 @@ main[aria-label="Main Content"],
 
 /* Ocultar barra superior e avisos do Google Translate */
 .goog-te-banner-frame.skiptranslate,
+iframe.skiptranslate,
 body > .skiptranslate,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+.goog-te-gadget,
 #goog-gt-tt,
 .goog-te-balloon-frame {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
 }
 
+html,
 body {
   top: 0px !important;
+  position: static !important;
 }
 
 .goog-tooltip,
