@@ -3,3 +3,70 @@
     <p class="mb-0">© {{ site.time | date: "%Y" }} <a href="https://github.com/marcos-data-engineer" target="_blank" rel="noopener">Arquitetura de Dados & IA</a>. Todos os direitos reservados.</p>
   </div>
 </footer>
+
+<!-- Google Translate Integration -->
+<div id="google_translate_element" style="display: none;"></div>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'pt',
+      includedLanguages: 'pt,en,es',
+      autoDisplay: false
+    }, 'google_translate_element');
+  }
+
+  function setLanguageCookie(lang) {
+    var val = (lang === 'pt') ? '' : '/auto/' + lang;
+    var host = window.location.hostname;
+    // Set for both exact host and wildcard domain
+    document.cookie = 'googtrans=' + val + '; path=/;';
+    document.cookie = 'googtrans=' + val + '; path=/; domain=' + host;
+    if (host.indexOf('.') !== -1) {
+      document.cookie = 'googtrans=' + val + '; path=/; domain=.' + host;
+    }
+  }
+
+  function translatePage(targetLang) {
+    setLanguageCookie(targetLang);
+
+    // Update active button state
+    document.querySelectorAll('.pf-lang-btn').forEach(function(b) {
+      if (b.getAttribute('data-lang') === targetLang) {
+        b.classList.add('active');
+      } else {
+        b.classList.remove('active');
+      }
+    });
+
+    var select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = targetLang;
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+      select.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+
+    // Always reload to guarantee clean translation in any direction
+    setTimeout(function() {
+      window.location.reload();
+    }, 150);
+  }
+
+  // Restore active button state based on cookie on initial load
+  (function() {
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      return match ? decodeURIComponent(match[2]) : '';
+    }
+    var currentCookie = getCookie('googtrans');
+    var activeLang = 'pt';
+    if (currentCookie.indexOf('/en') !== -1) activeLang = 'en';
+    else if (currentCookie.indexOf('/es') !== -1) activeLang = 'es';
+
+    var btn = document.querySelector('.pf-lang-btn[data-lang="' + activeLang + '"]');
+    if (btn) {
+      document.querySelectorAll('.pf-lang-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+    }
+  })();
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

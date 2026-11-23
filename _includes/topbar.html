@@ -6,7 +6,7 @@
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
     <!-- Menu superior no estilo do portfólio (somente desktop) -->
-    <a class="pf-brand" href="{{ '/' | relative_url }}">
+    <a class="pf-brand notranslate" translate="no" href="{{ '/' | relative_url }}">
       <span class="pf-brand-prompt">&gt;_</span> marcos<span class="pf-brand-accent">.blog</span>
     </a>
     <nav class="pf-nav" aria-label="Menu principal">
@@ -15,6 +15,13 @@
       <a class="pf-nav-cta" href="https://linkedin.com/in/marcos-data-engineer" target="_blank" rel="noopener">LinkedIn <i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
       <a class="pf-nav-cta" href="https://github.com/marcos-data-engineer" target="_blank" rel="noopener">GitHub <i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
       <a class="pf-nav-cta" href="https://marcos-data-engineer.github.io/dataengineer.github.io/" target="_blank" rel="noopener">Portfólio <i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
+      <div class="pf-lang-switch notranslate" translate="no" aria-label="Seletor de idioma">
+        <button type="button" class="pf-lang-btn active" data-lang="pt" onclick="translatePage('pt')" title="Português">PT</button>
+        <span class="pf-lang-divider" aria-hidden="true">|</span>
+        <button type="button" class="pf-lang-btn" data-lang="en" onclick="translatePage('en')" title="English">EN</button>
+        <span class="pf-lang-divider" aria-hidden="true">|</span>
+        <button type="button" class="pf-lang-btn" data-lang="es" onclick="translatePage('es')" title="Español">ES</button>
+      </div>
     </nav>
 
     <nav id="breadcrumb" aria-label="Breadcrumb">

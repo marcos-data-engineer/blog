@@ -326,16 +326,42 @@ input:focus-visible {
   }
 
   #topbar {
-    max-width: 1140px !important;
+    max-width: 1240px !important;
     margin: 0 auto;
     gap: 1.5rem;
   }
 
-  .pf-brand { display: inline-flex !important; }
-  .pf-nav { display: flex !important; }
+  .pf-brand { display: inline-flex !important; flex-shrink: 0; }
+  .pf-nav { display: flex !important; flex-shrink: 0; }
   #breadcrumb { display: none !important; }
+  #topbar-title { display: none !important; }
 
-  #search { margin-left: auto; }
+  #search {
+    margin-left: auto;
+    flex-shrink: 1;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    i {
+      color: var(--pf-muted) !important;
+    }
+
+    #search-input {
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      padding-left: 0.5rem;
+      color: #ffffff !important;
+
+      &:focus {
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        outline: none !important;
+      }
+    }
+  }
 }
 
 .pf-brand {
@@ -423,9 +449,10 @@ input:focus-visible {
 }
 
 .pf-hero-title {
-  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
   line-height: 1.2;
   margin: 0 0 0.6rem;
+  white-space: nowrap;
 }
 
 .pf-hero-subtitle {
@@ -572,14 +599,57 @@ main .content img,
   border-radius: var(--pf-radius-md) !important;
 }
 
-/* Rodapé centralizado horizontal e verticalmente */
+/* Layout de coluna única centralizada para leitura focada (sem sidebar direita) */
+#panel-wrapper {
+  display: none !important;
+}
+
+#main-wrapper .container > .row.flex-grow-1,
+#main-wrapper .container > .row {
+  justify-content: center !important;
+}
+
+article[data-toc],
+article {
+  max-width: 880px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+}
+
+figure {
+  text-align: center !important;
+  margin: 1.5rem auto !important;
+
+  img.preview-img {
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 460px !important;
+    object-fit: cover !important;
+    border-radius: var(--pf-radius-lg) !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
+main[aria-label="Main Content"],
 #tail-wrapper {
   width: 100% !important;
-  max-width: 900px !important;
+  max-width: 1240px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   flex: 0 0 100% !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
+
+.post-navigation {
+  width: 100% !important;
+  max-width: 880px !important;
+  margin: 2rem auto !important;
+}
+
+/* Rodapé centralizado horizontal e verticalmente */
 
 .site-footer {
   display: flex !important;
@@ -594,4 +664,96 @@ main .content img,
   justify-content: center !important;
   text-align: center !important;
 }
+
+/* Language switcher (PT | EN | ES) */
+.pf-nav a,
+.pf-lang-switch {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pf-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-left: 0.25rem;
+}
+
+.pf-lang-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #9ca3af;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.15s ease;
+  min-width: 1.4rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.pf-lang-btn:hover {
+  color: #f3f4f6;
+}
+
+.pf-lang-btn.active {
+  color: #10b981;
+  cursor: default;
+}
+
+.pf-lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  user-select: none;
+}
+
+/* Ocultar barra superior e avisos do Google Translate */
+.goog-te-banner-frame.skiptranslate,
+body > .skiptranslate,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Utterances comments dark card & alignment */
+.utterances-card {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.utterances,
+.utterances-frame {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+
+
+
 
