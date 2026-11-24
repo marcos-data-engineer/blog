@@ -596,11 +596,15 @@ main .content a.img-link,
   margin: 1.8rem auto !important;
   background: transparent !important;
   box-shadow: none !important;
+  position: static !important;
+  left: auto !important;
+  transform: none !important;
 }
 
 main .content img,
 #post-wrapper .content img {
-  width: 100% !important;
+  width: auto !important;
+  max-width: 100% !important;
   height: auto !important;
   max-height: 360px !important;
   object-fit: contain !important;
@@ -608,6 +612,9 @@ main .content img,
   display: block !important;
   margin: 0 auto !important;
   border-radius: var(--pf-radius-md) !important;
+  position: static !important;
+  left: auto !important;
+  transform: none !important;
 }
 
 figure .img-link,
