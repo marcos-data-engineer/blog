@@ -99,17 +99,7 @@ Primeiro período de cortes de financiamento e redução do interesse científic
 Aplicações avançadas de lógica progridem na medicina e na engenharia.</div>
 
 <div class="timeline-item"><strong>1997 – Deep Blue</strong><br>
-A IA da IBM vence Garry Kasparov no xadrez.
-
-<figure>
-<a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg">
-<img src="{{ '/assets/img/posts/history-of-ai/deep-blue.jpg' | relative_url | remove_first: site.baseurl }}" width="600" alt="Deep Blue">
-</a>
-<figcaption>
-Deep Blue, o computador que venceu Kasparov. Crédito: James the photographer — <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.
-</figcaption>
-</figure>
-</div>
+A IA da IBM vence Garry Kasparov no xadrez.</div>
 
 <div class="timeline-item"><strong>2011 – IBM Watson</strong><br>
 Watson vence o Jeopardy! usando processamento de linguagem natural e aprendizado de máquina.</div>
