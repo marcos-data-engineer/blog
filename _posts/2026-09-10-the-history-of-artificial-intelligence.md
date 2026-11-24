@@ -311,6 +311,12 @@ Pesquisadores como **Geoffrey Hinton**, **Yoshua Bengio** e **Yann LeCun** demon
 
 A partir de 2018, modelos de linguagem como **GPT**, **BERT** e **LLaMA** abriram caminho para a era da **IA generativa**, capaz de produzir textos, imagens e até código.
 
+![A era do aprendizado profundo e da IA generativa]({{ '/assets/img/posts/history-of-ai/deep-learning.jpg' | relative_url | remove_first: site.baseurl }})
+
+<figcaption style="text-align: center; font-size: 0.88rem; color: #94a3b8; margin: 0.5rem auto 1.5rem auto;">
+  A era do aprendizado profundo e da IA generativa (2012–atualidade). Ilustração conceitual: Marcos Vasconcellos de Andrade — domínio público / autoria própria.
+</figcaption>
+
 ### 🌐 Os três pilares do aprendizado profundo
 
 O sucesso do aprendizado profundo resultou da combinação dos seguintes avanços:
@@ -703,12 +709,6 @@ A trajetória da IA, resultado de séculos de ambição, chegou até agora à su
 Essa revolução é impulsionada principalmente por arquiteturas avançadas de aprendizado profundo:
 
 ### 1. Modelos de linguagem de grande porte (LLMs)
-
-![Aprendizado profundo e redes neurais]({{ '/assets/img/posts/history-of-ai/deep-learning.jpg' | relative_url | remove_first: site.baseurl }})
-
-<figcaption style="text-align: center; font-size: 0.88rem; color: #94a3b8; margin: 0.5rem auto 1.5rem auto;">
-  A era do aprendizado profundo e dos modelos generativos. Ilustração conceitual: Marcos Vasconcellos de Andrade — domínio público / autoria própria.
-</figcaption>
 
 * **Tecnologia central:** modelos baseados na **arquitetura Transformer**, apresentada em 2017, e treinados com grandes conjuntos de textos. Eles são eficazes em interpretar contexto e gerar linguagem natural.
 * **Marcos importantes:**
