@@ -595,9 +595,16 @@ main .content img,
   height: auto !important;
   max-height: 360px !important;
   object-fit: contain !important;
+  background: transparent !important;
   display: block !important;
   margin: 1.8rem auto !important;
   border-radius: var(--pf-radius-md) !important;
+}
+
+img.preview-img,
+.preview-img img {
+  background: transparent !important;
+  object-fit: cover !important;
 }
 
 /* Layout de coluna única centralizada para leitura focada (sem sidebar direita) */
