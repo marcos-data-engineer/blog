@@ -589,22 +589,32 @@ input:focus-visible {
 
 .post-tag { border-radius: 999px !important; }
 
+main .content a.img-link,
+#post-wrapper .content a.img-link {
+  display: block !important;
+  width: min(100%, 560px) !important;
+  margin: 1.8rem auto !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
 main .content img,
 #post-wrapper .content img {
-  width: min(100%, 560px) !important;
+  width: 100% !important;
   height: auto !important;
   max-height: 360px !important;
   object-fit: contain !important;
   background: transparent !important;
   display: block !important;
-  margin: 1.8rem auto !important;
+  margin: 0 auto !important;
   border-radius: var(--pf-radius-md) !important;
 }
 
-img.preview-img,
-.preview-img img {
+figure .img-link,
+figure .preview-img,
+.preview-img {
   background: transparent !important;
-  object-fit: cover !important;
+  box-shadow: none !important;
 }
 
 /* Layout de coluna única centralizada para leitura focada (sem sidebar direita) */
@@ -630,9 +640,9 @@ figure {
   margin: 1.5rem auto !important;
 
   img.preview-img {
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
-    max-height: 460px !important;
+    max-height: 420px !important;
     object-fit: cover !important;
     border-radius: var(--pf-radius-lg) !important;
     display: block !important;
