@@ -591,9 +591,10 @@ input:focus-visible {
 
 main .content img,
 #post-wrapper .content img {
-  max-width: 90% !important;
+  width: min(100%, 560px) !important;
   height: auto !important;
-  max-height: 420px !important;
+  max-height: 360px !important;
+  object-fit: contain !important;
   display: block !important;
   margin: 1.8rem auto !important;
   border-radius: var(--pf-radius-md) !important;
