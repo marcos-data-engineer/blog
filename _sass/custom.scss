@@ -770,6 +770,31 @@ body {
   box-shadow: none !important;
 }
 
+/* B2B Consulting Card CTA buttons & spacing */
+.b2b-consulting-card .d-flex {
+  gap: 0.85rem !important;
+}
+
+.b2b-consulting-card .d-grid,
+.newsletter-card .d-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 0.75rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.b2b-consulting-card .d-grid .btn,
+.newsletter-card .d-grid .btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  width: 100% !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
 /* Utterances comments dark card & alignment */
 .utterances-card {
   background: rgba(255, 255, 255, 0.02) !important;
@@ -777,12 +802,25 @@ body {
   border-radius: 12px !important;
   width: 100% !important;
   max-width: 100% !important;
+  padding: clamp(1.25rem, 3vw, 2rem) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.utterances-card > .d-flex {
+  gap: 0.6rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.utterances-card > p {
+  margin-bottom: 1.25rem !important;
 }
 
 .utterances,
 .utterances-frame {
   max-width: 100% !important;
   width: 100% !important;
+  margin: 0 !important;
 }
 
 
