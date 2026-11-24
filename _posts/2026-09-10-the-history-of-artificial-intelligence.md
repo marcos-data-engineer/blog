@@ -93,17 +93,7 @@ Alan Turing publica seu trabalho sobre inteligência de máquina; Asimov publica
 John McCarthy formaliza o termo “inteligência artificial”.</div>
 
 <div class="timeline-item"><strong>1970–1980 – Inverno da IA</strong><br>
-Primeiro período de cortes de financiamento e redução do interesse científico.
-
-<figure>
-<a href="https://commons.wikimedia.org/wiki/File:Ice_Storm_Kansas.jpg">
-<img src="{{ '/assets/img/posts/history-of-ai/ai-winter.jpg' | relative_url | remove_first: site.baseurl }}" width="600" alt="Inverno da IA">
-</a>
-<figcaption>
-O Inverno da IA (1970–1980). Crédito: Ed Roberts — <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.
-</figcaption>
-</figure>
-</div>
+Primeiro período de cortes de financiamento e redução do interesse científico.</div>
 
 <div class="timeline-item"><strong>Anos 1980 – Sistemas especialistas</strong><br>
 Aplicações avançadas de lógica progridem na medicina e na engenharia.</div>
