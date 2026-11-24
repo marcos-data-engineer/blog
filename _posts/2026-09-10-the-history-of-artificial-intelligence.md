@@ -265,7 +265,9 @@ Uma segunda onda de retomada veio com o novo foco em **aprendizado de máquina**
 
 ![Neurônio artificial]({{ '/assets/img/posts/history-of-ai/artificial-neuron.jpg' | relative_url | remove_first: site.baseurl }})
 
-_Diagrama de um neurônio artificial._
+<figcaption style="text-align: center; font-size: 0.88rem; color: #94a3b8; margin: 0.5rem auto 1.5rem auto;">
+  Diagrama de um neurônio artificial (modelo perceptron). Crédito: Chrislb — <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>, via Wikimedia Commons.
+</figcaption>
 
 
 ---
@@ -398,9 +400,11 @@ O sucesso do aprendizado profundo resultou da combinação dos seguintes avanço
 <style>
 .cpu-gpu-compare {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: stretch;
     max-width: 700px;
     gap: 20px;
+    margin: 1.8rem auto 2rem auto;
 }
 
 .processor-card {
@@ -700,6 +704,12 @@ Essa revolução é impulsionada principalmente por arquiteturas avançadas de a
 
 ### 1. Modelos de linguagem de grande porte (LLMs)
 
+![Aprendizado profundo e redes neurais]({{ '/assets/img/posts/history-of-ai/deep-learning.jpg' | relative_url | remove_first: site.baseurl }})
+
+<figcaption style="text-align: center; font-size: 0.88rem; color: #94a3b8; margin: 0.5rem auto 1.5rem auto;">
+  A era do aprendizado profundo e dos modelos generativos. Ilustração conceitual: Marcos Vasconcellos de Andrade — domínio público / autoria própria.
+</figcaption>
+
 * **Tecnologia central:** modelos baseados na **arquitetura Transformer**, apresentada em 2017, e treinados com grandes conjuntos de textos. Eles são eficazes em interpretar contexto e gerar linguagem natural.
 * **Marcos importantes:**
     * **2022:** o lançamento público do **ChatGPT**, da OpenAI, tornou os LLMs acessíveis a milhões de pessoas e mostrou que sistemas complexos de IA poderiam chegar ao público geral.
@@ -730,6 +740,12 @@ flowchart LR
 ---
 
 ## 🧩 Conclusão: o futuro além do código
+
+![O futuro da inteligência artificial além do código]({{ '/assets/img/posts/history-of-ai/future-of-ai.jpg' | relative_url | remove_first: site.baseurl }})
+
+<figcaption style="text-align: center; font-size: 0.88rem; color: #94a3b8; margin: 0.5rem auto 1.5rem auto;">
+  Convergência entre raciocínio humano, ética e o futuro da inteligência artificial geral (AGI). Ilustração conceitual: Marcos Vasconcellos de Andrade — domínio público / autoria própria.
+</figcaption>
 
 Da filosofia de Turing à ética de Asimov, das vitórias do Watson à criatividade dos modelos generativos, a IA percorreu uma trajetória extraordinária.
 
